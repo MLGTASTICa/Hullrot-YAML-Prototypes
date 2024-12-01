@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61aeafff-aa7e-4161-8d7e-2198f60a07f4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Prototypes/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/light_rifle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Prototypes/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/light_rifle.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prototypes/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/magnum.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Prototypes/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/magnum.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prototypes/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/pistol.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Prototypes/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/pistol.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prototypes/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/rifle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Prototypes/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/rifle.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prototypes/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Prototypes/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun.yml" afterDir="false" />
-    </list>
+    <list default="true" id="61aeafff-aa7e-4161-8d7e-2198f60a07f4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
