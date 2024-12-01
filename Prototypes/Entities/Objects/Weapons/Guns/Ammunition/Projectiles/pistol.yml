@@ -7,7 +7,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 21
+        Piercing: 25 # ss13 number reference
 
 - type: entity
   id: BulletPistolPractice
@@ -40,7 +40,7 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 2
+        Piercing: 15
         Heat: 15
 
 - type: entity

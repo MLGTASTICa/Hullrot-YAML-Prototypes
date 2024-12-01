@@ -7,7 +7,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 30
+        Piercing: 45 # 3 shot kill vs unarmed 5-6 vs 50% armor since it becomes 22.5
 
 - type: entity
   id: BulletMagnumPractice
@@ -22,16 +22,16 @@
 
 - type: entity
   id: BulletMagnumRubber
-  name: bullet (.45 magnum rubber)
+  name: bullet (.45 manstopper)
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Blunt: 3
+        Blunt: 25 # hollowpoint
   - type: StaminaDamageOnCollide
-    damage: 35 # 3 hits to stun cuz revolver
+    damage: 45 # 3 hits to stun cuz revolver
 
 - type: entity
   id: BulletMagnumIncendiary
@@ -54,7 +54,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 25 # 20% decrease
+        Piercing: 35 # 20% decrease
     ignoreResistances: true
 
 - type: entity
