@@ -7,7 +7,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 24
+        Piercing: 35 # 3 shot kill vs no armor 5 shot vs 35% armor 6-8 vs 50%
 
 - type: entity
   id: BulletRiflePractice
@@ -40,7 +40,7 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 2
+        Piercing: 15 # significantly dumbed down dps vs armor because it asks 2 damage types
         Heat: 15
   
 - type: entity
