@@ -7,7 +7,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 19
+        Piercing: 35
 
 - type: entity
   id: BulletLightRiflePractice
@@ -22,14 +22,14 @@
 
 - type: entity
   id: BulletLightRifleRubber
-  name: bullet (.20 rifle rubber)
+  name: bullet (.20 soft nose)
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Blunt: 3
+        Blunt: 20
 
 - type: entity
   id: BulletLightRifleIncendiary
@@ -40,8 +40,8 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 3
-        Heat: 16
+        Piercing: 15
+        Heat: 15
 
 - type: entity
   id: BulletLightRifleUranium
