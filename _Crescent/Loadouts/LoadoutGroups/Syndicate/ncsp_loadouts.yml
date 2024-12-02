@@ -21,3 +21,11 @@
   - MicroBombImplanter
   - DeathAcidifierImplanter
   - MacroBombImplanter
+
+- type: loadoutGroup
+  id: NCSPMelee
+  name: loadout-group-contractor-utility
+  loadouts:
+  - EnergySword
+  - EnergySwordDouble
+  - EnergyDaggerBox

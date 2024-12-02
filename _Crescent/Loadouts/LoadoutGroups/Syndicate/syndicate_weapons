@@ -2,3 +2,13 @@
   id: EnergySword
   equipment: EnergySword
   price: 1500
+
+- type: loadout
+  id: EnergySwordDouble
+  equipment: EnergySwordDouble
+  price: 2500
+
+- type: loadout
+  id: EnergyDaggerBox
+  equipment: EnergyDaggerBox
+  price: 800
