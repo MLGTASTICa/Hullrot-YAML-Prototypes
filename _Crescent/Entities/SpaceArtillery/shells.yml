@@ -238,8 +238,8 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 35
-        Blunt: 10
+        Structural: 1
+        Blunt: 50
   - type: TimedDespawn
     lifetime: 10
     #roughly 600m range
@@ -292,7 +292,8 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 95
+        Structural: 3
+        Piercing: 25
         #currently explosion deals 30 damage
   - type: TimedDespawn
     lifetime: 10
@@ -350,7 +351,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 55
+        Structural: 2
         #currently explosion deals 21 damage per tile in large AoE
   - type: TimedDespawn
     lifetime: 10
@@ -409,6 +410,7 @@
     damage:
       types:
         Structural: 5
+        Piercing: 56
         #currently explosion deals 30 damage
   - type: TimedDespawn
     lifetime: 10
