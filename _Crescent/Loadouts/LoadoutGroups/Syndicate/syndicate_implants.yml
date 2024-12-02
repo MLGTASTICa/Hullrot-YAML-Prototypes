@@ -1,0 +1,19 @@
+- type: loadout
+  id: MicroBombImplanter
+  equipment: MicroBombImplanter
+  price: 3000
+
+- type: loadout
+  id: MacroBombImplanter
+  equipment: MacroBombImplanter
+  price: 5000
+
+- type: loadout
+  id: DeathAcidifierImplanter
+  equipment: DeathAcidifierImplanter
+  price: 1000
+
+- type: loadout
+  id: FreedomImplanter
+  equipment: FreedomImplanter
+  price: 2000
