@@ -1,8 +1,8 @@
 - type: entity
-  name: NCWL Watchdog 9x19mm
+  name: NCWL Watchdog .35
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunNCWLWatchdog
-  description: A submachine gun of communard design, chambered in 9x19mm.
+  description: A submachine gun of communard design, chambered in .35.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/watchdog.rsi
@@ -41,7 +41,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/mp49.rsi
   - type: Gun
-    fireRate: 3.5
+    fireRate: 9
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -72,7 +72,7 @@
   - type: Appearance
 
 - type: entity
-  name: NT MP5 9x19mm
+  name: NT MP5 .35
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunMP5
   description: A light Terran submachine gun often seen with various security forces around the Sector.
@@ -89,7 +89,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/mp5.rsi
   - type: Gun
-    fireRate: 6
+    fireRate: 9
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -120,7 +120,7 @@
   - type: Appearance
 
 - type: entity
-  name: NCWL Liberator .25 ACP
+  name: NCWL Liberator .35
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunBloodhound
   description: A fully automatic, bulky SMG. Manufactured primarily for the Homeguard.
@@ -135,7 +135,7 @@
     - type: Clothing
       sprite: _Crescent/Objects/Weapons/ncwlsmg.rsi
     - type: Gun
-      fireRate: 4
+      fireRate: 9
       selectedMode: FullAuto
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -166,7 +166,7 @@
     - type: Appearance
 
 - type: entity
-  name: SHI Sabre 9x19mm
+  name: SHI Sabre .35
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunSabre
   description: A light Shinohara submachine gun, manufactured for use by corporate security.
@@ -183,7 +183,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/sabre.rsi
   - type: Gun
-    fireRate: 8
+    fireRate: 9
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -214,7 +214,7 @@
   - type: Appearance
 
 - type: entity
-  name: SRM Beetle 9x19mm
+  name: SRM Beetle .35
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunBeetle
   description: A light Hunter submachine gun, manufactured for use by lower-ranking Hunters.
@@ -231,7 +231,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/beetle.rsi
   - type: Gun
-    fireRate: 3
+    fireRate: 9
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg

@@ -1,8 +1,8 @@
 - type: entity
-  name: NCWL Batanya 7.62x39mm
+  name: NCWL Batanya .30
   parent: BaseWeaponRifle
   id: WeaponRifleNCWLBatanya
-  description: An iconic weapon of war. Uses 7.62x39mm rifle ammo. A mass-produced battle rifle made for communard use.
+  description: An iconic weapon of war. Uses 0.30 rifle ammo. A mass-produced battle rifle made for communard use.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/batanya.rsi
@@ -52,10 +52,10 @@
 
 
 - type: entity
-  name: IRM Miller 5.56x45mm
+  name: IRM Miller .20
   parent: BaseWeaponRifle
   id: WeaponRifleMiller
-  description: A high-end 5.56x45mm military carbine used and manufactured by the Mandate.
+  description: A high-end .20 military carbine used and manufactured by the Mandate.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/miller.rsi
@@ -100,10 +100,10 @@
     price: 3500
 
 - type: entity
-  name: Homeguard FAL Mk. II 6.8mm
+  name: Homeguard FAL Mk. II .20
   parent: BaseWeaponRifle
   id: WeaponRifleFAL
-  description: A high end commie-issue assault rifle. Comes with a bottle opener. Shoots 6.8mm bullets.
+  description: A high end commie-issue assault rifle. Comes with a bottle opener. Shoots .20 bullets.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/galrifle.rsi
@@ -197,7 +197,7 @@
     price: 800
 
 - type: entity
-  name: NCSP Halyad 7.62IHM
+  name: NCSP Halyad .20
   parent: BaseWeaponRifle
   id: WeaponRifleHalyadMarksman
   description: A mass-produced marksman's rifle produced by and for the Gorlex elite.
@@ -299,7 +299,7 @@
     price: 1000
 
 - type: entity
-  name: IRM Hunter 7.62x51mm
+  name: IRM Hunter .20
   parent: BaseWeaponRifle
   id: WeaponRifleHunter
   description: A marksman's rifle of Imperial make, repurposed as a mainline battle carbine amongst the Hunters.
@@ -350,7 +350,7 @@
     price: 2000
 
 - type: entity
-  name: NCSP Mayflower 7.62x39mm
+  name: NCSP Mayflower .20
   parent: BaseWeaponRifle
   id: WeaponRifleMayflower
   description: A heavy battle carbine, mass-produced by the Gorlex for export.
