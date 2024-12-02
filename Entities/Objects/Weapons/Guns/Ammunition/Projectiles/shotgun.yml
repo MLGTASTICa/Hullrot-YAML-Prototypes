@@ -10,7 +10,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 28
+        Piercing: 60 # SS13 original value
 
 - type: entity
   id: PelletShotgunBeanbag
@@ -26,7 +26,7 @@
       types:
         Blunt: 10
   - type: StaminaDamageOnCollide
-    damage: 30 # 4 hits to stun
+    damage: 45 # more reasonable number
 
 - type: entity
   id: PelletShotgun
@@ -40,7 +40,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 10
+        Piercing: 15 # pre-wizden numbers
 
 - type: entity
   id: PelletShotgunIncendiary
@@ -54,8 +54,8 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 3
-        Heat: 9
+        Blunt: 5
+        Heat: 15 # burn motherfucker burn
   - type: IgnitionSource
     ignited: true
 
