@@ -4,12 +4,23 @@
   id: MobOniBase
   abstract: true
   components:
+  - type: MeleeWeapon
+    attackRate: 4
+    damage:
+      types:
+      Blunt: 25
+  #Oni Get Faster the closer they are to death.
+  - type: SlowOnDamage
+    speedModifierThresholds:
+    60: 1.5
+    80: 2.0
+    99: 4.0
   - type: Speech
     speechSounds: Baritone
   - type: HumanoidAppearance
     species: Oni
   - type: Sprite
-    scale: 1.2, 1.2
+    scale: 1.1, 1.1
   - type: Oni
     modifiers:
       coefficients:
@@ -25,7 +36,7 @@
     fixtures: # TODO: This needs a second fixture just for mob collisions.
       fix1:
         shape:
-          !type:PhysShapeCircle
+          !type: PhysShapeCircle
           radius: 0.42
         density: 220
         restitution: 0.0
@@ -37,6 +48,9 @@
   - type: NpcFactionMember
     factions:
     - NanoTrasen
+  - type: MovementSpeedModifier
+  baseWalkSpeed: 1.1
+  baseSprintSpeed: 1.3
 
 - type: entity
   save: false
