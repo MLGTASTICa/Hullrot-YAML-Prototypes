@@ -13,3 +13,11 @@
   - ShipbreakerNCSPClothingBackpackNCSPSAWS
   - ShipbreakerNCSPClothingBackpackNCSPSatchelSAWS
   - ShipbreakerNCSPClothingBackpackNCSPDuffelbagSAWS
+
+- type: loadoutGroup
+  id: NCSPImplants
+  name: loadout-group-contractor-implanter
+  loadouts:
+  - MicroBombImplanter
+  - DeathAcidifierImplanter
+  - MacroBombImplanter

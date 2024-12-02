@@ -1,0 +1,4 @@
+- type: loadout
+  id: EnergySword
+  equipment: EnergySword
+  price: 1500
