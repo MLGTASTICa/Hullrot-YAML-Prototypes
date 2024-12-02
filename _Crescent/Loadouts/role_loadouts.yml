@@ -83,6 +83,8 @@
   groups:
   - ContractorTrinkets
   - NCSPBackpacks
+  - NCSPImplants
+  - NCSPMelee
 
 - type: roleLoadout
   id: JobTechnicianNCSP
