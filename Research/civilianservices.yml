@@ -20,7 +20,7 @@
     state: icon
   discipline: CivilianServices
   tier: 1
-  cost: 6000
+  cost: 2500
   recipeUnlocks:
   - ParacelsusLPC
 
@@ -32,7 +32,7 @@
     state: seedextractor
   discipline: CivilianServices
   tier: 1
-  cost: 5000
+  cost: 100 #Who the fuck's gonna grow plants as a cyborg?
   recipeUnlocks:
   - BorgModuleGardening
   - BorgModuleHarvesting
@@ -48,7 +48,7 @@
     state: hamtr
   discipline: CivilianServices
   tier: 1
-  cost: 7500
+  cost: 0 #This is a joke research. Let people skip it.
   recipeUnlocks:
   - HamtrHarness
   - HamtrLArm
@@ -68,7 +68,7 @@
     state: juicer1
   discipline: CivilianServices
   tier: 1
-  cost: 7500
+  cost: 1000 #Why was it 10000?
   recipeUnlocks: #remove all of these once we have more kitchen equipment
   - MicrowaveMachineCircuitboard
   - ReagentGrinderMachineCircuitboard
@@ -85,7 +85,7 @@
     state: cameracase
   discipline: CivilianServices
   tier: 1
-  cost: 5000
+  cost: 1984
   recipeUnlocks:
   - SurveillanceCameraRouterCircuitboard
 #  - SurveillanceCameraWirelessRouterCircuitboard # Frontier - Removal of range limits made it useless to build
@@ -103,7 +103,7 @@
     state: television
   discipline: CivilianServices
   tier: 1
-  cost: 7500
+  cost: 1500
   recipeUnlocks:
     - ComputerTelevisionCircuitboard
     - SynthesizerInstrument
@@ -121,7 +121,7 @@
     state: janitor
   discipline: CivilianServices
   tier: 1
-  cost: 5000
+  cost: 1000
   recipeUnlocks:
   - BorgModuleLightReplacer
   - BorgModuleAdvancedCleaning
@@ -134,7 +134,7 @@
     state: display
   discipline: CivilianServices
   tier: 1
-  cost: 7500
+  cost: 6666
   recipeUnlocks:
   - FatExtractorMachineCircuitboard
   - BiofabricatorMachineCircuitboard
@@ -150,7 +150,7 @@
     state: icon
   discipline: CivilianServices
   tier: 1
-  cost: 9000
+  cost: 5000
   recipeUnlocks:
   - ExhumerLPC
 
@@ -162,7 +162,7 @@
     state: astroice
   discipline: CivilianServices
   tier: 2
-  cost: 5000
+  cost: 500
   recipeUnlocks:
   - FauxTileAstroGrass
   - FauxTileMowedAstroGrass
@@ -178,7 +178,7 @@
     state: icon
   discipline: CivilianServices
   tier: 2
-  cost: 7500
+  cost: 2500
   recipeUnlocks:
   - StasisBedMachineCircuitboard
   - CryoPodMachineCircuitboard
@@ -193,7 +193,7 @@
     state: medical
   discipline: CivilianServices
   tier: 2
-  cost: 5000
+  cost: 500 #Borg tech should be cheap because you have to research borgs in the first place!
   recipeUnlocks:
   - BorgModuleAdvancedTreatment
   - BorgModuleDefibrillator
@@ -206,7 +206,7 @@
     state: advmop
   discipline: CivilianServices
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - AdvMopItem
   - MegaSprayBottle
@@ -219,7 +219,7 @@
     state: honker
   discipline: CivilianServices
   tier: 2
-  cost: 7500
+  cost: 0 #This is a joke
   recipeUnlocks:
   - HonkerHarness
   - HonkerLArm
@@ -239,7 +239,7 @@
     state: icon
   discipline: CivilianServices
   tier: 2
-  cost: 10000
+  cost: 2500
   recipeUnlocks:
   - WeaponSprayNozzle
   - ClothingBackpackWaterTank

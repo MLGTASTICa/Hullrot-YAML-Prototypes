@@ -3,7 +3,7 @@
   parent: BaseItem
   id: FuelCan
   categories: [ HideSpawnMenu ]
-  description: A metallic container that contains fuel.
+  description: Petroleum has always been produced from organic beings. This liquid has always been made from the fear, pleasure, grief, loathing, and resentment of living creatures!
   components:
     - type: SolutionContainerManager
       solutions:
@@ -89,6 +89,7 @@
   parent: FuelCan
   name: boriatic fuel canister
   id: JugBoriaticFuel
+  description: Petroleum has always been produced from organic beings. This liquid has always been made from the fear, pleasure, grief, loathing, and resentment of living creatures!
   components:
     - type: Label
       currentLabel: reagent-name-Boriatic-fuel
