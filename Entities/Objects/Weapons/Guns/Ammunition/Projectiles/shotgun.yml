@@ -10,7 +10,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 28
+        Piercing: 60 #Slugs should do way more damage than rifle rounds to compensate for their firerate.
 
 - type: entity
   id: PelletShotgunBeanbag
@@ -24,7 +24,7 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 10
+        Blunt: 15
   - type: StaminaDamageOnCollide
     damage: 30 # 4 hits to stun
 
@@ -40,7 +40,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 10
+        Piercing: 16 #Same damage as caseless ammo
 
 - type: entity
   id: PelletShotgunIncendiary
@@ -54,8 +54,8 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 3
-        Heat: 9
+        Blunt: 10
+        Heat: 10
   - type: IgnitionSource
     ignited: true
 
@@ -85,8 +85,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 3
-        Slash: 3
+        Piercing: 15
+        Slash: 15
 
 
 - type: entity
@@ -175,8 +175,9 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 5
-        Piercing: 5
+        Radiation: 30
+        Piercing: 30
+        Blunt: 20
 
 - type: entity
   id: PelletGrapeshot #tally fucking ho

@@ -20,7 +20,7 @@
     - suitStorage
   - type: AmmoCounter
   - type: Gun
-    fireRate: 2
+    fireRate: 3
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -67,7 +67,7 @@
     - suitStorage
   - type: AmmoCounter
   - type: Gun
-    fireRate: 2
+    fireRate: 4
     selectedMode: FullAuto
     availableModes:
     - FullAuto

@@ -58,10 +58,10 @@
     delay: 1
 
 - type: entity
-  name: NCWL .50 Conscript
+  name: NCWL .30 Conscript
   id: WeaponLightMachineGunConscript
   parent: BaseWeaponLightMachineGunConscript
-  description: A bulky .50 autocannon, ripped straight from a shuttle turret. You have to be insane to actually use this.
+  description: A bulky .30 autocannon, ripped straight from a shuttle turret. You have to be insane to actually use this.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/conscript.rsi

@@ -1,5 +1,5 @@
 - type: entity
-  name: SHI Zodum .44
+  name: SHI Zodum .45
   parent: BaseWeaponPistol
   id: WeaponPistolZodum
   description: A custom pistol. Laser-inscribed on the broaside of the muzzle are the initials 'S.C'.
@@ -46,7 +46,7 @@
     price: 5000
 
 - type: entity
-  name: NCWL Porodschok 4.75
+  name: NCWL Porodschok .20
   parent: BaseWeaponRifle
   id: PorodschokDonator
   description: A high end commie-issue assault rifle imported from Chengridz. Classy.
