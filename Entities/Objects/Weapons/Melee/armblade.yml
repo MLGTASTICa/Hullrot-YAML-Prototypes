@@ -13,7 +13,7 @@
     attackRate: 0.75
     damage:
       types:
-        Slash: 25
+        Slash: 30
         Piercing: 15
   - type: Item
     size: Normal

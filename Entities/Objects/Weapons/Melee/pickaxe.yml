@@ -19,15 +19,15 @@
         volume: -3
     damage:
       types:
-        Blunt: 2.5
-        Piercing: 2.5
+        Blunt: 5
+        Piercing: 15
         Structural: 10
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
       types:
         Blunt: 5
-        Piercing: 5
+        Piercing: 15
         Structural: 10
   - type: Item
     size: Normal
@@ -69,7 +69,7 @@
     attackRate: 3.5
     damage:
       groups:
-        Brute: 3
+        Brute: 6
       types:
         Structural: 12
   - type: StaticPrice

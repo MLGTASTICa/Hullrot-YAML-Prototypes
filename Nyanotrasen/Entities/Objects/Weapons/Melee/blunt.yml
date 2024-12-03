@@ -14,13 +14,13 @@
     range: 1.75
     damage:
       types:
-        Blunt: 16
+        Blunt: 20
     bluntStaminaDamageFactor: 1.60 # 25.6 stamina damage
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 14
+        Blunt: 18
   - type: Clothing
     sprite: Nyanotrasen/Objects/Weapons/Melee/kanabou.rsi
     quickEquip: false
@@ -43,7 +43,7 @@
     bluntStaminaDamageFactor: 2.0
     damage:
       types:
-        Blunt: 4
+        Blunt: 10
     soundHit:
       collection: WoodDestroyHeavy
   - type: StaminaDamageOnHit
