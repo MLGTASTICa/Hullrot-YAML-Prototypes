@@ -103,25 +103,15 @@
     runningState: fab-active
     staticRecipes:
       - MagazineBoxLightRifle
-      - MagazineBoxLightRiflePractice
       - MagazineBoxMagnum
-      - MagazineBoxMagnumPractice
       - MagazineBoxPistol
-      - MagazineBoxPistolPractice
       - MagazineBoxRifle
-      - MagazineBoxRiflePractice
       - MagazineLightRifle
-      - MagazineLightRifleEmpty
       - MagazinePistol
-      - MagazinePistolEmpty
       - MagazinePistolSubMachineGun
-      - MagazinePistolSubMachineGunEmpty
       - MagazinePistolSubMachineGunTopMounted
-      - MagazinePistolSubMachineGunTopMountedEmpty
       - MagazineRifle
-      - MagazineRifleEmpty
       - MagazineShotgun
-      - MagazineShotgunEmpty
       - MagazineShotgunSlug
       - Wirecutter
       - Igniter
@@ -189,7 +179,6 @@
       - MagazineBoxMagnumRubber # Frontier
       - MagazineBoxPistolRubber # Frontier
       - MagazineBoxRifleRubber # Frontier
-      - MagazineGrenadeEmpty
       - MagazineLightRifleIncendiary
       - MagazineLightRifleUranium
       - MagazinePistolIncendiary

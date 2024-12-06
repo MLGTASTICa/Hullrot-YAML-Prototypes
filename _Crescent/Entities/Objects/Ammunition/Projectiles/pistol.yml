@@ -1,0 +1,10 @@
+- type: entity
+  id: Bullet9mm
+  name: bullet (9×19mm Parabellum) #AKA 9mm Luger, 9mm NATO or simply 9mm
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 15 #Dummy value

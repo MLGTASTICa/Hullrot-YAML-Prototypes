@@ -266,14 +266,6 @@
     Steel: 240
 
 - type: latheRecipe
-  id: MagazineRifleEmpty
-  result: MagazineRifleEmpty
-  category: Ammo
-  completetime: 5
-  materials:
-    Steel: 25
-
-- type: latheRecipe
   id: MagazineRifle
   result: MagazineRifle
   category: Ammo

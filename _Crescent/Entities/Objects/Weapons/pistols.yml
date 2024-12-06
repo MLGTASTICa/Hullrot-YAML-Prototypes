@@ -1,5 +1,5 @@
 - type: entity
-  name: NT USP 9x19mm
+  name: NT USP .35
   parent: BaseWeaponPistol
   id: WeaponPistolHKUSP
   description: A cheap, civilian grade, ubiquitous sidearm, produced from old NanoTrasen documentation. Uses .35 auto ammo.
@@ -14,7 +14,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/hkusp.rsi
   - type: Gun
-    fireRate: 5
+    fireRate: 3
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -43,7 +43,7 @@
     maxAngle: 20
     angleIncrease: 8
     angleDecay: 9
-    fireRate: 4
+    fireRate: 3
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -71,7 +71,7 @@
     price: 1250
 
 - type: entity
-  name: SHI Himehabu 9x19mm
+  name: SHI Himehabu .35
   parent: BaseWeaponPistol
   id: WeaponPistolHimehabu
   description: A mass-produced pistol, most commonly seen in the hands of Corporate Security.
@@ -86,7 +86,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/himehabu.rsi
   - type: Gun
-    fireRate: 5
+    fireRate: 3
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -111,7 +111,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/compliance.rsi
   - type: Gun
-    fireRate: 4
+    fireRate: 3
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -121,7 +121,7 @@
     price: 1000
 
 - type: entity
-  name: SHI Shinobi 9x19mm
+  name: SHI Shinobi .35
   parent: BaseWeaponPistol
   id: WeaponPistolSmartpistol
   description: A robust, high-end pistol from the SHI self-defense line. Capable of full-auto. Comes with an extended magazine.
@@ -140,7 +140,7 @@
     maxAngle: 19
     angleIncrease: 6
     angleDecay: 7
-    fireRate: 4
+    fireRate: 3
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -186,7 +186,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/disposableguns/red.rsi
   - type: Gun
-    fireRate: 4
+    fireRate: 2
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -213,7 +213,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/disposableguns/purple.rsi
   - type: Gun
-    fireRate: 4
+    fireRate: 2
     availableModes:
     - SemiAuto
     soundGunshot:
@@ -239,7 +239,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/disposableguns/gray.rsi
   - type: Gun
-    fireRate: 4
+    fireRate: 2
     availableModes:
     - SemiAuto
     soundGunshot:
@@ -265,7 +265,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/disposableguns/green.rsi
   - type: Gun
-    fireRate: 4
+    fireRate: 2
     availableModes:
     - SemiAuto
     soundGunshot:
@@ -291,7 +291,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/disposableguns/gold.rsi
   - type: Gun
-    fireRate: 4
+    fireRate: 2
     availableModes:
     - SemiAuto
     soundGunshot:
@@ -317,7 +317,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/disposableguns/blue.rsi
   - type: Gun
-    fireRate: 4
+    fireRate: 2
     availableModes:
     - SemiAuto
     soundGunshot:
@@ -347,7 +347,7 @@
     maxAngle: 20
     angleIncrease: 8
     angleDecay: 9
-    fireRate: 4
+    fireRate: 3
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
