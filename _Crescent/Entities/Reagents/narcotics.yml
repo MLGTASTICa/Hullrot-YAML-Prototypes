@@ -201,5 +201,3 @@
         - !type:ReagentThreshold
             min: 40
         amount: 10000 # ups temp by like 10c per half a second of overdosing
-      
-      
