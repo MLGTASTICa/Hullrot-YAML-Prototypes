@@ -362,3 +362,20 @@
       - id: BoxSurvival
       - id: Flash
       - id: MagazinePistol
+  
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: ClothingBackpackSatchel
+  id: BackpackAntiquarianSatchelFilled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvival
+        - id: ShipVoucherAntiquarianWarthog
+        - id: AmbrosiaVulgarisSeeds
+        - id: AmbrosiaVulgarisSeeds
+        - id: AmbrosiaVulgarisSeeds
+        - id: SuperCapacitorStockPart
+        - id: SuperCapacitorStockPart
+        - id: SuperCapacitorStockPart
+        - id: SuperCapacitorStockPart

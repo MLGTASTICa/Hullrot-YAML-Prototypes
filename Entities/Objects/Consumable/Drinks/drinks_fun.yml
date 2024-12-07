@@ -127,6 +127,13 @@
     - SpaceCleaner
     - MilkSpoiled
     - FourteenLoko
+    - Kaiser
+    - Bloodeye
+    - Mechanites
+    - Exile
+    - Crash
+    - PolytrinicAcid
+    - UnstableMutagen
 
 - type: entity
   parent: DrinkBottleGlassBaseFull

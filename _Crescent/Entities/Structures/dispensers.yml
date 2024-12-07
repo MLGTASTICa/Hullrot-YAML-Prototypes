@@ -270,6 +270,7 @@
       WeaponPistolSmartpistol: SpaceCash2500
       TradeGoodOrgans: SpaceCash10000
       TradeGoodDrugs: SpaceCash8000
+      FoodAmbrosiaVulgaris: SpaceCash350
   - type: Sprite
     sprite: _Crescent/Structures/onionchute.rsi
     layers:

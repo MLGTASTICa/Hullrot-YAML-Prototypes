@@ -1083,3 +1083,21 @@
     price: 12000
   - type: ShipVoucher
     ship: Kite
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherAntiquarianWarthog
+  name: Kourindou Limited GNSY Edition 
+  description: A hideously mistreated tech-voucher granting you to the right to ride one of the sector's finest Meatmobiles. Your meatmobile. It's crusted with odd stains which smell of things better left unremembered.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 0 #Don't want this to be free money - it's just for drugrunning
+  - type: ShipVoucher
+    ship: Warthog
+

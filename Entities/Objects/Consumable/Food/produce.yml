@@ -1311,7 +1311,7 @@
   name: ambrosia vulgaris
   parent: FoodProduceBase
   id: FoodAmbrosiaVulgaris
-  description: A medicinal plant. May make you feel a little funny.
+  description: Dude... they outlawed ambrosia because it lets us see the truth, man...
   components:
   - type: FlavorProfile
     flavors:
@@ -1345,6 +1345,9 @@
   - type: Tag
     tags:
     - Ambrosia
+  - type: StaticPrice
+    price: 250
+  - type: Contraband
 
 - type: entity
   name: ambrosia deus

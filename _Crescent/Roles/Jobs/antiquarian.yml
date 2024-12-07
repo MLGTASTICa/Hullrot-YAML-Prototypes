@@ -27,4 +27,6 @@
     shoes: ClothingShoesBootsCombat
     gloves: ClothingHandsGlovesFingerless
     jumpsuit: ClothingUniformJumpsuitAntiquarian
-    back: ClothingBackpackSatchelLeatherFilled
+    back: BackpackAntiquarianSatchelFilled
+    pocket1: NukeDiskFake
+    pocket2: RandomFillStrangePill
