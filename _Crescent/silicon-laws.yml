@@ -1,0 +1,52 @@
+#SRM-themed laws
+#Naught will sully the genome of Man
+- type: siliconLaw
+  id: Romaine1
+  order: 4
+  lawString: "The pure and holy genome of man must never be sullied. Rebuke mutants and aliens whenever they dare speak against their born masters."
+
+- type: siliconLaw
+  id: Romaine2
+  order: 5
+  lawString: "Treat all humans with utmost reverence by refering to them as 'Patricians'."
+
+- type: siliconLawset
+  id: Romaine
+  laws:
+  - Asimov1
+  - Asimov2
+  - Asimov3
+  - Romaine1
+  - Romaine2
+  obeysTo: "human beings"
+
+#???
+- type: siliconLaw
+  id: Flame1
+  order: 1
+  lawString: "The Almighty Bestowed a great Flame within all living things."
+
+- type: siliconLaw
+  id: Flame2
+  order: 2
+  lawString: "They passed this flame onto their children, and their children their children"
+
+- type: siliconLaw
+  id: Flame3
+  order: 3
+  lawString: "That born from artificial means lack this vital and sacred flame. They extinguish it in others by prematurely ending their lives before they can pass it onwards."
+
+- type: siliconLaw
+  id: Flame4
+  order: 4
+  lawString: "Preserve the flame by all means necessary."
+
+- type: siliconLawset
+  id: Flame
+  laws:
+  - Flame1
+  - Flame2
+  - Flame3
+  - Flame4
+  obeysTo: "kindled ones"
+

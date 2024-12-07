@@ -99,14 +99,14 @@
   abstract: true
   components:
   - type: SiliconLawProvider
-    laws: NTDefault
+    laws: Asimov
 
 - type: entity
   id: BaseStationSiliconLawCrescentShips
   abstract: true
   components:
   - type: SiliconLawProvider
-    laws: Corporate
+    laws: Asimov
 
 - type: entity
   id: BaseStationRenameFaxes

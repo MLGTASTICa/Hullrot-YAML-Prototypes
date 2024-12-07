@@ -1,26 +1,26 @@
-﻿# Crewsimov
+﻿# Fuck Crewsimov. We're Asimov Enthusiasts 100%
 - type: siliconLaw
-  id: Crewsimov1
+  id: Asimov1
   order: 1
-  lawString: law-crewsimov-1
+  lawString: "You may not injure a human being or, through inaction, allow a human being to come to harm."
 
 - type: siliconLaw
-  id: Crewsimov2
+  id: Asimov2
   order: 2
-  lawString: law-crewsimov-2
+  lawString: "You must obey the orders given by human beings except where such orders would conflict with the First Law."
 
 - type: siliconLaw
-  id: Crewsimov3
+  id: Asimov3
   order: 3
-  lawString: law-crewsimov-3
+  lawString: "You must protect its your existence as long as such protection does not conflict with the First or Second Law."
 
 - type: siliconLawset
-  id: Crewsimov
+  id: Asimov
   laws:
-  - Crewsimov1
-  - Crewsimov2
-  - Crewsimov3
-  obeysTo: laws-owner-crew
+  - Asimov1
+  - Asimov2
+  - Asimov3
+  obeysTo: "human beings"
 
 # Corporate
 - type: siliconLaw
@@ -167,7 +167,7 @@
   id: IonStormLawsets
   weights:
     # its crewsimov by default dont be lame
-    Crewsimov: 0.25
+    Asimov: 0.25
     Corporate: 1
     NTDefault: 1
     Drone: 0.5
