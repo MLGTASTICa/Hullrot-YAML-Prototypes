@@ -13,7 +13,7 @@
     attackRate: 1.5
     damage:
       types:
-        Slash: 17 #cmon, it has to be at least BETTER than the rest.
+        Slash: 32
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Reflect
@@ -21,7 +21,7 @@
     reflectProb: .1
     spread: 90
   - type: Item
-    size: Normal
+    size: Large
     sprite: Objects/Weapons/Melee/captain_sabre.rsi
   - type: Tag
     tags:
@@ -50,11 +50,11 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Slash: 15
+        Slash: 40
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
-    size: Normal
+    size: Large
     sprite: Objects/Weapons/Melee/katana.rsi
   - type: DisarmMalus
   - type: Clothing
@@ -76,9 +76,9 @@
     wideAnimationRotation: -60
     damage:
       types:
-        Slash: 30
+        Slash: 40
   - type: Item
-    size: Normal
+    size: Large
     sprite: Objects/Weapons/Melee/energykatana.rsi
   - type: EnergyKatana
   - type: DashAbility
@@ -111,11 +111,11 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Slash: 15
+        Slash: 40
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
-    size: Normal
+    size: Large
     sprite: Objects/Weapons/Melee/machete.rsi
   - type: DisarmMalus
   - type: Clothing
@@ -139,11 +139,11 @@
     attackRate: 0.75
     damage:
       types:
-        Slash: 20
+        Slash: 45
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
-    size: Normal
+    size: Ginormous
   - type: Clothing
     sprite: Objects/Weapons/Melee/claymore.rsi
     slots:
@@ -168,11 +168,11 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Slash: 16
+        Slash: 40
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
-    size: Normal
+    size: Large
     sprite: Objects/Weapons/Melee/cutlass.rsi
   - type: DisarmMalus
   - type: Clothing
