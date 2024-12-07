@@ -1,0 +1,24 @@
+- type: deviceFrequency
+  id: SuitSensorDSM
+  name: device-frequency-prototype-name-DSM-suit-sensors
+  frequency: 14
+
+- type: deviceFrequency
+  id: SuitSensorNCWL
+  name: device-frequency-prototype-name-NCWL-suit-sensors
+  frequency: 8888
+
+- type: deviceFrequency
+  id: SuitSensorTSP
+  name: device-frequency-prototype-name-TSP-suit-sensors
+  frequency: 525
+
+- type: deviceFrequency
+  id: SuitSensorSyndicate
+  name: device-frequency-prototype-name-syndicate-suit-sensors
+  frequency: 88
+
+- type: deviceFrequency
+  id: SuitSensorSRM
+  name: device-frequency-prototype-name-SRM-suit-sensors
+  frequency: 717
