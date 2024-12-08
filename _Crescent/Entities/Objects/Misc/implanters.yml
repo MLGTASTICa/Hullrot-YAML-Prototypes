@@ -1,0 +1,7 @@
+- type: entity
+  id: SoulbreakerImplanter
+  name: soulbreaker chip implanter
+  parent: BaseImplantOnlyImplanter
+  components:
+    - type: Implanter
+      implant: SoulbreakerImplant
