@@ -249,17 +249,6 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: BaseMail
-  id: MailCosplayArc
-  suffix: cosplay-arc
-  components:
-  - type: Mail
-    openSound: /Audio/Nyanotrasen/Voice/Felinid/cat_wilhelm.ogg
-    contents:
-    - id: ClothingCostumeArcDress
-
-- type: entity
-  categories: [ HideSpawnMenu ]
-  parent: BaseMail
   id: MailCosplayGeisha
   suffix: cosplay-geisha
   components:

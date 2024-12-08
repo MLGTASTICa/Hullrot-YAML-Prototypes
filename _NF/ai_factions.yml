@@ -6,8 +6,6 @@
   - Zombie
   - SimpleHostile
   - Dwarf
-  - Felinid
-  - Harpy
   - Cat
   - Chicken
   - Monkey
@@ -16,9 +14,6 @@
 
 - type: npcFaction
   id: Dwarf
-
-- type: npcFaction
-  id: Felinid
 
 - type: npcFaction
   id: Harpy
