@@ -7,7 +7,8 @@
   - type: EncryptionKey
     channels:
     - Traffic
-    defaultChannel: Traffic
+    - Common
+    defaultChannel: Common
   - type: Item
     sprite: _NF/Objects/Devices/encryption_keys.rsi
   - type: Sprite
