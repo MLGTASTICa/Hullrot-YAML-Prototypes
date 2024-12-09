@@ -1,0 +1,40 @@
+- type: body
+  id: Synthetic
+  name: "synthetic"
+  root: torso
+  slots:
+    head:
+      part: HeadSynthetic
+      connections:
+      - torso
+    torso:
+      part: TorsoSynthetic
+      connections:
+      - right arm
+      - left arm
+      - right leg
+      - left leg
+    right arm:
+      part: RightArmSynthetic
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmSynthetic
+      connections:
+      - left hand
+    right hand:
+      part: RightHandSynthetic
+    left hand:
+      part: LeftHandSynthetic
+    right leg:
+      part: RightLegSynthetic
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegSynthetic
+      connections:
+      - left foot
+    right foot:
+      part: RightFootSynthetic
+    left foot:
+      part: LeftFootSynthetic
