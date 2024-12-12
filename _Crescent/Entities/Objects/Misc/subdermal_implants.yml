@@ -1,0 +1,10 @@
+#Soulbreaker Implants - SCORCHAH
+- type: entity
+  parent: BaseSubdermalImplant
+  id: SoulbreakerImplant
+  name: soulbreaker implant
+  description: But gradually slavery became an accepted norm, Soulbreakers and other slavery implementations generously supplying the market with new hands.
+  components:
+    - type: SubdermalImplant
+      permanent: true
+#    - type: SoulbreakerImplant Uncomment this when the component actually exists.

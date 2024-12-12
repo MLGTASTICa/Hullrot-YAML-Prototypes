@@ -1359,3 +1359,5 @@
 - type: Tag # Frontier
   id: WeaponMelee # Frontier
 
+- type: Tag
+  id: Pacified # Hullrot 1.0
