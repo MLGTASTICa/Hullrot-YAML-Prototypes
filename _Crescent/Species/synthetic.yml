@@ -1,0 +1,9 @@
+- type: species
+  parent: Human
+  id: Synthetic
+  roundStart: false
+  prototype: MobSynthetic
+  sprites: MobHumanSprites
+  markingLimits: MobHumanMarkingLimits
+  dollPrototype: MobHumanDummy
+  skinColoration: HumanToned
