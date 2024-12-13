@@ -2,7 +2,7 @@
   id: Anathema
   name: DSM Anathema
   description: A light battlecarrier with the capacity to print strikeshuttles.
-  price: 60000
+  price: 40000
   category: Medium
   group: None
   shuttlePath: /Maps/_Crescent/Shuttles/DSM/anathema.yml
