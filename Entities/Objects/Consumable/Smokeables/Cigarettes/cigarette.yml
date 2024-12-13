@@ -111,6 +111,8 @@
             Quantity: 10
           - ReagentId: Iron
             Quantity: 10
+          - ReagentId: TranexamicAcid #added to make clotter ciggy
+            Quantity: 10
 
 - type: entity
   id: CigaretteTricordrazine
@@ -409,3 +411,33 @@
             Quantity: 10
           - ReagentId: THC
             Quantity: 5
+
+- type: entity
+  id: CigaretteNutriment
+  parent: SoakedCigarette
+  name: Labor Union Lights
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      smokable:
+        maxVol: 40
+        reagents:
+          - ReagentId: Nicotine
+            Quantity: 10
+          - ReagentId: Nutriment
+            Quantity: 5
+
+- type: entity
+  id: CigaretteEphedrine
+  parent: SoakedCigarette
+  name: Smells Like Ammonia
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      smokable:
+        maxVol: 40
+        reagents:
+          - ReagentId: Nicotine
+            Quantity: 10
+          - ReagentId: Ephedrine
+            Quantity: 10
