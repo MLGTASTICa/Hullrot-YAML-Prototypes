@@ -40,7 +40,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 16 #Same damage as caseless ammo
+        Piercing: 16
 
 - type: entity
   id: PelletShotgunIncendiary
