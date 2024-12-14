@@ -9,6 +9,16 @@
   group: freeport
 
 - type: cargoProduct
+  id: ShuttleIdnaAmmoFreeport
+  icon:
+    sprite: _Crescent/Objects/ShuttleWeapons/torpedop.rsi
+    state: base
+  product: CrateIdnaAmmo
+  cost: 12000
+  category: cargoproduct-category-name-shuttle
+  group: freeport
+
+- type: cargoProduct
   id: ShuttleCrateVulcanAmmoFreeport
   icon:
     sprite: _Crescent/Ammunition/vulcan.rsi

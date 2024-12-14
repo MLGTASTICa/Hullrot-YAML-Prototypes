@@ -373,3 +373,6 @@
             - CartridgeMagnum
   - type: StaticPrice
     price: 1500
+
+- type: Tag
+  id: MagazinePistolSmartgun

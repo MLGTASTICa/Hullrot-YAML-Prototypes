@@ -1,22 +1,22 @@
-#- type: cargoProduct
-#  id: ShuttleSumitomoAmmo
-#  icon:
-#    sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
-#    state: baton
-#  product: CrateSumitomoAmmo
-#  cost: 12500
-#  category: cargoproduct-category-name-shuttle
-#  group: market
+- type: cargoProduct
+  id: ShuttleSumitomoAmmo
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
+    state: baton
+  product: CrateSumitomoAmmo
+  cost: 15000
+  category: cargoproduct-category-name-shuttle
+  group: market
 
-#- type: cargoProduct
-#  id: ShuttleIdnaAmmo
-#  icon:
-#    sprite: _Crescent/Objects/ShuttleWeapons/torpedop.rsi
-#    state: base
-#  product: CrateIdnaAmmo
-#  cost: 9000
-#  category: cargoproduct-category-name-shuttle
-#  group: market
+- type: cargoProduct
+  id: ShuttleIdnaAmmo
+  icon:
+    sprite: _Crescent/Objects/ShuttleWeapons/torpedop.rsi
+    state: base
+  product: CrateIdnaAmmo
+  cost: 12000
+  category: cargoproduct-category-name-shuttle
+  group: market
 
 - type: cargoProduct
   id: ShuttleGargoyleAmmo

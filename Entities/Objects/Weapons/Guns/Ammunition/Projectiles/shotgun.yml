@@ -85,8 +85,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 15
-        Slash: 15
+        Piercing: 1
+        Slash: 10
 
 
 - type: entity
@@ -175,9 +175,8 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 30
+        Radiation: 5
         Piercing: 30
-        Blunt: 20
 
 - type: entity
   id: PelletGrapeshot #tally fucking ho
