@@ -1,13 +1,13 @@
 - type: entity
-  id: BaseCartridgeCaselessRifle
-  name: cartridge (.25 rifle)
+  id: BaseCartridgeRifle
+  name: cartridge (rifle)
   parent: BaseCartridge
   abstract: true
   components:
   - type: Tag
     tags:
       - Cartridge
-      - CartridgeCaselessRifle
+      - CartridgeRifle
   - type: CartridgeAmmo
     deleteOnSpawn: true
   - type: Sprite
@@ -22,20 +22,20 @@
     price: 1
 
 - type: entity
-  id: CartridgeCaselessRifle
-  name: cartridge (.25 caseless)
-  parent: BaseCartridgeCaselessRifle
+  id: CartridgeRifle
+  name: cartridge (rifle)
+  parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo
-    proto: BulletCaselessRifle
+    proto: BulletRifle
 
 - type: entity
-  id: CartridgeCaselessRiflePractice
-  name: cartridge (.25 caseless practice)
-  parent: BaseCartridgeCaselessRifle
+  id: CartridgeRiflePractice
+  name: cartridge (rifle practice)
+  parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo
-    proto: BulletCaselessRiflePractice
+    proto: BulletRiflePractice
   - type: Sprite
     layers:
       - state: base

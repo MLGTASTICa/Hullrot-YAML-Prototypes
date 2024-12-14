@@ -345,18 +345,6 @@
   categories:
   - UplinkAmmo
 
-# For the Cobra
-- type: listing
-  id: UplinkMagazinePistolCaselessRifle
-  name: uplink-pistol-magazine-caseless-name
-  description: uplink-pistol-magazine-caseless-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi, state: red-icon }
-  productEntity: MagazinePistolCaselessRifle
-  cost:
-    Telecrystal: 1
-  categories:
-  - UplinkAmmo
-
 # For the Python
 - type: listing
   id: UplinkSpeedLoaderMagnumAP

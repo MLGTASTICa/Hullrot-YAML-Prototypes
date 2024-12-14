@@ -60,10 +60,7 @@
   - type: RandomSpawner
     offset: 0
     prototypes:
-      - BoxMagazinePistolCaselessRiflePractice
-#      - BoxMagazineCaselessRifleRubber # TODO: Frontier - Restore this
       - BoxMagazineLightRiflePractice
-#      - BoxMagazineCaselessRifleRubber # TODO: Frontier - Restore this
 #      - BoxMagazineLightRifleRubber # TODO: Frontier - Restore this
       - BoxMagazineMagnumSubMachineGunPractice
 #      - BoxMagazineMagnumSubMachineGunRubber # TODO: Frontier - Restore this
@@ -78,22 +75,10 @@
       - BoxShotgunFlare
       - BoxShotgunPractice
       - BoxShellTranquilizer
-#      - BoxMagazineCaselessRifleRubber # TODO: Frontier - Restore this
-#      - BoxMagazineCaselessRifleRubber # TODO: Frontier - Restore this
       - BoxMagazineRiflePractice
-#      - BoxMagazineCaselessRifleRubber # TODO: Frontier - Restore this
 #      - BoxMagazineRifleRubber  # TODO: Frontier - Restore this
-#      - BoxMagazineCaselessRifleRubber # TODO: Frontier - Restore this
-      - BoxMagazinePistolCaselessRiflePractice
-      - BoxMagazinePistolCaselessRiflePractice
-#      - BoxMagazineCaselessRifleRubber # TODO: Frontier - Restore this
-      - BoxMagazinePistolCaselessRiflePractice
-#      - BoxMagazineCaselessRifleRubber # TODO: Frontier - Restore this
-      - BoxMagazinePistolCaselessRiflePractice
-#      - BoxMagazineCaselessRifleRubber # TODO: Frontier - Restore this
     chance: 0.15
     rarePrototypes:
-      - BoxMagazinePistolCaselessRifle
       - BoxMagazineLightRifle
       - BoxMagazineMagnumSubMachineGun
       - BoxMagazinePistolSubMachineGunTopMounted
@@ -107,5 +92,4 @@
       - BoxShotgunSlug
       - BoxShotgunIncendiary
       - BoxMagazineRifle
-#      - BoxMagazineCaselessRifleRubber # TODO: Frontier - Restore this
     rareChance: 0.015

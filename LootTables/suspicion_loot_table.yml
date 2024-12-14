@@ -129,12 +129,6 @@
     # Spawn a bunch of ammo around!
   - id: MagazineRifle
     maxAmount: 15
-  - id: MagazineCaselessRifle
-    maxAmount: 15
-  - id: MagazineCaselessRifle10x24
-    maxAmount: 15
-  - id: MagazinePistolCaselessRifle
-    maxAmount: 15
   - id: MagazineLightRifle
     maxAmount: 15
   - id: MagazineShotgun

@@ -49,9 +49,9 @@
     contents:
     - id: WeaponPistolCobra
       amount: 1
-    - id: MagazinePistolCaselessRifle
+    - id: MagazinePistol
       amount: 1
-    - id: MagazineBoxCaselessRifle10x24
+    - id: MagazineBoxRifle
       amount: 1
 
 # Revolvers

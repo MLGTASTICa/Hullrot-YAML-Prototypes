@@ -101,7 +101,7 @@
       soundGunshot: /Audio/Weapons/Guns/Gunshots/gun_sentry.ogg
     # TODO: Power ammo provider?
     - type: BallisticAmmoProvider
-      proto: CartridgeCaselessRifle
+      proto: CartridgeRifle
       capacity: 500
     - type: HTN
       rootTask:
