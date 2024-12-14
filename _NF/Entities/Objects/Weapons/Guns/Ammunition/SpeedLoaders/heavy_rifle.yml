@@ -1,12 +1,12 @@
 - type: entity
-  id: BaseSpeedLoaderHeavyRifle
-  name: "speed loader (.20 rifle)"
+  id: BaseSpeedLoaderRifle
+  name: "speed loader (rifle)"
   parent: BaseItem
   abstract: true
   components:
   - type: Tag
     tags:
-      - SpeedLoaderRifleHeavy
+      - SpeedLoaderRifle
   - type: SpeedLoader
   - type: BallisticAmmoProvider
     whitelist:
@@ -20,9 +20,9 @@
         ents: []
 
 - type: entity
-  id: SpeedLoaderRifleHeavy
-  name: "speed loader (.20 rifle)"
-  parent: BaseSpeedLoaderHeavyRifle
+  id: SpeedLoaderRifle
+  name: "speed loader (rifle)"
+  parent: BaseSpeedLoaderRifle
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifle
@@ -40,9 +40,9 @@
   - type: Appearance
 
 - type: entity
-  id: SpeedLoaderRifleHeavyEmpty
-  name: "speed loader (.20 rifle any)"
-  parent: SpeedLoaderRifleHeavy
+  id: SpeedLoaderRifleEmpty
+  name: "speed loader (rifle any)"
+  parent: SpeedLoaderRifle
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -53,8 +53,8 @@
         map: [ "enum.GunVisualLayers.Base" ]
 
 - type: entity
-  id: SpeedLoaderRifleHeavyIncendiary
-  name: "speed loader (.20 rifle incendiary)"
+  id: SpeedLoaderRifleIncendiary
+  name: "speed loader (rifle incendiary)"
   parent: BaseSpeedLoaderHeavyRifle
   components:
   - type: BallisticAmmoProvider
@@ -73,8 +73,8 @@
   - type: Appearance
 
 - type: entity
-  id: SpeedLoaderRifleHeavyPractice
-  name: "speed loader (.20 rifle practice)"
+  id: SpeedLoaderRiflePractice
+  name: "speed loader (rifle practice)"
   parent: BaseSpeedLoaderHeavyRifle
   components:
   - type: BallisticAmmoProvider
@@ -93,8 +93,8 @@
   - type: Appearance
 
 - type: entity
-  id: SpeedLoaderRifleHeavyUranium
-  name: "speed loader (.20 rifle uranium)"
+  id: SpeedLoaderRifleUranium
+  name: "speed loader (rifle uranium)"
   parent: BaseSpeedLoaderHeavyRifle
   components:
   - type: BallisticAmmoProvider
@@ -113,8 +113,8 @@
   - type: Appearance
 
 - type: entity
-  id: SpeedLoaderRifleHeavyRubber
-  name: "speed loader (.20 rifle rubber)"
+  id: SpeedLoaderRifleRubber
+  name: "speed loader (rifle rubber)"
   parent: BaseSpeedLoaderHeavyRifle
   components:
   - type: BallisticAmmoProvider

@@ -5,14 +5,14 @@
   suffix: Non-lethal
   components:
   - type: BallisticAmmoProvider # Inherit whitelist, capacity from parent
-    proto: CartridgeLightRifleRubber
+    proto: CartridgeSniper
 
 # Frontier
 - type: entity
   name: N2524 Pattern Repeater
   parent: [BaseWeaponSniper, BaseGunWieldable]
   id: WeaponSniperRepeater
-  description: A civilian grade lever action firearm, favored by space cowboys across the Frontier for its reliability and stopping power. Uses .45 magnum ammo.
+  description: A civilian grade lever action firearm, favored by space cowboys across the Frontier for its reliability and stopping power. Uses sniper ammo.
   components:
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Snipers/repeater.rsi
@@ -23,6 +23,6 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-      - CartridgeMagnum
+      - CartridgeSniper
     capacity: 7
-    proto: CartridgeMagnum
+    proto: CartridgeSniper

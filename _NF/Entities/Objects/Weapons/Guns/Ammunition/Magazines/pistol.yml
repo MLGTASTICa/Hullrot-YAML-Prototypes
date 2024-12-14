@@ -1,7 +1,7 @@
 # Upstream
 - type: entity
   id: MagazinePistolRubber
-  name: pistol magazine (.35 auto rubber)
+  name: pistol magazine (pistol rubber)
   parent: BaseMagazinePistol
   components:
   - type: BallisticAmmoProvider
@@ -14,12 +14,12 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: MagazinePistolSubMachineGunRubber
-  name: SMG magazine (.35 auto rubber)
-  parent: BaseMagazinePistolSubMachineGun
+  id: MagazineSMGRubber
+  name: SMG magazine (rubber)
+  parent: BaseMagazineSMG
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgePistolRubber
+    proto: CartridgeSMGRubber
   - type: Sprite
     layers:
     - state: rubber
@@ -29,12 +29,12 @@
 
 # Frontier
 - type: entity
-  id: MagazinePistolSubMachineGunEmp
-  name: SMG magazine (.35 auto emp)
-  parent: BaseMagazinePistolSubMachineGun
+  id: MagazineSMGEmp
+  name: SMG magazine (emp)
+  parent: BaseMagazineSMG
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgePistolEmp
+    proto: CartridgeSMGEmp
   - type: Sprite
     layers:
     - state: rubber

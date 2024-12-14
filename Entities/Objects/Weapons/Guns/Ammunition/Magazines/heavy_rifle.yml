@@ -1,12 +1,12 @@
 - type: entity
-  id: BaseMagazineHeavyRifle
-  name: "magazine (.20 rifle)"
+  id: BaseMagazineRifle
+  name: "magazine (rifle)"
   parent: BaseItem
   abstract: true
   components:
   - type: Tag
     tags:
-      - MagazineHeavyRifle
+      - MagazineRifle
   - type: Item
     size: Small
   - type: BallisticAmmoProvider

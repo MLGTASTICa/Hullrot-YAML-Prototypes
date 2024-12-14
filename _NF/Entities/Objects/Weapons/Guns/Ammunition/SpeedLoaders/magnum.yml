@@ -1,6 +1,6 @@
 - type: entity
   id: SpeedLoaderMagnumRubber
-  name: "speed loader (.45 magnum rubber)"
+  name: "speed loader (magnum rubber)"
   parent: BaseSpeedLoaderMagnum
   components:
   - type: BallisticAmmoProvider

@@ -1,14 +1,14 @@
 
 - type: entity
-  id: MagazineLightRifleBoxConscript
-  name: ".50 cal Conscript ammunition box"
-  parent: BaseMagazineLightRifle
+  id: MagazineRifleBoxConscript
+  name: "Conscript ammunition box"
+  parent: BaseMagazineRifle
   components:
   - type: Tag
     tags:
       - MagazineLightRifleBox
   - type: BallisticAmmoProvider
-    proto: CartridgeLightRifle
+    proto: CartridgeRifle
     capacity: 200
   - type: Item
   - type: Sprite

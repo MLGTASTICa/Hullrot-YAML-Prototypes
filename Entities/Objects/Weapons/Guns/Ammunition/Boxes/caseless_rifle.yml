@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   parent: BaseItem
-  id: BaseMagazineBoxCaselessRifle
-  name: ammunition box (.25 caseless)
+  id: BaseMagazineBoxRifle
+  name: ammunition box (rifle)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true

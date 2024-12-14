@@ -2,7 +2,7 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolRubber
-  name: ammunition box (.35 auto rubber)
+  name: ammunition box (pistol rubber)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolRubber
@@ -18,7 +18,7 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolEmp
-  name: ammunition box (.35 auto emp)
+  name: ammunition box (pistol emp)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolEmp

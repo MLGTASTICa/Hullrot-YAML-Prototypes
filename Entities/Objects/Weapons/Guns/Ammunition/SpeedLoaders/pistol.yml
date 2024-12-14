@@ -1,6 +1,6 @@
 - type: entity
   id: BaseSpeedLoaderPistol
-  name: "speed loader (.35 auto)"
+  name: "speed loader (pistol)"
   parent: BaseItem
   abstract: true
   components:
@@ -22,7 +22,7 @@
 
 - type: entity
   id: SpeedLoaderPistol
-  name: "speed loader (.35 auto)"
+  name: "speed loader (pistol)"
   parent: BaseSpeedLoaderPistol
   components:
   - type: BallisticAmmoProvider
@@ -41,7 +41,7 @@
 
 - type: entity
   id: SpeedLoaderPistolPractice
-  name: "speed loader (.35 auto practice)"
+  name: "speed loader (pistol practice)"
   parent: BaseSpeedLoaderPistol
   components:
   - type: BallisticAmmoProvider

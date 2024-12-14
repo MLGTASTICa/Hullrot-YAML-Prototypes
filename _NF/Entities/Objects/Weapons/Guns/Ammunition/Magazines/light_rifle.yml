@@ -1,6 +1,6 @@
 - type: entity
   id: MagazineLightRifleRubber
-  name: "magazine (.30 rifle rubber)"
+  name: "magazine (rifle rubber)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider

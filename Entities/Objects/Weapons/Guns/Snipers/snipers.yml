@@ -27,10 +27,10 @@
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
   - type: BallisticAmmoProvider
     capacity: 10
-    proto: CartridgeLightRifle
+    proto: CartridgeSniper
     whitelist:
       tags:
-      - CartridgeLightRifle
+      - CartridgeSniper
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
@@ -42,7 +42,7 @@
   name: Kardashev-Mosin
   parent: [BaseWeaponSniper, BaseGunWieldable]
   id: WeaponSniperMosin
-  description: A civilian grade weapon for hunting, or endless trench warfare. Uses .30 rifle ammo. Now with new shiny bayonet!
+  description: A civilian grade weapon for hunting, or endless trench warfare. Uses sniper ammo. Now with new shiny bayonet!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
@@ -59,10 +59,10 @@
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
   - type: BallisticAmmoProvider
     capacity: 5
-    proto: CartridgeLightRifle
+    proto: CartridgeSniper
     whitelist:
       tags:
-      - CartridgeLightRifle
+      - CartridgeSniper
   - type: MeleeWeapon
     attackRate: .85
     damage:
@@ -98,7 +98,7 @@
   name: Hristov
   parent: [BaseWeaponSniper, BaseGunWieldable]
   id: WeaponSniperHristov
-  description: A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo. On the receiver is a label that says 'for authorized use only.'
+  description: A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses sniper ammo. On the receiver is a label that says 'for authorized use only.'
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
@@ -107,16 +107,16 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-      - CartridgeAntiMateriel
+      - CartridgeSniper
     capacity: 5
-    proto: CartridgeAntiMateriel
+    proto: CartridgeSniper
   - type: Contraband #frontier
 
 - type: entity
   name: musket
   parent: BaseWeaponSniper
   id: Musket
-  description: This should've been in a museum long before you were born. Uses .60 anti-materiel ammo.
+  description: This should've been in a museum long before you were born. Uses sniper ammo.
   components:
   - type: Sharp
   - type: Item
@@ -136,9 +136,9 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-      - CartridgeAntiMateriel
+      - CartridgeSniper
     capacity: 1
-    proto: CartridgeAntiMateriel
+    proto: CartridgeSniper
   - type: MeleeWeapon
     wideAnimationRotation: -135
     damage:
@@ -154,7 +154,7 @@
   name: flintlock pistol
   parent: BaseWeaponSniper
   id: WeaponPistolFlintlock
-  description: A pirate's companion. Yarrr! Uses .60 anti-materiel ammo. An illegal weapon often used by pirates.
+  description: A pirate's companion. Yarrr! Uses sniper ammo. An illegal weapon often used by pirates.
   components:
   - type: Gun
     minAngle: 0
@@ -172,9 +172,9 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-        - CartridgeAntiMateriel
+        - CartridgeSniper
     capacity: 1
-    proto: CartridgeAntiMateriel
+    proto: CartridgeSniper
   - type: StaticPrice
     price: 0
 
