@@ -24,6 +24,8 @@
   description: trait-pacifist-desc
   components:
     - type: Pacified
+      disallowDisarm: true
+      disallowAllCombat: true
 
 - type: trait
   id: Paracusia
