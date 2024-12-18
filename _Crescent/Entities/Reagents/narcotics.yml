@@ -20,7 +20,7 @@
         probability: 0.2
       - !type:MovespeedModifier
         walkSpeedModifier: 1.35
-        sprintSpeedModifier: 2.3 # SPEEEEEEED
+        sprintSpeedModifier: 2 # you vomit so much that you are lucky if you get more than 1.4 speed out of this at any time.
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
@@ -94,7 +94,7 @@
         refresh: false
       - !type:MovespeedModifier
         walkSpeedModifier: 1.5
-        sprintSpeedModifier: 2
+        sprintSpeedModifier: 1.6
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
