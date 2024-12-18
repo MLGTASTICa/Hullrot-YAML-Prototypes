@@ -19,10 +19,6 @@
   - type: Clothing
     slots:
     - outerClothing
-  - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
-  - type: HeldSpeedModifier
 
 - type: entity
   abstract: true
@@ -154,9 +150,6 @@
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
     coefficient: 0.01 # Not complete protection from fire
-  - type: ClothingSpeedModifier
-    walkModifier: 0.8
-    sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: Item
     size: Huge
