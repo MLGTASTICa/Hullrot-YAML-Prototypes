@@ -1,0 +1,75 @@
+#Robots from Alien
+- type: species
+  parent: BaseMobSpecies
+  id: BaseMobSynthetic
+  name: Urist McMachine
+  abstract: true
+  components:
+    - type: HumanoidAppearance
+      species: Synthetic
+      hideLayersOnEquip:
+      - Hair
+      - Snout
+    - type: Carriable # Carrying system from nyanotrasen.
+    - type: Icon
+      sprite: Mobs/Species/Human/parts.rsi
+      state: full
+    - type: Body
+      prototype: Synthetic
+      requiredLegs: 2
+    - type: Damageable
+      damageContainer: Silicon
+    - type: Butcherable
+      butcheringType: Spike
+      spawned:
+      - id: PowerCellHigh
+        amount: 1
+    - type: ContainerContainer
+      containers:
+      borg_brain: !type:ContainerSlot { }
+      cell_slot: !type:ContainerSlot { }
+    - type: UserInterface
+      interfaces:
+        enum.SiliconLawsUiKey.Key:
+          type: SiliconLawBoundUserInterface
+    - type: SiliconLawBound
+    - type: SiliconLawProvider
+      laws: Crewsimov #Placeholder, fuck Crewsimov
+    - type: BorgChassis
+    - type: TypingIndicator
+      proto: robot
+    - type: Speech
+      speechVerb: Robotic
+      speechSounds: Borg
+    - type: Repairable
+      selfRepairPenalty: 1.0
+    - type: PowerCellSlot
+      cellSlotId: cell_slot
+      fitsInCharger: true
+    - type: PowerCellDraw
+      drawRate: 0.2
+    - type: Flashable
+    - type: IonStormTarget
+    - type: DamageVisuals
+      damageOverlayGroups:
+      Brute:
+        sprite: Mobs/Effects/brute_damage.rsi
+        color: "#DFDFDF"
+      Burn:
+        sprite: Mobs/Effects/burn_damage.rsi
+    - type: MobThresholds
+      thresholds:
+      0: Alive
+      100: Critical
+      9990: Dead #Repair Synthetics from the dead
+    - type: Uncloneable
+    - type: Bloodstream
+      bloodReagent: syntheticBlood
+      
+
+    
+    
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobSyntheticDummy
+  categories: [ HideSpawnMenu ]

@@ -1,0 +1,10 @@
+- type: reagent
+  parent: Blood
+  id: SyntheticBlood
+  name: "synthetic blood"
+  desc: "Ichorous, milky, white. Man's hubris bestowed unto machine."
+  flavor: milk
+  color: "#DFDFDF"
+  recognizable: true
+  physicalDesc: reagent-physical-desc-opaque
+  slippery: false
