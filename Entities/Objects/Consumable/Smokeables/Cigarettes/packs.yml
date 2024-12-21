@@ -148,36 +148,48 @@
 - type: entity
   id: CigPackRed
   parent: CigPackBase
-  name: DromedaryCo packet
-  description: The most popular brand of Space Cigarettes, sponsors of the Space Olympics.
+  name: DonkCo Robusts packet
+  description: The most popular brand among grunts in Taypan, often included with military rations. Decreases physical fatigue.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/red.rsi
   - type: Item
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/red.rsi
+  - type: StorageFill
+    contents:
+    - id: CigaretteIron
+      amount: 5
 
 - type: entity
   id: CigPackBlue
   parent: CigPackBase
-  name: AcmeCo packet
-  description: For those who somehow want to obtain the record for the most amount of cancerous tumors.
+  name: AcmeCo Menthols packet
+  description: For those who somehow want to obtain the track speed record for the most amount of cancerous tumors. Stimulates weary space teamsters.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/blue.rsi
   - type: Item
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/blue.rsi
+  - type: StorageFill
+    contents:
+    - id: CigaretteEphedrine
+      amount: 5
 
 - type: entity
   id: CigPackBlack
   parent: CigPackBase
-  name: Nomads packet
-  description: Nomads's extra strong, for when your life is more extra hard.
+  name: Nomads Workshop packet
+  description: Nomads's extra strong, for when your life is more extra hard, and pantry empty. Fools metabolism long enough.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/black.rsi
   - type: Item
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/black.rsi
-
+  - type: StorageFill
+    contents:
+    - id: CigaretteNutriment
+      amount: 5
+      
 - type: entity
   id: CigPackSyndicate
   parent: CigPackBase
@@ -220,65 +232,3 @@
       prob: 0.25
     - id: CigarettePax
       prob: 0.10
-
-
-- type: entity
-  id: CigPackMixed
-  parent: CigPackMixedBase
-  name: Dan's soaked smokes
-  suffix: Mixed
-  description: Dan worked with NT chemistry to dispose of excess chemicals, ENJOY.
-  components:
-  - type: Sprite
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi
-  - type: Item
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi
-  - type: StorageFill
-    contents:
-    - id: CigaretteBbqSauce
-      prob: 0.70
-    - id: CigaretteBlackPepper
-      prob: 0.70
-    - id: CigaretteCapsaicinOil
-      prob: 0.70
-    - id: CigaretteBread
-      prob: 0.70
-    - id: CigaretteMilk
-      prob: 0.70
-    - id: CigaretteBanana
-      prob: 0.10
-    - id: CigaretteTHC
-      prob: 0.70
-    - id: CigaretteTricordrazine
-      prob: 0.25
-    - id: CigaretteSpaceDrugs
-      prob: 0.50
-    - id: CigaretteLicoxide
-      prob: 0.10
-
-- type: entity
-  id: CigPackMixedNasty
-  parent: CigPackMixedBase
-  name: Dan's soaked smokes
-  suffix: Nasty
-  description: Dan worked with NT chemistry to dispose of excess chemicals, ENJOY.
-  components:
-  - type: Sprite
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi
-  - type: Item
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi
-  - type: StorageFill
-    contents:
-    - id: CigaretteSpaceDrugs
-      amount: 2
-    - id: CigaretteWeldingFuel
-      amount: 2
-    - id: CigaretteMold
-      amount: 2
-    - id: CigaretteTHC
-    - id: CigaretteLicoxide
-      prob: 0.50
-    - id: CigarettePax
-      prob: 0.10
-    - id: CigaretteMuteToxin
-      prob: 0.05
