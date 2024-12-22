@@ -1,0 +1,135 @@
+# TODO BODY: Part damage
+- type: entity
+  id: PartSynthetic
+  parent: BaseItem
+  name: "synthetic body part"
+  abstract: true
+  components:
+  - type: Damageable
+    damageContainer: Silicon
+  - type: BodyPart
+  - type: ContainerContainer
+    containers:
+      bodypart: !type:Container
+        ents: []
+  - type: StaticPrice
+    price: 200
+  - type: Gibbable
+  - type: Tag
+    tags:
+      - Trash
+
+- type: entity
+  id: TorsoSynthetic
+  name: "synthetic torso"
+  parent: PartSynthetic
+  components:
+    - type: Sprite
+      sprite: Mobs/Species/Human/parts.rsi
+      state: "torso_m"
+    - type: Icon
+      sprite: Mobs/Species/Human/parts.rsi
+      state: "torso_m"
+    - type: BodyPart
+      partType: Torso
+
+- type: entity
+  id: HeadSynthetic
+  name: "synthetic head"
+  parent: BaseHead
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "head_m"
+
+- type: entity
+  id: LeftArmSynthetic
+  name: "left Synthetic arm"
+  parent: PartSynthetic
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "l_arm"
+
+
+- type: entity
+  id: RightArmSynthetic
+  name: "right Synthetic arm"
+  parent: PartSynthetic
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "r_arm"
+
+
+- type: entity
+  id: LeftHandSynthetic
+  name: "left Synthetic hand"
+  parent: PartSynthetic
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "l_hand"
+
+- type: entity
+  id: RightHandSynthetic
+  name: "right Synthetic hand"
+  parent: PartSynthetic
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "r_hand"
+
+
+- type: entity
+  id: LeftLegSynthetic
+  name: "left Synthetic leg"
+  parent: PartSynthetic
+  components:
+    - type: Sprite
+      sprite: Mobs/Species/Human/parts.rsi
+      state: "l_leg"
+    - type: BodyPart
+      partType: Leg
+      symmetry: Left
+    - type: MovementBodyPart
+
+- type: entity
+  id: RightLegSynthetic
+  name: "right Synthetic leg"
+  parent: PartSynthetic
+  components:
+    - type: Sprite
+      sprite: Mobs/Species/Human/parts.rsi
+      state: "r_leg"
+    - type: BodyPart
+      partType: Leg
+      symmetry: Right
+    - type: MovementBodyPart
+
+- type: entity
+  id: LeftFootSynthetic
+  name: "left Synthetic foot"
+  parent: PartSynthetic
+  components:
+    - type: Sprite
+      sprite: Mobs/Species/Human/parts.rsi
+      state: "l_foot"
+    - type: BodyPart
+      partType: Foot
+      symmetry: Left
+
+- type: entity
+  id: RightFootSynthetic
+  name: "right Synthetic foot"
+  parent: PartSynthetic
+  components:
+    - type: Sprite
+      sprite: Mobs/Species/Human/parts.rsi
+      state: "r_foot"
+    - type: Icon
+      sprite: Mobs/Species/Human/parts.rsi
+      state: "r_foot"
+    - type: BodyPart
+      partType: Foot
+      symmetry: Right
