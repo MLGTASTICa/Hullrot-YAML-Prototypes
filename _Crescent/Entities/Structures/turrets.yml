@@ -61,7 +61,7 @@
                   max: 5
     - type: TurretIFF
     - type: Gun
-      projectileSpeed: 80
+      projectileSpeed: 125 
       fireRate: 5
       selectedMode: FullAuto
       availableModes:
@@ -221,7 +221,7 @@
                   max: 5
     - type: Gun
       fireRate: 9.5
-      projectileSpeed: 85
+      projectileSpeed: 175 # 85 vel is nowhere near enough to hit anything lol
       selectedMode: FullAuto
       availableModes:
         - FullAuto
