@@ -900,7 +900,7 @@
         ents: []
   - type: Gun
     fireRate: 18
-    projectileSpeed: 300
+    projectileSpeed: 250
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/vulcan.ogg
     soundEmpty:
