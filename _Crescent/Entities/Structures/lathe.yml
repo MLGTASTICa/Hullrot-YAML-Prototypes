@@ -450,6 +450,7 @@
       - TermiteLPC
       - ParacelsusLPC
       - ExhumerLPC
+      - BreachingChargeNCSP
   - type: Machine
     board: MicroforgeCircuitboard
 
