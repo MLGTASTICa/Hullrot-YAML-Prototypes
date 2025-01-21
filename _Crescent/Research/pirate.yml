@@ -67,6 +67,7 @@
   - WeaponPistolCobraNCSP
   - WeaponSubMachineGunAtreidesNCSP
   - WeaponSubMachineGunDrozdNCSP
+  - BreachingChargeNCSP
 
 - type: technology
   id: SyndicateAviation
@@ -111,7 +112,6 @@
   - WeaponRifleAkNCSP
   - WeaponLightMachineGunL6CNCSP
   - MagazineLightRifleBoxNCSP
-  - BreachingChargeNCSP
 
 - type: technology
   id: SyndicateEwar
