@@ -111,6 +111,7 @@
   - WeaponRifleAkNCSP
   - WeaponLightMachineGunL6CNCSP
   - MagazineLightRifleBoxNCSP
+  - BreachingChargeNCSP
 
 - type: technology
   id: SyndicateEwar

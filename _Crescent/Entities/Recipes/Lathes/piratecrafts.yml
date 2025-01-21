@@ -227,6 +227,17 @@
     Plasma: 250
     Silver: 100
 
+- type: latheRecipe
+  id: BreachingChargeNCSP
+  result: BreachingCharge
+  completetime: 4
+  materials:
+    Steel: 500
+    Plastic: 250
+    Gold: 250
+    Silver: 250
+    Plasma: 500
+
 
 # - type: latheRecipe
 #   id: GrenadeEMPCraft
