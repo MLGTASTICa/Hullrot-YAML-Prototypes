@@ -163,6 +163,10 @@
     sprite: _NF/Objects/SpaceArtillery/mortarcasing.rsi
     layers:
       - state: base-projectile
+  - type: HeatSeeking
+    rotationSpeed: 50
+    acceleration: 10
+    seekRange: 1000
 
 - type: entity
   id: CartridgeMortarStandardTurret
