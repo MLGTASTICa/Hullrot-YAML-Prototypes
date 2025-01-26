@@ -101,6 +101,8 @@
       TradeGoodCybernetics: TradeDeedNormal
       TradeGoodGunparts: TradeDeedNormal
       TradeGoodRice: TradeDeedNormal
+      TradeGoodOrgans: TradeDeedVeryHigh
+      TradeGoodDrugs: TradeDeedVeryHigh
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi
     layers:
