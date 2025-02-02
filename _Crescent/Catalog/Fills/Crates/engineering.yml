@@ -23,3 +23,14 @@
         amount: 3
       - id: ClothingOuterVestHazard
         amount: 3
+
+- type: entity
+  id: CrateEngineeringMetalFoamFast
+  parent: CrateEngineering
+  name: metal foam grenade crate
+  description: Metal foam grenades for quickly patching up holes in your hull.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MetalFoamGrenadeFast
+        amount: 4
