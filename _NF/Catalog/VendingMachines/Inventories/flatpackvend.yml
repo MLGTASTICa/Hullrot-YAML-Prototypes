@@ -28,6 +28,8 @@
     ShuttersWindowFlatpack: 15
     BlastDoorFlatpack: 12
     SmallGyroscopeFlatpack: 23
+    GyroscopeFlatpack: 23
     ComputerShuttleFlatpack: 23
     ThrusterFlatpack: 23
     RecyclerFlatpack: 2
+    

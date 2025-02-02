@@ -444,12 +444,12 @@
     layers:
     - state: ame-part
   - type: StaticPrice
-    price: 3000
+    price: 100
     
 - type: entity
   parent: BaseFlatpack
   id: ComputerShuttleFlatpack
-  name: ComputerShuttle
+  name: Computer Shuttle pilot console
   description:  Used to pilot a shuttle.
   components:
   - type: Flatpack
@@ -458,4 +458,4 @@
     layers:
     - state: ame-part
   - type: StaticPrice
-    price: 3000
+    price: 100

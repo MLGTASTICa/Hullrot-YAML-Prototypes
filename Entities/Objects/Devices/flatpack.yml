@@ -180,6 +180,8 @@
     - state: overlay
       color: "#cec8ac"
     - state: icon-default
+    - type: StaticPrice
+      price: 300
 
 - type: entity
   parent: BaseFlatpack
@@ -195,3 +197,5 @@
     - state: overlay
       color: "#cec8ac"
     - state: icon-default
+    - type: StaticPrice
+      price: 100
