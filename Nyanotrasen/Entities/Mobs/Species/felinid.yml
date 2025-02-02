@@ -14,7 +14,7 @@
         shape:
           !type:PhysShapeCircle
           radius: 0.28
-        density: 140
+        density: 100
         restitution: 0.0
         mask:
         - MobMask
@@ -84,6 +84,9 @@
         emote: Scream
         probability: 0.2
   - type: NoShoesSilentFootsteps
+  - type: MovementSpeedModifier
+    baseSprintSpeed: 5.25
+    baseWalkSpeed: 3
 
 - type: entity
   save: false
