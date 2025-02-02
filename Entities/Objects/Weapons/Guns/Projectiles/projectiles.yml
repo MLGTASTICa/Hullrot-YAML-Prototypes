@@ -702,7 +702,7 @@
 
 - type: entity
   id: BulletGrenadeBaton
-  name: low-yield missile
+  name: low-yield rocket
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -720,7 +720,7 @@
 
 - type: entity
   id: BulletGrenadeBlast
-  name: high-yield missile
+  name: high-yield rocket
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -738,7 +738,7 @@
 
 - type: entity
   id: BulletGrenadeFlash
-  name: flash missile
+  name: flash rocket
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:

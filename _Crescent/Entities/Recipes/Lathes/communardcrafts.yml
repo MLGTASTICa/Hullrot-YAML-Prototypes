@@ -220,13 +220,6 @@
     Plastic: 2500
     Silver: 1000
 
-- type: latheRecipe
-  id: GrenadeBatonCraft
-  result: GrenadeBaton
-  completetime: 4
-  materials:
-    Steel: 500
-
 # - type: latheRecipe
 #   id: GrenadeBlastCraft
 #   result: GrenadeBlast #YAMLFIX: needs new result entity to not fail tests

@@ -13,9 +13,7 @@
       - id: GrenadeBlast
         amount: 6
       - id: GrenadeBaton
-        amount: 6
-      - id: GrenadeFlash
-        amount: 6
+        amount: 12
 
 - type: entity
   id: CrateGargoyleAmmo

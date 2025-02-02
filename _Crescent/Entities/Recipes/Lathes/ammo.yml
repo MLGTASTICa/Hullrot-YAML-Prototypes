@@ -68,3 +68,10 @@
   completetime: 2
   materials:
     Steel: 750
+
+- type: latheRecipe
+  id: GrenadeBatonCraft
+  result: GrenadeBaton
+  completetime: 4
+  materials:
+    Steel: 500
