@@ -154,6 +154,7 @@
       - MagazineRifle
       - MagazineShotgun
       - MagazineShotgunSlug
+      - MagazineMagnumSub
       - Wirecutter
       - Igniter
       - Signaller
