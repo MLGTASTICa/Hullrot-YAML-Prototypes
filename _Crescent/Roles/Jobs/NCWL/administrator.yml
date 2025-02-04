@@ -70,8 +70,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitNCWLCommunications
     back: ClothingBackpackSatchelLeatherFilledNCWLAdministrator
-    shoes: ClothingShoesBootsLaceup
-    head: ClothingHeadHatNCWLBeretAdmiral
     id: AdministratorPDA
     neck: ClothingNeckAdminCapelet
     ears: ClothingHeadsetNCWL

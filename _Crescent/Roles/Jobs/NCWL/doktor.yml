@@ -33,9 +33,7 @@
   id: DoktorGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitNCWLMedic
-    back: ClothingBackpackDuffelNCWLFilledSanitar
     shoes: ClothingShoesColorBlack
-    head: ClothingHeadHatNCWLCapsoftMedical
     id: DoktorPDA
     ears: ClothingHeadsetNCWL
     belt: ClothingBeltMedicalFilled

@@ -175,7 +175,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 5000
+  price: 2500
 
 - type: startingGear
   id: ContractorHypoMini

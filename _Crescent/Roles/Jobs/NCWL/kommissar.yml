@@ -71,11 +71,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitNCWLKommissar
     back: ClothingBackpackSatchelLeatherFilledNCWL
-    shoes: ClothingShoesBootsJack
-    head: ClothingHeadHatNCWLKommissarHat
-    outerClothing: ClothingOuterArmorNCWLCarapace
     id: KommissarPDA
     ears: ClothingHeadsetNCWL
     belt: WeaponPistolHKUSP
     pocket1: NCWLPassportAccepted
-    gloves: ClothingHandsGlovesFingerless

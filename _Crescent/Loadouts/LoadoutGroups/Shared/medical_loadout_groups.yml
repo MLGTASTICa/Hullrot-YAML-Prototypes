@@ -1,0 +1,6 @@
+- type: loadoutGroup
+  id: MedicalHypoMini # Right Hand - 1 only
+  name: loadout-group-contractor-utility
+  minLimit: 0
+  loadouts:
+  - ContractorHypoMini

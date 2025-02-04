@@ -1,0 +1,8 @@
+  - type: loadoutGroup
+  id: SanitarHeadAdministrator
+  name: loadout-group-contractor-head
+  minLimit: 1
+  loadouts:
+  - AdminClothingHeadHatNCWLBeret
+  - SanitarNCWLClothingHeadHelmetNCWLBasic
+  - SanitarNCWLClothingHeadHelmetNCWLHeavy

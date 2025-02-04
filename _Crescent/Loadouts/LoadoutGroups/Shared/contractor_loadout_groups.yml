@@ -573,6 +573,7 @@
   id: ContractorGlasses
   name: loadout-group-contractor-glasses
   minLimit: 0
+  maxLimit: 1
   loadouts:
   - ContractorClothingEyesGlasses
   - ContractorClothingEyesGlassesCheapSunglasses

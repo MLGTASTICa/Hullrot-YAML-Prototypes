@@ -1,0 +1,17 @@
+- type: loadoutGroup
+  id: SanitarHeadKommissar
+  name: loadout-group-contractor-head
+  minLimit: 1
+  loadouts:
+  - KommissarClothingHeadHatNCWLBeret
+  - SanitarNCWLClothingHeadHelmetNCWLBasic
+  - SanitarNCWLClothingHeadHelmetNCWLHeavy
+
+  - type: loadoutGroup
+  id: SanitarBackpack
+  name: loadout-group-contractor-backpack
+  loadouts:
+  - KommissarClothingBackpackSatchelLeatherFilledNCWL
+  - SanitarNCWLClothingBackpackNCWLFilledSanitar
+  - SanitarNCWLClothingBackpackDuffelNCWLFilledSanitar
+  - SanitarNCWLClothingBackpackSatchelNCWLFilledSanitar

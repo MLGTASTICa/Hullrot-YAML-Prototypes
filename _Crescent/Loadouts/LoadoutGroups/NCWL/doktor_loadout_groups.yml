@@ -1,0 +1,17 @@
+- type: loadoutGroup
+  id: NCWLOuterClothingKapitan
+  name: loadout-group-contractor-outerclothing
+  minLimit: 1
+  loadouts:
+  - StartClothingOuterArmorNCWLCarapaceKapitan
+  - SanitarNCWLClothingOuterArmorBulletproof
+  - SanitarNCWLClothingOuterArmorNCWLHeavyCarapace
+
+  - type: loadoutGroup
+  id: SanitarHeadKapitan
+  name: loadout-group-contractor-head
+  minLimit: 1
+  loadouts:
+  - KapitanClothingHeadHatNCWLBeret
+  - SanitarNCWLClothingHeadHelmetNCWLBasic
+  - SanitarNCWLClothingHeadHelmetNCWLHeavy

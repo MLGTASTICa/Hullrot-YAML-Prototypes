@@ -10,7 +10,9 @@
   - SanitarHead
   - SanitarBelt
   - NCWLGloves
+  - ContractorGlasses
   - ContractorTrinkets
+  
 
 # Kadet
 
@@ -22,6 +24,7 @@
   - NCWLShoes
   - KadetHead
   - KadetBelt
+  - ContractorGlasses
   - ContractorTrinkets
 
 # Kommissar
@@ -29,6 +32,12 @@
 - type: roleLoadout
   id: JobKommissarNCWL
   groups:
+  - SanitarBackpackKommissar
+  - NCWLShoes
+  - NCWLOuterClothingKapitan
+  - SanitarHeadKommissar
+  - NCWLGloves
+  - ContractorGlasses
   - ContractorTrinkets
 
 # Doktor
@@ -36,6 +45,12 @@
 - type: roleLoadout
   id: JobDoktorNCWL
   groups:
+  - SanitarBackpack
+  - NCWLShoes
+  - NCWLOuterClothing
+  - SanitarHeadDoktor
+  - ContractorGlasses
+  - MedicalHypoMini
   - ContractorTrinkets
 
 # Kapitan
@@ -43,6 +58,12 @@
 - type: roleLoadout
   id: JobKapitanNCWL
   groups:
+  - SanitarBackpack
+  - NCWLShoes
+  - NCWLOuterClothingKapitan
+  - SanitarHeadKapitan
+  - NCWLGloves
+  - ContractorGlasses
   - ContractorTrinkets
 
 # Administrator
@@ -50,6 +71,11 @@
 - type: roleLoadout
   id: JobAdministratorNCWL
   groups:
+  - NCWLShoes
+  - NCWLOuterClothingKapitan
+  - SanitarHeadAdministrator
+  - NCWLGloves
+  - ContractorGlasses
   - ContractorTrinkets
 
 # Artificer
@@ -57,8 +83,12 @@
 - type: roleLoadout
   id: JobArtificerNCWL
   groups:
+  - NCWLShoes
+  - NCWLOuterClothing
+  - SanitarHeadKapitan
+  - NCWLGloves
+  - ContractorGlasses
   - ContractorTrinkets
-
 #---------------------------#
 
 #Syndicate
@@ -89,12 +119,14 @@
   id: JobRipperdocNCSP
   groups:
   - ContractorTrinkets
+  - MedicalHypoMini
   - NCSPBackpacks
 
 - type: roleLoadout
   id: JobChemcookNCSP
   groups:
   - ContractorTrinkets
+  - MedicalHypoMini
   - NCSPBackpacks
 
 - type: roleLoadout
@@ -181,6 +213,7 @@
   id: JobSurgeonDSM
   groups:
   - ContractorTrinkets
+  - MedicalHypoMini
   - DSMCommonerBags
 
 - type: roleLoadout
@@ -226,6 +259,7 @@
   id: JobTenderSRM
   groups:
   - ContractorTrinkets
+  - MedicalHypoMini
   - SRMBackpacks
 
 - type: roleLoadout
@@ -288,6 +322,7 @@
   id: JobMedtechSHI
   groups:
   - ContractorTrinkets
+  - MedicalHypoMini
   - SHIBackpacks
 
 #CMM
@@ -308,6 +343,7 @@
   id: JobPhysicianCMM
   groups:
   - ContractorTrinkets
+  - MedicalHypoMini
   - CMMBackpacks
 
 - type: roleLoadout
