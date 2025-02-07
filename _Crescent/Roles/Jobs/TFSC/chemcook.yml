@@ -34,11 +34,8 @@
   id: ChemcookGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSyndicateInterdyne
-    gloves: ClothingHandsGlovesFingerless
     mask: ClothingMaskSyndicateFacemask
-    shoes: ClothingShoesBootsCombat
     outerClothing: ClothingOuterArmorSyndicateArmorvestInterdyne
-    belt: ClothingBeltSyndicateWebbingInterdyne
     head: ClothingHeadHelmetSyndicateBasicInterdyne
     id: ChemcookPDA
     ears: ClothingHeadsetNCSPInterdyne

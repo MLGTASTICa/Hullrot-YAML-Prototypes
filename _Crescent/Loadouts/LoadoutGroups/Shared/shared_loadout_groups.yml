@@ -1,0 +1,16 @@
+- type: loadoutGroup
+  id: CombatBoots
+  name: loadout-group-contractor-shoes
+  loadouts:
+  - SanitarNCWLClothingBootsJack
+  - SanitarNCWLClothingBootsCombat
+
+  - type: loadoutGroup
+  id: CombatGloves
+  name: loadout-group-contractor-gloves
+  minLimit: 1
+  loadouts:
+  - SanitarNCWLClothingHandsGlovesFingerless
+  - SanitarNCWLClothingHandsGlovesCombat
+
+  

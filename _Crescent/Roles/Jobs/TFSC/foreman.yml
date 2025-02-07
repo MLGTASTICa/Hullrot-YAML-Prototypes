@@ -35,11 +35,8 @@
   id: ForemanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSyndicateSaws
-    shoes: ClothingShoesBootsCombat
     head: ClothingHeadHatHardhatSyndicateForeman
     id: ForemanPDA
     ears: ClothingHeadsetNCSPSaws
     outerClothing: ClothingOuterArmorSyndicateForeman
-    belt: ClothingBeltUtilityEngineering
     pocket1: WeaponPistolHKUSP
-    gloves: ClothingHandsGlovesFingerless

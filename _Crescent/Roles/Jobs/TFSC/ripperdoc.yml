@@ -34,7 +34,6 @@
   id: RipperdocGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSyndicateInterdyne
-    shoes: ClothingShoesBootsCombat
     head: ClothingHeadHatSyndicateDoctor
     id: RipperdocPDA
     ears: ClothingHeadsetNCSPInterdyne

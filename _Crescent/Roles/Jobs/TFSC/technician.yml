@@ -35,7 +35,6 @@
   id: TechnicianGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSyndicate
-    shoes: ClothingShoesBootsCombat
     head: ClothingHeadHatSyndicateArmaments
     id: InfanteerPDA
     ears: ClothingHeadsetNCSP

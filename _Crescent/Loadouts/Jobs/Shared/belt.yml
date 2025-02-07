@@ -1,0 +1,10 @@
+
+- type: loadout
+  id: ClothingBeltUtilityEngineeringStart
+  equipment: ClothingBeltUtilityEngineeringStart
+  price: 0
+
+- type: startingGear
+  id: ClothingBeltUtilityEngineeringStart
+  equipment:
+    belt: ClothingBeltUtilityEngineering

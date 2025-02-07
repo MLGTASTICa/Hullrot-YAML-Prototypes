@@ -5,11 +5,11 @@
   groups:
   - SanitarJumpsuit
   - SanitarBackpack
-  - NCWLShoes
+  - CombatBoots
   - NCWLOuterClothing
   - SanitarHead
-  - SanitarBelt
-  - NCWLGloves
+  - WebbingBeltNCWL
+  - CombatGloves
   - ContractorGlasses
   - ContractorTrinkets
   
@@ -21,9 +21,10 @@
   groups:
   - SanitarJumpsuit
   - SanitarBackpack
-  - NCWLShoes
+  - CombatBoots
   - KadetHead
   - KadetBelt
+  - CombatGloves
   - ContractorGlasses
   - ContractorTrinkets
 
@@ -32,10 +33,10 @@
 - type: roleLoadout
   id: JobKommissarNCWL
   groups:
-  - NCWLShoes
+  - CombatBoots
   - NCWLOuterClothingKapitan
   - SanitarHeadKommissar
-  - NCWLGloves
+  - CombatGloves
   - ContractorGlasses
   - ContractorTrinkets
 
@@ -45,9 +46,10 @@
   id: JobDoktorNCWL
   groups:
   - SanitarBackpack
-  - NCWLShoes
+  - CombatBoots
   - NCWLOuterClothing
   - SanitarHeadDoktor
+  - CombatGloves
   - ContractorGlasses
   - MedicalHypoMini
   - ContractorTrinkets
@@ -58,10 +60,10 @@
   id: JobKapitanNCWL
   groups:
   - SanitarBackpack
-  - NCWLShoes
+  - CombatBoots
   - NCWLOuterClothingKapitan
   - SanitarHeadKapitan
-  - NCWLGloves
+  - CombatGloves
   - ContractorGlasses
   - ContractorTrinkets
 
@@ -70,9 +72,9 @@
 - type: roleLoadout
   id: JobAdministratorNCWL
   groups:
-  - NCWLShoes
+  - CombatBoots
   - NCWLOuterClothingKapitan
-  - NCWLGloves
+  - CombatGloves
   - ContractorGlasses
   - ContractorTrinkets
 
@@ -81,10 +83,11 @@
 - type: roleLoadout
   id: JobArtificerNCWL
   groups:
-  - NCWLShoes
+  - CombatBoots
   - NCWLOuterClothing
   - SanitarHeadKapitan
-  - NCWLGloves
+  - CombatGloves
+  - WebbingToolBelt
   - ContractorGlasses
   - ContractorTrinkets
 #---------------------------#
@@ -94,68 +97,113 @@
 - type: roleLoadout
   id: JobRingleaderNCSP
   groups:
+  - CombatBoots
+  - CombatGloves
+  - WebbingBeltTSFC
+  - ContractorGlasses
   - ContractorTrinkets
+
 
 - type: roleLoadout
   id: JobLieutenantNCSP
   groups:
+  - CombatBoots
+  - CombatGloves
+  - WebbingBeltTSFC
+  - ContractorGlasses
   - ContractorTrinkets
+
 
 - type: roleLoadout
   id: JobInfanteerNCSP
   groups:
-  - ContractorTrinkets
+  - CombatBoots
   - NCSPBackpacks
+  - CombatGloves
+  - WebbingBeltTSFC
+  - ContractorGlasses
+  - ContractorTrinkets
 
 - type: roleLoadout
   id: JobTechnicianNCSP
   groups:
-  - ContractorTrinkets
+  - CombatBoots
   - NCSPBackpacks
+  - CombatGloves
+  - WebbingBeltTSFC
+  - ContractorGlasses
+  - ContractorTrinkets
 
 - type: roleLoadout
   id: JobRipperdocNCSP
   groups:
+  - CombatBoots
+  - NCSPBackpacks
+  - CombatGloves
+  - WebbingBeltTSFCTrauma
+  - ContractorGlasses
   - ContractorTrinkets
   - MedicalHypoMini
-  - NCSPBackpacks
 
 - type: roleLoadout
   id: JobChemcookNCSP
   groups:
+  - CombatBoots
+  - NCSPBackpacks
+  - CombatGloves
+  - ContractorGlasses
   - ContractorTrinkets
   - MedicalHypoMini
-  - NCSPBackpacks
 
 - type: roleLoadout
   id: JobOperativeNCSP
   groups:
-  - ContractorTrinkets
+  - CombatBoots
   - NCSPBackpacks
+  - CombatGloves
+  - WebbingBeltTSFC
+  - ContractorGlasses
+  - ContractorTrinkets
 
 - type: roleLoadout
   id: JobIntelligenceOfficerNCSP
   groups:
-  - ContractorTrinkets
+  - CombatBoots
   - NCSPBackpacks
+  - CombatGloves
+  - WebbingBeltTSFC
+  - ContractorGlasses
+  - ContractorTrinkets
 
 - type: roleLoadout
   id: JobForemanNCSP
   groups:
-  - ContractorTrinkets
+  - CombatBoots
   - SAWSBackpacks
+  - CombatGloves
+  - WebbingToolBeltTSFC
+  - ContractorGlasses
+  - ContractorTrinkets
 
 - type: roleLoadout
   id: JobShipbreakerNCSP
   groups:
-  - ContractorTrinkets
+  - CombatBoots
   - SAWSBackpacks
+  - CombatGloves
+  - WebbingToolBeltTSFC
+  - ContractorGlasses
+  - ContractorTrinkets
 
 - type: roleLoadout
   id: JobCyberdawnTechNCSP
   groups:
-  - ContractorTrinkets
+  - CombatBoots
   - NCSPBackpacks
+  - CombatGloves
+  - WebbingToolBeltTSFC
+  - ContractorGlasses
+  - ContractorTrinkets
 
 #empire
 
