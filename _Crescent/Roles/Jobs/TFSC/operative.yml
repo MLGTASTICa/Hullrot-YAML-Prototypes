@@ -32,7 +32,9 @@
   id: OperativeGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSyndicateSoldierCyberdawn
-    id: OperativePDa
+    shoes: ClothingShoesBootsCombat
+    id: OperativePDA
+    gloves: ClothingHandsGlovesFingerless
     outerClothing: ClothingOuterArmorKendoBogu
     ears: ClothingHeadsetNCSPCyberdawn
-    pocket1: WeaponPistolHKUSP
+    belt: WeaponPistolHKUSP

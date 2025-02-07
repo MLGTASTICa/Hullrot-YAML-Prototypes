@@ -34,7 +34,10 @@
   id: InfanteerGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSyndicate
+    shoes: ClothingShoesBootsCombat
     head: ClothingHeadHelmetSyndicateBasic
     id: InfanteerPDA
     ears: ClothingHeadsetNCSP
+    belt: ClothingBeltSyndicateWebbing
     pocket1: WeaponPistolHKUSP
+    gloves: ClothingHandsGlovesFingerless
