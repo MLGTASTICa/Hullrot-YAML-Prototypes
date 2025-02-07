@@ -34,5 +34,7 @@
   id: CyberdawnGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSyndicateLabCyberdawn
+    shoes: ClothingShoesBootsCombat
     id: CyberdawnTechPDA
-    ears: ClothingHeadsetNCSPCyberdawn 
+    ears: ClothingHeadsetNCSPCyberdawn
+    gloves: ClothingHandsGlovesFingerless    

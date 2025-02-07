@@ -69,8 +69,10 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitSyndicateOfficer
     back: ClothingBackpackSatchelLeatherFilledNCWLAdministrator
+    shoes: ClothingShoesBootsCombat
     head: ClothingHeadHatSyndicateOfficer
     outerClothing: ClothingOuterArmorSyndicateRingmaster
     id: RingleaderPDA
     ears: ClothingHeadsetNCSP
-    pocket1: WeaponRevolverPythonAP
+    belt: WeaponRevolverPythonAP
+    gloves: ClothingHandsGlovesFingerless
