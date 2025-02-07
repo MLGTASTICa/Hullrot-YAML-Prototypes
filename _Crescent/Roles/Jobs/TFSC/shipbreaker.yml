@@ -33,10 +33,7 @@
   id: ShipbreakerGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSyndicateSaws
-    shoes: ClothingShoesBootsCombat
     head: ClothingHeadHatHardhatSyndicate
     id: ShipbreakerPDA
     ears: ClothingHeadsetNCSPSaws
-    belt: ClothingBeltUtilityEngineering
     pocket1: WeaponPistolHKUSP
-    gloves: ClothingHandsGlovesFingerless

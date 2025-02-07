@@ -21,13 +21,6 @@
   - SanitarNCWLClothingOuterArmorNCWLHeavyCarapace
 
 - type: loadoutGroup
-  id: NCWLShoes
-  name: loadout-group-contractor-shoes
-  loadouts:
-  - SanitarNCWLClothingBootsJack
-  - SanitarNCWLClothingBootsCombat
-
-- type: loadoutGroup
   id: SanitarHead
   name: loadout-group-contractor-head
   minLimit: 0
@@ -38,17 +31,17 @@
   - SanitarNCWLClothingHeadHelmetNCWLHeavy
 
 - type: loadoutGroup
-  id: NCWLGloves
-  name: loadout-group-contractor-gloves
-  minLimit: 0
-  loadouts:
-  - SanitarNCWLClothingHandsGlovesFingerless
-  - SanitarNCWLClothingHandsGlovesCombat
-
-- type: loadoutGroup
-  id: SanitarBelt
+  id: WebbingBeltNCWL
   name: loadout-group-contractor-belt
-  minLimit: 0
+  minLimit: 1
   loadouts:
   - SanitarNCWLClothingBeltNCWLWebbing
+
+  - type: loadoutGroup
+  id: WebbingToolBeltNCWL
+  name: loadout-group-contractor-belt
+  minLimit: 1
+  loadouts:
+  - SanitarNCWLClothingBeltNCWLWebbing
+  - ClothingBeltUtilityEngineeringStart
 

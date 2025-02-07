@@ -65,8 +65,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitSyndicateOfficer
     back: ClothingBackpackSatchelLeatherFilledNCWL
-    shoes: ClothingShoesBootsCombat
     outerClothing: ClothingOuterArmorSyndicateLieutenant
     id: LieutenantPDA
     ears: ClothingHeadsetNCSP
-    belt: WeaponPistolHKUSP
+    pocket1: WeaponPistolHKUSP
