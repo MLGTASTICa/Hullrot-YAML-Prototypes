@@ -301,3 +301,19 @@
       whitelist:
         tags:
           - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityNarcan
+  name:  uplink-security-narcan-name # pls fill this in for me. locale isnt in the repo.
+  description: uplink-security-narcan-desc # pls fill this in for me. locale isnt in the repo.
+  productEntity: NarcanAutoinjector
+  icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: medipen }
+  cost:
+    FrontierUplinkCoin: 1
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
