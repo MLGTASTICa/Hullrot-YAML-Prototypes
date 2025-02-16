@@ -1,8 +1,15 @@
-#  type: loadoutGroup
-#  id: SanitarHeadAdministrator
-#  name: loadout-group-contractor-head
-#  minLimit: 1
-#  loadouts:
-#  - AdminClothingHeadHatNCWLBeret
-#  - SanitarNCWLClothingHeadHelmetNCWLBasic
-#  - SanitarNCWLClothingHeadHelmetNCWLHeavy
+  type: loadoutGroup
+  id: AdmiralNCWLHats
+  name: loadout-group-contractor-head
+  minLimit: 1
+  loadouts:
+  - AdminClothingHeadHatNCWLBeret
+
+  - type: loadoutGroup
+  id: AdmiralNCWLCoat
+  name: loadout-group-contractor-outerclothing
+  minLimit: 1
+  loadouts:
+  - AdminClothingOuterArmorNCWLOpremeCarapace
+
+

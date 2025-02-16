@@ -1,0 +1,9 @@
+- type: loadout
+  id: AdminClothingOuterArmorNCWLOpremeCarapace
+  equipment: AdminClothingOuterArmorNCWLOpremeCarapace
+  price: 0
+
+- type: startingGear
+  id: AdminClothingOuterArmorNCWLOpremeCarapace
+  equipment:
+    head: ClothingOuterArmorNCWLOpremeCarapace
