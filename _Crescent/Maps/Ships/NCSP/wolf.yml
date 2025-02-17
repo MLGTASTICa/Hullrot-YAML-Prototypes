@@ -28,6 +28,5 @@
         - type: StationJobs
           overflowJobs: []
           availableJobs:
-            LieutenantNCSP: [ 1, 1 ]
-            InfanteerNCSP: [ 4, 4 ]
-            TechnicianNCSP: [ 2, 2 ]
+            InfanteerNCSP: [ 2, 2 ]
+            TechnicianNCSP: [ 1, 1 ]
