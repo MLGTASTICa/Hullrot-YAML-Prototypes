@@ -382,3 +382,38 @@
   icon:
     sprite: Interface/Misc/job_icons.rsi
     state: sheriff
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconKommandant
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: kommandant
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconLeutnant
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: leutnant
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconSoldat
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: soldat
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconKanoneer
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: kanoneer
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconSanitat
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: sanitat

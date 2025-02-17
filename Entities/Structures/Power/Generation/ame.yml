@@ -22,7 +22,7 @@
       fix1:
         shape:
           !type:PhysShapeAabb
-          bounds: "-0.45,-0.45,0.45,0.45"
+          bounds: "-0.49,-0.49,0.49,0.49"
         density: 190
         mask:
         - FullTileMask
@@ -35,7 +35,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 3500
+        damage: 1800
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -146,7 +146,7 @@
       fix1:
         shape:
           !type:PhysShapeAabb
-          bounds: "-0.5,-0.5,0.5,0.5"
+          bounds: "-0.45,-0.45,0.45,0.45"
         density: 190
         mask:
         - FullTileMask
@@ -159,7 +159,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 3500
+        damage: 1800
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:

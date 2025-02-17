@@ -29,7 +29,7 @@
 - type: startingGear
   id: MachinistGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCMMMachinist 
+    jumpsuit: ClothingUniformJumpsuitCMMMachinist
     shoes: ClothingShoesBootsCombat
     head: ClothingHeadHelmetCMMMachinist
     gloves: ClothingHandsGlovesCombat

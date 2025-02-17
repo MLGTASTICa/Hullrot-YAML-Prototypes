@@ -16,11 +16,14 @@
       machine_board: !type:Container
       machine_parts: !type:Container
   - type: TurretIFF
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 100
+        damage: 400
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -75,7 +78,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 100
+        damage: 600
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -130,7 +133,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 100
+        damage: 300
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -176,7 +179,7 @@
     sprite: _Crescent/Objects/ShuttleWeapons/torpedo.rsi
     layers:
     - state: base
-    - state: mag-7
+    - state: mag-2
       map: ["enum.GunVisualLayers.Mag"]
   - type: ContainerContainer
     containers:
@@ -187,14 +190,14 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 200
+        damage: 300
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
         - !type:DoActsBehavior
           acts: ["Destruction"]
   - type: Gun
-    projectileSpeed: 35
+    projectileSpeed: 30
     fireRate: 0.4
     angleDecay: 45
     minAngle: 0
@@ -214,7 +217,7 @@
       path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
   - type: MagazineVisuals
     magState: mag
-    steps: 8
+    steps: 3
     zeroVisible: false
   - type: StaticPrice
     price: 1500
@@ -240,11 +243,14 @@
       machine_board: !type:Container
       machine_parts: !type:Container
       ballistic-ammo: !type:Container
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 200
+        damage: 400
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -298,7 +304,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 350
+        damage: 600
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -351,12 +357,13 @@
   - type: Physics
     bodyType: Static
   - type: Damageable
-    damageContainer: Inorganic
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
   - type: Destructible
     thresholds:
       - trigger:
           !type:DamageTrigger
-          damage: 450
+          damage: 400
         behaviors:
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
@@ -594,11 +601,14 @@
     mode: SnapgridCenter
   components:
   - type: TurretIFF
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 150
+        damage: 800
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -700,11 +710,14 @@
   - type: TurretIFF
   - type: Clickable
   - type: InteractionOutline
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1550
+        damage: 2500
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -831,12 +844,13 @@
   - type: Physics
     bodyType: Static
   - type: Damageable
-    damageContainer: Inorganic
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
   - type: Destructible
     thresholds:
       - trigger:
           !type:DamageTrigger
-          damage: 450
+          damage: 300
         behaviors:
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
@@ -919,7 +933,7 @@
       ballistic-ammo: !type:Container
         ents: []
   - type: Gun
-    fireRate: 9
+    fireRate: 12
     projectileSpeed: 135
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/vulcan.ogg
@@ -964,12 +978,13 @@
   - type: Physics
     bodyType: Static
   - type: Damageable
-    damageContainer: Inorganic
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
   - type: Destructible
     thresholds:
       - trigger:
           !type:DamageTrigger
-          damage: 300
+          damage: 250 # retrofits make it a bit flimsy
         behaviors:
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
@@ -1086,6 +1101,141 @@
   - type: HardpointAnchorableOnly
     class: Ballistic
     size: Medium
+
+- type: entity
+  id: WaspSwarmPlatform
+  name: ATH 70mm 'Wasp' swarmrocket platform
+  parent: ConstructibleMachine
+  description: A light, stationary rocket platform intended to apply pressure to a target with it's guided projectiles.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: TurretIFF
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Physics
+    bodyType: Static
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 250 # retrofits make it a bit flimsy
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+          - !type:PlaySoundBehavior
+            sound:
+              collection: MetalGlassBreak
+          - !type:SpawnEntitiesBehavior
+            spawn:
+              SheetSteel1:
+                min: 2
+                max: 4
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.01,-0.01,0.01,0.01"
+        density: 600
+        mask:
+        - TableMask
+        layer:
+        - TableLayer
+  - type: Transform
+    anchored: true
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/wasp.rsi
+    layers:
+    - state: base
+  - type: Anchorable
+  - type: Pullable
+  - type: Rotatable
+    rotateWhilePulling: false
+    rotateWhileAnchored: true
+    increment: 90
+  - type: Battery
+    maxCharge: 200000
+    startingCharge: 200000
+  - type: ExaminableBattery
+  - type: Appearance
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: AutoShootGun
+  - type: GunSignalControl
+  - type: WirelessNetworkConnection
+    range: 700
+  - type: DeviceLinkSink
+    ports:
+      - Toggle
+      - SpaceArtilleryFire
+      - SpaceArtilleryToggleSafety
+      - SpaceArtilleryOnSafety
+      - SpaceArtilleryOffSafety
+  - type: DeviceLinkSource
+    ports:
+      - SpaceArtilleryDetectedFiring
+      - SpaceArtilleryDetectedMalfunction
+      - SpaceArtilleryDetectedSafetyChange
+  - type: MagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: SwarmrocketClip
+        priority: 2
+        whitelist:
+          tags:
+          - SwarmerRocketsClip
+        insertSound:
+          path: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
+          params:
+            pitch: 2
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+  - type: Gun
+    projectileSpeed: 60
+    fireRate: 3.4
+    selectedMode: FullAuto
+    availableModes:
+      - FullAuto
+    soundGunshot: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg
+    angleDecay: 45
+    minAngle: 5
+    maxAngle: 15
+  - type: SpaceArtillery
+    isArmed: true
+    powerChargeRate: 1500
+    powerUsePassive: 500
+    powerUseActive: 12000
+    isPowerRequiredForMount: false
+    isPowerRequiredToFire: true
+    isPowerRequiredForSignal: true
+  - type: BatterySelfRecharger
+  - type: Actions
+  - type: CombatMode
+    isInCombatMode: true
+  - type: Tag
+    tags:
+    - Wall
+  - type: Airtight
+  - type: RadiationBlocker
+    resistance: 8
+  - type: ApcPowerReceiver
+    powerLoad: 2000
+  - type: ExtensionCableReceiver
+  - type: StaticPrice
+    price: 8000
+  - type: HardpointAnchorableOnly
+    class: Missile
+    size: Small
 
 #Faction-tagged slugs
 
@@ -1401,4 +1551,4 @@
   components:
     - type: NpcFactionMember
       factions:
-        - CMMFighter
+        - CMMFighte

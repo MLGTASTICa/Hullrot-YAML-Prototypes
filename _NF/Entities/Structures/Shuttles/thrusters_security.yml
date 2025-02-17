@@ -38,7 +38,7 @@
 
 - type: entity
   id: GyroscopeSecurity
-  parent: [BaseStructureDisableToolUse, Gyroscope]
+  parent:  Gyroscope
   suffix: Security
   components:
   - type: Sprite
@@ -62,7 +62,7 @@
 
 - type: entity
   id: DebugGyroscopeSecurity
-  parent: [BaseStructureDisableToolUse, DebugGyroscope]
+  parent: [DebugGyroscope]
   name: gyroscope
   suffix: DEBUG, Security
   components:

@@ -874,3 +874,86 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsGliessDockmaster ]
+
+#ath
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandAuthority
+  suffix: Authority, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAuthority ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandAuthorityRanking
+  suffix: Authority Ranking, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAuthorityRanking ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandAuthoritymed
+  suffix: Authority Medical, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAuthoritymed ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandAuthoritySupply
+  suffix: Authority Supply, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAuthoritySupply ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandAuthorityHorizontal
+  suffix: Authority, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAuthority ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandAuthorityRankingHorizontal
+  suffix: Authority Ranking, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAuthorityRanking ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandAuthoritymedHorizontal
+  suffix: Authority Medical, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAuthoritymed ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandAuthoritySupplyHorizontal
+  suffix: Authority Supply, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAuthoritySupply ]
+
+- type: entity
+  parent: WindoorSecure
+  id: WindoorSecureAuthorityCargo
+  suffix: Authority Cargo, Windoor
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAuthoritySupply ]

@@ -13,6 +13,13 @@
   color: "#684871"
 
 - type: radioChannel
+  id: Authority
+  name: chat-radio-authoritat
+  keycode: "k"
+  frequency: 8218
+  color: "#684871"
+
+- type: radioChannel
   id: Hunter
   name: chat-radio-hunter
   keycode: "a"

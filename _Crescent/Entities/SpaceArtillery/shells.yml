@@ -737,9 +737,10 @@
         Blunt: 30
         Piercing: 30
         #currently explosion deals roughly 60 damage
+  - type: ProjectilePhasePrevent
   - type: ProjectileIFF
   - type: TimedDespawn
-    lifetime: 10
+    lifetime: 15
     #roughly 600m range
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/pdtcasing.rsi

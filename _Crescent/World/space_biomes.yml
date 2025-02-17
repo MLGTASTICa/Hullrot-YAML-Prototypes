@@ -1,9 +1,9 @@
 #fallback, don't remove
 - type: crescentFactionBiome
   id: default
-  name: Hadal Deadspace
+  name: Taypani Abyss
   swapDuration: 2
-  parallax: Default
+  parallax: AbyssParallax
 
 #example
 - type: crescentFactionBiome
@@ -208,3 +208,20 @@
   name: Lunar Approach
   swapDuration: 2
   parallax: MoonApproach
+
+#abyss
+
+- type: entity
+  id: DeadspaceSource
+  name: hadal deadspace
+  components:
+  - type: SpaceBiomeSource
+    biome: hadaldeadspace
+    swapDistance: 15000
+    priority: 2400
+
+- type: crescentFactionBiome
+  id: hadaldeadspace
+  name: Hadal Deadspace
+  swapDuration: 2
+  parallax: Default

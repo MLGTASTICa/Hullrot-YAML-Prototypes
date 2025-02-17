@@ -909,6 +909,78 @@
   - type: Icon
     state: hunter
 
+#ath
+
+- type: entity
+  parent: BasePDA
+  id: KommandantPDA
+  name: kommandant's PDA
+  description: Gunmetal gray.
+  components:
+  - type: Pda
+    id: ATHIDCardKommandant
+    state: pda-bartender
+  - type: PdaBorderColor
+    borderColor: "#535961"
+  - type: Icon
+    state: pda-bartender
+
+- type: entity
+  parent: BasePDA
+  id: LeutnantPDA
+  name: leutnant's PDA
+  description: Gunmetal gray.
+  components:
+  - type: Pda
+    id: ATHIDCardLeutnant
+    state: pda-bartender
+  - type: PdaBorderColor
+    borderColor: "#535961"
+  - type: Icon
+    state: pda-bartender
+
+- type: entity
+  parent: BasePDA
+  id: SoldatPDA
+  name: jaeger's PDA
+  description: Gunmetal gray.
+  components:
+  - type: Pda
+    id: ATHIDCardSoldat
+    state: pda-bartender
+  - type: PdaBorderColor
+    borderColor: "#535961"
+  - type: Icon
+    state: pda-bartender
+
+- type: entity
+  parent: BasePDA
+  id: KanoneerPDA
+  name: kanoneer's PDA
+  description: Gunmetal gray.
+  components:
+  - type: Pda
+    id: ATHIDCardKanoneer
+    state: pda-bartender
+  - type: PdaBorderColor
+    borderColor: "#535961"
+  - type: Icon
+    state: pda-bartender
+
+- type: entity
+  parent: BasePDA
+  id: SanitatPDA
+  name: sanitat's PDA
+  description: Gunmetal gray.
+  components:
+  - type: Pda
+    id: ATHIDCardSanitat
+    state: pda-bartender
+  - type: PdaBorderColor
+    borderColor: "#535961"
+  - type: Icon
+    state: pda-bartender
+
 #misc
 
 - type: entity

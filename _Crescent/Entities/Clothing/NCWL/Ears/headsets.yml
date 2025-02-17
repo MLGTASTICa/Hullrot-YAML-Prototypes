@@ -161,3 +161,19 @@
       sprite: Clothing/Ears/Headsets/freelance.rsi
     - type: Clothing
       sprite: Clothing/Ears/Headsets/freelance.rsi
+
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetAuthority
+  name: soldier's headset
+  description: A headset issued by the 43rd for communication.
+  components:
+    - type: ContainerFill
+      containers:
+        key_slots:
+          - EncryptionKeyAuthority
+          - EncryptionKeyTraffic
+    - type: Sprite
+      sprite: _Crescent/Clothing/Headsets/hunter.rsi
+    - type: Clothing
+      sprite: _Crescent/Clothing/Headsets/hunter.rsi

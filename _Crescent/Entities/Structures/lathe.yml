@@ -90,6 +90,8 @@
     whitelist:
       tags:
       - DrugComponent
+      - Sheet
+      - RawMaterial
   - type: Lathe
     idleState: base_machine
     runningState: base_machine_processing
@@ -100,6 +102,23 @@
     - Kaiser
     - Mechanite
     - Bloodeye
+    - Saw
+    - BodyBag
+    - Brutepack
+    - Ointment
+    - Gauze
+    - Defibrillator
+    - Medkit
+    - MedkitAdvanced
+    - MedkitCombat
+    - HandLabeler
+    - Beaker
+    - LargeBeaker
+    - Dropper
+    - Jug
+    - Syringe
+    - VehicleWheelchairFolded
+    - RollerBedSpawnFolded
 
 #microforge
 

@@ -760,3 +760,65 @@
     layers:
       - state: green
       - state: passenger
+
+#ath
+
+- type: entity
+  id: SpawnPointKommandantATH
+  parent: SpawnPointJobBase
+  name: Kommandant
+  components:
+  - type: SpawnPoint
+    job_id: KommandantATH
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: SpawnPointLeutnantATH
+  parent: SpawnPointJobBase
+  name: Leutnant
+  components:
+  - type: SpawnPoint
+    job_id: LeutnantATH
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: SpawnPointSoldatATH
+  parent: SpawnPointJobBase
+  name: Soldat
+  components:
+  - type: SpawnPoint
+    job_id: SoldatATH
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: SpawnPointKanoneerATH
+  parent: SpawnPointJobBase
+  name: Kanoneer
+  components:
+  - type: SpawnPoint
+    job_id: KanoneerATH
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: SpawnPointSanitatATH
+  parent: SpawnPointJobBase
+  name: Sanitat
+  components:
+  - type: SpawnPoint
+    job_id: SanitatATH
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger

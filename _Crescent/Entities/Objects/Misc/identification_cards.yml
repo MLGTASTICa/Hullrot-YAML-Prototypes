@@ -742,6 +742,68 @@
   - type: PresetIdCard
     job: ServileTAP
 
+#ath
+
+- type: entity
+  parent: IDCardStandard
+  id: ATHIDCardKommandant
+  name: 43rd battlegroup ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: KommandantATH
+
+- type: entity
+  parent: IDCardStandard
+  id: ATHIDCardLeutnant
+  name: 43rd battlegroup ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: LeutnantATH
+
+- type: entity
+  parent: IDCardStandard
+  id: ATHIDCardSoldat
+  name: 43rd battlegroup ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: SoldatATH
+
+- type: entity
+  parent: IDCardStandard
+  id: ATHIDCardKanoneer
+  name: 43rd battlegroup ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: KanoneerATH
+
+- type: entity
+  parent: IDCardStandard
+  id: ATHIDCardSanitat
+  name: 43rd battlegroup ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: SanitatATH
+
 #misc
 
 - type: entity

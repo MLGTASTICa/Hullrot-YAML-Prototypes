@@ -27,6 +27,33 @@
 
 - type: entity
   parent: ClothingOuterBaseLarge
+  id: ClothingOuterArmorNCWLOpremeCarapace
+  name: admiral's greatcoat
+  description: A kevlar-intervowen durathread trenchcoat with a synthfleece-trim collar. Looks badass.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/opremecoat.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/opremecoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.70
+        Slash: 0.70
+        Piercing: 0.70
+        Heat: 0.80
+        Caustic: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 1000
+
+- type: entity
+  parent: ClothingOuterBaseLarge
   id: ClothingOuterArmorNCWLHeavyCarapace
   name: communard's heavy carapace
   description: A steel-beaten juggernaut's carapace in communard orange.

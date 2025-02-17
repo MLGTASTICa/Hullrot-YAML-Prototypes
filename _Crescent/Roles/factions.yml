@@ -1,5 +1,32 @@
 
 - type: faction
+  name: "Central Sol Authority"
+  id: ATH
+  description: |
+    The victors of an undisputed internal war that broke out in Sol over the Kaiser's turbulent and
+    violent reign, the Authority was born out of a need for reform. Lead by the Jovian ideals of
+    psionic purity, the Central Sol Authority has minimal interest in feudal reign like their precursors,
+    instead focusing on violent conquests made with the purpose of eradicating species and communities
+    that they've found to be linked to the Boundary, Taypan, and other psionic phenomena. It is believed
+    by Authority officials that the source of the Boundary itself comes from the combined, manifested
+    thought of all psionically-enabled people in the Imperial Supercluster, and with every spell cast,
+    every psionicist born, it only becomes larger and more aggressive.
+    
+    Effectively the prime superpower of all of humanity, the Authority allows for a good amount of
+    economic freedom for its non-psionicists and promotes loyalty in a manner not too dissimilar to
+    the megacorporations of old Earth, with aspiring members climbing up the military ladder of
+    different militias, such as the 43rd Battlegroup of the Sol system. Forschers thinking that they
+    can speak up against the current regime quickly find themselves screened against and detained, 
+    however, with tight information control preventing widespread dissent and often rewriting history 
+    itself to suit the needs of the Authority.
+  color: "#ffffed"
+  weight: 1
+  enabled: true
+  icon:
+    sprite: /Textures/_Crescent/faction_icons.rsi
+    state: csa
+
+- type: faction
   name: "Divine Sol Mandate"
   id: DSM
   description: |

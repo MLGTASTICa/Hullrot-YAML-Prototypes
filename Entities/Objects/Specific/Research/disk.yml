@@ -1,5 +1,37 @@
 - type: entity
   parent: BaseItem
+  id: AbyssalSurvey
+  name: abyssal survey data
+  description: A NanoTrasen-brand tablet, barely functional and on backup power. Contains gathered survey data of the local Taypani Abyss. You can name several scientists just off the top of your head who'd kill you for one of these.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/abyssal_survey.rsi
+    state: abyssal_survey
+  - type: ResearchDisk
+    points: 15000
+  - type: StaticPrice
+    price: 25000
+  - type: GuideHelp
+    guides:
+    - Science
+
+- type: entity
+  parent: BaseItem
+  id: Databases
+  name: ancient corporate database
+  description: Clunky old NanoTrasen databanks. Not empty; thus valuable.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/database.rsi
+    layers:
+    - state: dataracks
+  - type: TechnologyDisk
+    tierWeightPrototype: TechDiskTierWeights
+  - type: StaticPrice
+    price: 20000
+
+- type: entity
+  parent: BaseItem
   id: DelamDisk
   name: delaminated survey data
   description: A harddrive. Preliminary scans suggest survey data of celestial bodies and basic information about other systems and this one. It's probably worth money. Or you could put it into your research server and see if it can make sense of it.

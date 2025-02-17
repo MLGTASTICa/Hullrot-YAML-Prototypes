@@ -199,3 +199,16 @@
   - DraugrTAP
   - ServileTAP
   enabled: true
+
+- type: department
+  id: ATH
+  description: department-ATH-description
+  color: "#ffffed"
+  weight: 40
+  roles:
+  - KommandantATH
+  - LeutnantATH
+  - KanoneerATH
+  - SoldatATH
+  - SanitatATH
+  enabled: true

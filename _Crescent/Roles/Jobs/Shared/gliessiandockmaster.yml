@@ -11,6 +11,7 @@
   supervisors: job-supervisors-lols
   accessGroups:
   - GeneralAccess
+  access:
   - GliessSheriff
   - GliessDockmaster
   special:

@@ -43,4 +43,4 @@
     gloves: ClothingHandsGlovesFingerless
     outerClothing: ClothingOuterArmorCyberdawnPatriarch
     ears: ClothingHeadsetNCSPCyberdawn
-    #pocket1: AccesElevatorCD
+    pocket1: AccesElevatorCD

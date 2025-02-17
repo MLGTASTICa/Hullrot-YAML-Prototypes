@@ -37,6 +37,7 @@
     - Jannissary
     - Nemesis
     - Triumphant
+    - Raider
 
 - type: entity
   id: LaborMothershipComputer
@@ -188,4 +189,15 @@
     - Einherji
     - Glaive
     - Bhaalgorn
+
+- type: entity
+  id: AuthorityMothershipComputer
+  parent: BaseMothershipComputer
+  name: authority shipyard
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - Archon
+    - Carrum
+    - Khorkoi
 

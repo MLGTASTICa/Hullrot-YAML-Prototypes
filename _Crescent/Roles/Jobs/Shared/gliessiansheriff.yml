@@ -11,6 +11,7 @@
   supervisors: job-supervisors-gliess
   accessGroups:
   - GeneralAccess
+  access:
   - GliessSheriff
   - GliessDockmaster
   special:

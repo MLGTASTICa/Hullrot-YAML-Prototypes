@@ -61,7 +61,7 @@
                   max: 5
     - type: TurretIFF
     - type: Gun
-      projectileSpeed: 80
+      projectileSpeed: 145
       fireRate: 5
       selectedMode: FullAuto
       availableModes:
@@ -73,7 +73,7 @@
       capacity: 300
       count: 300
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 2.5
+      rechargeCooldown: 5
       rechargeSound:
         path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
         params:
@@ -105,6 +105,7 @@
     - type: Input
       context: "human"
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Small
@@ -127,7 +128,7 @@
   suffix: Mark Two
   components:
     - type: Gun
-      projectileSpeed: 85
+      projectileSpeed: 145
       fireRate: 5.5
 
 
@@ -232,8 +233,8 @@
                   min: 3
                   max: 5
     - type: Gun
-      fireRate: 9.5
-      projectileSpeed: 125
+      fireRate: 12
+      projectileSpeed: 120
       selectedMode: FullAuto
       availableModes:
         - FullAuto
@@ -288,6 +289,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Small
@@ -470,6 +472,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Missile
       size: Small
@@ -832,6 +835,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Medium
@@ -1004,6 +1008,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Energy
       size: Small
@@ -1174,6 +1179,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Missile
       size: Small
@@ -1353,6 +1359,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Medium
@@ -1475,7 +1482,7 @@
     - type: TurretIFF
     - type: Gun
       fireRate: 7
-      projectileSpeed: 60
+      projectileSpeed: 145
       selectedMode: FullAuto
       availableModes:
         - FullAuto
@@ -1484,6 +1491,7 @@
       proto: PDTBulletCase
       capacity: 25000
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Small
@@ -1579,6 +1587,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Missile
       size: Large
@@ -1643,14 +1652,14 @@
     - type: ProjectileIFF
     - type: Gun
       projectileSpeed: 85
-      fireRate: 1.7
+      fireRate: 0.9
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       soundGunshot: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg
     - type: BallisticAmmoProvider
       cycleable: false
-      capacity: 6
+      capacity: 15
       proto: LanceRocketCartridge
       whitelist:
         tags:
@@ -1674,6 +1683,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Missile
       size: Medium
@@ -1769,6 +1779,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Large
@@ -1877,6 +1888,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Large
@@ -1971,6 +1983,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Missile
       size: Large
@@ -2081,6 +2094,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Energy
       size: Medium
@@ -2192,6 +2206,346 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Energy
       size: Medium
+
+#solaris
+
+- type: entity
+  parent: BaseStructure
+  id: BaseWeaponTurretSolaris
+  name: 90mm "Solaris" antimatter blaster
+  description: A versatile ballistic turret that fires specialized antimatter rounds. A hybrid of machinegun and artillery.
+  components:
+    - type: PointCannon
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Actions
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeAabb
+            bounds: "-0.45,-0.45,0.45,0.45"
+          density: 60
+          mask:
+            - MachineMask
+          layer:
+            - MachineLayer
+    - type: ContainerContainer
+      containers:
+        ballistic-ammo: !type:Container
+    - type: Sprite
+      sprite: _Crescent/Objects/Autoturrets/solaris.rsi
+      drawdepth: Mobs
+      layers:
+        - state: solaris
+    - type: WorldLoader
+      radius: 256
+    - type: CombatMode
+      toggleMouseRotator: false
+    - type: Damageable
+      damageContainer: Inorganic
+    - type: TurretIFF
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 800
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+        - trigger:
+            !type:DamageTrigger
+            damage: 500
+          # TODO: Construction graph
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalGlassBreak
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetSteel1:
+                  min: 3
+                  max: 5
+    - type: Gun
+      projectileSpeed: 50
+      fireRate: 1.9
+      selectedMode: FullAuto
+      availableModes:
+        - FullAuto
+      soundGunshot: _Crescent/Objects/ShuttleWeapons/ioncannon.rsi
+    - type: MagazineAmmoProvider
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: StandardAntimatterCanister
+          insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - AntimatterCanister
+    - type: SignalControl
+      isOnByDefault: true
+    - type: DeviceNetwork
+      deviceNetId: Wireless
+      receiveFrequencyId: BasicDevice
+    - type: WirelessNetworkConnection
+      range: 2500
+    - type: DeviceLinkSink
+      ports:
+        - Toggle
+        - On
+        - Off
+    - type: ApcPowerReceiver
+      powerLoad: 4000
+    - type: ExtensionCableReceiver
+    - type: LightningTarget
+      priority: 1
+    - type: MouseRotator
+      angleTolerance: 5
+      rotationSpeed: 180
+      simple4DirMode: false
+    - type: NoRotateOnInteract
+    - type: NoRotateOnMove
+    - type: Input
+      context: "human"
+    - type: MobState
+    - type: Anchorable
+      delay: 10
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Medium
+
+#jeong
+
+- type: entity
+  parent: BaseStructure
+  id: BaseWeaponTurretJeong
+  name: 70mm "Jeong" swarmrocket platform
+  description: A heavy, ship-mounted rocket platform that spits out a barrage of guided, small rockets.
+  components:
+    - type: PointCannon
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Actions
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeAabb
+            bounds: "-0.45,-0.45,0.45,0.45"
+          density: 60
+          mask:
+            - MachineMask
+          layer:
+            - MachineLayer
+    - type: ContainerContainer
+      containers:
+        ballistic-ammo: !type:Container
+    - type: Sprite
+      sprite: _Crescent/Objects/Autoturrets/jeong.rsi
+      drawdepth: Mobs
+      layers:
+        - state: jeong
+    - type: WorldLoader
+      radius: 256
+    - type: CombatMode
+      toggleMouseRotator: false
+    - type: Damageable
+      damageContainer: Inorganic
+    - type: TurretIFF
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 800
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+        - trigger:
+            !type:DamageTrigger
+            damage: 500
+          # TODO: Construction graph
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalGlassBreak
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetSteel1:
+                  min: 3
+                  max: 5
+    - type: Gun
+      projectileSpeed: 60
+      fireRate: 3.4
+      selectedMode: FullAuto
+      availableModes:
+        - FullAuto
+      soundGunshot: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg
+      angleDecay: 45
+      minAngle: 5
+      maxAngle: 15
+    - type: MagazineAmmoProvider
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: SwarmrocketClip
+          insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - SwarmerRocketsClip
+    - type: SignalControl
+      isOnByDefault: true
+    - type: DeviceNetwork
+      deviceNetId: Wireless
+      receiveFrequencyId: BasicDevice
+    - type: WirelessNetworkConnection
+      range: 2500
+    - type: DeviceLinkSink
+      ports:
+        - Toggle
+        - On
+        - Off
+    - type: ApcPowerReceiver
+      powerLoad: 4000
+    - type: ExtensionCableReceiver
+    - type: LightningTarget
+      priority: 1
+    - type: MouseRotator
+      angleTolerance: 5
+      rotationSpeed: 180
+      simple4DirMode: false
+    - type: NoRotateOnInteract
+    - type: NoRotateOnMove
+    - type: Input
+      context: "human"
+    - type: MobState
+    - type: Anchorable
+      delay: 10
+    - type: HardpointAnchorableOnly
+      class: Missile
+      size: Medium
+
+# magwell
+
+- type: entity
+  parent: BaseStructure
+  id: BaseWeaponTurretMagwell
+  name: SHI 180mm "Magwell" torpedo launcher
+  description: A small torpedo launcher that fires cheaply-manufactured, heat-seeking projectiles.
+  components:
+    - type: PointCannon
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Actions
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeAabb
+            bounds: "-0.45,-0.45,0.45,0.45"
+          density: 60
+          mask:
+            - MachineMask
+          layer:
+            - MachineLayer
+    - type: ContainerContainer
+      containers:
+        ballistic-ammo: !type:Container
+    - type: Sprite
+      sprite: _Crescent/Objects/Autoturrets/magwell.rsi
+      drawdepth: Mobs
+      layers:
+      - state: base
+      - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - type: WorldLoader
+      radius: 256
+    - type: CombatMode
+      toggleMouseRotator: false
+    - type: Damageable
+      damageContainer: Inorganic
+    - type: TurretIFF
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 800
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+        - trigger:
+            !type:DamageTrigger
+            damage: 500
+          # TODO: Construction graph
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalGlassBreak
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetSteel1:
+                  min: 3
+                  max: 5
+    - type: Gun
+      projectileSpeed: 30
+      fireRate: 0.5
+      selectedMode: FullAuto
+      availableModes:
+        - FullAuto
+      soundGunshot: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg
+    - type: BallisticAmmoProvider
+      whitelist:
+        tags:
+          - Torpedo
+      capacity: 6
+      soundInsert:
+        path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+    - type: SignalControl
+      isOnByDefault: true
+    - type: DeviceNetwork
+      deviceNetId: Wireless
+      receiveFrequencyId: BasicDevice
+    - type: WirelessNetworkConnection
+      range: 2500
+    - type: DeviceLinkSink
+      ports:
+        - Toggle
+        - On
+        - Off
+    - type: ApcPowerReceiver
+      powerLoad: 4000
+    - type: ExtensionCableReceiver
+    - type: LightningTarget
+      priority: 1
+    - type: MouseRotator
+      angleTolerance: 5
+      rotationSpeed: 180
+      simple4DirMode: false
+    - type: NoRotateOnInteract
+    - type: NoRotateOnMove
+    - type: Input
+      context: "human"
+    - type: MobState
+    - type: Anchorable
+      delay: 10
+    - type: HardpointAnchorableOnly
+      class: Missile
+      size: Small
+    - type: MagazineVisuals
+      magState: mag
+      steps: 2

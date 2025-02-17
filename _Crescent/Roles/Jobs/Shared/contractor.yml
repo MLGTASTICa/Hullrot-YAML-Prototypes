@@ -14,7 +14,21 @@
   accessGroups:
   - GeneralAccess
 
+
+- type: entity
+  parent: IDCardStandard
+  id: SpacerIDCard
+  name: Spacer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idpassenger
+  - type: PresetIdCard
+    job: Spacer
+
 - type: startingGear
   id: ContractorGear
   equipment:
     ears: ClothingHeadsetGrey
+    id: SpacerIDCard

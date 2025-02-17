@@ -334,3 +334,64 @@
   components:
   - type: AccessReader
     access: [["Thukker"]]
+
+#ath
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsAuthority
+  suffix: Authority
+  components:
+  - type: AccessReader
+    access: [["Authority"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsAuthorityRanking
+  suffix: Authority, Ranking
+  components:
+  - type: AccessReader
+    access: [["AuthorityRanking"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsAuthoritymed
+  suffix: Authority, Medical
+  components:
+  - type: AccessReader
+    access: [["Authoritymed"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsAuthoritySupply
+  suffix: Authority, Supply
+  components:
+  - type: AccessReader
+    access: [["AuthoritySupply"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsAuthorityKommandant
+  suffix: Authority, Kommandant
+  components:
+  - type: AccessReader
+    access: [["Kommandant"]]
+
+#misc
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsGliessDockmaster
+  suffix: Gliessian Dockmaster
+  components:
+  - type: AccessReader
+    access: [["GliessDockmaster"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsGliessSheriff
+  suffix: Gliessian Sheriff
+  components:
+  - type: AccessReader
+    access: [["GliessSheriff"]]
+

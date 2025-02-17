@@ -27,6 +27,7 @@
     layers:
       - state: base-projectile
   - type: ShipWeaponProjectile
+  - type: ProjectilePhasePrevent
 
 - type: entity
   id: CartridgeVulcanStandard
@@ -1245,3 +1246,328 @@
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
     state: plasmalens
+
+# solaris
+
+- type: Tag
+  id: AntimatterCanister
+
+- type: Tag
+  id: AntimatterCartridge
+
+
+- type: entity
+  id: StandardAntimatterCanister
+  name: ballistic antimatter canister
+  description: A standard antimatter ammunition canister. Projectiles are manufactured in real time using the exotic particles within. Cost-effective and easy to make in the New World.
+  parent: BaseMagazineLens
+  components:
+  - type: Tag
+    tags:
+      - AntimatterCanister
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - AntimatterCartridge
+    proto: StandardAntimatterCartridge
+    capacity: 75
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanister.rsi
+    state: base
+
+- type: entity
+  id: StandardAntimatterCartridge
+  name: exotic antimatter shell casing
+  categories: [ HideSpawnMenu ]
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - AntimatterCartridge
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    deleteOnSpawn: true
+    proto: StandardAntimatterProjectile
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanister.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpaceGarbage
+
+- type: entity
+  id: StandardAntimatterProjectile
+  name: exotic particles
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 400
+        Radiation: 20
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: TimedDespawn
+    lifetime: 14
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanister.rsi
+    layers:
+      - state: base-projectile
+  - type: PointLight
+    radius: 3.5
+    color: white
+    energy: 0.5
+  - type: ProjectileIFF
+
+- type: entity
+  id: PlasmaAntimatterCanister
+  name: plasma-charged ballistic antimatter canister
+  description: A standard antimatter ammunition canister. Projectiles are manufactured in real time using the exotic particles within. Cost-effective and easy to make in the New World. This one is charged with volatile plasma motes.
+  parent: BaseMagazineLens
+  components:
+  - type: Tag
+    tags:
+      - AntimatterCanister
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - AntimatterCartridge
+    proto: PlasmaAntimatterCartridge
+    capacity: 75
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanisterplas.rsi
+    state: base
+
+- type: entity
+  id: PlasmaAntimatterCartridge
+  name: exotic antimatter shell casing
+  categories: [ HideSpawnMenu ]
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - AntimatterCartridge
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    deleteOnSpawn: true
+    proto: PlasmaAntimatterProjectile
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanisterplas.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpaceGarbage
+
+- type: entity
+  id: PlasmaAntimatterProjectile
+  name: exotic plasma particles
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 8
+    intensitySlope: 3
+    totalIntensity: 8
+    maxTileBreak: 2
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 200
+        Radiation: 20
+  - type: TimedDespawn
+    lifetime: 14
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanisterplas.rsi
+    layers:
+      - state: base-projectile
+  - type: PointLight
+    radius: 3.5
+    color: purple
+    energy: 0.5
+  - type: ProjectileIFF
+
+- type: entity
+  id: GuidedAntimatterCanister
+  name: guided ballistic antimatter canister
+  description: A standard antimatter ammunition canister. Projectiles are manufactured in real time using the exotic particles within. Cost-effective and easy to make in the New World. This one has primitive aim-correction capacity.
+  parent: BaseMagazineLens
+  components:
+  - type: Tag
+    tags:
+      - AntimatterCanister
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - AntimatterCartridge
+    proto: GuidedAntimatterCartridge
+    capacity: 75
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanisterguided.rsi
+    state: base
+
+- type: entity
+  id: GuidedAntimatterCartridge
+  name: guided antimatter shell casing
+  categories: [ HideSpawnMenu ]
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - AntimatterCartridge
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    deleteOnSpawn: true
+    proto: GuidedAntimatterProjectile
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanisterguided.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpaceGarbage
+
+- type: entity
+  id: GuidedAntimatterProjectile
+  name: plasma particles
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 350
+        Radiation: 20
+  - type: TimedDespawn
+    lifetime: 14
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanisterguided.rsi
+    layers:
+      - state: base-projectile
+  - type: PointLight
+    radius: 3.5
+    color: purple
+    energy: 0.5
+  - type: ProjectileIFF
+  - type: HeatSeeking
+    rotationSpeed: 20 # slow rotation so it isnt aimbot, still fairly accurate though
+    acceleration: 0 # it starts full speed
+    topSpeed: 50
+    initialSpeed: 50
+    FOV: 60
+    defaultSeekingRange: 400
+    guidanceAlgorithm: PredictiveGuidance
+
+#jeong/osiris
+
+- type: Tag
+  id: SwarmerRocketsClip
+
+- type: Tag
+  id: SwarmerRockets
+
+- type: entity
+  id: SwarmrocketClip
+  name: 70mm swarmer rocket drum
+  description: An autofeeder drum of 70mm Authoritat rockets.
+  parent: BaseMagazineLens
+  components:
+  - type: Tag
+    tags:
+      - SwarmerRocketsClip
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - SwarmerRockets
+    proto: SwarmerRocketsGuidedCartridge
+    capacity: 30
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/swarmclip.rsi
+    state: base
+
+- type: entity
+  id: SwarmerRocketsGuidedCartridge
+  name: 70mm rocket
+  categories: [ HideSpawnMenu ]
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - SwarmerRockets
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    deleteOnSpawn: true
+    proto: SwarmerRocketsGuided
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/swarmclip.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpaceGarbage
+
+- type: entity
+  id: SwarmerRocketsGuided
+  name: 70mm rocket
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 300
+  - type: TimedDespawn
+    lifetime: 20
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/swarmclip.rsi
+    layers:
+      - state: base-projectile
+  - type: ProjectileIFF
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 15
+    intensitySlope: 2
+    totalIntensity: 10
+    maxTileBreak: 1
+  - type: PointLight
+    radius: 3.5
+    color: orange
+    energy: 0.5
+  - type: HeatSeeking
+    rotationSpeed: 120
+    acceleration: 10
+    topSpeed: 45
+    initialSpeed: 3
+    FOV: 60
+    defaultSeekingRange: 400
+    guidanceAlgorithm: PredictiveGuidance

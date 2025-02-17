@@ -22,31 +22,31 @@
             prob: 0.5
             orGroup: rock
           - id: WallRockCoal
-            prob: 0.01
+            prob: 0.04
             orGroup: rock
           - id: WallRockTin
-            prob: 0.01
+            prob: 0.04
             orGroup: rock
           - id: WallRockQuartz
-            prob: 0.01
+            prob: 0.04
             orGroup: rock
           - id: WallRockGold
-            prob: 0.003
+            prob: 0.0012
             orGroup: rock
           - id: WallRockSilver
-            prob: 0.003
+            prob: 0.0012
             orGroup: rock
           - id: WallRockPlasma
-            prob: 0.002
+            prob: 0.0005
             orGroup: rock
           - id: WallRockUranium
-            prob: 0.002
+            prob: 0.0008
             orGroup: rock
           - id: WallRockArtifactFragment
             prob: 0.0009
             orGroup: rock
           - id: RockElementalSpawner
-            prob: 0.08
+            prob: 0.009
             orGroup: rock
     - type: GCAbleObject
       queue: SpaceDebris
@@ -166,7 +166,7 @@
             prob: 0.001
             orGroup: rock
           - id: SnowElementalSpawner
-            prob: 0.08
+            prob: 0.009
             orGroup: rock
           - id: WallRockSnow
             prob: 0.5
@@ -175,22 +175,22 @@
             prob: 0.0009
             orGroup: rock
           - id: WallRockSnowCoal
-            prob: 0.015
+            prob: 0.01
             orGroup: rock
           - id: WallRockSnowPlasma
-            prob: 0.015
+            prob: 0.006
             orGroup: rock
           - id: WallRockSnowUranium
-            prob: 0.015
+            prob: 0.003
             orGroup: rock
           - id: WallRockSnowTin
-            prob: 0.015
+            prob: 0.01
             orGroup: rock
           - id: WallRockSnowGold
-            prob: 0.005
+            prob: 0.009
             orGroup: rock
           - id: WallRockSnowSilver
-            prob: 0.005
+            prob: 0.009
             orGroup: rock
     - type: GCAbleObject
       queue: SpaceDebris
@@ -759,40 +759,37 @@
       entries:
         FloorChromite:
           - id: RandomArtifactSpawner20
-            prob: 0.01
+            prob: 0.009
             orGroup: rock
           - id: ChromiteElementalSpawner
-            prob: 0.2
+            prob: 0.09
             orGroup: rock
           - id: WallRockChromite
             prob: 0.65
             orGroup: rock
           - id: WallRockChromiteUranium
-            prob: 0.0013
+            prob: 0.00095
             orGroup: rock
           - id: WallRockChromitePlasma
-            prob: 0.0013
+            prob: 0.00095
             orGroup: rock
           - id: WallRockChromiteTin
-            prob: 0.09
+            prob: 0.034
             orGroup: rock
           - id: WallRockChromiteArtifactFragment
-            prob: 0.01
+            prob: 0.005
             orGroup: rock
           - id: WallRockChromiteGold
-            prob: 0.009
+            prob: 0.001
             orGroup: rock
           - id: WallRockChromiteQuartz
-            prob: 0.01
+            prob: 0.0034
             orGroup: rock
           - id: WallRockChromiteCoal
-            prob: 0.09
+            prob: 0.0034
             orGroup: rock
           - id: WallRockChromiteSilver
-            prob: 0.009
-            orGroup: rock
-          - id: WallChromiteCobblebrick
-            prob: 0.1
+            prob: 0.001
             orGroup: rock
     - type: IFF
       flags: HideLabel
@@ -922,28 +919,25 @@
             prob: 0.09
             orGroup: rock
           - id: AsteroidRockQuartz
-            prob: 0.1
+            prob: 0.09
             orGroup: rock
           - id: AsteroidRockSalt
             prob: 0.009
             orGroup: rock
           - id: AsteroidRockGold
-            prob: 0.003
+            prob: 0.001
             orGroup: rock
           - id: AsteroidRockSilver
-            prob: 0.003
+            prob: 0.001
             orGroup: rock
           - id: AsteroidRockPlasma
-            prob: 0.001
+            prob: 0.0009
             orGroup: rock
           - id: AsteroidRockUranium
-            prob: 0.001
+            prob: 0.0009
             orGroup: rock
           - id: AsteroidRockArtifactFragment
-            prob: 0.01
-            orGroup: rock
-          - id: WallNecropolis
-            prob: 0.1
+            prob: 0.0004
             orGroup: rock
     - type: IFF
       flags: HideLabel

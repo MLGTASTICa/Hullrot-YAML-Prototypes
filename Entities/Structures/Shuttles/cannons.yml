@@ -9,6 +9,7 @@
   - type: Clickable
   - type: InteractionOutline
   - type: Anchorable
+    delay: 10
   - type: Pullable
   - type: Rotatable
   - type: Physics

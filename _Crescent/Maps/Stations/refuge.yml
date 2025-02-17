@@ -26,3 +26,30 @@
             HunterSRM: [ 3, 3 ]
             TenderSRM: [ 2, 2 ]
             AcolyteSRM: [ 2, 2 ]
+
+- type: gameMap
+  id: GliessSanto
+  mapName: 'Gliess Santo'
+  mapPath: /Maps/_Crescent/Stations/gliess.yml
+  minPlayers: 0
+  stations:
+    GliessSanto:
+      stationProto: StandardCrescentStation
+      gridComponents:
+        - type: BlockShipWeaponProjectileGrid
+        - type: PreventPilot
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Gliess Santo'
+        - type: VesselDesignation
+          designation: vessel-designation-headquarters
+        - type: Grammar
+          attributes:
+            proper: true
+        - type: StationJobs
+          checkAlive: false
+          overflowJobs: []
+          availableJobs:
+            GliessianDockmaster: [ 1, 1 ]
+            GliessianSheriff: [ 1, 1 ]
+            Spacer: [ 15, 15 ]

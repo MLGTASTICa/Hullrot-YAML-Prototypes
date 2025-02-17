@@ -2,7 +2,7 @@
   id: 120mmCasingDU
   name: 120mm DU casing
   inputs:
-    Steel: 5
+    Steel: 3
   outputs:
     Casing120: 1
 
@@ -26,7 +26,7 @@
   id: 120mmCasingHE
   name: 120mm HE casing
   inputs:
-    Plasma: 6
+    Plasma: 5
   outputs:
     Casing120HE: 1
 

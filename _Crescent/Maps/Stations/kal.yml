@@ -24,7 +24,7 @@
             GovernorDSM: [ 1, 1 ]
             AdjutantDSM: [ 1, 1 ]
             KnightDSM: [ 4, 4 ]
-            LevymanDSM: [ 12, 12 ]
+            LevymanDSM: [ 8, 8 ]
             ArchmaesterDSM: [ 1, 1 ]
             ScribeDSM: [ 6, 6 ]
             SurgeonDSM: [ 4, 4 ]
@@ -34,4 +34,3 @@
             WealthDSM: [ 1, 1 ]
             ForemanDSM: [ 3, 3 ]
             FreeholderDSM: [ 12, 12 ]
-            CitizenDSM: [32, 32]
