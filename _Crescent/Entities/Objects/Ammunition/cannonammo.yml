@@ -422,7 +422,7 @@
     acceleration: 25
     topSpeed: 50
     initialSpeed: 25
-    FOV: 90
+    FOV: 40
     defaultSeekingRange: 1000
     guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
@@ -465,9 +465,9 @@
   - type: HeatSeeking
     rotationSpeed: 40 # slow turn rate
     acceleration: 10
-    topSpeed: 30
+    topSpeed: 35
     initialSpeed: 15
-    FOV: 40 # narrow FOV to take advantage of long range
+    FOV: 20 # narrow FOV to take advantage of long range
     defaultSeekingRange: 1500 # long range
     guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
@@ -545,7 +545,7 @@
     tags:
       - TorpedoGarg
   - type: TimedDespawn
-    lifetime: 40
+    lifetime: 50
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/torpemp.rsi
     layers:
@@ -566,7 +566,7 @@
     acceleration: 10
     topSpeed: 35
     initialSpeed: 15
-    FOV: 40 # narrow FOV to take advantage of long range
+    FOV: 20 # narrow FOV to take advantage of long range
     defaultSeekingRange: 1500 # long range
   - type: PointLight
     radius: 3.5
@@ -618,7 +618,7 @@
     tags:
       - LanceRocket
   - type: TimedDespawn
-    lifetime: 8
+    lifetime: 15
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lance.rsi
     layers:
@@ -636,11 +636,11 @@
     energy: 0.5
   - type: ProjectileIFF
   - type: HeatSeeking
-    rotationSpeed: 20 # slow rotation so it isnt aimbot, still fairly accurate though
+    rotationSpeed: 40 # slow rotation so it isnt aimbot, still fairly accurate though
     acceleration: 0 # it starts full speed
     topSpeed: 50
     initialSpeed: 50
-    FOV: 60
+    FOV: 50
     defaultSeekingRange: 400
     guidanceAlgorithm: PredictiveGuidance
 
@@ -1473,7 +1473,7 @@
     energy: 0.5
   - type: ProjectileIFF
   - type: HeatSeeking
-    rotationSpeed: 20 # slow rotation so it isnt aimbot, still fairly accurate though
+    rotationSpeed: 40 # slow rotation so it isnt aimbot, still fairly accurate though
     acceleration: 0 # it starts full speed
     topSpeed: 50
     initialSpeed: 50
@@ -1555,9 +1555,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 15
-    intensitySlope: 2
-    totalIntensity: 10
+    maxIntensity: 25
+    intensitySlope: 4
+    totalIntensity: 20
     maxTileBreak: 1
   - type: PointLight
     radius: 3.5
@@ -1565,9 +1565,9 @@
     energy: 0.5
   - type: HeatSeeking
     rotationSpeed: 120
-    acceleration: 10
+    acceleration: 30
     topSpeed: 45
-    initialSpeed: 3
-    FOV: 60
+    initialSpeed: 15
+    FOV: 50
     defaultSeekingRange: 400
     guidanceAlgorithm: PredictiveGuidance
