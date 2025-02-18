@@ -17,3 +17,13 @@
   cost: 1100
   category: cargoproduct-category-name-atmospherics
   group: freeport
+
+  - type: cargoProduct
+  id: AtmosphericsAirShip
+  icon:
+    sprite: Structures/Storage/canister.rsi
+    state: grey
+  product: AirCanister
+  cost: 3000
+  category: cargoproduct-category-name-atmospherics
+  group: ship

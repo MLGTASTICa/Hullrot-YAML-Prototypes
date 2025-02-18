@@ -109,11 +109,21 @@
   group: freeport
 
 - type: cargoProduct
-  id: MedicalBodybagsFreeport
+  id: MedicalBodybagsShip
   icon:
     sprite: Objects/Specific/Medical/Morgue/bodybags.rsi
     state: bag_folded
   product: CrateBodyBags
   cost: 700
   category: cargoproduct-category-name-medical
-  group: freeport
+  group: ship
+
+  - type: cargoProduct
+  id: MedicalSuppliesShip
+  icon:
+    sprite: Objects/Specific/Medical/firstaidkits.rsi
+    state: firstaid
+  product: CrateMedicalSupplies
+  cost: 6000
+  category: cargoproduct-category-name-medical
+  group: ship
