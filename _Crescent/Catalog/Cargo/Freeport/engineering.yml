@@ -28,3 +28,23 @@
   cost: 4500
   category: cargoproduct-category-name-engineering
   group: freeport
+
+- type: cargoProduct
+  id: EvaKitShip
+  icon:
+    sprite: Clothing/Head/Helmets/eva.rsi
+    state: icon
+  product: CrateEvaKit
+  cost: 6000
+  category: cargoproduct-category-name-engineering
+  group: ship
+
+- type: cargoProduct
+  id: EngineeringRCDAmmoShip
+  icon:
+    sprite: Objects/Tools/rcd.rsi
+    state: ammo
+  product: CrateRCDAmmo
+  cost: 8000
+  category: cargoproduct-category-name-engineering
+  group: ship
