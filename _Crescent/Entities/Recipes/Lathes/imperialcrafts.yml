@@ -192,11 +192,11 @@
     Plastic: 500
 
 - type: latheRecipe
-  id: SRMKhopeshCraft
-  result: SRMKhopesh
+  id: DSMKhopeshCraft
+  result: DSMKhopesh
   completetime: 4
   materials:
     Steel: 1000
-    Silver: 2500
+    Silver: 2000
     Plasma: 1000
     # Diamond: 500 YAMLFIX: Diamond isn't a material prototype sweaty

@@ -253,7 +253,7 @@
   parent: BaseItem
   id: ImperialFabdiskKhopesh
   name: imperial fabdisk
-  description: A disk for the R&D server containing research technology. A label reads, 'OLYWIR FOUNDRY - VIBROBLADE'.
+  description: A disk for the R&D server containing research technology. A label reads, 'OLYWIR FOUNDRY - CURVEBLADE'.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Misc/techdisks.rsi
@@ -261,7 +261,7 @@
     - state: iconnanotrasen
   - type: TechnologyDisk
     recipes:
-      - SRMKhopeshCraft
+      - DSMKhopeshCraft
   - type: StaticPrice
     price: 12500
 
