@@ -301,3 +301,19 @@
       whitelist:
         tags:
           - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityNarcan
+  name:  narcan autoinjector
+  description: An autoinjector containing Narcan for stablising patients overdosing on narcotics.
+  productEntity: NarcanAutoinjector
+  icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: medipen }
+  cost:
+    FrontierUplinkCoin: 1
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
