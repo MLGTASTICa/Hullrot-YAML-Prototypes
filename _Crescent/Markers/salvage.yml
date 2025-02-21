@@ -53,40 +53,41 @@
     - type: RandomSpawner
       rarePrototypes:
         - DelamDisk
+        - DelamDisk
+        - DelamDisk
         - ShipVoucherRockchipper
         - ShipVoucherMercury
         - ShipVoucherTermite
         - ShipVoucherParacelsus
-        - DelamDisk
-        - DelamDisk
         - ShipVoucherExhumer
         - ShipVoucherAntiquarianWarthog
-        - NanotrasenFabdiskWeapons
         - ShipVoucherHomesteader
         - ShipVoucherBroadsword
-        - ImperialFabdiskKhopesh
         - ShipVoucherKite
-        - UnionFabdiskConscript
-        - SyndicateFabdiskDrozd
-        - UnionFabdiskJuggernaut
         - ShipVoucherScuttlefish
+        - NanotrasenFabdiskWeapons
+        - UnionFabdiskConscript
+        - UnionFabdiskJuggernaut
         - ImperialFabdiskArmor
         - ImperialFabdiskCompliance
-        - CorporateFabdiskSabre
         - CorporateFabdiskHammerhead
-      rareChance: 0.03
+        - CorporateFabdiskMako
+      rareChance: 0.08
       prototypes:
         - DelamDiskThumb
         - DelamDiskThumb
         - DelamDiskThumb
+        - DelamDisk
         - CorporateFabdiskTermite
         - CorporateFabdiskParacelsus
         - CorporateFabdiskExhumer
         - CorporateFabdiskHimehabu
         - CorporateFabdiskHEV
         - CorporateFabdiskDisposable
+        - CorporateFabdiskSabre
         - UnionFabdiskBulldog
         - SyndicateFabdiskMayflower
+        - SyndicateFabdiskDrozd
         - SyndicateFabdiskCobra
       chance: 0.5
       offset: 0.2
