@@ -18,7 +18,7 @@
         #currently explosion deals roughly 60 damage
   - type: TimedDespawn
     lifetime: 240
-    #roughly 600m range
+    #roughly 22800m range
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/630_armorpiercing_shell_casing.rsi
     layers:
@@ -75,7 +75,7 @@
         #currently explosion deals roughly 30 damage per tile in large AoE
   - type: TimedDespawn
     lifetime: 240
-    #roughly 600m range
+    #roughly 22800m range
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/630_highexplosive_shell_casing.rsi
     layers:
@@ -131,8 +131,8 @@
         Structural: 1
         #currently explosion deals roughly 30 damage per tile in large AoE
   - type: TimedDespawn
-    lifetime: 20
-    #roughly 600m range
+    lifetime: 240
+    #roughly 22800m range
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/630_practice_shell_casing.rsi
     layers:
@@ -418,8 +418,8 @@
         Structural: 500
         Blunt: 50
   - type: TimedDespawn
-    lifetime: 34
-    #roughly 1000m range
+    lifetime: 300
+    #roughly 39000m range
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/1000_armorpiercing_rail_casing.rsi
     layers:
@@ -473,8 +473,8 @@
         Structural: 10000
         #currently explosion deals 720 damage, gibs in 3 direct rail hits
   - type: TimedDespawn
-    lifetime: 34
-    #roughly 1000m range
+    lifetime: 300
+    #roughly 39000m range
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/1000_armorpiercing_rail_casing.rsi
     layers:
@@ -532,7 +532,7 @@
         #currently explosion deals 156 damage per tile in large AoE
   - type: TimedDespawn
     lifetime: 300
-    #roughly 1000m range
+    #roughly 39000m range
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/1000_armorpiercing_rail_casing.rsi
     layers:
