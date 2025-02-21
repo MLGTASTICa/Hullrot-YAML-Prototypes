@@ -18,7 +18,7 @@
   category: cargoproduct-category-name-shuttle
   group: freeport
 
-  - type: cargoProduct
+- type: cargoProduct
   id: ShuttleThrusterShip
   icon:
     sprite: Structures/Shuttles/thruster.rsi

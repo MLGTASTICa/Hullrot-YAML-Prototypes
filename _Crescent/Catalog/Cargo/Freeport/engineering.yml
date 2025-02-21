@@ -30,6 +30,16 @@
   group: freeport
 
 - type: cargoProduct
+  id: MetalFoamFreeport
+  icon:
+    sprite: Objects/Weapons/Grenades/smoke.rsi
+    state: icon
+  product: CrateEngineeringMetalFoamFast
+  cost: 4000
+  category: cargoproduct-category-name-engineering
+  group: freeport
+
+- type: cargoProduct
   id: EvaKitShip
   icon:
     sprite: Clothing/Head/Helmets/eva.rsi

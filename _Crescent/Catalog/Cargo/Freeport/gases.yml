@@ -18,7 +18,7 @@
   category: cargoproduct-category-name-atmospherics
   group: freeport
 
-  - type: cargoProduct
+- type: cargoProduct
   id: AtmosphericsAirShip
   icon:
     sprite: Structures/Storage/canister.rsi

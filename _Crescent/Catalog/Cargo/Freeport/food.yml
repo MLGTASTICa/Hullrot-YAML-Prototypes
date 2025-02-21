@@ -8,7 +8,7 @@
   category: cargoproduct-category-name-food
   group: freeport
 
-  - type: cargoProduct
+- type: cargoProduct
   id: FoodBarSupplyShip
   icon:
     sprite: Objects/Consumable/Drinks/beerglass.rsi

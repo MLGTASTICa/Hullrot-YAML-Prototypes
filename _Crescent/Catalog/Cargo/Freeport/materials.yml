@@ -38,7 +38,7 @@
   category: cargoproduct-category-name-materials
   group: freeport
 
-  - type: cargoProduct
+- type: cargoProduct
   id: MaterialGlassShip
   icon:
     sprite: Objects/Materials/Sheets/glass.rsi

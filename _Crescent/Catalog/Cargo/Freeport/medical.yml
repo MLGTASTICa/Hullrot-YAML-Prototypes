@@ -118,7 +118,7 @@
   category: cargoproduct-category-name-medical
   group: ship
 
-  - type: cargoProduct
+- type: cargoProduct
   id: MedicalSuppliesShip
   icon:
     sprite: Objects/Specific/Medical/firstaidkits.rsi
