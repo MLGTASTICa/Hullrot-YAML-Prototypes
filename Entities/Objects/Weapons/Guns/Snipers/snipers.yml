@@ -59,16 +59,15 @@
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
   - type: BallisticAmmoProvider
     capacity: 5
-    proto: CartridgeLightRifle
+    proto: CartridgeRifle
     whitelist:
       tags:
-      - CartridgeLightRifle
+      - CartridgeRifle
   - type: MeleeWeapon
     attackRate: .85
     damage:
       types:
-       Slash: 10
-       Piercing: 5
+       Piercing: 40
     angle: 0
     wideAnimationRotation: -135
     animation: WeaponArcThrust
