@@ -89,7 +89,6 @@
   - type: Reflect
   - type: Prying
     pryPowered: true
-    SpeedModifier: 0.1
   - type: Tool
     speed: 0.1
     qualities:
