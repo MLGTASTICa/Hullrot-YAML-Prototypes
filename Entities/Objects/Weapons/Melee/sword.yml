@@ -90,7 +90,7 @@
   - type: Prying
     pryPowered: true
   - type: Tool
-    speed: 0.1
+    speed: 1
     qualities:
       - Prying
     useSound:
