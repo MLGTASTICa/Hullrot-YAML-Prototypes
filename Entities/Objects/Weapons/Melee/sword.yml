@@ -81,18 +81,22 @@
     size: Large
     sprite: Objects/Weapons/Melee/energykatana.rsi
   - type: EnergyKatana
-  - type: DashAbility
-  - type: LimitedCharges
-    maxCharges: 3
-    charges: 3
-  - type: AutoRecharge
-    rechargeDuration: 20
   - type: Clothing
     sprite: Objects/Weapons/Melee/energykatana.rsi
     slots:
     - Back
-    - Belt
+    - Belt  
   - type: Reflect
+  - type: Prying
+    pryPowered: true
+    SpeedModifier: 0.1
+  - type: Tool
+    speed: 0.1
+    qualities:
+      - Prying
+    useSound:
+      path: /Audio/Items/jaws_pry.ogg
+
 
 - type: entity
   name: machete
