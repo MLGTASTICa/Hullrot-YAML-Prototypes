@@ -6,7 +6,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
-    ignoreWeaponGrid: true
+    ignoreWeaponGrid: false
     damage:
       types:
         Structural: 55
