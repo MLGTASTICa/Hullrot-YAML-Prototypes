@@ -29,6 +29,7 @@
     radius: 5
     color: orange
     energy: 0.8
+  - type: ShipWeaponProjectile
   - type: ProjectileIFF
 
   
