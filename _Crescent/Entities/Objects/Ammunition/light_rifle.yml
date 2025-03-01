@@ -1,3 +1,4 @@
+#conscript
 
 - type: entity
   id: MagazineLightRifleBoxConscript
@@ -11,8 +12,8 @@
     mayTransfer: true
     whitelist:
       tags:
-        - CartridgeMachineGun
-    proto: CartridgeMachineGunHighExplosive
+        - CartridgeMachineGunConscript
+    proto: CartridgeMachineGunHighExplosiveConscript
     capacity: 75
   - type: Item
     size: Large
@@ -26,6 +27,30 @@
     slots:
     - Belt
 
+
+- type: entity
+  id: CartridgeMachineGunHighExplosiveConscript
+  name: .50 low-yield explosive Conscript cartridge
+  parent: BaseItem
+  description: An explosive-tipped slugthrower cartridge.
+  components:
+  - type: Tag
+    tags:
+      - CartridgeMachineGunConscript
+      - Cartridge
+  - type: Item
+    size: Tiny
+  - type: CartridgeAmmo
+    proto: BulletMachineGunHighExplosiveConscript
+    deleteOnSpawn: true
+  - type: Sprite
+    sprite: _NF/Objects/SpaceArtillery/50_highexplosive_machinegun_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: SpaceGarbage
 #slugs
 
 

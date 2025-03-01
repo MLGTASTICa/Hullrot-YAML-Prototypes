@@ -27,6 +27,7 @@
   - type: StaticPrice # Frontier
     price: 5 # The card need to cost less then the PDA that comes with a card and a pen in it.
   - type: CargoSellBlacklist # Frontier
+  - type: DynamicCodeHolder
 
 #IDs with layers
 

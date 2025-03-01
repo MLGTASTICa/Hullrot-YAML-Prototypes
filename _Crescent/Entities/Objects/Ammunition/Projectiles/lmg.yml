@@ -1,0 +1,34 @@
+#Ammo For Conscript, copied slugthrower one but doesn't phase trough walls
+- type: entity
+  id: BulletMachineGunHighExplosiveConscript
+  name: .50 low-yield explosive Conscript bullet
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 55
+        #currently explosion deals 21 damage per tile in large AoE
+  - type: TimedDespawn
+    lifetime: 10
+    #roughly 600m range
+  - type: Sprite
+    sprite: _NF/Objects/SpaceArtillery/50_highexplosive_machinegun_casing.rsi
+    layers:
+      - state: base-projectile
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 12
+    intensitySlope: 15
+    totalIntensity: 13
+    maxTileBreak: 2
+  - type: PointLight
+    radius: 5
+    color: orange
+    energy: 0.8
+  - type: ProjectileIFF
+
+  

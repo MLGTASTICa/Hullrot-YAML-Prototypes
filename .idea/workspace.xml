@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ce08445-971c-4f03-8f68-0ebe6da24582" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Entities/Structures/Doors/Airlocks/airlocks.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Structures/Doors/Airlocks/airlocks.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/Structures/Doors/Airlocks/external.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Structures/Doors/Airlocks/external.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/Structures/Doors/Airlocks/shuttle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Structures/Doors/Airlocks/shuttle.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_Crescent/Entities/Structures/locked_airlocks.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_Crescent/Entities/Structures/locked_airlocks.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_Crescent/Maps/Ships/DSM/laelaps.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_Crescent/Maps/Ships/DSM/laelaps.yml" afterDir="false" />
-    </list>
+    <list default="true" id="0ce08445-971c-4f03-8f68-0ebe6da24582" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2tb5QQQIqIox6l1h0Mr2kekMyEk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,7 +22,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "21a192e9",
+    "git-widget-placeholder": "main",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -42,6 +36,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740607918729</updated>
       <workItem from="1740607918732" duration="27000" />
+      <workItem from="1740774626547" duration="20000" />
     </task>
     <servers />
   </component>
