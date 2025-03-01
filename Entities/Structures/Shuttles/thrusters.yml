@@ -124,7 +124,7 @@
           steps:
             - tool: Welding
               doAfter: 10
-            - tool: Prying
+            - tool: Anchoring
               doAfter: 5
             - tool: Welding
               doAfter: 10
