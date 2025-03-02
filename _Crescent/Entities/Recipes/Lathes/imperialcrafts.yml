@@ -200,3 +200,10 @@
     Silver: 2500
     Plasma: 1000
     # Diamond: 500 YAMLFIX: Diamond isn't a material prototype sweaty
+
+- type: latheRecipe
+  id: SRMKhopeshSheathCraft
+  result: ClothingBeltSheathKhopesh
+  completetime: 4
+  materials:
+    Cloth:  50
