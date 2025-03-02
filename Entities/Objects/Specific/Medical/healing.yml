@@ -256,9 +256,9 @@
     - type: Healing
       damageContainers:
         - Biological
-      damage:
-        groups:
-          Brute: 5 # Tourniquets HURT!
+      #damage:
+        #groups:
+          #Brute: 5 # Tourniquets HURT! - WAAAHHH I WANT MY BINKY!!!!! OWIE!!!
         types:
           Asphyxiation: 5 # Essentially Stopping all blood reaching a part of your body
       bloodlossModifier: -10 # Tourniquets stop bleeding
