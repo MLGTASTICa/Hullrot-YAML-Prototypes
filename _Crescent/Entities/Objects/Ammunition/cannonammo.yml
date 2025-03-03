@@ -417,7 +417,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 250
+        Structural: 800
         Blunt: 40
   - type: Tag
     tags:
