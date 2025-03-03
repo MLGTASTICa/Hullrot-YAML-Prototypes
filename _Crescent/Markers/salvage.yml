@@ -55,16 +55,43 @@
         - DelamDisk
         - DelamDisk
         - DelamDisk
+        - DelamDisk
+        - DelamDisk
+        - DelamDisk
+        - ShipVoucherRockchipper
         - ShipVoucherRockchipper
         - ShipVoucherMercury
+        - ShipVoucherMercury
+        - ShipVoucherTermite
         - ShipVoucherTermite
         - ShipVoucherParacelsus
+        - ShipVoucherParacelsus
+        - ShipVoucherExhumer
         - ShipVoucherExhumer
         - ShipVoucherAntiquarianWarthog
         - ShipVoucherHomesteader
+        - ShipVoucherHomesteader
         - ShipVoucherBroadsword
         - ShipVoucherKite
+        - ShipVoucherKite
+        - ShipVoucherKite
         - ShipVoucherScuttlefish
+        - ShipVoucherReaver
+        - ShipVoucherVanguard
+        - ShipVoucherRaider
+        - ShipVoucherProbe
+        - ShipVoucherNazaar
+        - ShipVoucherImparator
+        - ShipVoucherJannissary
+        - ShipVoucherConquest
+        - ShipVoucherValor
+        - NanotrasenFabdiskWeapons
+        - UnionFabdiskConscript
+        - UnionFabdiskJuggernaut
+        - ImperialFabdiskArmor
+        - ImperialFabdiskCompliance
+        - CorporateFabdiskHammerhead
+        - CorporateFabdiskMako
         - NanotrasenFabdiskWeapons
         - UnionFabdiskConscript
         - UnionFabdiskJuggernaut
