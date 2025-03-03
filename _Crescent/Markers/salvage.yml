@@ -52,19 +52,42 @@
           state: pistachio-trash
     - type: RandomSpawner
       rarePrototypes:
+           state: pistachio-trash
+    - type: RandomSpawner
+      rarePrototypes:
+        - DelamDisk
+        - DelamDisk
+        - DelamDisk
         - DelamDisk
         - DelamDisk
         - DelamDisk
         - ShipVoucherRockchipper
+        - ShipVoucherRockchipper
+        - ShipVoucherMercury
         - ShipVoucherMercury
         - ShipVoucherTermite
+        - ShipVoucherTermite
         - ShipVoucherParacelsus
+        - ShipVoucherParacelsus
+        - ShipVoucherExhumer
         - ShipVoucherExhumer
         - ShipVoucherAntiquarianWarthog
         - ShipVoucherHomesteader
+        - ShipVoucherHomesteader
         - ShipVoucherBroadsword
         - ShipVoucherKite
+        - ShipVoucherKite
+        - ShipVoucherKite
         - ShipVoucherScuttlefish
+        - ShipVoucherReaver
+        - ShipVoucherVanguard
+        - ShipVoucherRaider
+        - ShipVoucherProbe
+        - ShipVoucherNazaar
+        - ShipVoucherImparator
+        - ShipVoucherJannissary
+        - ShipVoucherConquest
+        - ShipVoucherValor
         - NanotrasenFabdiskWeapons
         - UnionFabdiskConscript
         - UnionFabdiskJuggernaut
@@ -72,6 +95,9 @@
         - ImperialFabdiskCompliance
         - CorporateFabdiskHammerhead
         - CorporateFabdiskMako
+        - NanotrasenFabdiskWeapons
+        - UnionFabdiskConscript
+        - UnionFabdiskJuggernaut
       rareChance: 0.08
       prototypes:
         - DelamDiskThumb
