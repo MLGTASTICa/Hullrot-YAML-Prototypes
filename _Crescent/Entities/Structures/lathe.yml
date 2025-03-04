@@ -453,7 +453,8 @@
       - NCWLAutomortarFlatpackCraft
       - NCWLNeedlerFlatpackCraft
       - WeaponLightMachineGunConscriptCraft
-      - MagazineLightRifleBoxConscriptCraft
+      - MagazineLightRifleBoxConscriptAPCraft
+      - MagazineLightRifleBoxConscriptHECraft
       - ClothingOuterHardsuitImperialWorkerCraft
       - ClothingOuterCoatImperialSoftsuitCraft
       - ClothingHeadHelmetImperialEVACraft
