@@ -439,13 +439,37 @@
     acceleration: 25
     topSpeed: 50
     FOV: 30
-    defaultSeekingRange: 1000
+    defaultSeekingRange: 600
     guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.45,0.15,0.15"
+        layer:
+        - BulletImpassable
+        mask:
+        - Impassable
+        - BulletImpassable
+        hard: true
+      fly-by: *flybyfixture 
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds: 
+    - trigger:
+        !type:DamageTrigger
+        damage: 350
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:ExplodeBehavior
 
 #gargoyle
 
@@ -479,10 +503,10 @@
     intensitySlope: 10
     maxIntensity: 20
   - type: HeatSeeking
-    rotationSpeed: 10 # slow turn rate
+    rotationSpeed: 5 # slow turn rate
     acceleration: 5
     topSpeed: 40
-    FOV: 20 # narrow FOV to take advantage of long range
+    FOV: 20
     defaultSeekingRange: 1500 # long range
     guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
@@ -490,8 +514,32 @@
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.45,0.15,0.15"
+        layer:
+        - BulletImpassable
+        mask:
+        - Impassable
+        - BulletImpassable
+        hard: true
+      fly-by: *flybyfixture 
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds: 
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:ExplodeBehavior
 
-- type: entity
+- type: entity 
   id: TorpGarg
   name: 240mm heat-guided high-explosive cruise missile
   parent: BaseItem
@@ -579,10 +627,10 @@
     totalIntensity: 120
     maxTileBreak: 5
   - type: HeatSeeking
-    rotationSpeed: 10 # slow turn rate
+    rotationSpeed: 5 # slow turn rate
     acceleration: 5
     topSpeed: 40
-    FOV: 20 # narrow FOV to take advantage of long range
+    FOV: 20
     defaultSeekingRange: 1500 # long range
     guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
@@ -590,6 +638,30 @@
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.45,0.15,0.15"
+        layer:
+        - BulletImpassable
+        mask:
+        - Impassable
+        - BulletImpassable
+        hard: true
+      fly-by: *flybyfixture 
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds: 
+    - trigger:
+        !type:DamageTrigger
+        damage: 750
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:ExplodeBehavior
 
 #lance
 
@@ -660,6 +732,30 @@
     FOV: 30
     defaultSeekingRange: 400
     guidanceAlgorithm: PredictiveGuidance
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.45,0.15,0.15"
+        layer:
+        - BulletImpassable
+        mask:
+        - Impassable
+        - BulletImpassable
+        hard: true
+      fly-by: *flybyfixture 
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds: 
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:ExplodeBehavior
 
 # battlemortar
 
@@ -1504,6 +1600,30 @@
     FOV: 20
     defaultSeekingRange: 400
     guidanceAlgorithm: PredictiveGuidance
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.45,0.15,0.15"
+        layer:
+        - BulletImpassable
+        mask:
+        - Impassable
+        - BulletImpassable
+        hard: true
+      fly-by: *flybyfixture 
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds: 
+    - trigger:
+        !type:DamageTrigger
+        damage: 125
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:ExplodeBehavior
 
 #jeong/osiris
 
@@ -1594,3 +1714,27 @@
     FOV: 30
     defaultSeekingRange: 400
     guidanceAlgorithm: PredictiveGuidance
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.45,0.15,0.15"
+        layer:
+        - BulletImpassable
+        mask:
+        - Impassable
+        - BulletImpassable
+        hard: true
+      fly-by: *flybyfixture 
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds: 
+    - trigger:
+        !type:DamageTrigger
+        damage: 125
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:ExplodeBehavior
