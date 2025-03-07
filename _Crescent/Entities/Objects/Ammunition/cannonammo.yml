@@ -461,11 +461,12 @@
       fly-by: *flybyfixture 
   - type: Damageable
     damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
   - type: Destructible
     thresholds: 
     - trigger:
         !type:DamageTrigger
-        damage: 350
+        damage: 275
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -529,11 +530,12 @@
       fly-by: *flybyfixture 
   - type: Damageable
     damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
   - type: Destructible
     thresholds: 
     - trigger:
         !type:DamageTrigger
-        damage: 500
+        damage: 550
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -653,11 +655,12 @@
       fly-by: *flybyfixture 
   - type: Damageable
     damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
   - type: Destructible
     thresholds: 
     - trigger:
         !type:DamageTrigger
-        damage: 750
+        damage: 650
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -747,11 +750,12 @@
       fly-by: *flybyfixture 
   - type: Damageable
     damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
   - type: Destructible
     thresholds: 
     - trigger:
         !type:DamageTrigger
-        damage: 200
+        damage: 250
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -1615,11 +1619,12 @@
       fly-by: *flybyfixture 
   - type: Damageable
     damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
   - type: Destructible
     thresholds: 
     - trigger:
         !type:DamageTrigger
-        damage: 125
+        damage: 500
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -1729,11 +1734,12 @@
       fly-by: *flybyfixture 
   - type: Damageable
     damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
   - type: Destructible
     thresholds: 
     - trigger:
         !type:DamageTrigger
-        damage: 125
+        damage: 250
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
