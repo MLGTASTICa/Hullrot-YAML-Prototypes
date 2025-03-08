@@ -21,7 +21,7 @@
           overflowJobs: []
           availableJobs:
             KommandantATH: [ 1, 1 ]
-            LeutnantATH: [ 6, 6 ]
-            KanoneerATH: [ -1, -1 ]
-            SoldatATH: [ -1, -1 ]
-            SanitatATH: [ -1, -1 ]
+            LeutnantATH: [ 2, 2 ]
+            KanoneerATH: [ 5, 5 ]
+            SoldatATH: [ 8, 8 ]
+            SanitatATH: [ 3, 3 ]
