@@ -58,4 +58,4 @@
     damage:
       types:
         Piercing: 20
-        Structural: 100
+        Structural: 500

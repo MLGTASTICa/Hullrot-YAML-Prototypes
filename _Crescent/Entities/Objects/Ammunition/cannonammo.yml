@@ -1,6 +1,3 @@
-- type: Tag
-  id: Torpedo
-
 #vulcan bullets
 
 - type: entity
@@ -21,7 +18,7 @@
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 7
+    lifetime: 4
   - type: Fixtures
     fixtures:
       projectile:
@@ -417,7 +414,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 5000
+        Structural: 250
         Blunt: 40
   - type: Tag
     tags:
@@ -435,17 +432,42 @@
     intensitySlope: 20
     totalIntensity: 450
   - type: HeatSeeking
-    rotationSpeed: 40
+    rotationSpeed: 25
     acceleration: 25
     topSpeed: 50
-    FOV: 70
-    defaultSeekingRange: 1000
+    FOV: 30
+    defaultSeekingRange: 600
     guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.45,0.15,0.15"
+        layer:
+        - BulletImpassable
+        mask:
+        - Impassable
+        - BulletImpassable
+        hard: true
+      fly-by: *flybyfixture 
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
+  - type: Destructible
+    thresholds: 
+    - trigger:
+        !type:DamageTrigger
+        damage: 275
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:ExplodeBehavior
 
 #gargoyle
 
@@ -479,10 +501,10 @@
     intensitySlope: 10
     maxIntensity: 20
   - type: HeatSeeking
-    rotationSpeed: 15 # slow turn rate
-    acceleration: 10
+    rotationSpeed: 5 # slow turn rate
+    acceleration: 5
     topSpeed: 40
-    FOV: 40 # narrow FOV to take advantage of long range
+    FOV: 20
     defaultSeekingRange: 1500 # long range
     guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
@@ -490,8 +512,33 @@
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.45,0.15,0.15"
+        layer:
+        - BulletImpassable
+        mask:
+        - Impassable
+        - BulletImpassable
+        hard: true
+      fly-by: *flybyfixture 
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
+  - type: Destructible
+    thresholds: 
+    - trigger:
+        !type:DamageTrigger
+        damage: 550
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:ExplodeBehavior
 
-- type: entity
+- type: entity 
   id: TorpGarg
   name: 240mm heat-guided high-explosive cruise missile
   parent: BaseItem
@@ -562,7 +609,7 @@
     tags:
       - TorpedoGarg
   - type: TimedDespawn
-    lifetime: 40
+    lifetime: 50
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/torpemp.rsi
     layers:
@@ -579,16 +626,42 @@
     totalIntensity: 120
     maxTileBreak: 5
   - type: HeatSeeking
-    rotationSpeed: 25 # slow turn rate
-    acceleration: 10
+    rotationSpeed: 5 # slow turn rate
+    acceleration: 5
     topSpeed: 40
-    FOV: 40 # narrow FOV to take advantage of long range
+    FOV: 20
     defaultSeekingRange: 1500 # long range
+    guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.45,0.15,0.15"
+        layer:
+        - BulletImpassable
+        mask:
+        - Impassable
+        - BulletImpassable
+        hard: true
+      fly-by: *flybyfixture 
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
+  - type: Destructible
+    thresholds: 
+    - trigger:
+        !type:DamageTrigger
+        damage: 650
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:ExplodeBehavior
 
 #lance
 
@@ -654,11 +727,36 @@
   - type: ProjectileIFF
   - type: HeatSeeking
     rotationSpeed: 20 # slow rotation so it isnt aimbot, still fairly accurate though
-    acceleration: 0 # it starts full speed
+    acceleration: 120
     topSpeed: 120
-    FOV: 40
+    FOV: 30
     defaultSeekingRange: 400
     guidanceAlgorithm: PredictiveGuidance
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.45,0.15,0.15"
+        layer:
+        - BulletImpassable
+        mask:
+        - Impassable
+        - BulletImpassable
+        hard: true
+      fly-by: *flybyfixture 
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
+  - type: Destructible
+    thresholds: 
+    - trigger:
+        !type:DamageTrigger
+        damage: 250
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:ExplodeBehavior
 
 # battlemortar
 
@@ -1498,11 +1596,36 @@
   - type: ProjectileIFF
   - type: HeatSeeking
     rotationSpeed: 20 # slow rotation so it isnt aimbot, still fairly accurate though
-    acceleration: 0 # it starts full speed
+    acceleration: 85
     topSpeed: 85
-    FOV: 60
+    FOV: 20
     defaultSeekingRange: 400
     guidanceAlgorithm: PredictiveGuidance
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.45,0.15,0.15"
+        layer:
+        - BulletImpassable
+        mask:
+        - Impassable
+        - BulletImpassable
+        hard: true
+      fly-by: *flybyfixture 
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
+  - type: Destructible
+    thresholds: 
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:ExplodeBehavior
 
 #jeong/osiris
 
@@ -1587,9 +1710,34 @@
     color: orange
     energy: 0.5
   - type: HeatSeeking
-    rotationSpeed: 25
+    rotationSpeed: 15
     acceleration: 25
     topSpeed: 125
-    FOV: 50
+    FOV: 30
     defaultSeekingRange: 400
     guidanceAlgorithm: PredictiveGuidance
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.45,0.15,0.15"
+        layer:
+        - BulletImpassable
+        mask:
+        - Impassable
+        - BulletImpassable
+        hard: true
+      fly-by: *flybyfixture 
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
+  - type: Destructible
+    thresholds: 
+    - trigger:
+        !type:DamageTrigger
+        damage: 250
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:ExplodeBehavior

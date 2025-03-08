@@ -14,18 +14,18 @@
     EncryptionKeyTraffic: 30
     HandHeldMassScanner: 10
 # Pilot drip
-    ClothingBackpackPilot: 3
-    ClothingBackpackDuffelPilot: 3
-    ClothingBackpackSatchelPilot: 3
-    ClothingBackpackMessengerPilot: 3
-    ClothingBeltPilot: 3
-    ClothingMaskPilot: 3
-    ClothingUniformJumpsuitPilot: 3
-    ClothingOuterCoatBomber: 3
-    ClothingHeadsetAltPilot: 3
-    ClothingEyesGlassesPilot: 3
-    ClothingHandsGlovesPilot: 3
-    ClothingHeadHatPilot: 3
-    ClothingNeckScarfPilot: 3
-    ClothingOuterHardsuitPilot: 3
-    ClothingShoesBootsPilot: 3
+    ClothingBackpackPilot: 6
+    ClothingBackpackDuffelPilot: 6
+    ClothingBackpackSatchelPilot: 6
+    ClothingBackpackMessengerPilot: 6
+    ClothingBeltPilot: 6
+    ClothingMaskPilot: 6
+    ClothingUniformJumpsuitPilot: 6
+    ClothingOuterCoatBomber: 6
+    ClothingHeadsetAltPilot: 6
+    ClothingEyesGlassesPilot: 6
+    ClothingHandsGlovesPilot: 6
+    ClothingHeadHatPilot: 6
+    ClothingNeckScarfPilot: 6
+    ClothingOuterHardsuitPilot: 6
+    ClothingShoesBootsPilot: 6

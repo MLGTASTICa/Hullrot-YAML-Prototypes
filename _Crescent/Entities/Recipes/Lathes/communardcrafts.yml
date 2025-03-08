@@ -276,10 +276,19 @@
     Uranium: 1000
 
 - type: latheRecipe
-  id: MagazineLightRifleBoxConscriptCraft
-  result: MagazineLightRifleBoxConscript
+  id: MagazineLightRifleBoxConscriptAPCraft
+  result: MagazineLightRifleBoxConscriptAP
   completetime: 4
   materials:
     Steel: 750
     Plastic: 500
     Uranium: 200
+
+- type: latheRecipe
+  id: MagazineLightRifleBoxConscriptHECraft
+  result: MagazineLightRifleBoxConscriptHE
+  completetime: 4
+  materials:
+    Steel: 750
+    Plastic: 500
+    Plasma: 200    

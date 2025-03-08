@@ -6,7 +6,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
-    ignoreWeaponGrid: true
+    ignoreWeaponGrid: false
     damage:
       types:
         Structural: 55
@@ -29,6 +29,40 @@
     radius: 5
     color: orange
     energy: 0.8
+  - type: ShipWeaponProjectile
+  - type: ProjectileIFF
+
+  - type: entity
+  id: BulletMachineGunArmorPiercingConscript
+  name: .50 AP Conscript bullet
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    ignoreWeaponGrid: false
+    damage:
+      types:
+        Structural: 95
+        #currently explosion deals 30 damage
+  - type: TimedDespawn
+    lifetime: 10
+    #roughly 600m range
+  - type: Sprite
+    sprite: _NF/Objects/SpaceArtillery/50_armorpiercing_machinegun_casing.rsi
+    layers:
+      - state: base-projectile
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 9
+    intensitySlope: 7
+    totalIntensity: 7
+    maxTileBreak: 1
+  - type: PointLight
+    radius: 3.5
+    color: orange
+    energy: 0.5
+  - type: ShipWeaponProjectile
   - type: ProjectileIFF
 
   
