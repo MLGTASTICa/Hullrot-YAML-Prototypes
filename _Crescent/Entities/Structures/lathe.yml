@@ -119,6 +119,10 @@
     - Syringe
     - VehicleWheelchairFolded
     - RollerBedSpawnFolded
+  - type: Anchorable
+    flags:
+    - Anchorable
+
 
 #microforge
 

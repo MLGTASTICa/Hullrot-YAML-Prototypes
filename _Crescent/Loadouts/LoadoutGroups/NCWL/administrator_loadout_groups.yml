@@ -1,13 +1,13 @@
-  type: loadoutGroup
+- type: loadoutGroup
   id: AdminHatNCWL
   name: loadout-group-contractor-head
   minLimit: 1
   loadouts:
-  - AdminClothingHeadHatNCWLBeret
+    - AdminClothingHeadHatNCWLBeret
 
 - type: loadoutGroup
   id: AdminOuterNCWL
   name: loadout-group-contractor-outerclothing
   minLimit: 1
   loadouts:
-  - AdminNCWLCoat
+    - AdminNCWLCoat
