@@ -1,5 +1,4 @@
-# recomend you guys balance this shit, as i mostly guessed on what would be balanced. Also these should deal a lot more than 12 gauge.
-#-- Beanbag --------------------------- better than current beanbag
+# Beanbag
 - type: entity
   id: PelletShotgunHeavyBean
   name: pellet (4g beanbag)
@@ -15,7 +14,7 @@
         Blunt: 20
   - type: StaminaDamageOnCollide
     damage: 55
-#-- Buckshot -------------------------- better than current buckshot
+
 - type: entity
   id: PelletShotgunHeavyBuck
   name: pellet (4g Buckshot)
@@ -28,9 +27,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 20
+        Piercing: 19
 
-#-- Slug ------------------------------ very high damage i was thinking of something that 2 shots EVA dudes
 - type: entity
   id: PelletShotgunHeavySlug
   name: pellet (4g slug)
@@ -44,7 +42,7 @@
     damage:
       types:
         Piercing: 65
-#-- Breaching Slug -------------------- this is supposed to be used to break down doors and shit
+
 - type: entity
   id: PelletShotgunHeavyBreach
   name: pellet (4g breaching slug)
@@ -57,5 +55,28 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 20
+        Piercing: 45
         Structural: 500
+
+- type: entity
+  id: PelletShotgunHeavyFlash
+  name: pellet (4g flash)
+  categories: [ HideSpawnMenu ]
+  parent: BaseBulletTrigger
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    state: slug
+  - type: FlashOnTrigger
+    range: 3
+  - type: SpawnOnTrigger
+    proto: GrenadeFlashEffect
+  - type: ActiveTimerTrigger
+    timeRemaining: 0.3
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 10
+  - type: StaminaDamageOnCollide
+    damage: 20
+  - type: DeleteOnTrigger
