@@ -15,17 +15,19 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.6
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.8
-        Slash: 0.75
-        Piercing: 0.65
-        Heat: 0.8
-        Radiation: 0.9
-        Caustic: 0.9
+  - type: DegradeableArmor
+    armorMaxHealth: 3000
+    armorType: Metallic
+    armorRepair: NTPolymer
+    initialModifiers:
+      flatReductions:
+        Blunt: 35
+        Slash: 35
+        Piercing: 45
+        Heat: 25
+        Caustic: 15
   - type: ClothingSpeedModifier
-    walkModifier: 0.75
+    walkModifier: 0.8
     sprintModifier: 0.8
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitAuthorityPanzer
@@ -44,13 +46,20 @@
     sprite: _Crescent/Clothing/ATH/OuterClothing/kommandant.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/ATH/OuterClothing/kommandant.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.80
-        Slash: 0.80
-        Piercing: 0.95
-        Heat: 0.95
+  - type: DegradeableArmor
+    armorMaxHealth: 1500
+    armorType: Metallic
+    armorRepair: NTPolymer
+    initialModifiers:
+      flatReductions:
+        Blunt: 20
+        Slash: 20
+        Piercing: 35
+        Heat: 25
+        Caustic: 15
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
   - type: StaticPrice
     price: 1500
 
@@ -64,13 +73,20 @@
     sprite: _Crescent/Clothing/ATH/OuterClothing/leutnant.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/ATH/OuterClothing/leutnant.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.80
-        Slash: 0.80
-        Piercing: 0.95
-        Heat: 0.95
+  - type: DegradeableArmor
+    armorMaxHealth: 1250
+    armorType: Metallic
+    armorRepair: NTPolymer
+    initialModifiers:
+      flatReductions:
+        Blunt: 20
+        Slash: 20
+        Piercing: 20
+        Heat: 25
+        Caustic: 15
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
   - type: StaticPrice
     price: 1500
 

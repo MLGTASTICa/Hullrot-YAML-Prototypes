@@ -70,8 +70,8 @@
   id: KommissarGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitNCWLKommissar
-    back: ClothingBackpackSatchelLeatherFilledNCWL
     id: KommissarPDA
     ears: ClothingHeadsetNCWL
-    belt: WeaponPistolHKUSP
+    belt: ClothingBeltNCWLWebbing
     pocket1: NCWLPassportAccepted
+    pocket2: WeaponPistolHKUSP

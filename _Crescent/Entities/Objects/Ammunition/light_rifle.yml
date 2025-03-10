@@ -27,7 +27,7 @@
     slots:
     - Belt
 
-    - type: entity
+- type: entity
   id: MagazineLightRifleBoxConscriptAP
   name: ".50 AP Conscript ammunition box"
   parent: BaseMagazineLightRifle
@@ -79,7 +79,7 @@
   - type: SpentAmmoVisuals
   - type: SpaceGarbage
 
-  - type: entity
+- type: entity
   id: CartridgeMachineGunArmorPiercingConscript
   name: .50 depleted uranium slugthrower cartridge
   parent: BaseItem

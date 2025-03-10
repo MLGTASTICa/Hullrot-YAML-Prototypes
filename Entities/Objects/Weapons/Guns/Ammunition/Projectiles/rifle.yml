@@ -8,6 +8,7 @@
     damage:
       types:
         Piercing: 35
+    armorDamageMultiplier: 1.5
 
 - type: entity
   id: BulletRiflePractice
@@ -42,7 +43,7 @@
       types:
         Blunt: 2
         Heat: 28
-  
+
 - type: entity
   id: BulletRifleUranium
   parent: BaseBulletUranium
@@ -53,5 +54,6 @@
     damage:
       types:
         Radiation: 12
-        Piercing: 18
-        
+        Piercing: 30
+    armorDamageMultiplier: 2
+

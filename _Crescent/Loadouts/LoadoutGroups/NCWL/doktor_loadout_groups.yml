@@ -3,6 +3,6 @@
   name: loadout-group-contractor-head
   minLimit: 1
   loadouts:
-  - DoktorClothingHeadHatNCWLCapsoftMedical
-  - SanitarNCWLClothingHeadHelmetNCWLBasic
-  - SanitarNCWLClothingHeadHelmetNCWLHeavy
+    - DoktorClothingHeadHatNCWLCapsoftMedical
+    - SanitarNCWLClothingHeadHelmetNCWLBasic
+    - SanitarNCWLClothingHeadHelmetNCWLHeavy

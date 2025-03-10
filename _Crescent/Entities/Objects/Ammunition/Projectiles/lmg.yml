@@ -32,7 +32,7 @@
   - type: ShipWeaponProjectile
   - type: ProjectileIFF
 
-  - type: entity
+- type: entity
   id: BulletMachineGunArmorPiercingConscript
   name: .50 AP Conscript bullet
   parent: BaseBulletTrigger
@@ -65,4 +65,3 @@
   - type: ShipWeaponProjectile
   - type: ProjectileIFF
 
-  
