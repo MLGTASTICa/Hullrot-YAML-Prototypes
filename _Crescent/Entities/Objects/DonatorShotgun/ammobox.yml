@@ -1,35 +1,15 @@
 - type: entity
-  parent: BaseItem
-  id: BaseAmmoProvider4g
-  abstract: true
-  components:
-  - type: ContainerContainer
-    containers:
-      ballistic-ammo: !type:Container
-  - type: Item
-    size: Normal
-  - type: Sprite
-    sprite: Objects/Storage/boxes.rsi
-
-- type: entity
-  parent: BaseAmmoProvider4g
+  parent: BaseAmmoProvider
   id: AmmoProviderShellShotgun4g
   abstract: true
   components:
-    - type: Sprite
-      sprite: Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi
     - type: BallisticAmmoProvider
       mayTransfer: true
       whitelist:
         tags:
         - ShellShotgun4g
       capacity: 12
-    - type: MagazineVisuals
-      magState: mag
-      steps: 5
-      zeroVisible: false
-    - type: Appearance
-#-- Beanbag ----------------------------
+
 - type: entity
   name: shell box (4g beanbag)
   parent: AmmoProviderShellShotgun4g
@@ -39,12 +19,9 @@
       proto: ShellShotgun4gBeanbag
     - type: Sprite
       layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-1
-        map: ["enum.GunVisualLayers.Mag"]
-      - state: beanbag
-#-- Buckshot ---------------------------
+        - state: boxwide
+        - state: shellbeanbag
+
 - type: entity
   name: shell box (4g buckshot)
   parent: AmmoProviderShellShotgun4g
@@ -54,12 +31,9 @@
       proto: ShellShotgun4gBuckshot
     - type: Sprite
       layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-1
-        map: ["enum.GunVisualLayers.Mag"]
-      - state: lethal
-#-- Slug ---------------------------
+        - state: boxwide
+        - state: shelllethal
+
 - type: entity
   name: shell box (4g slug)
   parent: AmmoProviderShellShotgun4g
@@ -67,18 +41,11 @@
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgun4gSlug
-    - type: MagazineVisuals
-      magState: mag-alt
-      steps: 5
-      zeroVisible: false
     - type: Sprite
       layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-alt-1
-        map: ["enum.GunVisualLayers.Mag"]
-      - state: slug
-#-- Breaching Slug ---------------------------
+        - state: boxwide
+        - state: shellslug
+
 - type: entity
   name: shell box (4g breaching slug)
   parent: AmmoProviderShellShotgun4g
@@ -88,8 +55,17 @@
       proto: ShellShotgun4gBreachingSlug
     - type: Sprite
       layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-1
-        map: ["enum.GunVisualLayers.Mag"]
-      - state: flare
+        - state: boxwide
+        - state: shelluranium
+
+- type: entity
+  name: shell box (4g flash)
+  parent: AmmoProviderShellShotgun4g
+  id: BoxShotgunFlash4g
+  components:
+    - type: BallisticAmmoProvider
+      proto: ShellShotgun4gFlash
+    - type: Sprite
+      layers:
+        - state: boxwide
+        - state: shellflare
