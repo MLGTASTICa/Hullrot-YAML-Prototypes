@@ -8,6 +8,7 @@
     damage:
       types:
         Piercing: 17
+    armorDamageMultiplier: 0.6
 
 - type: entity
   id: BulletPistolPractice
@@ -53,7 +54,8 @@
     damage:
       types:
         Radiation: 5
-        Piercing: 12
+        Piercing: 19
+    armorDamageMultiplier: 1
 
 - type: entity
   id: BulletHeavyPistol
@@ -66,3 +68,4 @@
       types:
         Piercing: 21
         Blunt: 1
+    armorDamageMultiplier: 0.8

@@ -3,4 +3,11 @@
   name: loadout-group-contractor-head
   minLimit: 0
   loadouts:
-  - KommissarClothingHeadHatNCWLBeret
+    - KommissarClothingHeadHatNCWLBeret
+
+- type: loadoutGroup
+  id: KommissarCoatNCWL
+  name: loadout-group-contractor-outerclothing
+  minLimit: 1
+  loadouts:
+    - KommissarNCWLCoat
