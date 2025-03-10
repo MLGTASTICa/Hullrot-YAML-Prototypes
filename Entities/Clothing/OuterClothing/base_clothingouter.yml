@@ -116,14 +116,16 @@
   - type: HeldSpeedModifier
   - type: Item
     size: Ginormous
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.90
-        Slash: 0.90
-        Piercing: 0.95
-        Heat: 0.90
-        Radiation: 0.25
+  - type: DegradeableArmor
+    armorMaxHealth: 350
+    armorType: Metallic
+    initialModifiers:
+      flatReductions:
+        Blunt: 10
+        Slash: 3
+        Piercing: 2
+        Heat: 25
+        Caustic: 25
   - type: ToggleableClothing
     slot: head
   - type: ContainerContainer

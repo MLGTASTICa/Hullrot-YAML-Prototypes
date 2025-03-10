@@ -16,15 +16,17 @@
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
   - type: IdentityBlocker
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.95
-        Heat: 0.95
-        Radiation: 0.95
-        Caustic: 0.95
+  - type: DegradeableArmor
+    armorMaxHealth: 500
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 2
+        Slash: 2
+        Piercing: 2
+        Heat: 2
+        Caustic: 5
   - type: EyeProtection
 
 - type: entity
@@ -45,15 +47,17 @@
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
   - type: IdentityBlocker
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.95
-        Heat: 0.95
-        Radiation: 0.95
-        Caustic: 0.95
+  - type: DegradeableArmor
+    armorMaxHealth: 500
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 2
+        Slash: 2
+        Piercing: 2
+        Heat: 2
+        Caustic: 5
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
@@ -73,15 +77,17 @@
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
   - type: IdentityBlocker
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.95
-        Heat: 0.95
-        Radiation: 0.95
-        Caustic: 0.95
+  - type: DegradeableArmor
+    armorMaxHealth: 500
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 2
+        Slash: 2
+        Piercing: 2
+        Heat: 2
+        Caustic: 5
   - type: EyeProtection
 
 - type: entity
@@ -102,15 +108,17 @@
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
   - type: IdentityBlocker
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.95
-        Heat: 0.95
-        Radiation: 0.95
-        Caustic: 0.95
+  - type: DegradeableArmor
+    armorMaxHealth: 500
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 2
+        Slash: 2
+        Piercing: 2
+        Heat: 2
+        Caustic: 5
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
@@ -130,15 +138,17 @@
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
   - type: IdentityBlocker
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.95
-        Heat: 0.95
-        Radiation: 0.95
-        Caustic: 0.95
+  - type: DegradeableArmor
+    armorMaxHealth: 500
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 2
+        Slash: 2
+        Piercing: 2
+        Heat: 2
+        Caustic: 5
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
@@ -158,15 +168,17 @@
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
   - type: IdentityBlocker
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.9
-        Radiation: 0.9
-        Caustic: 0.9
+  - type: DegradeableArmor
+    armorMaxHealth: 500
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 2
+        Slash: 2
+        Piercing: 2
+        Heat: 2
+        Caustic: 5
 
 - type: entity
   parent: ClothingHeadBase
@@ -279,13 +291,17 @@
     sprite: _Crescent/Clothing/Empire/Head/clarizianhelmet.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/Empire/Head/clarizianhelmet.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.9
-        Heat: 0.9
+  - type: DegradeableArmor
+    armorMaxHealth: 500
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 5
+        Slash: 5
+        Piercing: 5
+        Heat: 5
+        Caustic: 5
   - type: Tag
     tags:
     - HidesHair
@@ -305,13 +321,17 @@
     sprite: _Crescent/Clothing/Empire/Head/mandatecommanderhelmet.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/Empire/Head/mandatecommanderhelmet.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.75
-        Slash: 0.75
-        Piercing: 0.85
-        Heat: 0.75
+  - type: DegradeableArmor
+    armorMaxHealth: 500
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 5
+        Slash: 5
+        Piercing: 5
+        Heat: 5
+        Caustic: 5
   - type: Tag
     tags:
     - HidesHair
@@ -331,13 +351,17 @@
     sprite: _Crescent/Clothing/Empire/Head/mandatelevyhelmet.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/Empire/Head/mandatelevyhelmet.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.95
-        Heat: 0.95
+  - type: DegradeableArmor
+    armorMaxHealth: 500
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 2
+        Slash: 2
+        Piercing: 2
+        Heat: 2
+        Caustic: 5
   - type: Tag
     tags:
     - HidesHair

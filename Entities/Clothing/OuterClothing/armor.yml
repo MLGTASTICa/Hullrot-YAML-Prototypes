@@ -12,14 +12,17 @@
     sprite: Clothing/OuterClothing/Armor/security.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Armor/security.rsi
-  - type: Armor #Based on /tg/ but slightly compensated to fit the fact that armor stacks in SS14.
-    modifiers:
-      coefficients:
-        Blunt: 0.70
-        Slash: 0.70
-        Piercing: 0.70 #Can save you, but bullets will still hurt. Will take about 10 shots from a Viper before critting, as opposed to 7 while unarmored and 16~ with a bulletproof vest.
-        Heat: 0.80
-        Caustic: 0.9
+  - type: DegradeableArmor
+    armorMaxHealth: 1300
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 10
+        Slash: 10
+        Piercing: 15
+        Heat: 5
+        Caustic: 25
   - type: ExplosionResistance
     damageCoefficient: 0.90
 
@@ -46,14 +49,17 @@
     sprite: Clothing/OuterClothing/Armor/riot.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Armor/riot.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.4
-        Slash: 0.4
-        Piercing: 0.7
-        Heat: 0.9
-        Caustic: 0.9
+  - type: DegradeableArmor
+    armorMaxHealth: 1200
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 35
+        Slash: 35
+        Piercing: 5
+        Heat: 5
+        Caustic: 25
   - type: ExplosionResistance
     damageCoefficient: 0.9
   - type: GroupExamine
@@ -68,13 +74,17 @@
     sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.4
-        Heat: 0.9
+  - type: DegradeableArmor
+    armorMaxHealth: 1200
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 5
+        Slash: 5
+        Piercing: 35
+        Heat: 5
+        Caustic: 25
   - type: ExplosionResistance
     damageCoefficient: 0.80
 
@@ -88,13 +98,17 @@
     sprite: Clothing/OuterClothing/Armor/armor_reflec.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Armor/armor_reflec.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.4 # this technically means it protects against fires pretty well? -heat is just for lasers and stuff, not atmos temperature
+  - type: DegradeableArmor
+    armorMaxHealth: 1200
+    armorType: Metallic
+    armorRepair: PlasmaGlass
+    initialModifiers:
+      flatReductions:
+        Blunt: 5
+        Slash: 5
+        Piercing: 5
+        Heat: 45
+        Caustic: 25
   - type: Reflect
     reflectProb: 0.7
     reflects:
@@ -130,14 +144,16 @@
     sprite: Clothing/OuterClothing/Armor/heavy.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Armor/heavy.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.6
-        Slash: 0.6
-        Piercing: 0.5
-        Heat: 0.7
-        Caustic: 0.75
+  - type: DegradeableArmor
+    armorMaxHealth: 2500
+    armorType: Metallic
+    initialModifiers:
+      flatReductions:
+        Blunt: 25
+        Slash: 25
+        Piercing: 35
+        Heat: 25
+        Caustic: 25
   - type: GroupExamine
   - type: ClothingRequiredStepTriggerImmune
     slots: WITHOUT_POCKET

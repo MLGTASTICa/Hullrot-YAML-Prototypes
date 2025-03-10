@@ -8,6 +8,7 @@
     damage:
       types:
         Piercing: 21
+  armorDamageMultiplier: 1.2
 
 - type: entity
   id: BulletCaselessRiflePractice
