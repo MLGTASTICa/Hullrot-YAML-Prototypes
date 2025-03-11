@@ -72,7 +72,7 @@
   - type: Dispenser
     defaultItem: TradeDeedStub
     inventory:
-      TradeDeedLow: SpaceCash1750
+      TradeDeedLow: SpaceCash1000
       TradeDeedNormal: SpaceCash2000
       TradeDeedHigh: SpaceCash3500
       TradeDeedVeryHigh: SpaceCash5000
@@ -95,13 +95,13 @@
   - type: Dispenser
     defaultItem: TradeDeedStub
     inventory:
-      TradeGoodAmmo: TradeDeedHigh
+      TradeGoodAmmo: TradeDeedNormal
       TradeGoodNanoTrasen: TradeDeedHigh
       TradeGoodOldCyber: TradeDeedHigh
       TradeGoodOldParts: TradeDeedHigh
-      TradeGoodAntibiotics: TradeDeedVeryHigh
-      TradeGoodScrap: TradeDeedHigh
-      TradeGoodCybernetics: TradeDeedNormal
+      TradeGoodAntibiotics: TradeDeedLow
+      TradeGoodScrap: TradeDeedLow
+      TradeGoodCybernetics: TradeDeedLow
       TradeGoodGunparts: TradeDeedNormal
       TradeGoodRice: TradeDeedNormal
   - type: Sprite
@@ -131,7 +131,7 @@
       TradeGoodOldParts: TradeDeedHigh
       TradeGoodSugar: TradeDeedNormal
       TradeGoodFabrics: TradeDeedVeryHigh
-      TradeGoodMiltech: TradeDeedVeryHigh
+      TradeGoodMiltech: TradeDeedNormal
       TradeGoodAlloys: TradeDeedExotic
       TradeGoodWine: TradeDeedExotic
   - type: Sprite
@@ -296,15 +296,15 @@
     defaultItem: TradeDeedStub
     inventory:
       TradeGoodAlcohol: TradeDeedLow
-      TradeGoodCybernetics: TradeDeedHigh
+      TradeGoodCybernetics: TradeDeedLow
       TradeGoodGunparts: TradeDeedNormal
-      TradeGoodAntibiotics: TradeDeedVeryHigh
+      TradeGoodAntibiotics: TradeDeedLow
       TradeGoodFlour: TradeDeedNormal
       TradeGoodSugar: TradeDeedLow
-      TradeGoodMiltech: TradeDeedVeryHigh
+      TradeGoodMiltech: TradeDeedNormal
       TradeGoodAlloys: TradeDeedExotic
       TradeGoodGoodScrap: TradeDeedVeryHigh
-      TradeGoodPlasma: TradeDeedExotic
+      TradeGoodPlasma: TradeDeedVeryHigh
       TradeGoodNanoTrasen: TradeDeedHigh
       TradeGoodOldCyber: TradeDeedHigh
       TradeGoodOldParts: TradeDeedHigh
@@ -328,17 +328,17 @@
     inventory:
       TradeGoodAmmo: TradeDeedNormal
       TradeGoodAlcohol: TradeDeedNormal
-      TradeGoodCybernetics: TradeDeedNormal
+      TradeGoodCybernetics: TradeDeedLow
       TradeGoodGunparts: TradeDeedNormal
-      TradeGoodScrap: TradeDeedNormal
-      TradeGoodAntibiotics: TradeDeedNormal
+      TradeGoodScrap: TradeDeedLow
+      TradeGoodAntibiotics: TradeDeedLow
       TradeGoodRice: TradeDeedLow
       TradeGoodFlour: TradeDeedLow
       TradeGoodSugar: TradeDeedLow
       TradeGoodGoodScrap: TradeDeedHigh
-      TradeGoodPlasma: TradeDeedHigh
-      TradeGoodWine: TradeDeedHigh
-      TradeGoodFabrics: TradeDeedHigh
+      TradeGoodPlasma: TradeDeedExotic
+      TradeGoodWine: TradeDeedExotic
+      TradeGoodFabrics: TradeDeedVeryHigh
       TradeGoodNanoTrasen: TradeDeedHigh
       TradeGoodOldCyber: TradeDeedHigh
       TradeGoodOldParts: TradeDeedHigh
@@ -360,18 +360,18 @@
   - type: Dispenser
     defaultItem: TradeDeedStub
     inventory:
-      TradeGoodAmmo: TradeDeedHigh
-      TradeGoodGunparts: TradeDeedVeryHigh
-      TradeGoodScrap: TradeDeedNormal
+      TradeGoodAmmo: TradeDeedNormal
+      TradeGoodGunparts: TradeDeedNormal
+      TradeGoodScrap: TradeDeedLow
       TradeGoodRice: TradeDeedNormal
       TradeGoodFlour: TradeDeedLow
       TradeGoodSugar: TradeDeedLow
       TradeGoodFabrics: TradeDeedVeryHigh
-      TradeGoodMiltech: TradeDeedExotic
-      TradeGoodAlloys: TradeDeedHigh
+      TradeGoodMiltech: TradeDeedNormal
+      TradeGoodAlloys: TradeDeedExotic
       TradeGoodGoodScrap: TradeDeedVeryHigh
-      TradeGoodPlasma: TradeDeedVeryHigh
-      TradeGoodWine: TradeDeedVeryHigh
+      TradeGoodPlasma: TradeDeedExotic
+      TradeGoodWine: TradeDeedExotic
       TradeGoodNanoTrasen: TradeDeedHigh
       TradeGoodOldCyber: TradeDeedHigh
       TradeGoodOldParts: TradeDeedHigh
@@ -399,10 +399,10 @@
       TradeGoodRice: TradeDeedLow
       TradeGoodFlour: TradeDeedNormal
       TradeGoodSugar: TradeDeedNormal
-      TradeGoodOrgans: TradeDeedLow
-      TradeGoodDrugs: TradeDeedLow
+      TradeGoodOrgans: TradeDeedExotic
+      TradeGoodDrugs: TradeDeedExotic
       TradeGoodFabrics: TradeDeedVeryHigh
-      TradeGoodMiltech: TradeDeedVeryHigh
+      TradeGoodMiltech: TradeDeedNormal
       TradeGoodAlloys: TradeDeedExotic
       TradeGoodWine: TradeDeedExotic
       TradeGoodNanoTrasen: TradeDeedHigh
@@ -426,16 +426,16 @@
   - type: Dispenser
     defaultItem: TradeDeedStub
     inventory:
-      TradeGoodAmmo: TradeDeedHigh
+      TradeGoodAmmo: TradeDeedNormal
       TradeGoodAlcohol: TradeDeedLow
-      TradeGoodScrap: TradeDeedVeryHigh
+      TradeGoodScrap: TradeDeedLow
       TradeGoodAntibiotics: TradeDeedLow
       TradeGoodFlour: TradeDeedLow
       TradeGoodSugar: TradeDeedLow
       TradeGoodGoodScrap: TradeDeedExotic
-      TradeGoodFabrics: TradeDeedExotic
-      TradeGoodWine: TradeDeedVeryHigh
-      TradeGoodPlasma: TradeDeedExotic
+      TradeGoodFabrics: TradeDeedVeryHigh
+      TradeGoodWine: TradeDeedExotic
+      TradeGoodPlasma: TradeDeedVeryHigh
       TradeGoodNanoTrasen: TradeDeedHigh
       TradeGoodOldCyber: TradeDeedHigh
       TradeGoodOldParts: TradeDeedHigh

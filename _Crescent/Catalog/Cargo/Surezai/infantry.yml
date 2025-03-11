@@ -37,3 +37,23 @@
   cost: 1000
   category: cargoproduct-category-name-military
   group: surezai
+
+- type: cargoProduct
+  id: ArmorPlateSteelSuzerai
+  icon:
+    sprite: _Crescent/Clothing/armorSprites.rsi
+    state: steel
+  product: CrateSecurityArmorSteelPlates
+  cost: 5400
+  category: cargoproduct-category-name-military
+  group: surezai
+
+- type: cargoProduct
+  id: ArmorPlatePlasteelSuzerai
+  icon:
+    sprite: _Crescent/Clothing/armorSprites.rsi
+    state: plasteel
+  product: CrateSecurityArmorPlasteelPlates
+  cost: 9000
+  category: cargoproduct-category-name-military
+  group: surezai

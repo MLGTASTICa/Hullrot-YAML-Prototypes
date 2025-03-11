@@ -497,7 +497,7 @@
   parent: BaseItem
   id: TradeDeedLow
   name: deed of delivery
-  description: A printed deed of delivery. Blocky letting informs that this deed is one thousand seven hundred and fifty Union credits to an official chartered station.
+  description: A printed deed of delivery. Blocky letting informs that this deed is one thousand Union credits to an official chartered station.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/TradeGoods/deed.rsi
