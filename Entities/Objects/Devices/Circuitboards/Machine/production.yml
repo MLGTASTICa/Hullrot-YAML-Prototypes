@@ -1406,3 +1406,17 @@
       Steel: 5
       CableHV: 5
       Cable: 2
+
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: MicroGyroscopeMachineCircuitboard
+  name: Micro Gyroscope machine board
+  description: A machine printed circuit board for a micro gyroscope
+  components:
+  - type: Machineboard
+    prototype: MicroGyroscope
+    requirements:
+      Manipulator: 2
+      Capacitor: 1
+    materialRequirements:
+      Glass: 2

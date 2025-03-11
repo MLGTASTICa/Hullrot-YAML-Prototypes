@@ -488,4 +488,16 @@
   - type: StaticPrice
     price: 100
 
-
+- type: entity
+  parent: BaseFlatpack
+  id: MicroGyroscopeFlatpack
+  name: micro gyroscope flatpack
+  description:  Parts used to build a micro gyroscope.
+  components:
+  - type: Flatpack
+    entity: MicroGyroscope
+  - type: Sprite
+    layers:
+    - state: ame-part
+  - type: StaticPrice
+    price: 100
