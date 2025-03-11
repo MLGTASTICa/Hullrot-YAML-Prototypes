@@ -7,7 +7,6 @@
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Small
-    snapCardinals: true
   - type: Transform
     noRot: false
   - type: Destructible
@@ -41,8 +40,8 @@
     fixtures:
       fix1:
           shape:
-            !type:PhysShapeCircle
-            radius: 0.3
+            !type:PhysShapeAabb
+            bounds: "-0.2,-0.2,0.2,0.2"
           # very not dense to make it easy to pull
           density: 600
           mask:
@@ -50,6 +49,8 @@
           layer:
           - MachineLayer
   - type: CollideOnAnchor
+  placement:
+    mode: SnapgridCenter
 
 - type: entity
   id: AAAHardpointSmallBallistic
@@ -212,8 +213,8 @@
     size: Large
   - type: HardpointFixedMount
   - type: Sprite
-    sprite: _Crescent/Structures/hardpoints.rsi
-    state: Large
+    sprite: _Crescent/Structures/fixedHardpoint.rsi
+    state: large
   - type: DeviceNetwork
     deviceNetId: Wireless
     receiveFrequencyId: BasicDevice
