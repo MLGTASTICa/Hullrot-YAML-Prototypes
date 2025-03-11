@@ -102,7 +102,7 @@
   id: NanoPolymerShinohara
   icon:
     sprite: _Crescent/Clothing/armorSprites.rsi
-    state: nanoPolymer
+    state: NanoPolymer
   product: CrateSecurityArmorNanoPolymerPlates
   cost: 20000
   category: cargoproduct-category-name-military

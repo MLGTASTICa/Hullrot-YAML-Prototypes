@@ -89,12 +89,12 @@
     materialType: NTPolymer
   - type: Sprite
     sprite: _Crescent/Clothing/armorSprites.rsi
-    state: nanoPolymer
+    state: NanoPolymer
   - type: Item
     sprite: _Crescent/Clothing/armorSprites.rsi
     storedSprite:
       sprite: _Crescent/Clothing/armorSprites.rsi
-      state: nanoPolymer
+      state: NanoPolymer
   - type: PhysicalComposition
     materialComposition:
       Plasteel: 1250
