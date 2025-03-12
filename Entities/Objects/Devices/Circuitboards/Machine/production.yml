@@ -1413,7 +1413,7 @@
   name: Micro Gyroscope machine board
   description: A machine printed circuit board for a micro gyroscope
   components:
-  - type: Machineboard
+  - type: MachineBoard
     prototype: MicroGyroscope
     requirements:
       Manipulator: 2
