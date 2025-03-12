@@ -178,8 +178,8 @@
     damage:
       types:
         Radiation: 5
-        Piercing: 65
-    armorDamageMultiplier: 5
+        Piercing: 20
+    armorDamageMultiplier: 4
 
 - type: entity
   id: PelletGrapeshot #tally fucking ho

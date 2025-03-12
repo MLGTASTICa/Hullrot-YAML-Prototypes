@@ -114,7 +114,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: DegradeableArmor
-    armorMaxHealth: 1750
+    armorMaxHealth: 1500
     armorType: Ceramic
     armorRepair: NTCeramic
     initialModifiers:
@@ -125,7 +125,7 @@
         Heat: 25
         Caustic: 15
   - type: ClothingSpeedModifier
-    walkModifier: 0.85
+    walkModifier: 0.9
     sprintModifier: 0.9
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndicateBattlegroup
