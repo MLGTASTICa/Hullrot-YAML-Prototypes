@@ -73,7 +73,6 @@
       types:
         Structural: 150
         #currently explosion deals roughly 30 damage per tile in large AoE
-    armorDamageMultiplier: 10
   - type: TimedDespawn
     lifetime: 240
     #roughly 22800m range
@@ -131,7 +130,6 @@
       types:
         Structural: 1
         #currently explosion deals roughly 30 damage per tile in large AoE
-    armorDamageMultiplier: 10
   - type: TimedDespawn
     lifetime: 240
     #roughly 22800m range
