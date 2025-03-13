@@ -260,6 +260,9 @@
   id: WeaponRifleKrinkov
   description: A shortened battle rifle, replicated from Terran designs by the Coalition - commonly attributed to terrorist groups. Cheap and easily made.
   components:
+  - type: Item
+    shape:
+    - 0,0,4,1
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/krinkov.rsi
     layers:

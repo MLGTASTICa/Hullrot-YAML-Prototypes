@@ -69,7 +69,7 @@
   - type: Clothing
     sprite: _Crescent/Clothing/NCWL/OuterClothing/heavy.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 2500
+    armorMaxHealth: 1500
     armorType: Metallic
     armorRepair: HomelandAlloy
     initialModifiers:
@@ -129,7 +129,7 @@
   - type: Clothing
     sprite: _Crescent/Clothing/NCWL/OuterClothing/doktorlabcoat.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 2500
+    armorMaxHealth: 1250
     armorType: Metallic
     armorRepair: Kevlar
     initialModifiers:
@@ -166,7 +166,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 2500
+    armorMaxHealth: 1750
     armorType: Metallic
     armorRepair: HomelandAlloy
     initialModifiers:
@@ -201,7 +201,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 3500
+    armorMaxHealth: 3000
     armorType: Metallic
     armorRepair: HomelandAlloy
     initialModifiers:

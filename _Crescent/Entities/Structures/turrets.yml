@@ -2284,8 +2284,8 @@
                   min: 3
                   max: 5
     - type: Gun
-      projectileSpeed: 50
-      fireRate: 1.9
+      projectileSpeed: 80
+      fireRate: 2
       selectedMode: FullAuto
       availableModes:
         - FullAuto
@@ -2331,7 +2331,7 @@
     - type: Anchorable
       delay: 10
     - type: HardpointAnchorableOnly
-      class: Ballistic
+      class: Energy
       size: Medium
 
 #jeong

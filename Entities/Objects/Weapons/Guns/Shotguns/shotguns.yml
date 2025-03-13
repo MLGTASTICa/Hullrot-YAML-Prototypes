@@ -12,6 +12,8 @@
   - type: Item
     # If you update this also update the bulldog's size.
     size: Large
+    shape:
+    - 0,0,7,1
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
     quickEquip: false
@@ -59,6 +61,8 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
     size: Large
+    shape:
+    - 0,0,7,1
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
     quickEquip: false
@@ -111,9 +115,6 @@
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
   - type: Item
-    size: Normal
-    shape:
-    - 0,0,4,0
     sprite: Objects/Weapons/Guns/Shotguns/db_shotgun_inhands_64x.rsi
   - type: Gun
     fireRate: 2
@@ -165,9 +166,6 @@
   description: When an old Remington design meets modern materials, this is the result. A civilian grade shotgun, favored by militia forces throughout many worlds and originally developed by the Remington company in Terra, later adopted by NanoTrasen. Uses 12g shotgun shells.
   components:
   - type: Item
-    size: Normal
-    shape:
-    - 0,0,4,0
     sprite: Objects/Weapons/Guns/Shotguns/pump_inhands_64x.rsi
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/pump.rsi

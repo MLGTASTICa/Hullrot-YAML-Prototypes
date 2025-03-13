@@ -14,21 +14,21 @@
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.6
+    damageCoefficient: 0.5
   - type: DegradeableArmor
-    armorMaxHealth: 3000
+    armorMaxHealth: 2500
     armorType: Metallic
     armorRepair: NTPolymer
     initialModifiers:
       flatReductions:
         Blunt: 35
         Slash: 35
-        Piercing: 45
+        Piercing: 30
         Heat: 25
         Caustic: 15
   - type: ClothingSpeedModifier
-    walkModifier: 0.8
-    sprintModifier: 0.8
+    walkModifier: 0.7
+    sprintModifier: 0.7
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitAuthorityPanzer
   - type: StaticPrice

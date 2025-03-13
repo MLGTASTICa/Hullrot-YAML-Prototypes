@@ -14,9 +14,9 @@
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.6
+    damageCoefficient: 0.3
   - type: DegradeableArmor
-    armorMaxHealth: 1500
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: SteelPlate
     initialModifiers:
@@ -26,15 +26,16 @@
         Piercing: 15
         Heat: 15
         Caustic: 15
+        Radiation: 35
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
+    walkModifier: 1
+    sprintModifier: 1
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitRamzi
   - type: StaticPrice
     price: 1000
   - type: Contraband
-    value: 12
+    value: 8
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -50,9 +51,9 @@
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.8
+    damageCoefficient: 0.3
   - type: DegradeableArmor
-    armorMaxHealth: 1500
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: SteelPlate
     initialModifiers:
@@ -62,9 +63,10 @@
         Piercing: 15
         Heat: 15
         Caustic: 15
+        Radiation: 35
   - type: ClothingSpeedModifier
-    walkModifier: 0.85
-    sprintModifier: 0.9
+    walkModifier: 1
+    sprintModifier: 1
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetSyndiDonator
   - type: StaticPrice
@@ -87,7 +89,7 @@
   - type: Contraband
     value: 8
   - type: DegradeableArmor
-    armorMaxHealth: 1500
+    armorMaxHealth: 1250
     armorType: Metallic
     armorRepair: PlasteelPlate
     initialModifiers:
@@ -114,7 +116,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: DegradeableArmor
-    armorMaxHealth: 1500
+    armorMaxHealth: 1250
     armorType: Ceramic
     armorRepair: NTCeramic
     initialModifiers:
@@ -132,7 +134,7 @@
   - type: StaticPrice
     price: 1250
   - type: Contraband
-    value: 10
+    value: 15
 
 #regular shit. if you put hardsuit below here i'm going to explode your cock
 

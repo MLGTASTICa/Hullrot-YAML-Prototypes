@@ -14,7 +14,7 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: Item
     shape:
-    - 0,0,4,0
+    - 0,0,7,2
     sprite: Objects/Weapons/Guns/LMGs/l6inhands.rsi
     size: Huge
   - type: Clothing

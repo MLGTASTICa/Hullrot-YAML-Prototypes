@@ -455,12 +455,12 @@
         - Impassable
         - BulletImpassable
         hard: true
-      fly-by: *flybyfixture 
+      fly-by: *flybyfixture
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallic
   - type: Destructible
-    thresholds: 
+    thresholds:
     - trigger:
         !type:DamageTrigger
         damage: 275
@@ -524,12 +524,12 @@
         - Impassable
         - BulletImpassable
         hard: true
-      fly-by: *flybyfixture 
+      fly-by: *flybyfixture
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallic
   - type: Destructible
-    thresholds: 
+    thresholds:
     - trigger:
         !type:DamageTrigger
         damage: 550
@@ -538,7 +538,7 @@
         acts: [ "Destruction" ]
       - !type:ExplodeBehavior
 
-- type: entity 
+- type: entity
   id: TorpGarg
   name: 240mm heat-guided high-explosive cruise missile
   parent: BaseItem
@@ -649,12 +649,12 @@
         - Impassable
         - BulletImpassable
         hard: true
-      fly-by: *flybyfixture 
+      fly-by: *flybyfixture
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallic
   - type: Destructible
-    thresholds: 
+    thresholds:
     - trigger:
         !type:DamageTrigger
         damage: 650
@@ -744,12 +744,12 @@
         - Impassable
         - BulletImpassable
         hard: true
-      fly-by: *flybyfixture 
+      fly-by: *flybyfixture
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallic
   - type: Destructible
-    thresholds: 
+    thresholds:
     - trigger:
         !type:DamageTrigger
         damage: 250
@@ -1439,7 +1439,7 @@
     tags:
       - CompaktLens
   - type: TimedDespawn
-    lifetime: 14
+    lifetime: 20
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/amcanister.rsi
     layers:
@@ -1613,12 +1613,12 @@
         - Impassable
         - BulletImpassable
         hard: true
-      fly-by: *flybyfixture 
+      fly-by: *flybyfixture
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallic
   - type: Destructible
-    thresholds: 
+    thresholds:
     - trigger:
         !type:DamageTrigger
         damage: 500
@@ -1728,12 +1728,12 @@
         - Impassable
         - BulletImpassable
         hard: true
-      fly-by: *flybyfixture 
+      fly-by: *flybyfixture
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallic
   - type: Destructible
-    thresholds: 
+    thresholds:
     - trigger:
         !type:DamageTrigger
         damage: 250
