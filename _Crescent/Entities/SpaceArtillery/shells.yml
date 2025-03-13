@@ -187,6 +187,7 @@
       types:
         Structural: 35
         Blunt: 10
+    armorDamageMultiplier: 10
   - type: TimedDespawn
     lifetime: 10
     #roughly 600m range
@@ -241,6 +242,7 @@
       types:
         Structural: 95
         #currently explosion deals 30 damage
+    armorDamageMultiplier: 10
   - type: TimedDespawn
     lifetime: 10
     #roughly 600m range
@@ -299,6 +301,7 @@
       types:
         Structural: 55
         #currently explosion deals 21 damage per tile in large AoE
+    armorDamageMultiplier: 10
   - type: TimedDespawn
     lifetime: 10
     #roughly 600m range
