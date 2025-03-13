@@ -8,7 +8,7 @@
     damage:
       types:
         Piercing: 45
-  armorDamageMultiplier: 2
+  armorDamageMultiplier: 2.3
 
 - type: entity
   id: BulletMinigun

@@ -8,7 +8,7 @@
     damage:
       types:
         Piercing: 35
-    armorDamageMultiplier: 1.5
+    armorDamageMultiplier: 1.8
 
 - type: entity
   id: BulletRiflePractice
