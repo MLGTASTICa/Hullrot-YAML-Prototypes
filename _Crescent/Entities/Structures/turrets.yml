@@ -1704,7 +1704,7 @@
 - type: entity
   parent: BaseStructure
   id: BaseWeaponTurretBattlemortar
-  name: heavy 'Hephaeustus' assault artillery platform
+  name: 230mm 'Hephaeustus' assault artillery platform
   components:
     - type: PointCannon
     - type: Clickable
