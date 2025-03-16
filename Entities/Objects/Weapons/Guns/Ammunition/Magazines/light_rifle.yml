@@ -96,7 +96,7 @@
 
 - type: entity
   id: MagazineLightRifleEmpty
-  name: "magazine (5.56x45mm Imperial)"
+  name: "magazine (5.56x45mm Imperial any)"
   suffix: empty
   parent: MagazineLightRifle
   components:
@@ -109,7 +109,7 @@
 
 - type: entity
   id: MagazineLightRiflePractice
-  name: "magazine (5.56x45mm Imperial)"
+  name: "magazine (5.56x45mm Imperial practice)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
@@ -123,7 +123,7 @@
 
 - type: entity
   id: MagazineLightRifleUranium
-  name: "magazine (5.56x45mm Imperial)"
+  name: "magazine (5.56x45mm Imperial uranium)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
@@ -137,7 +137,7 @@
 
 - type: entity
   id: MagazineLightRifleIncendiary
-  name: "magazine (.30 rifle incendiary)"
+  name: "magazine (5.56x45mm Imperial incendiary)"
   parent: MagazineLightRifle
   components:
   - type: BallisticAmmoProvider
