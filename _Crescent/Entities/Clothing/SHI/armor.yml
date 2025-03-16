@@ -23,7 +23,7 @@
       flatReductions:
         Blunt: 20
         Slash: 20
-        Piercing: 65
+        Piercing: 65 # blocks a big hit or two but breaks quickly
         Heat: 20
         Caustic: 15
   - type: ClothingSpeedModifier
@@ -82,14 +82,14 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 2500
+    armorMaxHealth: 1250
     armorType: Metallic
     armorRepair: NTCeramic
     initialModifiers:
       flatReductions:
         Blunt: 20
         Slash: 20
-        Piercing: 45
+        Piercing: 35
         Heat: 20
         Caustic: 15
   - type: ClothingSpeedModifier
@@ -111,14 +111,14 @@
   - type: Clothing
     sprite: _Crescent/Clothing/SHI/OuterClothing/securityvest.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 1500
+    armorMaxHealth: 1750
     armorType: Metallic
     armorRepair: PlasteelEncasedKevlar
     initialModifiers:
       flatReductions:
-        Blunt: 10
-        Slash: 10
-        Piercing: 30
+        Blunt: 15
+        Slash: 15
+        Piercing: 25
         Heat: 20
         Caustic: 15
   - type: ClothingSpeedModifier
@@ -139,15 +139,15 @@
   - type: Clothing
     sprite: _Crescent/Clothing/SHI/OuterClothing/highsec.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 2500
+    armorMaxHealth: 1250
     armorType: Metallic
     armorRepair: NTPolymer
     initialModifiers:
       flatReductions:
-        Blunt: 35
-        Slash: 35
+        Blunt: 20
+        Slash: 30
         Piercing: 45
-        Heat: 35
+        Heat: 20
         Caustic: 15
   - type: ClothingSpeedModifier
     walkModifier: 0.9

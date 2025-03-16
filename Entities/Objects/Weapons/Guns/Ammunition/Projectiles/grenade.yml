@@ -30,7 +30,8 @@
     deleteOnCollide: false
     damage:
       types:
-        Piercing: 45
+        Piercing: 75
+    armorDamageMultiplier: 2
   - type: TimedDespawn
     lifetime: 0.25
 
@@ -47,8 +48,9 @@
     deleteOnCollide: false
     damage:
       types:
-        Blunt: 1
-        Heat: 2
+        Blunt: 25
+        Heat: 25
+    armorDamageMultiplier: 4
   - type: IgniteOnCollide
     fireStacks: 1
     count: 10

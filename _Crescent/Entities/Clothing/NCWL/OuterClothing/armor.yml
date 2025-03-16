@@ -9,7 +9,7 @@
   - type: Clothing
     sprite: _Crescent/Clothing/NCWL/OuterClothing/kommissarcoat.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 1750
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: HomelandAlloy
     initialModifiers:
@@ -69,14 +69,14 @@
   - type: Clothing
     sprite: _Crescent/Clothing/NCWL/OuterClothing/heavy.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 1250
+    armorMaxHealth: 1500
     armorType: Metallic
     armorRepair: HomelandAlloy
     initialModifiers:
       flatReductions:
         Blunt: 25
         Slash: 25
-        Piercing: 45
+        Piercing: 40
         Heat: 25
         Caustic: 25
   - type: ClothingSpeedModifier
@@ -99,14 +99,14 @@
   - type: Clothing
     sprite: _Crescent/Clothing/NCWL/OuterClothing/commsofficercoat.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 2500
+    armorMaxHealth: 1500
     armorType: Metallic
     armorRepair: HomelandAlloy
     initialModifiers:
       flatReductions:
         Blunt: 15
         Slash: 15
-        Piercing: 25
+        Piercing: 30
         Heat: 10
         Caustic: 25
   - type: ClothingSpeedModifier
@@ -166,7 +166,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 1750
+    armorMaxHealth: 1500
     armorType: Metallic
     armorRepair: HomelandAlloy
     initialModifiers:
@@ -201,14 +201,14 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 3500
+    armorMaxHealth: 3000
     armorType: Metallic
     armorRepair: HomelandAlloy
     initialModifiers:
       flatReductions:
         Blunt: 15
-        Slash: 25
-        Piercing: 60
+        Slash: 35
+        Piercing: 65 # will tank a shit load of rounds for a long time
         Heat: 50
         Caustic: 50
   - type: ClothingSpeedModifier

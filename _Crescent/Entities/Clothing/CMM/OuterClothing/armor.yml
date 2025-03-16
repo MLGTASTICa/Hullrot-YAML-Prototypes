@@ -9,7 +9,7 @@
   - type: Clothing
     sprite: _Crescent/Clothing/CMM/OuterClothing/marshal.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 2500
+    armorMaxHealth: 2000
     armorType: Metallic
     armorRepair: PlasteelPlate
     initialModifiers:
@@ -88,7 +88,7 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMidshipman
   name: minuteman midshipman armored hardsuit
-  description: A modular hardsuit, color faded with age and UV radiation. A military surplus used by the Minutemen.
+  description: A modular hardsuit, color faded with age and UV radiation. A military surplus used by the Minutemen fitted with fragile ceramic plates.
   components:
   - type: Sprite
     sprite: _Crescent/Clothing/CMM/OuterClothing/midshipman.rsi
@@ -100,14 +100,14 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 1500
-    armorType: Metallic
-    armorRepair: PlasteelPlate
+    armorMaxHealth: 750
+    armorType: Ceramic
+    armorRepair: NTCeramic
     initialModifiers:
       flatReductions:
         Blunt: 20
         Slash: 20
-        Piercing: 20
+        Piercing: 65
         Heat: 15
         Caustic: 15
   - type: ClothingSpeedModifier
@@ -122,7 +122,7 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitCMMPatrol
   name: minuteman's ballistic-reinforced patrolsuit
-  description: A bulky hardsuit, color faded with age and UV radiation. A military surplus used by the Minutemen.
+  description: A bulky hardsuit, color faded with age and UV radiation. A military surplus used by the Minutemen fitted with steel plates, this will long outlast the Minutemen wearing it.
   components:
   - type: Sprite
     sprite: _Crescent/Clothing/CMM/OuterClothing/patrol.rsi
@@ -134,14 +134,14 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 2000
+    armorMaxHealth: 3000
     armorType: Metallic
     armorRepair: NTPolymer
     initialModifiers:
       flatReductions:
-        Blunt: 35
-        Slash: 35
-        Piercing: 30
+        Blunt: 15
+        Slash: 15
+        Piercing: 25
         Heat: 15
         Caustic: 15
   - type: ClothingSpeedModifier

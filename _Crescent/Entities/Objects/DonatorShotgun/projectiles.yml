@@ -27,7 +27,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 19
+        Piercing: 20
+    armorDamageMultiplier: 4
 
 - type: entity
   id: PelletShotgunHeavySlug
@@ -41,7 +42,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 65
+        Piercing: 75
+    armorDamageMultiplier: 7
 
 - type: entity
   id: PelletShotgunHeavyBreach
@@ -57,6 +59,7 @@
       types:
         Piercing: 45
         Structural: 500
+    armorDamageMultiplier: 10
 
 - type: entity
   id: PelletShotgunHeavyFlash

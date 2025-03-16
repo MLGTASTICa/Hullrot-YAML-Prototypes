@@ -16,14 +16,14 @@
   - type: ExplosionResistance
     damageCoefficient: 0.3
   - type: DegradeableArmor
-    armorMaxHealth: 1000
+    armorMaxHealth: 1250
     armorType: Metallic
     armorRepair: SteelPlate
     initialModifiers:
       flatReductions:
         Blunt: 10
         Slash: 10
-        Piercing: 15
+        Piercing: 25
         Heat: 15
         Caustic: 15
         Radiation: 35
@@ -117,14 +117,14 @@
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: DegradeableArmor
-    armorMaxHealth: 1250
+    armorMaxHealth: 850
     armorType: Ceramic
     armorRepair: NTCeramic
     initialModifiers:
       flatReductions:
         Blunt: 25
         Slash: 25
-        Piercing: 50
+        Piercing: 65 # blocks some big hits but will break very quickly
         Heat: 25
         Caustic: 15
   - type: ClothingSpeedModifier
@@ -150,7 +150,7 @@
   - type: Clothing
     sprite: _Crescent/Clothing/Syndicate/OuterClothing/syndieforeman.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 1500
+    armorMaxHealth: 1250
     armorType: Metallic
     armorRepair: Kevlar
     initialModifiers:
@@ -232,14 +232,14 @@
   - type: Clothing
     sprite: _Crescent/Clothing/Syndicate/OuterClothing/syndiearmor.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 2000
-    armorType: Metallic
-    armorRepair: SteelPlate
+    armorMaxHealth: 1000
+    armorType: Ceramic
+    armorRepair: NTCeramic
     initialModifiers:
       flatReductions:
         Blunt: 15
         Slash: 15
-        Piercing: 30
+        Piercing: 75
         Heat: 15
         Caustic: 15
   - type: ClothingSpeedModifier
@@ -262,14 +262,14 @@
   - type: Clothing
     sprite: _Crescent/Clothing/Syndicate/OuterClothing/traumasecvest.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 2000
-    armorType: Metallic
-    armorRepair: SteelPlate
+    armorMaxHealth: 850
+    armorType: Ceramic
+    armorRepair: NTCeramic
     initialModifiers:
       flatReductions:
         Blunt: 10
         Slash: 10
-        Piercing: 25
+        Piercing: 75
         Heat: 15
         Caustic: 15
   - type: ClothingSpeedModifier

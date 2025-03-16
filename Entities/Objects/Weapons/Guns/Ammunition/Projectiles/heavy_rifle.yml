@@ -7,8 +7,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 45
-  armorDamageMultiplier: 2.3
+        Piercing: 55
+  armorDamageMultiplier: 2.5
 
 - type: entity
   id: BulletMinigun
