@@ -55,14 +55,14 @@
     armorRepair: PlasteelPlate
     initialModifiers:
       flatReductions:
-        Blunt: 12
-        Slash: 12
-        Piercing: 22
-        Heat: 8
+        Blunt: 30
+        Slash: 30
+        Piercing: 35
+        Heat: 25
         Caustic: 25
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
+    walkModifier: 0.85
+    sprintModifier: 0.85
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitInspector
   - type: StaticPrice
