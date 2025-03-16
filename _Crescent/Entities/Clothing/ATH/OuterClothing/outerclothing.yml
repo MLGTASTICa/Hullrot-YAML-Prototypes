@@ -27,8 +27,8 @@
         Heat: 25
         Caustic: 15
   - type: ClothingSpeedModifier
-    walkModifier: 0.7
-    sprintModifier: 0.7
+    walkModifier: 0.85
+    sprintModifier: 0.85
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitAuthorityPanzer
   - type: StaticPrice
