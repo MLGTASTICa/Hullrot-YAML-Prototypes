@@ -8,7 +8,7 @@
     damage:
       types:
         Piercing: 55
-  armorDamageMultiplier: 2.5
+  armorDamageMultiplier: 6 # higher damage mult than slugs cause its got less damage and is meant to be specialised for anti armour
 
 - type: entity
   id: BulletMinigun
