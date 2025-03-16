@@ -16,7 +16,7 @@
       flatReductions:
         Blunt: 15
         Slash: 15
-        Piercing: 35
+        Piercing: 25
         Heat: 5
         Caustic: 15
   - type: ClothingSpeedModifier
@@ -44,7 +44,7 @@
       flatReductions:
         Blunt: 15
         Slash: 15
-        Piercing: 30
+        Piercing: 25
         Heat: 5
         Caustic: 15
   - type: ClothingSpeedModifier
@@ -72,7 +72,7 @@
       flatReductions:
         Blunt: 15
         Slash: 15
-        Piercing: 30
+        Piercing: 25
         Heat: 5
         Caustic: 15
   - type: ClothingSpeedModifier
@@ -100,7 +100,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 2000
+    armorMaxHealth: 1500
     armorType: Metallic
     armorRepair: PlasteelPlate
     initialModifiers:
@@ -134,15 +134,15 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 2500
+    armorMaxHealth: 2000
     armorType: Metallic
     armorRepair: NTPolymer
     initialModifiers:
       flatReductions:
-        Blunt: 15
-        Slash: 15
-        Piercing: 25
-        Heat: 10
+        Blunt: 35
+        Slash: 35
+        Piercing: 30
+        Heat: 15
         Caustic: 15
   - type: ClothingSpeedModifier
     walkModifier: 0.8

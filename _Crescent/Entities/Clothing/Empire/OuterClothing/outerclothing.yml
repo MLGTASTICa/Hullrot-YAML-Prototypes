@@ -300,7 +300,7 @@
       flatReductions:
         Blunt: 20
         Slash: 20
-        Piercing: 40
+        Piercing: 45
         Heat: 25
         Caustic: 25
   - type: ExplosionResistance

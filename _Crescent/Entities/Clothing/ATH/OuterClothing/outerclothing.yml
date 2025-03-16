@@ -16,14 +16,14 @@
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: DegradeableArmor
-    armorMaxHealth: 2500
+    armorMaxHealth: 1750
     armorType: Metallic
     armorRepair: NTPolymer
     initialModifiers:
       flatReductions:
-        Blunt: 35
+        Blunt: 15
         Slash: 35
-        Piercing: 30
+        Piercing: 55
         Heat: 25
         Caustic: 15
   - type: ClothingSpeedModifier
