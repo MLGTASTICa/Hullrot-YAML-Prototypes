@@ -211,14 +211,14 @@
   description: Reverse-engineered from Imperial light battle rifle designs. Sacrifices heavier calibers for better rifling, allowing for more rapid fire.
   components:
   - type: Sprite
-    sprite: _Crescent/Objects/Weapons/galrifle.rsi
+    sprite: _Crescent/Objects/Weapons/fal.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Crescent/Objects/Weapons/galrifle.rsi
+    sprite: _Crescent/Objects/Weapons/falworn.rsi
   - type: Gun
     fireRate: 6
     soundGunshot:
@@ -477,7 +477,7 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Crescent/Objects/Weapons/mayflower.rsi
+    sprite: _Crescent/Objects/Weapons/mayflowerworn.rsi
   - type: Gun
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/krinkov.ogg
