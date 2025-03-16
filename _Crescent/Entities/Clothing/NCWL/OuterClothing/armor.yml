@@ -201,13 +201,13 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 3000
+    armorMaxHealth: 3500
     armorType: Metallic
     armorRepair: HomelandAlloy
     initialModifiers:
       flatReductions:
-        Blunt: 15
-        Slash: 35
+        Blunt: 35
+        Slash: 45
         Piercing: 65 # will tank a shit load of rounds for a long time
         Heat: 50
         Caustic: 50
