@@ -44,6 +44,8 @@
         ents: []
   - type: StaticPrice
     price: 500
+  - type: DisarmMalus
+    malus: -1
 
 - type: entity
   name: PTA MOD-2 Pozhar 12g
@@ -103,8 +105,6 @@
   - type: StaticPrice
     price: 750
   - type: Contraband #frontier
-  - type: DisarmMalus
-    malus: -1
 
 - type: entity
   name: double-barreled shotgun
