@@ -45,8 +45,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      100: Critical
-      200: Dead
+      300: Critical
+      600: Dead
     stateAlertDict:
       Alive: BorgHealth
       Critical: BorgCrit
@@ -97,7 +97,7 @@
     - Science
   - type: Repairable
     doAfterDelay: 10
-    allowSelfRepair: false
+    allowSelfRepair: true
   - type: BorgChassis
   - type: WiresPanel
   - type: ActivatableUIRequiresPanel
@@ -152,7 +152,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 75
+        damage: 200
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -161,7 +161,7 @@
             volume: 5
     - trigger:
         !type:DamageTrigger
-        damage: 300
+        damage: 750
       behaviors:
       - !type:PlaySoundBehavior
         sound:
