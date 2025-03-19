@@ -52,7 +52,7 @@
   - type: StaticPrice
     price: 500
   - type: DisarmMalus
-    malus: -0.2
+    malus: -1
 
 - type: entity
   name: NCSP AKMS-47 7.62x51mm
