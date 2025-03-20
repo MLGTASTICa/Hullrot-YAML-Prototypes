@@ -55,14 +55,14 @@
     armorRepair: PlasteelPlate
     initialModifiers:
       flatReductions:
-        Blunt: 12
-        Slash: 12
-        Piercing: 22
-        Heat: 8
+        Blunt: 30
+        Slash: 30
+        Piercing: 35
+        Heat: 25
         Caustic: 25
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
+    walkModifier: 0.8
+    sprintModifier: 0.8
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitInspector
   - type: StaticPrice
@@ -345,15 +345,15 @@
   - type: Clothing
     sprite: _Crescent/Clothing/Empire/OuterClothing/advocatus.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 1000
+    armorMaxHealth: 1250
     armorType: Metallic
     armorRepair: DuraThread
     initialModifiers:
       flatReductions:
-        Blunt: 5
-        Slash: 15
-        Piercing: 15
-        Heat: 5
+        Blunt: 10
+        Slash: 20
+        Piercing: 20
+        Heat: 10
         Caustic: 25
   - type: StaticPrice
     price: 1500

@@ -30,9 +30,13 @@
   access:
   - Command
   - Empire
-  - Maintenance
   - Advocatus
+  - Maintenance
   - Service
+  - ScribesGuild
+  - LogisticsWealth
+  - EmpireNoble
+  - EmpireSoldier
   - External
   - Mercenary # Frontier
   - Captain # Frontier
