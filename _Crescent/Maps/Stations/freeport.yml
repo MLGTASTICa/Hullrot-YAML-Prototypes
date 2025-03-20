@@ -30,6 +30,6 @@
             IntelligenceOfficerNCSP: [ 1, 1 ]
             OperativeNCSP: [ 6, 6 ]
             CyberdawnTechNCSP: [ 2, 2 ]
-            ForemanNCSP: [ 1, 1 ]
+            ForemanNCSP: [ 2, 2 ]
             ShipbreakerNCSP: [ 8, 8 ]
             Contractor: [ 15, 15 ]
