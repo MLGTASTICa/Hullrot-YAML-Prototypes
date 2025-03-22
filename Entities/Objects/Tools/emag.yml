@@ -17,8 +17,7 @@
 - type: entity
   parent: EmagUnlimited
   id: Emag
-  suffix: Limited
+  suffix: Unlimited
   components:
-  - type: LimitedCharges
   - type: StaticPrice
     price: 2500
