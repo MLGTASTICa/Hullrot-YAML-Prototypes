@@ -9,9 +9,6 @@
     - !type:SpeciesRequirement
       allowedOnly:
         - Human
-    - !type:SexRequirement
-      allowed:
-        - Male
     - !type:FactionRequirement
       factionID: "DSM"
   weight: 22
