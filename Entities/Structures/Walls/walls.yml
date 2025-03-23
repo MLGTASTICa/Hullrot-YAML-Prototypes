@@ -657,7 +657,7 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 800
+            damage: 1500
           behaviors:
             - !type:SpawnEntitiesBehavior
               spawn:
@@ -716,7 +716,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 600
+        damage: 900
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -725,7 +725,7 @@
           collection: MetalSlam
     - trigger:
         !type:DamageTrigger
-        damage: 400
+        damage: 600
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -1104,7 +1104,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 400
+        damage: 600
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -1113,7 +1113,7 @@
           collection: MetalSlam
     - trigger:
         !type:DamageTrigger
-        damage: 200
+        damage: 400
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
