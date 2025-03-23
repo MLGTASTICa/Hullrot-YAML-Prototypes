@@ -7,7 +7,7 @@
      startAudio:
        path: /Audio/Announcements/attention.ogg
      endAnnouncement: station-event-bluespace-asteroid-end-announcement
-     earliestStart: 1
+     earliestStart: 30
      minimumPlayers: 1
      weight: 4
      startDelay: 10
@@ -56,4 +56,24 @@
      maxOccurrences: 1
    - type: BluespaceErrorRule
      gridPath: /Maps/_Crescent/Bluespace/trader.yml
+     rewardFactor: 0.5 # Filler to make the bank go up
+
+ - type: entity # Need rework
+   id: ShinoharaDED
+   parent: BaseGameRule
+   components:
+   - type: StationEvent
+     startAnnouncement: station-event-bluespace-shinohara-ded
+     startAudio:
+       path: /Audio/Announcements/attention.ogg
+     endAnnouncement: station-event-bluespace-shinohara-ded-end
+     earliestStart: 15
+     minimumPlayers: 25
+     weight: 5
+     startDelay: 10
+     duration: 2100
+     maxDuration: 2400
+     maxOccurrences: 1
+   - type: BluespaceErrorRule
+     gridPath: /Maps/_Crescent/Bluespace/dedsite.yml
      rewardFactor: 0.5 # Filler to make the bank go up
