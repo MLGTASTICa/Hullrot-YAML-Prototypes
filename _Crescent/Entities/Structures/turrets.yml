@@ -1855,7 +1855,7 @@
                   max: 5
     - type: ProjectileIFF
     - type: Gun
-      projectileSpeed: 50
+      projectileSpeed: 90
       fireRate: 0.8
       selectedMode: FullAuto
       availableModes:

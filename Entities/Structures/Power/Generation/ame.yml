@@ -35,7 +35,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1800
+        damage: 500
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -159,7 +159,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1800
+        damage: 500
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -168,6 +168,7 @@
             max: 2
       - !type:DoActsBehavior
         acts: ["Destruction"]
+      - !type:ExplodeBehavior
   - type: Transform
     anchored: true
   - type: IconSmooth
@@ -208,3 +209,8 @@
     onBump: false
     requirePower: true
     highVoltageNode: ame
+  - type: Explosive # explosive AME :3
+    explosionType: Default
+    totalIntensity: 400
+    intensitySlope: 10
+    maxIntensity: 20

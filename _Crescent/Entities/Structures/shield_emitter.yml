@@ -74,27 +74,6 @@
     color: "#90d5ff"
     mask: /Textures/Effects/LightMasks/spiral.png
   - type: AnimationPlayer
-  - type: LightBehaviour
-    default: radiate
-    behaviours:
-      - !type:RandomizeBehaviour
-        id: radiate
-        interpolate: Nearest
-        minDuration: 0.3
-        maxDuration: 0.5
-        startValue: 8.0
-        endValue: 14.0
-        property: Energy
-        isLooped: true
-      - !type:RandomizeBehaviour
-        id: radiate
-        interpolate: Nearest
-        minDuration: 0.3
-        maxDuration: 0.5
-        startValue: 0.0
-        endValue: 90.0
-        property: Rotation
-        isLooped: true
   - type: LitOnPowered
   - type: PowerSwitch
   - type: ApcPowerReceiver
