@@ -11,7 +11,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 100
+        Structural: 90
         Piercing: 50
   - type: PointLight
     radius: 3.5
@@ -78,7 +78,7 @@
       tags:
         - VulcanCartridgeBox
     proto: CartridgeVulcanStandard
-    capacity: 400
+    capacity: 500
   - type: Item
   - type: Sprite
     sprite: _Crescent/Ammunition/vulcan.rsi
@@ -163,8 +163,8 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 55
-    intensitySlope: 16
+    maxIntensity: 85
+    intensitySlope: 14
     totalIntensity: 120
     maxTileBreak: 7
   - type: PointLight
@@ -172,7 +172,7 @@
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 40
+    lifetime: 120
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/mortarcasing.rsi
     layers:
@@ -234,7 +234,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 175
+        Structural: 165
         Radiation: 35
         Heat: 40
         Blunt: 20
@@ -242,7 +242,7 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 35
+    maxIntensity: 30
     intensitySlope: 7
     totalIntensity: 8
     maxTileBreak: 6
@@ -290,15 +290,15 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 90
+        Structural: 80
         Radiation: 10
         Heat: 25
   - type: ProjectileIFF
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 15
-    intensitySlope: 25
+    maxIntensity: 14
+    intensitySlope: 23
     totalIntensity: 20
     maxTileBreak: 2
   - type: PointLight
@@ -364,7 +364,7 @@
         Heat: 35
   - type: ProjectileIFF
   - type: EmpOnTrigger
-    range: 3
+    range: 2
     energyConsumption: 1000
     disableDuration: 6
   - type: PointLight
@@ -428,7 +428,7 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 40
+    maxIntensity: 75
     intensitySlope: 20
     totalIntensity: 450
   - type: HeatSeeking
@@ -497,11 +497,11 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 600
+    totalIntensity: 650
     intensitySlope: 10
-    maxIntensity: 20
+    maxIntensity: 40
   - type: HeatSeeking
-    rotationSpeed: 5 # slow turn rate
+    rotationSpeed: 7 # slow turn rate
     acceleration: 5
     topSpeed: 40
     FOV: 20
@@ -726,7 +726,7 @@
     energy: 0.5
   - type: ProjectileIFF
   - type: HeatSeeking
-    rotationSpeed: 20 # slow rotation so it isnt aimbot, still fairly accurate though
+    rotationSpeed: 15 # slow rotation so it isnt aimbot, still fairly accurate though
     acceleration: 120
     topSpeed: 120
     FOV: 30
