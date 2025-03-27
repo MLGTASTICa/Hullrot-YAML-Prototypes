@@ -36,8 +36,8 @@
         variation: 0.125
     activatedDamage:
         types:
-            Slash: 17
-            Heat: 20
+            Slash: 20
+            Heat: 25
             Structural: 20
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_sword.rsi
