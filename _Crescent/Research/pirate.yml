@@ -1,4 +1,65 @@
 - type: technology
+  id: SyndicateClothes
+  name: research-technology-syndieclothes
+  icon:
+    sprite: _Crescent/Clothing/Syndicate/OuterClothing/syndiearmor.rsi
+    state: icon
+  discipline: Pirate
+  tier: 1
+  cost: 1500
+  recipeUnlocks:
+  - ClothingHeadHelmetSyndicateBasicNCSP
+  - ClothingHeadHelmetSyndicateBasicInterdyneNCSP
+  - ClothingOuterArmorSyndicateArmorvestNCSP
+  - ClothingOuterArmorSyndicateArmorvestInterdyneNCSP
+  - ClothingUniformJumpsuitSyndicateNCSP
+  - ClothingUniformJumpsuitSyndicateInterdyneNCSP
+  - ClothingUniformJumpsuitSyndicateSawsNCSP
+  - ClothingNeckScarfSyndicateShemaghNCSP
+
+- type: technology
+  id: SyndicateAviation
+  name: research-technology-syndieaviation
+  icon:
+    sprite: Objects/Devices/flatpack.rsi
+    state: ame-part
+  discipline: Pirate
+  tier: 1
+  cost: 5000
+  recipeUnlocks:
+  # - GyroscopeFlatpackLathe YAMLFIX Fails tests - not printable
+  - NCSPWarshipThrusterFlatpackNCSP
+  - NCSPFighterThrusterFlatpackNCSP
+
+- type: technology
+  id: SyndicateSmallArms
+  name: research-technology-syndiesmallarms
+  icon:
+    sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
+    state: icon
+  discipline: Pirate
+  tier: 1
+  cost: 8000
+  recipeUnlocks:
+  - WeaponPistolCobraNCSP
+  - WeaponSubMachineGunAtreidesNCSP
+  - WeaponSubMachineGunDrozdNCSP
+
+- type: technology
+  id: SyndicateShuttleArmaments
+  name: research-technology-syndieshuttlearmaments
+  icon:
+    sprite: _Crescent/Ammunition/vulcan.rsi
+    state: base
+  discipline: Pirate
+  tier: 2
+  cost: 12500
+  recipeUnlocks:
+  - NCSPVulcanTurretFlatpackNCSP
+  - NCSPAnklebiterFlatpackNCSP
+  - PlasmaRepeaterFlatpackCraft
+
+- type: technology
   id: SyndicateHardsuit
   name: research-technology-syndiehards
   icon:
@@ -34,67 +95,6 @@
   cost: 15000
   recipeUnlocks:
   - WolfLPC
-
-- type: technology
-  id: SyndicateClothes
-  name: research-technology-syndieclothes
-  icon:
-    sprite: _Crescent/Clothing/Syndicate/OuterClothing/syndiearmor.rsi
-    state: icon
-  discipline: Pirate
-  tier: 1
-  cost: 1500
-  recipeUnlocks:
-  - ClothingHeadHelmetSyndicateBasicNCSP
-  - ClothingHeadHelmetSyndicateBasicInterdyneNCSP
-  - ClothingOuterArmorSyndicateArmorvestNCSP
-  - ClothingOuterArmorSyndicateArmorvestInterdyneNCSP
-  - ClothingUniformJumpsuitSyndicateNCSP
-  - ClothingUniformJumpsuitSyndicateInterdyneNCSP
-  - ClothingUniformJumpsuitSyndicateSawsNCSP
-  - ClothingNeckScarfSyndicateShemaghNCSP
-
-- type: technology
-  id: SyndicateSmallArms
-  name: research-technology-syndiesmallarms
-  icon:
-    sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
-    state: icon
-  discipline: Pirate
-  tier: 1
-  cost: 8000
-  recipeUnlocks:
-  - WeaponPistolCobraNCSP
-  - WeaponSubMachineGunAtreidesNCSP
-  - WeaponSubMachineGunDrozdNCSP
-
-- type: technology
-  id: SyndicateAviation
-  name: research-technology-syndieaviation
-  icon:
-    sprite: Objects/Devices/flatpack.rsi
-    state: ame-part
-  discipline: Pirate
-  tier: 1
-  cost: 5000
-  recipeUnlocks:
-  # - GyroscopeFlatpackLathe YAMLFIX Fails tests - not printable
-  - NCSPWarshipThrusterFlatpackNCSP
-  - NCSPFighterThrusterFlatpackNCSP
-
-- type: technology
-  id: SyndicateShuttleArmaments
-  name: research-technology-syndieshuttlearmaments
-  icon:
-    sprite: _Crescent/Ammunition/vulcan.rsi
-    state: base
-  discipline: Pirate
-  tier: 2
-  cost: 12500
-  recipeUnlocks:
-  - NCSPVulcanTurretFlatpackNCSP
-  - NCSPAnklebiterFlatpackNCSP
-  - PlasmaRepeaterFlatpackCraft
 
 - type: technology
   id: SyndicateLongArms
