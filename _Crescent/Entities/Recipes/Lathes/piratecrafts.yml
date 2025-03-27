@@ -9,7 +9,7 @@
     Cloth: 1000
 
 - type: latheRecipe
-  id: ClothingOuterHardsuitCybersunNCSP #TBD
+  id: ClothingOuterHardsuitCybersunNCSP
   result: ClothingOuterHardsuitCybersun
   completetime: 4
   materials:
@@ -18,7 +18,7 @@
     Cloth: 1000
 
 - type: latheRecipe
-  id: ClothingOuterHardsuitTraumasecNCSP #TBD
+  id: ClothingOuterHardsuitTraumasecNCSP
   result: ClothingOuterHardsuitTraumasec
   completetime: 4
   materials:
@@ -159,7 +159,7 @@
     Plasma: 250
 
 - type: latheRecipe
-  id: FlakCannonTurretFlatpackCraftNCSP #TBD
+  id: FlakCannonTurretFlatpackCraftNCSP
   result: FlakCannonTurretFlatpack
   completetime: 4
   materials:
@@ -168,7 +168,7 @@
     Plasma: 1000
 
 - type: latheRecipe
-  id: BaseWeaponTurretGargoyleFlatpackCraftNCSP #TBD
+  id: BaseWeaponTurretGargoyleFlatpackCraftNCSP
   result: BaseWeaponTurretGargoyleFlatpack
   completetime: 4
   materials:
@@ -177,7 +177,7 @@
     Plasma: 1500
 
 - type: latheRecipe
-  id: EnergyShieldNCSP #TBD
+  id: EnergyShieldNCSP
   result: EnergyShield
   completetime: 4
   materials:
@@ -187,7 +187,7 @@
     Plasma: 1500
 
 - type: latheRecipe
-  id: EnergySwordNCSP #TBD
+  id: EnergySwordNCSP
   result: EnergySword
   completetime: 4
   materials:
@@ -213,7 +213,7 @@
     Plastic: 1750
 
 - type: latheRecipe
-  id: WeaponRifleBarghestNCSP #TBD
+  id: WeaponRifleBarghestNCSP
   result: WeaponRifleBarghest
   completetime: 4
   materials:
@@ -222,7 +222,7 @@
     Plasma: 500
 
 - type: latheRecipe
-  id: WeaponLauncherRocketNCSP #TBD
+  id: WeaponLauncherRocketNCSP
   result: WeaponLauncherRocket
   completetime: 4
   materials:
@@ -230,7 +230,7 @@
     Plastic: 1000
 
 - type: latheRecipe
-  id: CartridgeRocketNCSP #TBD
+  id: CartridgeRocketNCSP
   result: CartridgeRocket
   completetime: 2
   materials:
