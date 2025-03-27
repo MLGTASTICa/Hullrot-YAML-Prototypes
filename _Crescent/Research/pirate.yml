@@ -6,7 +6,7 @@
     state: icon
   discipline: Pirate
   tier: 1
-  cost: 1500
+  cost: 1000
   recipeUnlocks:
   - ClothingHeadHelmetSyndicateBasicNCSP
   - ClothingHeadHelmetSyndicateBasicInterdyneNCSP
@@ -25,7 +25,7 @@
     state: ame-part
   discipline: Pirate
   tier: 1
-  cost: 5000
+  cost: 2500
   recipeUnlocks:
   # - GyroscopeFlatpackLathe YAMLFIX Fails tests - not printable
   - NCSPWarshipThrusterFlatpackNCSP
@@ -39,11 +39,38 @@
     state: icon
   discipline: Pirate
   tier: 1
-  cost: 8000
+  cost: 5000
   recipeUnlocks:
-  - WeaponPistolCobraNCSP
   - WeaponSubMachineGunAtreidesNCSP
   - WeaponSubMachineGunDrozdNCSP
+# - WeaponShotgunEnforcer - NEEDS RECIPE
+
+- type: technology
+  id: SyndicateHardsuit
+  name: research-technology-syndiehards
+  icon:
+    sprite: _Crescent/Clothing/Syndicate/OuterClothing/syndicatesbg.rsi
+    state: icon
+  discipline: Pirate
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - ClothingOuterHardsuitSyndicateBGNCSP
+  - ClothingOuterHardsuitRamziNCSP
+# - ClothingOuterHardsuitCybersun - NEEDS RECIPE
+# - ClothingOuterHardsuitTraumasec - NEEDS RECIPE
+
+- type: technology
+  id: Sinn
+  name: research-technology-sinn
+  icon:
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    state: icon
+  discipline: Pirate
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - SinnLPC
 
 - type: technology
   id: SyndicateShuttleArmaments
@@ -55,34 +82,11 @@
   tier: 2
   cost: 12500
   recipeUnlocks:
-  - NCSPVulcanTurretFlatpackNCSP
-  - NCSPAnklebiterFlatpackNCSP
+  - NCSPVulcanTurretFlatpackNCSP  #fires faster, bullets are slower, needs to be manually reloaded
+  - NCSPAnklebiterFlatpackNCSP    #fires considerably slower, bullets are faster, reloads automatically
   - PlasmaRepeaterFlatpackCraft
-
-- type: technology
-  id: SyndicateHardsuit
-  name: research-technology-syndiehards
-  icon:
-    sprite: _Crescent/Clothing/Syndicate/OuterClothing/syndicatesbg.rsi
-    state: icon
-  discipline: Pirate
-  tier: 2
-  cost: 12500
-  recipeUnlocks:
-  - ClothingOuterHardsuitSyndicateBGNCSP
-  - ClothingOuterHardsuitRamziNCSP
-
-- type: technology
-  id: Sinn
-  name: research-technology-sinn
-  icon:
-    sprite: _Crescent/Objects/Misc/lpcchip.rsi
-    state: icon
-  discipline: Pirate
-  tier: 2
-  cost: 12500
-  recipeUnlocks:
-  - SinnLPC
+  - HardlineBeamPulserFlatpack
+  - SHIArtilleryFlatpackCraft
 
 - type: technology
   id: Wolf
@@ -91,10 +95,26 @@
     sprite: _Crescent/Objects/Misc/lpcchip.rsi
     state: icon
   discipline: Pirate
-  tier: 3
-  cost: 15000
+  tier: 2
+  cost: 12500
   recipeUnlocks:
   - WolfLPC
+
+- type: technology
+  id: SyndicateEwar
+  name: research-technology-syndieewar
+  icon:
+    sprite: Objects/Tools/emag.rsi
+    state: icon
+  discipline: Pirate
+  tier: 3
+  cost: 17500
+  recipeUnlocks:
+  - EmagNCSP
+  - RadioJammerNCSP
+  - EmpGrenadeNCSP
+# - EnergyShield - NEEDS RECIPE
+# - EnergySword - NEEDS RECIPE
 
 - type: technology
   id: SyndicateLongArms
@@ -106,23 +126,9 @@
   tier: 3
   cost: 20000
   recipeUnlocks:
-  - WeaponRifleKrinkovNCSP
   - WeaponRifleMayflowerNCSP
-  - WeaponRifleAkNCSP
   - WeaponLightMachineGunL6CNCSP
   - MagazineLightRifleBoxNCSP
-
-- type: technology
-  id: SyndicateEwar
-  name: research-technology-syndieewar
-  icon:
-    sprite: Objects/Tools/emag.rsi
-    state: icon
-  discipline: Pirate
-  tier: 3
-  cost: 30000
-  recipeUnlocks:
-  - EmagNCSP
-  - RadioJammerNCSP
-  - EmpGrenadeNCSP
-  # - GrenadeEMPCraft YAMLFIX: Duplicate recipe result
+# - WeaponRifleBarghest - NEEDS RECIPE
+# - WeaponLauncherRocket - NEEDS RECIPE
+# - CartridgeRocket - NEEDS RECIPE
