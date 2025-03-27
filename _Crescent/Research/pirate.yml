@@ -6,7 +6,7 @@
     state: icon
   discipline: Pirate
   tier: 1
-  cost: 1000
+  cost: 2500
   recipeUnlocks:
   - ClothingHeadHelmetSyndicateBasicNCSP
   - ClothingHeadHelmetSyndicateBasicInterdyneNCSP
