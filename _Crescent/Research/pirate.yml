@@ -43,7 +43,7 @@
   recipeUnlocks:
   - WeaponSubMachineGunAtreidesNCSP
   - WeaponSubMachineGunDrozdNCSP
-# - WeaponShotgunEnforcer - NEEDS RECIPE
+  - WeaponRifleMayflowerNCSP
 
 - type: technology
   id: SyndicateHardsuit
@@ -52,13 +52,13 @@
     sprite: _Crescent/Clothing/Syndicate/OuterClothing/syndicatesbg.rsi
     state: icon
   discipline: Pirate
-  tier: 2
-  cost: 7500
+  tier: 1
+  cost: 5000
   recipeUnlocks:
   - ClothingOuterHardsuitSyndicateBGNCSP
   - ClothingOuterHardsuitRamziNCSP
-# - ClothingOuterHardsuitCybersun - NEEDS RECIPE
-# - ClothingOuterHardsuitTraumasec - NEEDS RECIPE
+# - ClothingOuterHardsuitCybersunNCSP - NEEDS RECIPE
+# - ClothingOuterHardsuitTraumasecNCSP - NEEDS RECIPE
 
 - type: technology
   id: Sinn
@@ -82,11 +82,11 @@
   tier: 2
   cost: 12500
   recipeUnlocks:
-  - NCSPVulcanTurretFlatpackNCSP  #fires faster, bullets are slower, needs to be manually reloaded
-  - NCSPAnklebiterFlatpackNCSP    #fires considerably slower, bullets are faster, reloads automatically
+  - NCSPAnklebiterFlatpackNCSP
   - PlasmaRepeaterFlatpackCraft
-  - HardlineBeamPulserFlatpack
   - SHIArtilleryFlatpackCraft
+ # - FlakCannonTurretFlatpackCraftNCSP - NEEDS RECIPE
+ # - BaseWeaponTurretGargoyleFlatpackCraftNCSP - NEEDS RECIPE
 
 - type: technology
   id: Wolf
@@ -108,13 +108,13 @@
     state: icon
   discipline: Pirate
   tier: 3
-  cost: 17500
+  cost: 15000
   recipeUnlocks:
   - EmagNCSP
   - RadioJammerNCSP
   - EmpGrenadeNCSP
-# - EnergyShield - NEEDS RECIPE
-# - EnergySword - NEEDS RECIPE
+# - EnergyShieldNCSP - NEEDS RECIPE
+# - EnergySwordNCSP - NEEDS RECIPE
 
 - type: technology
   id: SyndicateLongArms
@@ -126,9 +126,8 @@
   tier: 3
   cost: 20000
   recipeUnlocks:
-  - WeaponRifleMayflowerNCSP
   - WeaponLightMachineGunL6CNCSP
   - MagazineLightRifleBoxNCSP
-# - WeaponRifleBarghest - NEEDS RECIPE
-# - WeaponLauncherRocket - NEEDS RECIPE
+# - WeaponRifleBarghestNCSP - NEEDS RECIPE
+# - WeaponLauncherRocketNCSP - NEEDS RECIPE
 # - CartridgeRocket - NEEDS RECIPE
