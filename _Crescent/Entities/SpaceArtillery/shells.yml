@@ -10,6 +10,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectileIFF
+  - type: ProjectilePhasePrevent
   - type: Projectile
     ignoreWeaponGrid: true
     damage:
@@ -67,6 +68,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectileIFF
+  - type: ProjectilePhasePrevent
   - type: Projectile
     ignoreWeaponGrid: true
     damage:
@@ -124,6 +126,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectileIFF
+  - type: ProjectilePhasePrevent
   - type: Projectile
     ignoreWeaponGrid: true
     damage:
@@ -181,6 +184,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectileIFF
+  - type: ProjectilePhasePrevent
   - type: Projectile
     ignoreWeaponGrid: true
     damage:
@@ -262,6 +266,7 @@
     color: orange
     energy: 0.5
   - type: ShipWeaponProjectile
+  - type: ProjectilePhasePrevent
   - type: ProjectileIFF
 
 - type: entity
@@ -321,6 +326,7 @@
     color: orange
     energy: 0.8
   - type: ShipWeaponProjectile
+  - type: ProjectilePhasePrevent
   - type: ProjectileIFF
 
 - type: entity
@@ -379,6 +385,7 @@
     color: orange
     energy: 0.5
   - type: ShipWeaponProjectile
+  - type: ProjectilePhasePrevent
   - type: ProjectileIFF
 
 - type: entity
@@ -436,6 +443,7 @@
     color: orange
     energy: 0.5
   - type: ShipWeaponProjectile
+  - type: ProjectilePhasePrevent
 
 - type: entity
   id: CartridgeRailEMP
@@ -494,6 +502,8 @@
     color: orange
     energy: 0.5
   - type: ShipWeaponProjectile
+  - type: ProjectilePhasePrevent
+  - type: ProjectileIFF
 
 - type: entity
   id: CartridgeRailArmorPiercing
@@ -552,6 +562,7 @@
     color: orange
     energy: 0.5
   - type: ShipWeaponProjectile
+  - type: ProjectilePhasePrevent
   - type: ProjectileIFF
 
 - type: entity
@@ -886,6 +897,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ShipWeaponProjectile
+  - type: ProjectilePhasePrevent
   - type: Projectile
     ignoreWeaponGrid: true
     damage:
@@ -1004,6 +1016,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ShipWeaponProjectile
+  - type: ProjectilePhasePrevent
   - type: Projectile
     ignoreWeaponGrid: true
     damage:

@@ -30,7 +30,7 @@
         - FullTileMask
         layer:
         - FullTileLayer
-        density: 200
+        density: 1000
       display:
         shape:
           !type:PhysShapeAabb
@@ -39,7 +39,7 @@
         - MachineMask
         layer:
         - MachineLayer
-        density: 200
+        density: 1000
       smallthing:
         shape:
           !type:PhysShapeAabb
@@ -48,7 +48,7 @@
         - MachineMask
         layer:
         - HalfWallLayer
-        density: 200
+        density: 1000
   - type: Destructible
     thresholds:
     - trigger:
@@ -69,15 +69,14 @@
   - type: PointLight
     enabled: false
     castShadows: true
-    radius: 8
+    radius: 5
     offset: 1.5, -2
     color: "#90d5ff"
-    mask: /Textures/Effects/LightMasks/spiral.png
   - type: AnimationPlayer
   - type: LitOnPowered
   - type: PowerSwitch
   - type: ApcPowerReceiver
-    powerLoad: 50000
+    powerLoad: 60000
   - type: Appearance
   - type: ShipShieldEmitter
     powerUpSound: !type:SoundPathSpecifier
@@ -88,3 +87,57 @@
         path: "/Audio/Effects/teleport_departure.ogg"
         params:
           pitch: 0.5
+
+- type: entity
+  id: ShieldEmitterMedium
+  parent: ShieldEmitter
+  name: NT-630 'Bulwark' deflector emitter
+  description: A complicated array of machinery - guzzles power and maintains a bubble deflector shield around the mother vessel. Overheats with too much use.
+  components:
+  - type: ShipShieldEmitter # can stop a decent amount of damage, slightly weaker than the Goliath
+    healPerSecond: 175 # base is 300
+    damageExp: 1.4 # base is 1.2
+    baseDraw: 50000 # base is 60000
+  - type: Fixtures
+    fix1:
+      shape:
+        !type:PhysShapeAabb
+        bounds: "-1.5,-1.5,1.5,1.5"
+      mask:
+      - FullTileMask
+      layer:
+      - WallLayer
+      density: 800
+  - type: Sprite
+    noRot: true
+    sprite: _Crescent/Structures/shieldemittermedium.rsi
+    state: icon
+  - type: ApcPowerReceiver
+    powerLoad: 50000
+
+- type: entity
+  id: ShieldEmitterSmall
+  parent: ShieldEmitter
+  name: NT-280 'Errant' deflector emitter
+  description: A complicated array of machinery - guzzles power and maintains a bubble deflector shield around the mother vessel. Overheats with too much use.
+  components:
+  - type: ShipShieldEmitter # will stop the first few hits but fail quickly without killing the power grid of the ship
+    healPerSecond: 75
+    damageExp: 1.8 
+    baseDraw: 5000
+  - type: Fixtures
+    fix1:
+      shape:
+        !type:PhysShapeAabb
+        bounds: "-0.5,-0.5,0.5,0.5"
+      mask:
+      - FullTileMask
+      layer:
+      - WallLayer
+      density: 200
+  - type: Sprite
+    noRot: true
+    sprite: _Crescent/Structures/shieldemittersmall.rsi
+    state: icon
+  - type: ApcPowerReceiver
+    powerLoad: 5000

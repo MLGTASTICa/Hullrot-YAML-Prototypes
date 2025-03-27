@@ -9,7 +9,7 @@
       tags:
         - CartridgeRifle
     proto: CartridgeRifle
-    capacity: 50
+    capacity: 100
   - type: Item
     size: Small
   - type: ContainerContainer
@@ -30,7 +30,7 @@
   name: ammunition box (7.62x51mm USM rifle)
   components:
   - type: BallisticAmmoProvider
-    capacity: 200
+    capacity: 400
     proto: CartridgeRifle
   - type: Sprite
     layers:

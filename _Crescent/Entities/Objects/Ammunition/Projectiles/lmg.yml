@@ -10,7 +10,7 @@
     damage:
       types:
         Structural: 55
-        Pierce: 55
+        Piercing: 55
     armorDamageMultiplier: 10
 
 - type: entity
@@ -24,6 +24,6 @@
     damage:
       types:
         Structural: 95
-        Pierce: 95
+        Piercing: 95
     armorDamageMultiplier: 10
 

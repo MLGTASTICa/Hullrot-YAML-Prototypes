@@ -66,9 +66,11 @@
           mask:
             - FlyingMobMask
           layer:
+            - MobLayer
             - Opaque
     - type: Damageable
       damageContainer: Biological
+      damageModifierSet: Guardian
     - type: MobState
       allowedStates:
         - Alive
@@ -91,7 +93,7 @@
       damage:
         types:
           Blunt: 20
-          Structural: 20
+          Structural: 60
     - type: MeleeSpeech
     - type: UserInterface
       interfaces:
