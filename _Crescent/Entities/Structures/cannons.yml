@@ -466,11 +466,6 @@
   - type: Tag
     tags:
     - Wall
-  - type: Airtight
-  - type: Occluder
-    boundingBox: "-0.1,-0.5,0.5,0.5"
-  - type: RadiationBlocker
-    resistance: 8
   - type: ApcPowerReceiver
     powerLoad: 3000
   - type: ExtensionCableReceiver
@@ -728,9 +723,6 @@
   - type: Tag
     tags:
     - Wall
-  - type: Airtight
-  - type: Occluder
-    boundingBox: "-0.1,-0.5,0.5,0.5"
   - type: Fixtures
     fixtures:
       fix1:
@@ -953,11 +945,6 @@
   - type: Tag
     tags:
     - Wall
-  - type: Airtight
-  - type: Occluder
-    boundingBox: "-0.1,-0.5,0.5,0.5"
-  - type: RadiationBlocker
-    resistance: 8
   - type: ApcPowerReceiver
     powerLoad: 3000
   - type: ExtensionCableReceiver
