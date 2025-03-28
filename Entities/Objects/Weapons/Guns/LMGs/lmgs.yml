@@ -32,7 +32,7 @@
     maxAngle: 45
     angleIncrease: 4
     angleDecay: 16
-    fireRate: 8
+    fireRate: 12
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -72,7 +72,7 @@
     delay: 1
 
 - type: entity
-  name: SHI L93 .30
+  name: SHI L6 5.56
   id: WeaponLightMachineGunL6
   parent: BaseWeaponLightMachineGun
   description: A bulky machinegun developed by a Shinohara subsidiary.
@@ -102,7 +102,7 @@
       maxAngle: 25
       angleIncrease: 4
       angleDecay: 16
-      fireRate: 8
+      fireRate: 12
       selectedMode: FullAuto
       availableModes:
         - FullAuto
