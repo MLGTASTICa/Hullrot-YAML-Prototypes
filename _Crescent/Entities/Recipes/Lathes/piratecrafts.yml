@@ -273,3 +273,36 @@
     Steel: 500
     Plasma: 250
     Silver: 100
+
+- type: latheRecipe
+  id: WeaponPistolCobraNCSP
+  result: WeaponPistolCobra
+  completetime: 4
+  materials:
+    Steel: 1750
+    Plastic: 1500
+
+- type: latheRecipe
+  id: NCSPVulcanTurretFlatpackNCSP
+  result: NCSPVulcanTurretFlatpack
+  completetime: 4
+  materials:
+    Steel: 3500
+    Plastic: 550
+    Silver: 500
+
+- type: latheRecipe
+  id: WeaponRifleAkNCSP
+  result: WeaponRifleAk
+  completetime: 4
+  materials:
+    Steel: 2250
+    Plastic: 750
+
+- type: latheRecipe
+  id: WeaponRifleKrinkovNCSP
+  result: WeaponRifleKrinkov
+  completetime: 4
+  materials:
+    Steel: 1500
+    Plastic: 500

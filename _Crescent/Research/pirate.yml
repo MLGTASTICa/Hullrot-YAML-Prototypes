@@ -120,14 +120,13 @@
   id: SyndicateLongArms
   name: research-technology-syndielongarms
   icon:
-    sprite: _Crescent/Objects/Weapons/krinkov.rsi
-    state: base
+    sprite: Objects/Weapons/Guns/LMGs/l6.rsi
+    state: icon
   discipline: Pirate
   tier: 3
   cost: 20000
   recipeUnlocks:
   - WeaponLightMachineGunL6CNCSP
   - MagazineLightRifleBoxNCSP
-  - WeaponRifleBarghestNCSP
   - WeaponLauncherRocketNCSP
-  - CartridgeRocket
+  - CartridgeRocketNCSP
