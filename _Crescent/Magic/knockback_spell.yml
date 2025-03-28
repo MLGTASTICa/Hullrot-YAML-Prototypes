@@ -1,0 +1,18 @@
+- type: entity
+  id: ActionLesserKnockdown
+  name: Lesser Knockdown
+  description: This spell throws objects and people away from the targeted point.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: WorldTargetAction
+    useDelay: 10
+    range: 15
+    itemIconStyle: BigAction
+    icon:
+      sprite: Objects/Weapons/Melee/baseball_bat.rsi
+      state: icon
+    event: !type:KnockdownSpellEvent
+      speech: DAH ROH FUS!
+      range: 2
+      knockdownForce: 175
+      staminaDamage: 95

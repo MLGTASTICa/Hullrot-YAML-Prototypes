@@ -1,0 +1,19 @@
+- type: entity
+  id: ActionLesserHack
+  name: Lesser Hack
+  description: This spell opens the targeted door.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    useDelay: 7.5
+    itemIconStyle: BigAction
+    whitelist:
+      components:
+      - Door
+    canTargetSelf: false
+    interactOnMiss: false
+    icon:
+      sprite: Objects/Magic/magicactions.rsi
+      state: knock
+    event: !type:HackSpellEvent
+      speech: action-speech-spell-knock
