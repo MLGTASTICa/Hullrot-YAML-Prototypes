@@ -49,8 +49,6 @@
       path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
   - type: StaticPrice
     price: 50
-  - type: DisarmMalus
-    malus: -1
 
 - type: entity
   name: NT LEQ-023 Deckard .327

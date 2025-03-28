@@ -37,6 +37,8 @@
         ents: []
   - type: StaticPrice
     price: 500
+  - type: DisarmMalus
+    malus: -1
 
 - type: entity # Frontier - Mosin rework (PR#1391)
   name: ICM Kardashev-Mosin 7.62x51mm
@@ -89,8 +91,6 @@
     - back
     - suitStorage
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
-  - type: DisarmMalus
-    malus: 0.225 # End Frontier
 
 
 - type: entity

@@ -55,7 +55,7 @@
   - type: StaticPrice
     price: 750
   - type: DisarmMalus
-    malus: -1
+    malus: -.5
 
 - type: entity
   name: NCSP Atreides 9x19mm
