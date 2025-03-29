@@ -2585,9 +2585,6 @@
             - MachineMask
           layer:
             - MachineLayer
-    - type: ContainerContainer
-      containers:
-        ballistic-ammo: !type:Container
     - type: Sprite
       sprite: _Crescent/Objects/Autoturrets/slugspitter.rsi
       drawdepth: Mobs
