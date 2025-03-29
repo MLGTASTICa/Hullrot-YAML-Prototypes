@@ -314,7 +314,6 @@
       TradeGoodNanoTrasen: TradeDeedHigh
       TradeGoodOldCyber: TradeDeedHigh
       TradeGoodOldParts: TradeDeedHigh
-      TradeGoodGoodScrap: TradeDeedVeryHigh
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi
     layers:
