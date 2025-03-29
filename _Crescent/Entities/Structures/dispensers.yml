@@ -72,11 +72,11 @@
   - type: Dispenser
     defaultItem: TradeDeedStub
     inventory:
-      TradeDeedLow: SpaceCash1000
-      TradeDeedNormal: SpaceCash2000
-      TradeDeedHigh: SpaceCash3500
-      TradeDeedVeryHigh: SpaceCash5000
-      TradeDeedExotic: SpaceCash8000
+      TradeDeedLow: SpaceCash1500
+      TradeDeedNormal: SpaceCash3500
+      TradeDeedHigh: SpaceCash4500
+      TradeDeedVeryHigh: SpaceCash6000
+      TradeDeedExotic: SpaceCash10000
   - type: Sprite
     sprite: _Crescent/Structures/deedsmachine.rsi
     layers:
@@ -96,14 +96,20 @@
     defaultItem: TradeDeedStub
     inventory:
       TradeGoodAmmo: TradeDeedNormal
-      TradeGoodNanoTrasen: TradeDeedHigh
-      TradeGoodOldCyber: TradeDeedHigh
-      TradeGoodOldParts: TradeDeedHigh
-      TradeGoodAntibiotics: TradeDeedLow
+      TradeGoodNanoTrasen: TradeDeedVeryHigh
+      TradeGoodOldCyber: TradeDeedVeryHigh
+      TradeGoodOldParts: TradeDeedVeryHigh
+      TradeGoodAntibiotics: TradeDeedVeryHigh
       TradeGoodScrap: TradeDeedLow
       TradeGoodCybernetics: TradeDeedLow
-      TradeGoodGunparts: TradeDeedNormal
+      TradeGoodGunparts: TradeDeedHigh
       TradeGoodRice: TradeDeedNormal
+      TradeGoodWine: TradeDeedHigh
+      TradeGoodAlloys: TradeDeedExotic
+      TradeGoodMiltech: TradeDeedNormal
+      TradeGoodFabrics: TradeDeedVeryHigh
+      TradeGoodPlasma: TradeDeedVeryHigh
+      TradeGoodGoodScrap: TradeDeedExotic
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi
     layers:
@@ -296,7 +302,7 @@
     defaultItem: TradeDeedStub
     inventory:
       TradeGoodAlcohol: TradeDeedLow
-      TradeGoodCybernetics: TradeDeedLow
+      TradeGoodCybernetics: TradeDeedHigh
       TradeGoodGunparts: TradeDeedNormal
       TradeGoodAntibiotics: TradeDeedLow
       TradeGoodFlour: TradeDeedNormal
@@ -308,6 +314,7 @@
       TradeGoodNanoTrasen: TradeDeedHigh
       TradeGoodOldCyber: TradeDeedHigh
       TradeGoodOldParts: TradeDeedHigh
+      TradeGoodGoodScrap: TradeDeedVeryHigh
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi
     layers:
@@ -394,17 +401,17 @@
     defaultItem: TradeDeedStub
     inventory:
       TradeGoodAlcohol: TradeDeedHigh
-      TradeGoodCybernetics: TradeDeedLow
+      TradeGoodCybernetics: TradeDeedNormal
       TradeGoodAntibiotics: TradeDeedLow
-      TradeGoodRice: TradeDeedLow
+      TradeGoodRice: TradeDeedHigh
       TradeGoodFlour: TradeDeedNormal
       TradeGoodSugar: TradeDeedNormal
-      TradeGoodOrgans: TradeDeedExotic
-      TradeGoodDrugs: TradeDeedExotic
+      TradeGoodOrgans: TradeDeedHigh
+      TradeGoodDrugs: TradeDeedHigh
       TradeGoodFabrics: TradeDeedVeryHigh
       TradeGoodMiltech: TradeDeedNormal
       TradeGoodAlloys: TradeDeedExotic
-      TradeGoodWine: TradeDeedExotic
+      TradeGoodWine: TradeDeedNormal
       TradeGoodNanoTrasen: TradeDeedHigh
       TradeGoodOldCyber: TradeDeedHigh
       TradeGoodOldParts: TradeDeedHigh

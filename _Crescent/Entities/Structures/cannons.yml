@@ -345,9 +345,9 @@
 
 - type: entity
   id: SHISlugthrowerTurret
-  name: SHI 50c ballistic slugthrower
+  name: SHI 43mm "Dasher" ballistic slugthrower
   parent: ConstructibleMachine
-  description: An outdated, gas-operated slugthrower. Usually found mounted on outdated civilian models. Ballistic-fed.
+  description: An outdated, gas-operated slugthrower. Usually found mounted on older civilian models. Ballistic-fed.
   placement:
     mode: SnapgridCenter
   components:

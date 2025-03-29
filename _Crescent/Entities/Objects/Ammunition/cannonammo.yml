@@ -860,6 +860,46 @@
   - type: SpaceGarbage
 
 - type: entity
+  id: FlakProjectileHE
+  name: 88mm high explosive flak pellet
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 2500
+        Blunt: 40
+  - type: Tag
+    tags:
+      - FlakShell
+  - type: TimedDespawn
+    lifetime: 10
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/flak.rsi
+    layers:
+      - state: base-projectile
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 250
+    intensitySlope: 1
+    maxIntensity: 35
+    maxTileBreak: 7
+  - type: ProximityFuse
+    maxRange: 15
+    minRange: 2
+  - type: PointLight
+    radius: 3.5
+    color: orange
+    energy: 0.5
+  - type: ProjectileIFF
+
+
+- type: entity
   id: FlakProjectile
   name: 88mm low-yield flak pellet
   description: Shit.
