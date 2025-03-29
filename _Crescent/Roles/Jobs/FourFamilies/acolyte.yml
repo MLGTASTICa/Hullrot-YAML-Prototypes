@@ -6,6 +6,13 @@
   requirements:
     - !type:FactionRequirement
       factionID: "TAP"
+    - !type:SpeciesRequirement
+      allowedOnly:
+        - Human
+        - Reptilian
+        - Moth
+        - Arachnid
+        - Lizard
   weight: 54
   startingGear: AcolyteTAPGear
   alwaysUseSpawner: true
