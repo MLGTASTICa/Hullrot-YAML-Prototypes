@@ -2633,7 +2633,7 @@
       angleDecay: 45
       minAngle: 5
       maxAngle: 15
-  - type: ChamberMagazineAmmoProvider
+  - type: MagazineAmmoProvider
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -2645,13 +2645,6 @@
         whitelist:
           tags:
             - SlugthrowerCartridgeBox
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgeMachineGunArmorPiercing
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgeMachineGun
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
