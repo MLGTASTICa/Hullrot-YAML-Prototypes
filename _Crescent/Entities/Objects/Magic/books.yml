@@ -46,7 +46,7 @@
 
 - type: entity
   id: LesserSuppressMindSpellbook
-  name: lesser suppress mind spellbook
+  name: lesser suppress spellbook
   parent: BaseSpellbook
   components:
   - type: Sprite
@@ -65,4 +65,4 @@
   - type: Spellbook
     learnTime: 6
     spells:
-      ActionLesserSuppressMind: -1
+      ActionLesserSuppress: -1

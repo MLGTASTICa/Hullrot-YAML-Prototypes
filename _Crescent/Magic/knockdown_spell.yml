@@ -11,8 +11,8 @@
     icon:
       sprite: Objects/Weapons/Melee/baseball_bat.rsi
       state: icon
-    event: !type:KnockdownSpellEvent
-      speech: DAH ROH FUS!
-      range: 2
-      knockdownForce: 175
-      staminaDamage: 95
+    event: !type:LesserKnockdownSpellEvent
+      speech: LA'AL PARAMITA!
+      range: 3
+      knockdownForce: 50
+      staminaDamage: 99

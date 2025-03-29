@@ -15,5 +15,5 @@
     icon:
       sprite: Objects/Magic/magicactions.rsi
       state: knock
-    event: !type:HackSpellEvent
-      speech: action-speech-spell-knock
+    event: !type:LesserHackSpellEvent
+      speech: GLAS TITIM!
