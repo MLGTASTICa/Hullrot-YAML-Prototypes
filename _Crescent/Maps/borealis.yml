@@ -1,0 +1,31 @@
+- type: gameMap
+  id: Borealis
+  mapName: 'CMM Borealis'
+  mapPath: /Maps/_Crescent/Stations/borealis.yml
+  minPlayers: 0
+  stations:
+    Borealis:
+      stationProto: StandardCrescentStation
+      gridComponents:
+        - type: BlockShipWeaponProjectileGrid
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'CMM Borealis'
+        - type: Grammar
+          attributes:
+            proper: true
+        - type: VesselDesignation
+          designation: vessel-designation-headquarters
+        - type: StationJobs
+          checkAlive: false
+          overflowJobs: []
+          availableJobs:
+            MarshalCMM: [ 1, 1 ]
+            DeputyMarshalCMM: [ 1, 1 ]
+            MinutemanCMM: [ 15, 15 ]
+            KommandantATH: [ 1, 1 ]
+            LeutnantATH: [ 1, 1 ]
+            SoldatATH: [ 15, 15 ]
+            GovernorDSM: [ 1, 1 ]
+            AdjutantDSM: [ 1, 1 ]
+            LevymanDSM: [ 15, 15 ]
