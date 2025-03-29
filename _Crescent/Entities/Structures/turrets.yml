@@ -2701,10 +2701,10 @@
           layer:
             - MachineLayer
     - type: Sprite
-      sprite: _Crescent/Objects/Autoturrets/flak.rsi
+      sprite: _Crescent/Objects/Autoturrets/regent.rsi
       drawdepth: Mobs
       layers:
-        - state: syndie_lethal
+        - state: regent
     - type: WorldLoader
       radius: 256
     - type: CombatMode
