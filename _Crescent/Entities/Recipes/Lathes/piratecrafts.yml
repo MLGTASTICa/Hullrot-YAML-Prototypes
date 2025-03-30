@@ -4,7 +4,7 @@
   result: ClothingOuterHardsuitRamzi
   completetime: 4
   materials:
-    Steel: 4250
+    Steel: 5000
     Plastic: 500
     Cloth: 1000
 
@@ -13,7 +13,7 @@
   result: ClothingOuterHardsuitCybersun
   completetime: 4
   materials:
-    Steel: 4250
+    Steel: 5000
     Plastic: 500
     Cloth: 1000
 
@@ -22,7 +22,7 @@
   result: ClothingOuterHardsuitTraumasec
   completetime: 4
   materials:
-    Steel: 4250
+    Steel: 5000
     Plastic: 500
     Cloth: 1000
 
@@ -31,7 +31,7 @@
   result: ClothingOuterHardsuitSyndicateBG
   completetime: 4
   materials:
-    Steel: 5250
+    Steel: 5000
     Plastic: 750
     Cloth: 750
 
@@ -102,8 +102,8 @@
   result: WeaponSubMachineGunDrozd
   completetime: 4
   materials:
-    Steel: 3750
-    Plastic: 2500
+    Steel: 2750
+    Plastic: 1750
 
 - type: latheRecipe
   id: WeaponSubMachineGunAtreidesNCSP
@@ -111,7 +111,7 @@
   completetime: 4
   materials:
     Steel: 3750
-    Plastic: 2500
+    Plastic: 2000
 
 - type: latheRecipe
   id: GyroscopeFlatpackLathe
@@ -166,6 +166,7 @@
     Steel: 3000
     Plastic: 1500
     Plasma: 1000
+    Silver: 500
 
 - type: latheRecipe
   id: BaseWeaponTurretGargoyleFlatpackCraftNCSP
@@ -175,15 +176,17 @@
     Steel: 4000
     Plastic: 2000
     Plasma: 1500
+    Silver: 750
 
 - type: latheRecipe
   id: EnergyShieldNCSP
   result: EnergyShield
   completetime: 4
   materials:
-    Steel: 1000
+    Steel: 1500
     Plastic: 500
     Gold: 500
+    Silver: 500
     Plasma: 1500
 
 - type: latheRecipe
@@ -194,7 +197,7 @@
     Steel: 1500
     Plastic: 500
     Silver: 500
-    Plasma: 1500
+    Plasma: 2000
 
 - type: latheRecipe
   id: WeaponRifleMayflowerNCSP
@@ -210,7 +213,9 @@
   completetime: 4
   materials:
     Steel: 5250
-    Plastic: 1750
+    Plastic: 2000
+    Gold: 250
+    Silver: 750
 
 - type: latheRecipe
   id: WeaponRifleBarghestNCSP
@@ -226,8 +231,9 @@
   result: WeaponLauncherRocket
   completetime: 4
   materials:
-    Steel: 3000
+    Steel: 4000
     Plastic: 1000
+    Silver: 250
 
 - type: latheRecipe
   id: CartridgeRocketNCSP
@@ -235,7 +241,8 @@
   completetime: 2
   materials:
     Steel: 400
-    Plasma: 400
+    Plasma: 1000
+    Gold: 500
 
 - type: latheRecipe
   id: MagazineLightRifleBoxNCSP
