@@ -66,3 +66,26 @@
     learnTime: 6
     spells:
       ActionLesserSuppress: -1
+
+- type: entity
+  id: GreaterSuppressMindSpellbook
+  name: greater suppress spellbook
+  parent: BaseSpellbook
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_strong
+      color: "#c2200e"
+    - state: decor_wingette_circle
+      color: gold
+    - state: icon_eye
+    - state: detail_rivets
+      color: red
+    - state: detail_bookmark
+      color: "#d94c3d"
+  - type: Spellbook
+    learnTime: 10
+    spells:
+      ActionGreaterSuppress: -1
