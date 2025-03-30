@@ -7,6 +7,8 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectileIFF
+    visualType: Circle
+    color: White
   - type: Projectile
     ignoreWeaponGrid: true
     damage:
@@ -94,6 +96,9 @@
   components:
   - type: ShipWeaponProjectile
   - type: Projectile
+  - type: ProjectileIFF
+    visualType: Circle
+    color: White
     ignoreWeaponGrid: true
     damage:
       types:
@@ -153,6 +158,8 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectileIFF
+    visualType: SolidCircle
+    color: White
   - type: ShipWeaponProjectile
   - type: ProjectilePhasePrevent
   - type: Projectile
@@ -241,6 +248,8 @@
         Heat: 40
         Blunt: 20
   - type: ProjectileIFF
+    visualType: Square
+    color: White
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
@@ -289,6 +298,9 @@
   components:
   - type: ShipWeaponProjectile
   - type: ProjectilePhasePrevent
+  - type: ProjectileIFF
+    visualType: Square
+    color: White
   - type: Projectile
     ignoreWeaponGrid: true
     damage:
@@ -367,6 +379,8 @@
         Radiation: 25
         Heat: 35
   - type: ProjectileIFF
+    visualType: SolidCircle
+    color: White
   - type: EmpOnTrigger
     range: 2
     energyConsumption: 1000
@@ -447,6 +461,8 @@
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+    visualType: SquareReticle
+    color: Yellow
   - type: Fixtures
     fixtures:
       projectile:
@@ -516,6 +532,8 @@
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+    visualType: SquareReticle
+    color: Red
   - type: Fixtures
     fixtures:
       projectile:
@@ -641,6 +659,8 @@
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+    visualType: SquareReticle
+    color: Blue
   - type: Fixtures
     fixtures:
       projectile:
@@ -729,6 +749,8 @@
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+    visualType: SquareReticle
+    color: White
   - type: HeatSeeking
     rotationSpeed: 15 # slow rotation so it isnt aimbot, still fairly accurate though
     acceleration: 120
@@ -825,6 +847,8 @@
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+    visualType: Diamond
+    color: White
 
 # flak
 
@@ -897,6 +921,8 @@
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+    visualType: Circle
+    color: White
 
 
 - type: entity
@@ -937,6 +963,8 @@
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+    visualType: Circle
+    color: White
 
 - type: entity
   id: MagazineFlak
@@ -1037,6 +1065,8 @@
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+    visualType: SquareReticle
+    color: Red
 
 - type: entity
   id: TorpCatapult
@@ -1078,6 +1108,8 @@
         Heat: 40
         Blunt: 20
   - type: ProjectileIFF
+    visualType: Square
+    color: White
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
@@ -1135,6 +1167,8 @@
     color: blue
     energy: 0.5
   - type: ProjectileIFF
+    visualType: Square
+    color: White
 
 - type: entity
   id: XrayLensCartridge
@@ -1211,6 +1245,8 @@
     color: white
     energy: 0.5
   - type: ProjectileIFF
+    visualType: Square
+    color: White
 
 - type: entity
   id: InfraredLensCartridge
@@ -1287,6 +1323,8 @@
     color: white
     energy: 0.5
   - type: ProjectileIFF
+    visualType: Square
+    color: White
 
 - type: entity
   id: MicrowaveLensCartridge
@@ -1372,6 +1410,8 @@
     color: white
     energy: 0.5
   - type: ProjectileIFF
+    visualType: Square
+    color: White
 
 - type: entity
   id: PlasmaLensCartridge
@@ -1498,6 +1538,8 @@
     color: white
     energy: 0.5
   - type: ProjectileIFF
+    visualType: SolidCircle
+    color: White
 
 - type: entity
   id: PlasmaAntimatterCanister
@@ -1574,6 +1616,8 @@
     color: purple
     energy: 0.5
   - type: ProjectileIFF
+    visualType: SolidCircle
+    color: White
 
 - type: entity
   id: GuidedAntimatterCanister
@@ -1650,6 +1694,8 @@
     color: purple
     energy: 0.5
   - type: ProjectileIFF
+    visualType: SolidCircle
+    color: White
   - type: HeatSeeking
     rotationSpeed: 20 # slow rotation so it isnt aimbot, still fairly accurate though
     acceleration: 85
@@ -1754,6 +1800,8 @@
     layers:
       - state: base-projectile
   - type: ProjectileIFF
+    visualType: SquareReticle
+    color: Red
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
