@@ -20,7 +20,7 @@
     - type: InputMover
     - type: MovementSpeedModifier
       baseWalkSpeed: 4
-      baseSprintSpeed: 5.5
+      baseSprintSpeed: 6
     - type: DamageOnHighSpeedImpact
       damage:
         types:
@@ -86,14 +86,14 @@
       hidden: false
       altDisarm: false
       animation: WeaponArcFist
-      attackRate: 1.8
+      attackRate: 2
       autoAttack: true
       soundHit:
         collection: Punch
       damage:
         types:
-          Blunt: 20
-          Structural: 60
+          Blunt: 30
+          Structural: 70
     - type: MeleeSpeech
     - type: UserInterface
       interfaces:
@@ -138,7 +138,7 @@
           color: "#40a7d7"
           shader: unshaded
     - type: Guardian
-      distanceAllowed: 15 
+      distanceAllowed: 30 
     # - type: HTN # Frontier
       # rootTask:
         # task: SimpleHumanoidHostileCompound
