@@ -1204,3 +1204,53 @@
   - type: ShipVoucher
     ship: Warthog
 
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherBorealis
+  name: Borealis pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a new CMM design for the Borealis diplomatic cruiser.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 0 # admin spawn only, no value.
+  - type: ShipVoucher
+    ship: Borealis
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherArdour
+  name: Ardour pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with the ATH Ardour, their prized flagship in the sector.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 0 # admin spawn only, no value.
+  - type: ShipVoucher
+    ship: Ardour
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherCarrum
+  name: Ardour pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with the ATH Carrum.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 0 # admin spawn only, no value.
+  - type: ShipVoucher
+    ship: Carrum

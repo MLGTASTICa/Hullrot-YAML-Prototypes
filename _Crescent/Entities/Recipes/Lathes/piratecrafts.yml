@@ -233,16 +233,18 @@
   materials:
     Steel: 4000
     Plastic: 1000
-    Silver: 250
+    Silver: 750
+    Gold: 500
+    Plasma: 250
 
 - type: latheRecipe
   id: CartridgeRocketNCSP
   result: CartridgeRocket
   completetime: 2
   materials:
-    Steel: 400
-    Plasma: 1000
-    Gold: 500
+    Steel: 200
+    Plasma: 750
+    Gold: 100
 
 - type: latheRecipe
   id: MagazineLightRifleBoxNCSP

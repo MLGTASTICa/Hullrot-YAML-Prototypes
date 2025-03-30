@@ -11,10 +11,10 @@
   - type: MultiHandedItem
   - type: Gun
     minAngle: 2
-    maxAngle: 4
-    angleIncrease: 4
-    angleDecay: 12
-    fireRate: 2
+    maxAngle: 25
+    angleIncrease: 10
+    angleDecay: 2
+    fireRate: 1.5
     selectedMode: FullAuto
     availableModes:
       - FullAuto
