@@ -68,8 +68,9 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitAuthorityLeutnant
     back: ClothingBackpackSatchelLeatherFilledDSM
-    shoes: ClothingShoesBootsJack
+    shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHatAuthorityLeutnant
     outerClothing: ClothingOuterCoatAuthorityLeutnant
     id: LeutnantPDA
     ears: ClothingHeadsetAuthority
+    pocket1: WeaponRevolverInspector

@@ -440,19 +440,20 @@
   id: JobSoldatATH
   groups:
   - ContractorTrinkets
-  - ContractorBackpack
+  - ATHBackpacks
+  - ContractorFun # For Oni Usage ONLY.
 
 - type: roleLoadout
   id: JobKanoneerATH
   groups:
   - ContractorTrinkets
-  - ContractorBackpack
+  - ATHBackpacks
 
 - type: roleLoadout
   id: JobSanitatATH
   groups:
   - ContractorTrinkets
-  - ContractorBackpack
+  - ATHBackpacks
 
 #misc
 

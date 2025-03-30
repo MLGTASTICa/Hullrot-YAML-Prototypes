@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ce08445-971c-4f03-8f68-0ebe6da24582" name="Changes" comment="" />
+    <list default="true" id="0ce08445-971c-4f03-8f68-0ebe6da24582" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/_Crescent/Loadouts/LoadoutGroups/ATH/ath_loadouts.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Crescent/Catalog/Fills/StarterGear/starterfills.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_Crescent/Catalog/Fills/StarterGear/starterfills.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Crescent/Loadouts/role_loadouts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_Crescent/Loadouts/role_loadouts.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Crescent/Roles/Jobs/ATH/kanoneer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_Crescent/Roles/Jobs/ATH/kanoneer.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Crescent/Roles/Jobs/ATH/kommandant.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_Crescent/Roles/Jobs/ATH/kommandant.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Crescent/Roles/Jobs/ATH/leutnant.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_Crescent/Roles/Jobs/ATH/leutnant.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Crescent/Roles/Jobs/ATH/sanitat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_Crescent/Roles/Jobs/ATH/sanitat.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Crescent/Roles/Jobs/ATH/soldat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_Crescent/Roles/Jobs/ATH/soldat.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +35,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -37,6 +53,7 @@
       <updated>1740607918729</updated>
       <workItem from="1740607918732" duration="27000" />
       <workItem from="1740774626547" duration="20000" />
+      <workItem from="1743348619904" duration="8627000" />
     </task>
     <servers />
   </component>
