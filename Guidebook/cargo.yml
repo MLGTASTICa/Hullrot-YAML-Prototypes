@@ -5,6 +5,7 @@
   children:
   - CargoBounties
   - Salvage
+  - Bank
 
 - type: guideEntry
   id: CargoBounties
