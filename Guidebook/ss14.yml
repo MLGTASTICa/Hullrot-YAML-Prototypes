@@ -4,7 +4,6 @@
   text: "/ServerInfo/Guidebook/SpaceStation14.xml"
   children:
   - Controls
-  - Cargo
   - Chemicals
   - Writing
   - Glossary
