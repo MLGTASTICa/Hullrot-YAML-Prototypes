@@ -5,6 +5,7 @@
   children:
   - Controls
   - Jobs
+  - Cargo
   - Survival
   - Chemicals
   - Writing
