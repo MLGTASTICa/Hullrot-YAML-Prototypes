@@ -4,6 +4,8 @@
   text: "/ServerInfo/Guidebook/Cargo/Cargo.xml"
   children:
   - CargoBounties
+  - Salvage
+  - TradeStation
 
 - type: guideEntry
   id: CargoBounties
