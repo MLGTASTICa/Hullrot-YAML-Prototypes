@@ -448,8 +448,8 @@
   id: JobKanoneerATH
   groups:
   - ContractorTrinkets
-  - ATHWebbings
-  #- ATHBackpacks
+  - ATHBackpacks
+  #- ATHWebbings
 
 - type: roleLoadout
   id: JobSanitatATH
