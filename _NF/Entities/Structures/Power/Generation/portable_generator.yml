@@ -65,3 +65,22 @@
             Quantity: 200
     - type: PortableGenerator
       startOnMapInit: true
+
+- type: entity
+  parent: BoriaticGeneratorEinstein
+  id: BoriaticGeneratorEinsteinShuttle
+  suffix: BoriaticFuel, 95 kW, Ship
+  components:
+    - type: FuelGenerator
+      on: true
+    - type: Transform
+      anchored: true
+    - type: SolutionContainerManager
+      solutions:
+        tank:
+          maxVol: 2500
+          reagents:
+          - ReagentId: BoriaticFuel
+            Quantity: 500
+    - type: PortableGenerator
+      startOnMapInit: true
