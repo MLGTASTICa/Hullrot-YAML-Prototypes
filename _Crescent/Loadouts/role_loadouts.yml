@@ -435,24 +435,28 @@
   id: JobLeutnantATH
   groups:
   - ContractorTrinkets
-
+  - ATHWebbings
+  
 - type: roleLoadout
   id: JobSoldatATH
   groups:
   - ContractorTrinkets
-  - ContractorBackpack
+  - ATHBackpacks
+  #- ATHWebbings
 
 - type: roleLoadout
   id: JobKanoneerATH
   groups:
   - ContractorTrinkets
-  - ContractorBackpack
+  - ATHWebbings
+  #- ATHBackpacks
 
 - type: roleLoadout
   id: JobSanitatATH
   groups:
   - ContractorTrinkets
-  - ContractorBackpack
+  - ATHBackpacks
+  #- ATHWebbings
 
 #misc
 

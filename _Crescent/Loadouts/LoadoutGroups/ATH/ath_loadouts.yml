@@ -1,0 +1,15 @@
+- type: loadoutGroup
+  id: ATHBackpacks
+  name: loadout-group-contractor-backpack
+  loadouts:
+    - ClothingBackpackAuthorityFilled
+    - ClothingBackpackSatchelAuthorityFilled
+    - ClothingBackpackDuffelAuthorityFilled
+
+- type: loadoutGroup
+  id: ATHWebbings
+  name: loadout-group-contractor-belt
+  loadouts:
+    - ClothingBeltAuthorityWebbing
+    - ClothingBeltAuthorityPouches
+    - ClothingBeltAuthorityDroppouches
