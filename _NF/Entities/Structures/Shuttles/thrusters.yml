@@ -75,3 +75,48 @@
     price: 100
   - type: Machine
     board: SmallGyroscopeMachineCircuitboard
+
+- type: entity
+  id: MicroGyroscope
+  parent: Gyroscope
+  name: micro gyroscope
+  components:
+  - type: Thruster
+    thrusterType: Angular
+    requireSpace: false
+    baseThrust: 10
+    thrust: 10
+  - type: ApcPowerReceiver
+    powerLoad: 100
+  - type: Sprite
+    scale: 0.8, 0.8
+    sprite: Structures/Shuttles/gyroscope.rsi
+    snapCardinals: true
+    layers:
+    - state: base
+      map: ["enum.ThrusterVisualLayers.Base"]
+    - state: thrust
+      map: ["enum.ThrusterVisualLayers.ThrustOn"]
+      shader: unshaded
+      visible: false
+    - state: thrust_burn_unshaded
+      map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
+      shader: unshaded
+      visible: false
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 50
+          behaviors:
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                ScrapComponent:
+                  min: 1
+                  max: 1
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+  - type: StaticPrice
+    price: 100
+  - type: Machine
+    board: MicroGyroscopeMachineCircuitboard
