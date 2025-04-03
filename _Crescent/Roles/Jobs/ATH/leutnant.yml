@@ -73,3 +73,5 @@
     outerClothing: ClothingOuterCoatAuthorityLeutnant
     id: LeutnantPDA
     ears: ClothingHeadsetAuthority
+    pocket1: WeaponRevolverMateba
+    pocket2: SpeedLoaderMagnum

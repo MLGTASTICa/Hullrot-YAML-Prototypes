@@ -71,3 +71,5 @@
     gloves: ClothingHandsGlovesFingerless
     id: SoldatPDA
     ears: ClothingHeadsetAuthority
+    pocket1: WeaponPistolMk58
+    pocket2: MagazinePistol

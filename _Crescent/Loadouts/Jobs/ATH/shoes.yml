@@ -1,0 +1,19 @@
+- type: loadout
+  id: ATHClothingShoesBootsCombatFilled
+  equipment: ATHClothingShoesBootsCombatFilled
+  price: 0
+
+- type: startingGear
+  id: ATHClothingShoesBootsCombatFilled
+  equipment:
+    shoes: ClothingShoesBootsCombatFilled
+    
+- type: loadout
+  id: ATHClothingShoesBootsJack
+  equipment: ATHClothingShoesBootsJack
+  price: 0
+
+- type: startingGear
+  id: ATHClothingShoesBootsJack
+  equipment:
+    shoes: ClothingShoesBootsJack
