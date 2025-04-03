@@ -179,7 +179,7 @@
 #.50 call EMP for machine gun
 - type: entity
   id: BulletMachineGunEMP
-  name: .50 EMP-tip slugthrower pellet
+  name: 43mm EMP-tip slugthrower pellet
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -211,9 +211,9 @@
 
 - type: entity
   id: CartridgeMachineGunEMP
-  name: .50 polymer-tip slugthrower cartridge
+  name: 43mm polymer-tip slugthrower cartridge
   parent: BaseItem
-  description: A .50 slugthrower cartridge, tipped with polymer-encased bluespace crystal fragments, emitting an electromagnetic pulse upon landing.
+  description: A 43mm slugthrower cartridge, tipped with polymer-encased bluespace crystal fragments, emitting an electromagnetic pulse upon landing.
   components:
   - type: Tag
     tags:
@@ -236,7 +236,7 @@
 #.50 call AP for machine gun
 - type: entity
   id: BulletMachineGunArmorPiercing
-  name: .50 AP slugthrower bullet
+  name: 43mm AP slugthrower bullet
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -271,9 +271,9 @@
 
 - type: entity
   id: CartridgeMachineGunArmorPiercing
-  name: .50 depleted uranium slugthrower cartridge
+  name: 43mm depleted uranium slugthrower cartridge
   parent: BaseItem
-  description: An armor-piercing .50 slugthrower cartridge, tipped with depleted uranium.
+  description: An armor-piercing 43mm slugthrower cartridge, tipped with depleted uranium.
   components:
   - type: Tag
     tags:
@@ -296,7 +296,7 @@
 #.50 call HE for machine gun
 - type: entity
   id: BulletMachineGunHighExplosive
-  name: .50 low-yield explosive slugthrower bullet
+  name: 43mm low-yield explosive slugthrower bullet
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -331,7 +331,7 @@
 
 - type: entity
   id: CartridgeMachineGunHighExplosive
-  name: .50 low-yield explosive slugthrower cartridge
+  name: 43mm low-yield explosive slugthrower cartridge
   parent: BaseItem
   description: An explosive-tipped slugthrower cartridge.
   components:
@@ -390,7 +390,7 @@
 
 - type: entity
   id: CartridgeMachineGunPractice
-  name: .50 inert slugthrower cartridge
+  name: 43mm inert slugthrower cartridge
   parent: BaseItem
   description: An inert slugthrower cartridge with a lower gunpowder yield.
   components:
