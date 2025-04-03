@@ -65,7 +65,7 @@
   id: SoldatGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitAuthoritySoldat
-    shoes: ClothingShoesBootsJack
+    shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHatAuthoritySoldat
     belt: ClothingBeltAuthorityPouches
     gloves: ClothingHandsGlovesFingerless

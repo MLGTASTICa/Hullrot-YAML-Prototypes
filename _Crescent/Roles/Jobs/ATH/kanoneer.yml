@@ -65,7 +65,7 @@
   id: KanoneerGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitAuthorityKanoneer
-    shoes: ClothingShoesBootsJack
+    shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHatAuthorityKanoneer
     belt: ClothingBeltAuthorityWebbing
     gloves: ClothingHandsGlovesFingerless
