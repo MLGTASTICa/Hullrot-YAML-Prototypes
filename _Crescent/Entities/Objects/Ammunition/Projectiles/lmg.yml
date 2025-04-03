@@ -9,8 +9,8 @@
     ignoreWeaponGrid: false
     damage:
       types:
-        Structural: 55
-        Pierce: 55
+        Structural: 150
+        Piercing: 55
     armorDamageMultiplier: 10
 
 - type: entity
@@ -23,7 +23,7 @@
     ignoreWeaponGrid: false
     damage:
       types:
-        Structural: 95
-        Pierce: 95
+        Structural: 150
+        Piercing: 75
     armorDamageMultiplier: 10
 

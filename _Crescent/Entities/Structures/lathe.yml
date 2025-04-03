@@ -222,6 +222,17 @@
       - ClothingHeadHatWelding
       - ClothingOuterSuitEmergency
       - ClothingHeadHelmetEVALarge # Frontier
+      - ArmorPlateSteelCraft
+      - ArmorPlatePlasteelCraft
+      - ArmorPlateNanoPolymerCraft
+      - ArmorPlateCeramicCraft
+      - ArmorPlateDurathreadCraft
+      # - ArmorPlatePlasmGlassaCraft # no sprite
+      - ArmorPlatePlasticCraft
+      - ArmorPlateHomelandCraft
+      - ArmorPlateKevlarCraft
+      - ArmorPlatePlasteelEncasedKevlarCraft
+      - ArmorPlateNanoCeramicCraft
     dynamicRecipes:
       - WeaponSubMachineGunCheshyre
       - WeaponPistolRongyu
@@ -398,6 +409,8 @@
       - WeaponPistolHKUSPNT
       - ClothingOuterHardsuitSyndicateBGNCSP
       - ClothingOuterHardsuitRamziNCSP
+      - ClothingOuterHardsuitCybersunNCSP
+      - ClothingOuterHardsuitTraumasecNCSP
       - ClothingHeadHelmetSyndicateBasicInterdyneNCSP
       - ClothingHeadHelmetSyndicateBasicNCSP
       - ClothingUniformJumpsuitSyndicateNCSP
@@ -406,22 +419,25 @@
       - ClothingUniformJumpsuitSyndicateSawsNCSP
       - ClothingUniformJumpsuitSyndicateInterdyneNCSP
       - ClothingNeckScarfSyndicateShemaghNCSP
-      - WeaponPistolCobraNCSP
       - WeaponSubMachineGunAtreidesNCSP
       - WeaponSubMachineGunDrozdNCSP
       - NCSPWarshipThrusterFlatpackNCSP
       - NCSPFighterThrusterFlatpackNCSP
-      - NCSPVulcanTurretFlatpackNCSP
       - NCSPAnklebiterFlatpackNCSP
+      - FlakCannonTurretFlatpackCraftNCSP
+      - BaseWeaponTurretGargoyleFlatpackCraftNCSP
       - PlasmaRepeaterFlatpackCraft
-      - WeaponRifleKrinkovNCSP
+      - EnergyShieldNCSP
+      - EnergySwordNCSP
+      - WeaponRifleBarghestNCSP
+      - WeaponLauncherRocketNCSP
       - WeaponRifleMayflowerNCSP
-      - WeaponRifleAkNCSP
       - WeaponLightMachineGunL6CNCSP
       - MagazineLightRifleBoxNCSP
       - RadioJammerNCSP
       - EmagNCSP
       - EmpGrenadeNCSP
+      - CartridgeRocketNCSP
       # - GrenadeEMPCraft YAMLFIX: Duplicate recipe result
       - ClothingUniformJumpsuitNCWLMedicCraft
       - ClothingUniformJumpsuitNCWLCraft

@@ -55,7 +55,7 @@
   - type: StaticPrice
     price: 750
   - type: DisarmMalus
-    malus: -1
+    malus: -.5
 
 - type: entity
   name: NCSP Atreides 9x19mm
@@ -125,18 +125,18 @@
   description: A heavy submachine gun with robust rifling. Manufactured by Pang Tai Arms and outsourced to mercenary factors in the area.
   components:
     - type: Sprite
-      sprite: Objects/Weapons/Guns/SMGs/drozd.rsi
+      sprite: _Crescent/Objects/Weapons/drozd.rsi
       layers:
         - state: base
           map: ["enum.GunVisualLayers.Base"]
         - state: mag-0
           map: ["enum.GunVisualLayers.Mag"]
     - type: Clothing
-      sprite: Objects/Weapons/Guns/SMGs/drozd.rsi
+      sprite: _Crescent/Objects/Weapons/drozd.rsi
     - type: Gun
       minAngle: 21
       maxAngle: 32  
-      fireRate: 6
+      fireRate: 7
       selectedMode: FullAuto
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -239,7 +239,7 @@
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
   - type: Gun
-    fireRate: 5.5
+    fireRate: 6
     minAngle: 1
     maxAngle: 6
     angleIncrease: 1.5

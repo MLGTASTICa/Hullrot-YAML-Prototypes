@@ -7,16 +7,20 @@
      startAudio:
        path: /Audio/Announcements/attention.ogg
      endAnnouncement: station-event-bluespace-asteroid-end-announcement
-     earliestStart: 1
+     earliestStart: 30
      minimumPlayers: 1
      weight: 4
      startDelay: 10
      duration: 2100
      maxDuration: 2400
-     maxOccurrences: 1 # Only once per shift possible
+     maxOccurrences: 2 # Only two per shift possible
    - type: BluespaceErrorRule
      gridPath: /Maps/_NF/Bluespace/asteroidbunker.yml
      rewardFactor: 0.5 # Filler to make the bank go up
+     minX: 2000
+     minY: 2500
+     maxX: 4000
+     maxY: 6300
 
  - type: entity # Need rework
    id: ShinoharaTrader
@@ -33,10 +37,14 @@
      startDelay: 10
      duration: 2100
      maxDuration: 2400
-     maxOccurrences: 1
+     maxOccurrences: 2
    - type: BluespaceErrorRule
      gridPath: /Maps/_Crescent/Bluespace/shitrader.yml
      rewardFactor: 0.5 # Filler to make the bank go up
+     minX: -1000
+     minY: -5500
+     maxX: 8800
+     maxY: 10000
 
  - type: entity # Need rework
    id: PangTaiTrader
@@ -53,7 +61,35 @@
      startDelay: 10
      duration: 2100
      maxDuration: 2400
-     maxOccurrences: 1
+     maxOccurrences: 2
    - type: BluespaceErrorRule
      gridPath: /Maps/_Crescent/Bluespace/trader.yml
      rewardFactor: 0.5 # Filler to make the bank go up
+     minX: -1000
+     minY: -5500
+     maxX: 8800
+     maxY: 10000
+
+ - type: entity # Need rework
+   id: ShinoharaDED
+   parent: BaseGameRule
+   components:
+   - type: StationEvent
+     startAnnouncement: station-event-bluespace-shinohara-ded
+     startAudio:
+       path: /Audio/Announcements/attention.ogg
+     endAnnouncement: station-event-bluespace-shinohara-ded-end
+     earliestStart: 15
+     minimumPlayers: 25
+     weight: 5
+     startDelay: 10
+     duration: 2100
+     maxDuration: 2400
+     maxOccurrences: 1
+   - type: BluespaceErrorRule
+     gridPath: /Maps/_Crescent/Bluespace/dedsite.yml
+     rewardFactor: 0.5 # Filler to make the bank go up
+     minX: -7000
+     minY: -6000
+     maxX: 10000
+     maxY: 12000

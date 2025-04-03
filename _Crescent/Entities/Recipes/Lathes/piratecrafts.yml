@@ -4,7 +4,25 @@
   result: ClothingOuterHardsuitRamzi
   completetime: 4
   materials:
-    Steel: 4250
+    Steel: 5000
+    Plastic: 500
+    Cloth: 1000
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitCybersunNCSP
+  result: ClothingOuterHardsuitCybersun
+  completetime: 4
+  materials:
+    Steel: 5000
+    Plastic: 500
+    Cloth: 1000
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitTraumasecNCSP
+  result: ClothingOuterHardsuitTraumasec
+  completetime: 4
+  materials:
+    Steel: 5000
     Plastic: 500
     Cloth: 1000
 
@@ -13,7 +31,7 @@
   result: ClothingOuterHardsuitSyndicateBG
   completetime: 4
   materials:
-    Steel: 5250
+    Steel: 5000
     Plastic: 750
     Cloth: 750
 
@@ -80,20 +98,12 @@
     Cloth: 500
 
 - type: latheRecipe
-  id: WeaponPistolCobraNCSP
-  result: WeaponPistolCobra
-  completetime: 4
-  materials:
-    Steel: 1750
-    Plastic: 1500
-
-- type: latheRecipe
   id: WeaponSubMachineGunDrozdNCSP
   result: WeaponSubMachineGunDrozd
   completetime: 4
   materials:
-    Steel: 3750
-    Plastic: 2500
+    Steel: 2750
+    Plastic: 1750
 
 - type: latheRecipe
   id: WeaponSubMachineGunAtreidesNCSP
@@ -101,7 +111,7 @@
   completetime: 4
   materials:
     Steel: 3750
-    Plastic: 2500
+    Plastic: 2000
 
 - type: latheRecipe
   id: GyroscopeFlatpackLathe
@@ -131,15 +141,6 @@
     Glass: 250
 
 - type: latheRecipe
-  id: NCSPVulcanTurretFlatpackNCSP
-  result: NCSPVulcanTurretFlatpack
-  completetime: 4
-  materials:
-    Steel: 3500
-    Plastic: 550
-    Silver: 500
-
-- type: latheRecipe
   id: NCSPAnklebiterFlatpackNCSP
   result: NCSPAnklebiterFlatpack
   completetime: 4
@@ -158,11 +159,45 @@
     Plasma: 250
 
 - type: latheRecipe
-  id: WeaponRifleKrinkovNCSP
-  result: WeaponRifleKrinkov
+  id: FlakCannonTurretFlatpackCraftNCSP
+  result: FlakCannonTurretFlatpack
+  completetime: 4
+  materials:
+    Steel: 3000
+    Plastic: 1500
+    Plasma: 1000
+    Silver: 500
+
+- type: latheRecipe
+  id: BaseWeaponTurretGargoyleFlatpackCraftNCSP
+  result: BaseWeaponTurretGargoyleFlatpack
+  completetime: 4
+  materials:
+    Steel: 4000
+    Plastic: 2000
+    Plasma: 1500
+    Silver: 750
+
+- type: latheRecipe
+  id: EnergyShieldNCSP
+  result: EnergyShield
   completetime: 4
   materials:
     Steel: 1500
+    Plastic: 500
+    Gold: 500
+    Silver: 500
+    Plasma: 1500
+
+- type: latheRecipe
+  id: EnergySwordNCSP
+  result: EnergySword
+  completetime: 4
+  materials:
+    Steel: 1500
+    Plastic: 500
+    Silver: 500
+    Plasma: 2000
 
 - type: latheRecipe
   id: WeaponRifleMayflowerNCSP
@@ -173,20 +208,43 @@
     Plastic: 1000
 
 - type: latheRecipe
-  id: WeaponRifleAkNCSP
-  result: WeaponRifleAk
-  completetime: 4
-  materials:
-    Steel: 2250
-    Plastic: 750
-
-- type: latheRecipe
   id: WeaponLightMachineGunL6CNCSP
   result: WeaponLightMachineGunL6
   completetime: 4
   materials:
     Steel: 5250
-    Plastic: 1750
+    Plastic: 2000
+    Gold: 250
+    Silver: 750
+
+- type: latheRecipe
+  id: WeaponRifleBarghestNCSP
+  result: WeaponRifleBarghest
+  completetime: 4
+  materials:
+    Steel: 5000
+    Plastic: 1500
+    Plasma: 500
+
+- type: latheRecipe
+  id: WeaponLauncherRocketNCSP
+  result: WeaponLauncherRocket
+  completetime: 4
+  materials:
+    Steel: 4000
+    Plastic: 1000
+    Silver: 750
+    Gold: 500
+    Plasma: 250
+
+- type: latheRecipe
+  id: CartridgeRocketNCSP
+  result: CartridgeRocket
+  completetime: 2
+  materials:
+    Steel: 200
+    Plasma: 750
+    Gold: 100
 
 - type: latheRecipe
   id: MagazineLightRifleBoxNCSP
@@ -213,7 +271,6 @@
   materials:
     Plastic: 1000
     Gold: 500
-    # Diamond: 250 YAMLFIX: Not a real material
     Silver: 750
     Uranium: 1000
 
@@ -223,15 +280,38 @@
   completetime: 4
   materials:
     Steel: 500
-    # Diamond: 750 YAMLFIX: Not a real material
     Plasma: 250
     Silver: 100
 
+- type: latheRecipe
+  id: WeaponPistolCobraNCSP
+  result: WeaponPistolCobra
+  completetime: 4
+  materials:
+    Steel: 1750
+    Plastic: 1500
 
-# - type: latheRecipe
-#   id: GrenadeEMPCraft
-#   result: GrenadeEMP YAMLFIX: Duplicate result
-#   completetime: 4
-#   materials:
-#     Steel: 250
-#     Silver: 100
+- type: latheRecipe
+  id: NCSPVulcanTurretFlatpackNCSP
+  result: NCSPVulcanTurretFlatpack
+  completetime: 4
+  materials:
+    Steel: 3500
+    Plastic: 550
+    Silver: 500
+
+- type: latheRecipe
+  id: WeaponRifleAkNCSP
+  result: WeaponRifleAk
+  completetime: 4
+  materials:
+    Steel: 2250
+    Plastic: 750
+
+- type: latheRecipe
+  id: WeaponRifleKrinkovNCSP
+  result: WeaponRifleKrinkov
+  completetime: 4
+  materials:
+    Steel: 1500
+    Plastic: 500

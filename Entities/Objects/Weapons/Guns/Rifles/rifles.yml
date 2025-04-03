@@ -52,7 +52,7 @@
   - type: StaticPrice
     price: 500
   - type: DisarmMalus
-    malus: -0.2
+    malus: -1
 
 - type: entity
   name: NCSP AKMS-47 7.62x51mm
@@ -61,12 +61,14 @@
   description: An iconic weapon of war. Uses 7.62x51mm ammo. An illegal firearm often seen in the hands of terrorists and informal militias.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Rifles/ak.rsi
+    sprite: _Crescent/Objects/Weapons/ak74s.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Crescent/Objects/Weapons/ak74sworn.rsi
   - type: Gun
     fireRate: 5
     soundGunshot:
@@ -154,14 +156,14 @@
   description: A generic, SHI-brand assault carbine sold to corporations and security forces everywhere.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Rifles/lecter.rsi
+    sprite: _Crescent/Objects/Weapons/lecter.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Rifles/lecter.rsi
+    sprite: _Crescent/Objects/Weapons/lecterworn.rsi
   - type: Gun
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg

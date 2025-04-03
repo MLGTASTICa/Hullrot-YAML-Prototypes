@@ -3,15 +3,16 @@
   name: guide-entry-medical
   text: "/ServerInfo/Guidebook/Medical/Medical.xml"
   children:
-  - Medical Doctor
-  - Chemist
   - Cloning
   - Cryogenics
+  - Medicine
+  - Botanicals
+  - AdvancedBrute
 
-- type: guideEntry
-  id: Medical Doctor
-  name: guide-entry-medicaldoctor
-  text: "/ServerInfo/Guidebook/Medical/MedicalDoctor.xml"
+#- type: guideEntry
+#  id: Medical Doctor
+#  name: guide-entry-medicaldoctor
+#  text: "/ServerInfo/Guidebook/Medical/MedicalDoctor.xml"
 
 - type: guideEntry
   id: Cloning
@@ -23,14 +24,14 @@
   name: guide-entry-cryogenics
   text: "/ServerInfo/Guidebook/Medical/Cryogenics.xml"
 
-- type: guideEntry
-  id: Chemist
-  name: guide-entry-chemist
-  text: "/ServerInfo/Guidebook/Medical/Chemist.xml"
-  children:
-  - Medicine
-  - Botanicals
-  - AdvancedBrute
+#- type: guideEntry
+#  id: Chemist
+#  name: guide-entry-chemist
+#  text: "/ServerInfo/Guidebook/Medical/Chemist.xml"
+#  children:
+#  - Medicine
+#  - Botanicals
+#  - AdvancedBrute
 
 - type: guideEntry
   id: Medicine

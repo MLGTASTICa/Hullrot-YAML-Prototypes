@@ -16,19 +16,19 @@
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: DegradeableArmor
-    armorMaxHealth: 2500
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: NTPolymer
     initialModifiers:
       flatReductions:
         Blunt: 35
         Slash: 35
-        Piercing: 30
+        Piercing: 45
         Heat: 25
         Caustic: 15
   - type: ClothingSpeedModifier
-    walkModifier: 0.7
-    sprintModifier: 0.7
+    walkModifier: 0.80
+    sprintModifier: 0.80
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitAuthorityPanzer
   - type: StaticPrice
@@ -47,7 +47,7 @@
   - type: Clothing
     sprite: _Crescent/Clothing/ATH/OuterClothing/kommandant.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 1500
+    armorMaxHealth: 750
     armorType: Metallic
     armorRepair: NTPolymer
     initialModifiers:
@@ -74,14 +74,14 @@
   - type: Clothing
     sprite: _Crescent/Clothing/ATH/OuterClothing/leutnant.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 1250
+    armorMaxHealth: 750
     armorType: Metallic
     armorRepair: NTPolymer
     initialModifiers:
       flatReductions:
         Blunt: 20
         Slash: 20
-        Piercing: 20
+        Piercing: 35
         Heat: 25
         Caustic: 15
   - type: ClothingSpeedModifier
