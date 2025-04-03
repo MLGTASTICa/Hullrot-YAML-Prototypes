@@ -16,15 +16,15 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 1000
+    armorMaxHealth: 500
     armorType: Ceramic
     armorRepair: NTCeramic
     initialModifiers:
       flatReductions:
         Blunt: 20
         Slash: 20
-        Piercing: 45
-        Heat: 20
+        Piercing: 80
+        Heat: 15
         Caustic: 15
   - type: ClothingSpeedModifier
     walkModifier: 1
@@ -50,7 +50,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 1500
+    armorMaxHealth: 750
     armorType: Metallic
     armorRepair: PlasteelPlate
     initialModifiers:
@@ -82,15 +82,15 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 3500
+    armorMaxHealth: 750
     armorType: Metallic
     armorRepair: NTCeramic
     initialModifiers:
       flatReductions:
-        Blunt: 20
-        Slash: 20
-        Piercing: 45
-        Heat: 20
+        Blunt: 35
+        Slash: 15
+        Piercing: 80
+        Heat: 15
         Caustic: 15
   - type: ClothingSpeedModifier
     walkModifier: 0.7
@@ -111,7 +111,7 @@
   - type: Clothing
     sprite: _Crescent/Clothing/SHI/OuterClothing/securityvest.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 1500
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: PlasteelEncasedKevlar
     initialModifiers:
@@ -139,16 +139,16 @@
   - type: Clothing
     sprite: _Crescent/Clothing/SHI/OuterClothing/highsec.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 2500
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: NTPolymer
     initialModifiers:
       flatReductions:
         Blunt: 35
         Slash: 35
-        Piercing: 60
+        Piercing: 55
         Heat: 35
-        Caustic: 15
+        Caustic: 35
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9

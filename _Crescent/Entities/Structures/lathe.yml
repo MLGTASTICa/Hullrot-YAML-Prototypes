@@ -222,6 +222,17 @@
       - ClothingHeadHatWelding
       - ClothingOuterSuitEmergency
       - ClothingHeadHelmetEVALarge # Frontier
+      - ArmorPlateSteelCraft
+      - ArmorPlatePlasteelCraft
+      - ArmorPlateNanoPolymerCraft
+      - ArmorPlateCeramicCraft
+      - ArmorPlateDurathreadCraft
+      # - ArmorPlatePlasmGlassaCraft # no sprite
+      - ArmorPlatePlasticCraft
+      - ArmorPlateHomelandCraft
+      - ArmorPlateKevlarCraft
+      - ArmorPlatePlasteelEncasedKevlarCraft
+      - ArmorPlateNanoCeramicCraft
     dynamicRecipes:
       - WeaponSubMachineGunCheshyre
       - WeaponPistolRongyu

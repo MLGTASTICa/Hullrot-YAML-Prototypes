@@ -39,7 +39,7 @@
   description: "A armor plate made out of raw steel. Its very heavy"
   components:
   - type: ArmorRepairKit
-    repairHealth: 1000.0
+    repairHealth: 1250.0
     materialType: SteelPlate
   - type: Sprite
     sprite: _Crescent/Clothing/armorSprites.rsi
@@ -62,7 +62,7 @@
   description: "A armor plate made out of refined plasteel. Its a big lighter than the steel ones"
   components:
   - type: ArmorRepairKit
-    repairHealth: 1000.0
+    repairHealth: 1250.0
     materialType: PlasteelPlate
   - type: Sprite
     sprite: _Crescent/Clothing/armorSprites.rsi
@@ -85,7 +85,7 @@
   description: "A sheet made out of NT Propietary NanoPolymer. The technology behind the fabrication is closely guarded."
   components:
   - type: ArmorRepairKit
-    repairHealth: 1000.0
+    repairHealth: 1250.0
     materialType: NTPolymer
   - type: Sprite
     sprite: _Crescent/Clothing/armorSprites.rsi
@@ -112,7 +112,7 @@
   description: "A solid plate of armor-grade ceramic, baked and cleaned , its a formidable bullet stopper"
   components:
   - type: ArmorRepairKit
-    repairHealth: 1000.0
+    repairHealth: 1250.0
     materialType: CeramicPlate
   - type: Sprite
     sprite: _Crescent/Clothing/armorSprites.rsi
@@ -135,7 +135,7 @@
   description: "A solid sheet of Durathread weaved across 8 times. Great at stopping big bullets."
   components:
   - type: ArmorRepairKit
-    repairHealth: 1000.0
+    repairHealth: 1250.0
     materialType: DuraThread
   - type: Sprite
     sprite: _Crescent/Clothing/armorSprites.rsi
@@ -158,7 +158,7 @@
   description: "A plate of Plasma Glass doped with Gold & Silver. A very effective blocker for laser weaponary"
   components:
   - type: ArmorRepairKit
-    repairHealth: 1000.0
+    repairHealth: 1250.0
     materialType: PlasmaGlass
   - type: PhysicalComposition
     materialComposition:
@@ -177,7 +177,7 @@
   description: "A plate made of solid plastic. Not strong , but it is the cheapest thing on the market"
   components:
   - type: ArmorRepairKit
-    repairHealth: 1000.0
+    repairHealth: 1250.0
     materialType: Plastic
   - type: Sprite
     sprite: _Crescent/Clothing/armorSprites.rsi
@@ -200,7 +200,7 @@
   description: "A plate made from a tightly guarded alloy manufacturing technique used by NCWL."
   components:
   - type: ArmorRepairKit
-    repairHealth: 1000.0
+    repairHealth: 1250.0
     materialType: HomelandAlloy
   - type: Sprite
     sprite: _Crescent/Clothing/armorSprites.rsi
@@ -227,7 +227,7 @@
   description: "Threads and threads of strong fibers weaved togheter to stop the strongest bullets"
   components:
   - type: ArmorRepairKit
-    repairHealth: 1000.0
+    repairHealth: 1250.0
     materialType: Kevlar
   - type: Sprite
     sprite: _Crescent/Clothing/armorSprites.rsi
@@ -251,7 +251,7 @@
   description: "A solid plate of Plasteel covers the kevlar, preventing it from deteriorating from just any kind of munition"
   components:
   - type: ArmorRepairKit
-    repairHealth: 1000.0
+    repairHealth: 1250.0
     materialType: PlasteelEncasedKevlar
   - type: Sprite
     sprite: _Crescent/Clothing/armorSprites.rsi
@@ -276,7 +276,7 @@
   description: "A propietary plate of NanoCeramic. The manufacturing technique is closely guarded, the material keeps its flexibility whilst having the propeties of ceramic"
   components:
   - type: ArmorRepairKit
-    repairHealth: 1000.0
+    repairHealth: 1250.0
     materialType: NTCeramic
   - type: Sprite
     sprite: _Crescent/Clothing/armorSprites.rsi

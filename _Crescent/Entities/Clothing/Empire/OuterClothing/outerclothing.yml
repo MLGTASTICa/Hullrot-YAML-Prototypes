@@ -16,15 +16,15 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 3500
+    armorMaxHealth: 750
     armorType: Metallic
     armorRepair: PlasteelPlate
     initialModifiers:
       flatReductions:
         Blunt: 10
         Slash: 10
-        Piercing: 5
-        Heat: 5
+        Piercing: 15
+        Heat: 15
         Caustic: 25
   - type: ClothingSpeedModifier
     walkModifier: 0.8
@@ -50,19 +50,19 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 1750
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: PlasteelPlate
     initialModifiers:
       flatReductions:
-        Blunt: 30
-        Slash: 30
-        Piercing: 35
+        Blunt: 25
+        Slash: 25
+        Piercing: 45
         Heat: 25
         Caustic: 25
   - type: ClothingSpeedModifier
-    walkModifier: 0.8
-    sprintModifier: 0.8
+    walkModifier: 0.85
+    sprintModifier: 0.85
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitInspector
   - type: StaticPrice
@@ -84,7 +84,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 2000
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: PlasteelPlate
     initialModifiers:
@@ -113,7 +113,7 @@
   - type: Clothing
     sprite: _Crescent/Clothing/Empire/OuterClothing/archmaester.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 2000
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: DuraThread
     initialModifiers:
@@ -142,7 +142,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 2000
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: PlasteelPlate
     initialModifiers:
@@ -176,7 +176,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 3000
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: PlasteelPlate
     initialModifiers:
@@ -210,15 +210,15 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 1500
+    armorMaxHealth: 750
     armorType: Metallic
     armorRepair: PlasteelPlate
     initialModifiers:
       flatReductions:
-        Blunt: 15
-        Slash: 15
-        Piercing: 25
-        Heat: 10
+        Blunt: 25
+        Slash: 25
+        Piercing: 45
+        Heat: 25
         Caustic: 25
   - type: ClothingSpeedModifier
     walkModifier: 0.9
@@ -241,7 +241,7 @@
   - type: Clothing
     sprite: _Crescent/Clothing/Empire/OuterClothing/mandatearmor.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 2000
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: PlasteelPlate
     initialModifiers:
@@ -267,7 +267,7 @@
   - type: Clothing
     sprite: _Crescent/Clothing/Empire/OuterClothing/clarizebodyarmor.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 2000
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: NTPolymer
     initialModifiers:
@@ -293,7 +293,7 @@
   - type: Clothing
     sprite: _Crescent/Clothing/Empire/OuterClothing/mandatearmorprestige.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 2000
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: NTPolymer
     initialModifiers:
@@ -321,7 +321,7 @@
   - type: Clothing
     sprite: _Crescent/Clothing/Empire/OuterClothing/mandateadjutant.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 1000
+    armorMaxHealth: 750
     armorType: Metallic
     armorRepair: DuraThread
     initialModifiers:
@@ -345,7 +345,7 @@
   - type: Clothing
     sprite: _Crescent/Clothing/Empire/OuterClothing/advocatus.rsi
   - type: DegradeableArmor
-    armorMaxHealth: 1250
+    armorMaxHealth: 750
     armorType: Metallic
     armorRepair: DuraThread
     initialModifiers:
