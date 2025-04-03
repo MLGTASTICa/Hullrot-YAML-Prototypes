@@ -23,7 +23,7 @@
       flatReductions:
         Blunt: 10
         Slash: 10
-        Piercing: 15
+        Piercing: 35
         Heat: 15
         Caustic: 15
         Radiation: 35
@@ -60,7 +60,7 @@
       flatReductions:
         Blunt: 10
         Slash: 10
-        Piercing: 15
+        Piercing: 35
         Heat: 15
         Caustic: 15
         Radiation: 35
@@ -96,7 +96,7 @@
       flatReductions:
         Blunt: 15
         Slash: 15
-        Piercing: 35
+        Piercing: 45
         Heat: 15
         Caustic: 15
 
@@ -123,7 +123,7 @@
       flatReductions:
         Blunt: 25
         Slash: 15
-        Piercing: 90
+        Piercing: 80
         Heat: 15
         Caustic: 15
   - type: ClothingSpeedModifier

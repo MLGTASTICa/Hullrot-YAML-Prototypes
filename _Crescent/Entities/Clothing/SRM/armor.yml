@@ -15,15 +15,17 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.6
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.6
-        Slash: 0.6
-        Piercing: 0.6
-        Heat: 0.9
-        Radiation: 0.5
-        Caustic: 0.8
+  - type: DegradeableArmor
+    armorMaxHealth: 750
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 15
+        Slash: 15
+        Piercing: 35
+        Heat: 15
+        Caustic: 15
   - type: ClothingSpeedModifier
     walkModifier: 0.85
     sprintModifier: 0.9
@@ -45,15 +47,17 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.6
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.5
-        Slash: 0.5
-        Piercing: 0.4
-        Heat: 0.7
-        Radiation: 0.4
-        Caustic: 0.7
+  - type: DegradeableArmor
+    armorMaxHealth: 750
+    armorType: Ceramic
+    armorRepair: NTCeramic
+    initialModifiers:
+      flatReductions:
+        Blunt: 25
+        Slash: 15
+        Piercing: 70
+        Heat: 15
+        Caustic: 15
   - type: ClothingSpeedModifier
     walkModifier: 0.80
     sprintModifier: 0.85
@@ -70,14 +74,17 @@
     sprite: _Crescent/Clothing/SRM/OuterClothing/huntercoat.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/SRM/OuterClothing/huntercoat.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.90
-        Slash: 0.80
-        Piercing: 0.90
-        Heat: 0.80
-        Caustic: 0.8
+  - type: DegradeableArmor
+    armorMaxHealth: 750
+    armorType: Metallic
+    armorRepair: PlasteelEncasedKevlar
+    initialModifiers:
+      flatReductions:
+        Blunt: 10
+        Slash: 10
+        Piercing: 30
+        Heat: 20
+        Caustic: 15
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 1.0
@@ -95,14 +102,17 @@
     sprite: _Crescent/Clothing/SRM/OuterClothing/kevlarvest.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/SRM/OuterClothing/kevlarvest.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.90
-        Slash: 0.80
-        Piercing: 0.60
-        Heat: 0.80
-        Caustic: 0.8
+  - type: DegradeableArmor
+    armorMaxHealth: 750
+    armorType: Metallic
+    armorRepair: PlasteelEncasedKevlar
+    initialModifiers:
+      flatReductions:
+        Blunt: 15
+        Slash: 15
+        Piercing: 35
+        Heat: 20
+        Caustic: 15
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 1.0
@@ -120,14 +130,17 @@
     sprite: _Crescent/Clothing/SRM/OuterClothing/tendercoat.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/SRM/OuterClothing/tendercoat.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.90
-        Slash: 0.80
-        Piercing: 0.90
-        Heat: 0.45
-        Caustic: 0.4
+  - type: DegradeableArmor
+    armorMaxHealth: 1000
+    armorType: Metallic
+    armorRepair: NTPolymer
+    initialModifiers:
+      flatReductions:
+        Blunt: 10
+        Slash: 10
+        Piercing: 25
+        Heat: 20
+        Caustic: 35
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 1.0
@@ -145,14 +158,17 @@
     sprite: _Crescent/Clothing/SRM/OuterClothing/montagnecoat.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/SRM/OuterClothing/montagnecoat.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.80
-        Slash: 0.70
-        Piercing: 0.70
-        Heat: 0.70
-        Caustic: 0.8
+  - type: DegradeableArmor
+    armorMaxHealth: 1000
+    armorType: Metallic
+    armorRepair: NTPolymer
+    initialModifiers:
+      flatReductions:
+        Blunt: 10
+        Slash: 10
+        Piercing: 25
+        Heat: 20
+        Caustic: 35
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 1.0
@@ -170,14 +186,17 @@
     sprite: _Crescent/Clothing/SRM/OuterClothing/overseercoat.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/SRM/OuterClothing/overseercoat.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.80
-        Slash: 0.70
-        Piercing: 0.70
-        Heat: 0.70
-        Caustic: 0.8
+  - type: DegradeableArmor
+    armorMaxHealth: 750
+    armorType: Metallic
+    armorRepair: NTPolymer
+    initialModifiers:
+      flatReductions:
+        Blunt: 10
+        Slash: 10
+        Piercing: 35
+        Heat: 20
+        Caustic: 35
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 1.0
