@@ -45,17 +45,15 @@
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
   - type: BreathMask
-  - type: DegradeableArmor
-    armorMaxHealth: 500
-    armorType: Metallic
-    armorRepair: SteelPlate
-    initialModifiers:
-      flatReductions:
-        Blunt: 1
-        Slash: 1
-        Piercing: 1
-        Heat: 1
-        Caustic: 5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+        Radiation: 0.9
+        Caustic: 0.9
 
 - type: entity
   parent: ClothingHeadHardsuitBase
@@ -72,17 +70,15 @@
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
   - type: BreathMask
-  - type: DegradeableArmor
-    armorMaxHealth: 500
-    armorType: Metallic
-    armorRepair: SteelPlate
-    initialModifiers:
-      flatReductions:
-        Blunt: 1
-        Slash: 1
-        Piercing: 1
-        Heat: 1
-        Caustic: 5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+        Radiation: 0.9
+        Caustic: 0.9
 
 - type: entity
   parent: ClothingHeadHardsuitBase
@@ -99,17 +95,15 @@
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
   - type: BreathMask
-  - type: DegradeableArmor
-    armorMaxHealth: 500
-    armorType: Metallic
-    armorRepair: SteelPlate
-    initialModifiers:
-      flatReductions:
-        Blunt: 1
-        Slash: 1
-        Piercing: 1
-        Heat: 1
-        Caustic: 5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+        Radiation: 0.9
+        Caustic: 0.9
 
 - type: entity
   parent: ClothingHeadHardsuitBase
@@ -126,17 +120,15 @@
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
   - type: BreathMask
-  - type: DegradeableArmor
-    armorMaxHealth: 500
-    armorType: Metallic
-    armorRepair: PlasteelPlate
-    initialModifiers:
-      flatReductions:
-        Blunt: 1
-        Slash: 1
-        Piercing: 5
-        Heat: 1
-        Caustic: 5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+        Radiation: 0.9
+        Caustic: 0.9
   - type: HideLayerClothing
     slots:
     - Hair
