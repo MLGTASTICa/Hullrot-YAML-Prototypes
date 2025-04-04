@@ -122,8 +122,8 @@
     initialModifiers:
       flatReductions:
         Blunt: 10
-        Slash: 3
-        Piercing: 2
+        Slash: 10
+        Piercing: 30
         Heat: 25
         Caustic: 25
   - type: ToggleableClothing

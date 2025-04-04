@@ -173,7 +173,7 @@
       flatReductions:
         Blunt: 15
         Slash: 15
-        Piercing: 50
+        Piercing: 45
         Heat: 15
         Caustic: 15
   - type: ClothingSpeedModifier
@@ -201,19 +201,19 @@
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
-    armorMaxHealth: 1750
+    armorMaxHealth: 1500
     armorType: Metallic
     armorRepair: HomelandAlloy
     initialModifiers:
       flatReductions:
-        Blunt: 15
-        Slash: 35
-        Piercing: 60
+        Blunt: 25
+        Slash: 15
+        Piercing: 65
         Heat: 15
         Caustic: 15
   - type: ClothingSpeedModifier
-    walkModifier: 0.7
-    sprintModifier: 0.7
+    walkModifier: 0.6
+    sprintModifier: 0.6
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNCWLJuggernaut
