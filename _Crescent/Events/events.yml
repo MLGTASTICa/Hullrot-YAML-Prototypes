@@ -119,7 +119,7 @@
      maxX: 7000
      maxY: 12000
 
-      - type: entity # Need rework
+ - type: entity # Need rework
    id: InfestedStation
    parent: BaseGameRule
    components:
