@@ -500,7 +500,7 @@
     layers:
     - state: ame-part
   - type: StaticPrice
-    price: 100
+    price: 2000
 
 - type: entity
   parent: BaseFlatpack
@@ -514,6 +514,18 @@
     layers:
     - state: ame-part
   - type: StaticPrice
-    price: 100
+    price: 1500
 
-
+- type: entity
+  parent: BaseFlatpack
+  id: MediumBallisticHardpointFlatpack
+  name: medium ballistic hardpoint flatpack
+  description:  Parts used to build a medium ballistic hardpoint.
+  components:
+  - type: Flatpack
+    entity: AAAHardpointMediumBallistic
+  - type: Sprite
+    layers:
+    - state: ame-part
+  - type: StaticPrice
+    price: 1500
