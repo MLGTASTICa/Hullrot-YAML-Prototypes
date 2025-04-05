@@ -65,11 +65,9 @@
   id: KanoneerGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitAuthorityKanoneer
-    shoes: ClothingShoesBootsCombatFilled
+    shoes: ClothingShoesBootsJack
     head: ClothingHeadHatAuthorityKanoneer
     belt: ClothingBeltAuthorityWebbing
     gloves: ClothingHandsGlovesFingerless
     id: KanoneerPDA
     ears: ClothingHeadsetAuthority
-    pocket1: WeaponPistolMk58
-    pocket2: MagazinePistol
