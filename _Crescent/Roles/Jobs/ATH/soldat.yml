@@ -65,11 +65,9 @@
   id: SoldatGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitAuthoritySoldat
-    shoes: ClothingShoesBootsCombatFilled
+    shoes: ClothingShoesBootsJack
     head: ClothingHeadHatAuthoritySoldat
     belt: ClothingBeltAuthorityPouches
     gloves: ClothingHandsGlovesFingerless
     id: SoldatPDA
     ears: ClothingHeadsetAuthority
-    pocket1: WeaponPistolMk58
-    pocket2: MagazinePistol

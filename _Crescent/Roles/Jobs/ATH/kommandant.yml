@@ -68,12 +68,10 @@
   id: KommandantGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitAuthorityKommandant
-    back: ClothingBackpackSatchelLeatherAuthorityFilled
-    shoes: ClothingShoesBootsCombatFilled
+    back: ClothingBackpackSatchelLeatherFilledDSM
+    shoes: ClothingShoesBootsJack
     head: ClothingHeadHatAuthorityKommandant
     outerClothing: ClothingOuterCoatAuthorityKommandant
     belt: ClothingBeltSheathFilled
     id: KommandantPDA
     ears: ClothingHeadsetAuthority
-    pocket1: WeaponPistolN1984
-    pocket2: MagazineMagnum

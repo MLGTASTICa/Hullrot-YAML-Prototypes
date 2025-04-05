@@ -66,11 +66,9 @@
   id: SanitatGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitAuthoritySanitat
-    shoes: ClothingShoesBootsCombatFilled
+    shoes: ClothingShoesBootsJack
     head: ClothingHeadHatAuthoritySanitat
     belt: ClothingBeltAuthorityDroppouches
     gloves: ClothingHandsGlovesFingerless
     id: SanitatPDA
     ears: ClothingHeadsetAuthority
-    pocket1: WeaponPistolMk58
-    pocket2: MagazinePistol
