@@ -6,7 +6,7 @@
     state: icon
   discipline: Precursor
   tier: 2
-  cost: 50000
+  cost: 12000
   recipeUnlocks:
   - WeaponRifleM90GrenadeLauncherNT
   - WeaponSubMachineGunMP5NT
@@ -20,7 +20,7 @@
     state: icon
   discipline: Precursor
   tier: 1
-  cost: 25000
+  cost: 5000
   recipeUnlocks:
   - WeaponRevolverSnubnoseNT
   - WeaponPistolHKUSPNT
@@ -33,7 +33,7 @@
     state: icon
   discipline: Precursor
   tier: 3
-  cost: 80000
+  cost: 18000
   recipeUnlocks:
   - VulcanFlatpackCraft
   - MissileRackFlatpackCraft
