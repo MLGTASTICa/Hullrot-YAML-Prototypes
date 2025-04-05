@@ -1,0 +1,29 @@
+- type: loadout
+  id: ATHClothingBeltAuthorityWebbing
+  equipment: ATHClothingBeltAuthorityWebbing
+  price: 0
+
+- type: startingGear
+  id: ATHClothingBeltAuthorityWebbing
+  equipment:
+    belt: ClothingBeltAuthorityWebbing
+    
+- type: loadout
+  id: ATHClothingBeltAuthorityPouches
+  equipment: ATHClothingBeltAuthorityPouches
+  price: 0
+
+- type: startingGear
+  id: ATHClothingBeltAuthorityPouches
+  equipment:
+    belt: ClothingBeltAuthorityPouches
+    
+- type: loadout
+  id: ATHClothingBeltAuthorityDroppouches
+  equipment: ATHClothingBeltAuthorityDroppouches
+  price: 0
+
+- type: startingGear
+  id: ATHClothingBeltAuthorityDroppouches
+  equipment:
+    belt: ClothingBeltAuthorityDroppouches

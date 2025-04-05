@@ -67,9 +67,11 @@
   id: LeutnantGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitAuthorityLeutnant
-    back: ClothingBackpackSatchelLeatherFilledDSM
-    shoes: ClothingShoesBootsJack
+    back: ClothingBackpackSatchelLeatherAuthorityFilled
+    shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHatAuthorityLeutnant
     outerClothing: ClothingOuterCoatAuthorityLeutnant
     id: LeutnantPDA
     ears: ClothingHeadsetAuthority
+    pocket1: WeaponPistolN1984
+    pocket2: MagazineMagnum

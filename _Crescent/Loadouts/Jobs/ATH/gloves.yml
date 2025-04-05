@@ -1,0 +1,19 @@
+- type: loadout
+  id: ATHClothingHandsGlovesFingerless
+  equipment: ATHClothingHandsGlovesFingerless
+  price: 0
+
+- type: startingGear
+  id: ATHClothingHandsGlovesFingerless
+  equipment:
+    gloves: ClothingHandsGlovesFingerless
+    
+- type: loadout
+  id: ATHClothingHandsGlovesCombat
+  equipment: ATHClothingHandsGlovesCombat
+  price: 0
+
+- type: startingGear
+  id: ATHClothingHandsGlovesCombat
+  equipment:
+    gloves: ClothingHandsGlovesCombat

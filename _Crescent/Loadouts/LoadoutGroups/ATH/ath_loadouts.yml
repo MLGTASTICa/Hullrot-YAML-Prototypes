@@ -1,0 +1,46 @@
+- type: loadoutGroup
+  id: ATHBackpacks
+  name: loadout-group-contractor-backpack
+  loadouts:
+    - ATHClothingBackpackAuthorityFilled
+    - ATHClothingBackpackSatchelAuthorityFilled
+    - ATHClothingBackpackDuffelAuthorityFilled
+
+- type: loadoutGroup
+  id: ATHWebbings
+  name: loadout-group-contractor-belt
+  loadouts:
+    - ATHClothingBeltAuthorityWebbing
+    - ATHClothingBeltAuthorityPouches
+    - ATHClothingBeltAuthorityDroppouches
+
+
+- type: loadoutGroup
+  id: ATHBoots
+  name: loadout-group-contractor-shoes
+  loadouts:
+    - ATHClothingShoesBootsCombatFilled
+    - ATHClothingShoesBootsJack
+      
+- type: loadoutGroup
+  id: ATHGloves
+  name: loadout-group-contractor-gloves
+  loadouts:
+    - ATHClothingHandsGlovesFingerless
+    - ATHClothingHandsGlovesCombat
+      
+- type: loadoutGroup
+  id: ATHEyes
+  name: Loadout-group-contractor-glasses
+  loadouts:
+    - ATHClothingEyesGlassesSunglasses
+    - ATHClothingEyesEyepatch
+    - ATHClothingEyesGlasses
+      
+- type: loadoutGroup
+  id: ATHFun
+  name: Loadout-group-contractor-fun
+  loadouts:
+    - ATHHarmonicaInstrument
+    - ATHSaxophoneInstrument
+    - ATHAcousticGuitarInstrument

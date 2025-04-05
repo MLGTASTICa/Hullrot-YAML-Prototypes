@@ -430,29 +430,54 @@
   id: JobKommandantATH
   groups:
   - ContractorTrinkets
+  - ATHWebbings
+  - ATHBoots
+  - ATHGloves
+  - ATHEyes
+  - ATHFun
 
 - type: roleLoadout
   id: JobLeutnantATH
   groups:
   - ContractorTrinkets
-
+  - ATHWebbings
+  - ATHBoots
+  - ATHGloves
+  - ATHEyes
+  - ATHFun
+  
 - type: roleLoadout
   id: JobSoldatATH
   groups:
   - ContractorTrinkets
-  - ContractorBackpack
+  - ATHBackpacks
+  - ATHWebbings
+  - ATHBoots
+  - ATHGloves
+  - ATHEyes
+  - ATHFun
 
 - type: roleLoadout
   id: JobKanoneerATH
   groups:
   - ContractorTrinkets
-  - ContractorBackpack
+  - ATHBackpacks
+  - ATHWebbings
+  - ATHBoots
+  - ATHGloves
+  - ATHEyes
+  - ATHFun
 
 - type: roleLoadout
   id: JobSanitatATH
   groups:
   - ContractorTrinkets
-  - ContractorBackpack
+  - ATHBackpacks
+  - ATHWebbings
+  - ATHBoots
+  - ATHGloves
+  - ATHEyes
+  - ATHFun
 
 #misc
 
