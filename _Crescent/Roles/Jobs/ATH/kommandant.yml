@@ -75,5 +75,5 @@
     belt: ClothingBeltSheathFilled
     id: KommandantPDA
     ears: ClothingHeadsetAuthority
-    pocket1: WeaponRevolverMateba
-    pocket2: SpeedLoaderMagnum
+    pocket1: WeaponPistolN1984
+    pocket2: MagazineMagnum

@@ -391,7 +391,6 @@
         - id: BoxSurvival
         - id: Flash
         - id: Zipties
-        - id: GrenadeShrapnel
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -403,7 +402,6 @@
         - id: BoxSurvival
         - id: Flash
         - id: Zipties
-        - id: GrenadeShrapnel
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -415,7 +413,6 @@
         - id: BoxSurvival
         - id: Flash
         - id: Zipties
-        - id: GrenadeShrapnel
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -427,4 +424,3 @@
         - id: BoxSurvival
         - id: Flash
         - id: Zipties
-        - id: GrenadeShrapnel

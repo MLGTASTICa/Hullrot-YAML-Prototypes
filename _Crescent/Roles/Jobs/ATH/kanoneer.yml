@@ -71,5 +71,5 @@
     gloves: ClothingHandsGlovesFingerless
     id: KanoneerPDA
     ears: ClothingHeadsetAuthority
-    pocket1: WeaponPistolSmartpistol
-    pocket2: MagazinePistolSmartgun
+    pocket1: WeaponPistolMk58
+    pocket2: MagazinePistol
