@@ -98,6 +98,7 @@
     healPerSecond: 175 # base is 300
     damageExp: 1.4 # base is 1.2
     baseDraw: 50000 # base is 60000
+    unpoweredBonus: 0.5 # base is 0.75
   - type: Fixtures
     fix1:
       shape:
@@ -123,8 +124,9 @@
   components:
   - type: ShipShieldEmitter # will stop the first few hits but fail quickly without killing the power grid of the ship
     healPerSecond: 75
-    damageExp: 1.8 
-    baseDraw: 5000
+    damageExp: 2
+    baseDraw: 10000
+    unpoweredBonus: 0.1
   - type: Fixtures
     fix1:
       shape:
