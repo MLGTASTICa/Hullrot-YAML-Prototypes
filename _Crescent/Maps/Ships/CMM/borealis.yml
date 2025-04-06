@@ -14,7 +14,7 @@
   minPlayers: 0
   stations:
     Borealis:
-      stationProto: StandardCrescentStation
+      stationProto: StandardCrescentVessel
       components:
         - type: StationNameSetup
           mapNameTemplate: 'CMM Borealis {1}'
@@ -22,6 +22,7 @@
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: VesselDesignation
+          designation: vessel-designation-gunship
         - type: StationJobs
           overflowJobs: []
           availableJobs:
