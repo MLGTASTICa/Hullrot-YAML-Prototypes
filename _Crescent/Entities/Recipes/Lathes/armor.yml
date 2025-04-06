@@ -3,15 +3,14 @@
   result: ArmorPlateSteel
   completetime: 1
   materials:
-    Steel: 500
-    Plasma: 250
+    Steel: 750
 
 - type: latheRecipe
   id: ArmorPlatePlasteelCraft
   result: ArmorPlatePlasteel
   completetime: 1
   materials:
-    SheetPlasteel: 250
+    Steel: 500
     Plasma: 500
 
 - type: latheRecipe
@@ -78,7 +77,8 @@
   result: ArmorPlatePlasteelEncasedKevlar
   completetime: 1
   materials:
-    SheetPlasteel: 250
+    Steel: 250
+    Plasma: 250
     Cloth: 500
                         
 - type: latheRecipe
@@ -86,6 +86,6 @@
   result: ArmorPlateNanoCeramic
   completetime: 1
   materials:
-    SheetPlasteel: 250
+    Steel: 250
     Plasma: 250
     Glass: 400
