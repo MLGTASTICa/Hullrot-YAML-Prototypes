@@ -50,9 +50,10 @@
     MagazinePistolSubMachineGunHeavy: 250
     MagazinePistolSubMachineGun: 250
     BaseMagazineMagnumSubMachineGun: 250
-    MagazineMagnumSub: 250
     MagazineMagnum: 250
+    SpeedLoaderMagnum: 250
     MagazinePistol: 250
+    SpeedLoaderPistol: 250
     BoxLethalshot: 250
     BoxShotgunSlug: 250
     BoxLethalshot4g: 250
@@ -60,7 +61,6 @@
     BoxShotgunSlug4g: 250
     BoxShotgunBreach4g: 250
     BoxShotgunFlash4g: 250
-    SpeedLoaderMagnum: 250
     ClothingBeltSyndicateWebbingMedFilled: 60
     ClothingBeltSyndicateWebbingFilledGrenadier: 60
     RomaineBible: 100
@@ -147,12 +147,12 @@
     MagazinePistolSubMachineGunHeavy: 250
     MagazinePistolSubMachineGun: 250
     BaseMagazineMagnumSubMachineGun: 250
-    MagazineMagnumSub: 250
     MagazineMagnum: 250
+    SpeedLoaderMagnum: 250
     MagazinePistol: 250
+    SpeedLoaderPistol: 250
     BoxLethalshot: 250
     BoxShotgunSlug: 250
-    SpeedLoaderMagnum: 250
     ClothingBeltNCWLWebbingMedFilled: 60
     ClothingBeltNCWLWebbingFilledGrenadier: 60
     ClothingBackpackDuffelNCWL: 150
@@ -226,12 +226,12 @@
     MagazinePistolSubMachineGunHeavy: 250
     MagazinePistolSubMachineGun: 250
     BaseMagazineMagnumSubMachineGun: 250
-    MagazineMagnumSub: 250
     MagazineMagnum: 250
+    SpeedLoaderMagnum: 250
     MagazinePistol: 250
+    SpeedLoaderPistol: 250
     BoxLethalshot: 250
     BoxShotgunSlug: 250
-    SpeedLoaderMagnum: 250
     ClothingBeltSyndicateWebbingMedFilled: 60
     ClothingBeltSyndicateWebbingFilledGrenadier: 60
     RomaineBible: 100
@@ -324,12 +324,12 @@
     MagazinePistolSubMachineGunHeavy: 250
     MagazinePistolSubMachineGun: 250
     BaseMagazineMagnumSubMachineGun: 250
-    MagazineMagnumSub: 250
     MagazineMagnum: 250
+    SpeedLoaderMagnum: 250
     MagazinePistol: 250
+    SpeedLoaderPistol: 250
     BoxLethalshot: 250
     BoxShotgunSlug: 250
-    SpeedLoaderMagnum: 250
     ClothingBeltSyndicateWebbingMedFilled: 60
     ClothingBeltSyndicateWebbingFilledGrenadier: 60
     ClothingBeltMinutemanPouches: 100
