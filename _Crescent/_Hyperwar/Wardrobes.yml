@@ -121,7 +121,6 @@
     WeaponSubMachineGunMP49: 60
     WeaponSubMachineGunDrozd: 60
     WeaponShotgunBulldog: 60
-    WeaponShotgunKS23: 60
     WeaponShotgunEnforcer: 60
     WeaponShotgunKammerer: 60
     WeaponRevolverPython: 60
@@ -153,10 +152,6 @@
     MagazinePistol: 250
     BoxLethalshot: 250
     BoxShotgunSlug: 250
-    BoxBeanbag4g: 250
-    BoxShotgunSlug4g: 250
-    BoxShotgunBreach4g: 250
-    BoxShotgunFlash4g: 250
     SpeedLoaderMagnum: 250
     ClothingBeltNCWLWebbingMedFilled: 60
     ClothingBeltNCWLWebbingFilledGrenadier: 60
@@ -203,7 +198,6 @@
     WeaponSubMachineGunMP49: 60
     WeaponSubMachineGunDrozd: 60
     WeaponShotgunSpas: 60
-    WeaponShotgunKS23: 60
     WeaponShotgunEnforcer: 60
     WeaponShotgunKammerer: 60
     WeaponRevolverMateba: 60
@@ -237,10 +231,6 @@
     MagazinePistol: 250
     BoxLethalshot: 250
     BoxShotgunSlug: 250
-    BoxBeanbag4g: 250
-    BoxShotgunSlug4g: 250
-    BoxShotgunBreach4g: 250
-    BoxShotgunFlash4g: 250
     SpeedLoaderMagnum: 250
     ClothingBeltSyndicateWebbingMedFilled: 60
     ClothingBeltSyndicateWebbingFilledGrenadier: 60
@@ -302,7 +292,6 @@
     WeaponSubMachineGunMP49: 60
     WeaponSubMachineGunDrozd: 60
     WeaponShotgunSpas: 60
-    WeaponShotgunKS23: 60
     WeaponShotgunEnforcer: 60
     WeaponShotgunKammerer: 60
     WeaponRevolverDeckard: 60
@@ -340,10 +329,6 @@
     MagazinePistol: 250
     BoxLethalshot: 250
     BoxShotgunSlug: 250
-    BoxBeanbag4g: 250
-    BoxShotgunSlug4g: 250
-    BoxShotgunBreach4g: 250
-    BoxShotgunFlash4g: 250
     SpeedLoaderMagnum: 250
     ClothingBeltSyndicateWebbingMedFilled: 60
     ClothingBeltSyndicateWebbingFilledGrenadier: 60
