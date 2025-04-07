@@ -157,6 +157,7 @@
     - Lunge
     - Provost
     - Adjudicator
+    - Borealis
 
 - type: entity
   id: RefugeMothershipComputer
@@ -200,4 +201,13 @@
     - Archon
     - Carrum
     - Khorkoi
+
+- type: entity
+  id: ThukkerMothershipComputer
+  parent: BaseMothershipComputer
+  name: thukker tribal shipyard
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - Hearth
 

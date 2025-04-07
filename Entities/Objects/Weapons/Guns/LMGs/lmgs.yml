@@ -70,6 +70,7 @@
     price: 500
   - type: UseDelay
     delay: 1
+    malus: -1
 
 - type: entity
   name: SHI L6 5.56

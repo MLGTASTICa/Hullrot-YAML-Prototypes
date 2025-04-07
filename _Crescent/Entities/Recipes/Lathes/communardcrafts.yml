@@ -292,3 +292,14 @@
     Steel: 750
     Plastic: 500
     Plasma: 200    
+
+- type: latheRecipe
+  id: MediumBallisticHardpointFlatpackCraft
+  result: MediumBallisticHardpointFlatpack
+  completetime: 4
+  materials:
+    Steel: 5000
+    Silver: 2500
+    Gold: 2500
+    Uranium: 2500
+    Plasma: 2500  
