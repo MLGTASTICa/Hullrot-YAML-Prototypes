@@ -108,6 +108,7 @@
   - SHIArtilleryFlatpackCraft
   - SHINeedlerFlatpackCraft
   - SHIMortarFlatpackCraft
+  - MediumBallisticHardpointFlatpackCraft
 
 - type: technology
   id: ShinoharaHighsec
