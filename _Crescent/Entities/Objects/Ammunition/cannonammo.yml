@@ -96,14 +96,14 @@
   components:
   - type: ShipWeaponProjectile
   - type: Projectile
-  - type: ProjectileIFF
-    visualType: Circle
-    color: White
-    ignoreWeaponGrid: true
+      ignoreWeaponGrid: true
     damage:
       types:
         Piercing: 50
         Structural: 100
+  - type: ProjectileIFF
+    visualType: Circle
+    color: White
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
