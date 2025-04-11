@@ -207,3 +207,14 @@
   completetime: 4
   materials:
     Cloth:  50
+
+- type: latheRecipe
+  id: MediumEnergyHardpointFlatpackCraft
+  result: MediumEnergyHardpointFlatpack
+  completetime: 4
+  materials:
+    Steel: 6500
+    Silver: 2500
+    Gold: 3500
+    Uranium: 2500
+    Plasma: 3500  
