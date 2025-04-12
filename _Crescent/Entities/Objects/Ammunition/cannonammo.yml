@@ -96,7 +96,7 @@
   components:
   - type: ShipWeaponProjectile
   - type: Projectile
-      ignoreWeaponGrid: true
+    ignoreWeaponGrid: true
     damage:
       types:
         Piercing: 50
