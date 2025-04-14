@@ -94,11 +94,12 @@
   name: NT-630 'Bulwark' deflector emitter
   description: A complicated array of machinery - guzzles power and maintains a bubble deflector shield around the mother vessel. Overheats with too much use.
   components:
-  - type: ShipShieldEmitter # can stop a decent amount of damage, slightly weaker than the Goliath
-    healPerSecond: 175 # base is 300
-    damageExp: 1.4 # base is 1.2
-    baseDraw: 50000 # base is 60000
-    unpoweredBonus: 0.5 # base is 0.75
+  - type: ShipShieldEmitter # can stop a decent amount of damage, weaker than the Goliath
+    healPerSecond: 200 # base is 250
+    damageExp: 1.15 # base is 1.1
+    baseDraw: 40000 # base is 50000
+    maxDraw: 80000 # base is 150000
+    unpoweredBonus: 3 # base is 6
   - type: Fixtures
     fix1:
       shape:
@@ -114,7 +115,7 @@
     sprite: _Crescent/Structures/shieldemittermedium.rsi
     state: icon
   - type: ApcPowerReceiver
-    powerLoad: 50000
+    powerLoad: 40000
 
 - type: entity
   id: ShieldEmitterSmall
@@ -122,11 +123,12 @@
   name: NT-280 'Errant' deflector emitter
   description: A complicated array of machinery - guzzles power and maintains a bubble deflector shield around the mother vessel. Overheats with too much use.
   components:
-  - type: ShipShieldEmitter # will stop the first few hits but fail quickly without killing the power grid of the ship
-    healPerSecond: 75
-    damageExp: 2
-    baseDraw: 10000
-    unpoweredBonus: 0.1
+  - type: ShipShieldEmitter 
+    healPerSecond: 50
+    damageExp: 1.4
+    baseDraw: 20000
+    maxDraw: 60000
+    unpoweredBonus: 2.5
   - type: Fixtures
     fix1:
       shape:
@@ -142,4 +144,4 @@
     sprite: _Crescent/Structures/shieldemittersmall.rsi
     state: icon
   - type: ApcPowerReceiver
-    powerLoad: 5000
+    powerLoad: 20000
