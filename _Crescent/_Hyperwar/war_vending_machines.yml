@@ -58,6 +58,34 @@
   - type: MarketModifier
     mod: 0.2
 
+- type: entity
+  parent: [BaseStructureUnanchorable, VendingMachine]
+  id: RomaineWarVendory
+  name: hunter war vendor
+  description: May you return bathed in the blood of the heathens and xeno cattle. Blessed be your blade, that it may strike true.
+  components:
+  - type: VendingMachine
+    pack: RomaineWarInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: Advertise
+    pack: WarVendAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Speech
+  - type: Sprite
+    sprite: _Crescent/Structures/armory.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: MarketModifier
+    mod: 0.2
 
 - type: entity
   parent: [BaseStructureUnanchorable, VendingMachine]
@@ -91,7 +119,7 @@
 - type: entity
   parent: [BaseStructureUnanchorable, VendingMachine]
   id: PoliceWarVendory
-  name: Police war vendor
+  name: police war vendor
   description: Here, go nuts.
   components:
   - type: VendingMachine
@@ -117,6 +145,121 @@
   - type: MarketModifier
     mod: 0.2
 
+- type: entity
+  parent: [BaseStructureUnanchorable, VendingMachine]
+  id: PactWarVendory
+  name: pact war vendor
+  description: The mother calls for her warriors. You answer.
+  components:
+  - type: VendingMachine
+    pack: PactWarInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: Advertise
+    pack: WarVendAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Speech
+  - type: Sprite
+    sprite: _Crescent/Structures/armory.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: MarketModifier
+    mod: 0.2
+
+- type: entity
+  parent: [BaseStructureUnanchorable, VendingMachine]
+  id: ShinoharaWarVendory
+  name: shinohara war vendor
+  description: Corporate fueled war in the name of profit. No refunds.
+  components:
+  - type: VendingMachine
+    pack: ShinoharaWarInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: Advertise
+    pack: WarVendAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Speech
+  - type: Sprite
+    sprite: _Crescent/Structures/armory.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: MarketModifier
+    mod: 0.2
+
+- type: entity
+  parent: [BaseStructureUnanchorable, VendingMachine]
+  id: SolarianWarVendory
+  name: solarian war vendor
+  description: Bring Taypan into the fold. Glory to the 43rd Battlegroup and Sol.
+  components:
+  - type: VendingMachine
+    pack: SolarianWarInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: Advertise
+    pack: WarVendAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Speech
+  - type: Sprite
+    sprite: _Crescent/Structures/armory.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: MarketModifier
+    mod: 0.2
+
+- type: entity
+  parent: [BaseStructureUnanchorable, VendingMachine]
+  id: IndependentWarVendory
+  name: independent war vendor
+  description: A solution for the local meddlesome polities. Sponsored by DonkCo.
+  components:
+  - type: VendingMachine
+    pack: IndependentWarInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: Advertise
+    pack: WarVendAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Speech
+  - type: Sprite
+    sprite: _Crescent/Structures/armory.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: MarketModifier
+    mod: 0.2
 
 - type: entity
   parent: [BaseStructureUnanchorable, VendingMachine]
