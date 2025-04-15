@@ -41,11 +41,3 @@
   spawn: AdvancedElectronics1
   maxCount: 10
   itemSize: 2
-
-- type: stack
-  id: NanotrasenElectronics
-  name: precursor electronic components
-  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: nanotrasenelectronics }
-  spawn: NanotrasenElectronics1
-  maxCount: 10
-  itemSize: 2
