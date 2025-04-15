@@ -125,8 +125,8 @@
   price: 0.37
 
 - type: material
-  id: PrecursorElectronics
-  stackEntity: PrecursorElectronics1
+  id: NanotrasenElectronics
+  stackEntity: NanotrasenElectronics1
   name: materials-precursorelectronics
   unit: materials-unit-chunk
   icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: nanotrasenelectronics }
