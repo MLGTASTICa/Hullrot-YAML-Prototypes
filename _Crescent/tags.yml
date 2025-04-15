@@ -21,3 +21,6 @@
 
 - type: Tag
   id: Torpedo
+
+- type: Tag
+  id: CraftMaterials

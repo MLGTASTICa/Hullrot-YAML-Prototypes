@@ -105,3 +105,29 @@
   unit: materials-unit-chunk
   icon: { sprite: _Crescent/Objects/Materials/shipconstruction.rsi, state: hull }
   price: 0.52
+
+#craftparts
+
+- type: material
+  id: BasicElectronics
+  stackEntity: BasicElectronics1
+  name: materials-basicelectronics
+  unit: materials-unit-chunk
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: basicelectronics }
+  price: 0.24
+
+- type: material
+  id: AdvancedElectronics
+  stackEntity: AdvancedElectronics1
+  name: materials-advancedelectronics
+  unit: materials-unit-chunk
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: advancedelectronics }
+  price: 0.37
+
+- type: material
+  id: PrecursorElectronics
+  stackEntity: PrecursorElectronics1
+  name: materials-precursorelectronics
+  unit: materials-unit-chunk
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: nanotrasenelectronics }
+  price: 0.80

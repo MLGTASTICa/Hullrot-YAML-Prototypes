@@ -483,7 +483,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 275
+        damage: 80
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -554,7 +554,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 550
+        damage: 150
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -681,7 +681,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 650
+        damage: 150
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -738,6 +738,19 @@
     layers:
       - state: base-projectile
   - type: ExplodeOnTrigger
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 80
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+      - trigger:
+          !type:DamageTrigger
+          damage: 50
   - type: Explosive
     explosionType: Default
     maxIntensity: 20
@@ -1845,3 +1858,41 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
       - !type:ExplodeBehavior
+
+#komodo projectile
+
+- type: entity
+  id: BulletMachineGunPlasmaKomodo
+  name: plasma bolt
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: ProjectilePhasePrevent
+  - type: ProjectileIFF
+    visualType: Square
+    color: White
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 250
+        Radiation: 40
+        Heat: 65
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 42
+    intensitySlope: 6
+    totalIntensity: 28
+    maxTileBreak: 6
+  - type: PointLight
+    radius: 3.5
+    color: orange
+    energy: 0.5
+  - type: TimedDespawn
+    lifetime: 22
+  - type: Sprite
+    sprite: _NF/Objects/SpaceArtillery/plasmahardpoint.rsi
+    layers:
+      - state: icon

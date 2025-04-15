@@ -481,7 +481,7 @@
 
 - type: entity
   parent: BaseWeaponTurretSwarmer
-  name: SHI 60mm 'Swarmer' autorocket pod
+  name: SHI 60mm 'Swarmer' SRM autorocket pod
   id: WeaponTurretSwarmerCMM
 
 - type: entity
@@ -1193,7 +1193,7 @@
 
 - type: entity
   parent: BaseWeaponTurretSmartbomb
-  name: NCWL 'Pilum' smartbomb missile rack
+  name: NCWL 'Pilum' LRM smartbomb missile rack
   categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretSmartbombNCWL
   suffix: NCWL SMRT
@@ -1513,7 +1513,7 @@
 - type: entity
   parent: BaseStructure
   id: BaseWeaponTurretGargoyle
-  name: heavy 'Gargoyle' cruise missile launcher
+  name: heavy 'Gargoyle' LRM cruise missile launcher
   components:
     - type: PointCannon
     - type: Clickable
@@ -1609,7 +1609,7 @@
 - type: entity
   parent: BaseStructure
   id: BaseWeaponTurretLancer
-  name: light 'Lancer' swarmrocket platform
+  name: light 'Lancer' MRM missile system
   components:
     - type: PointCannon
     - type: Clickable
@@ -1910,7 +1910,7 @@
 - type: entity
   parent: BaseStructure
   id: CatapultTorpedo
-  name: MU91 323mm "Catapult" torpedo launcher
+  name: MU91 323mm "Catapult" LRM torpedo launcher
   components:
     - type: PointCannon
     - type: Clickable
@@ -2027,7 +2027,7 @@
       containers:
         ballistic-ammo: !type:Container
     - type: Sprite
-      sprite: _Crescent/Objects/Autoturrets/heavyplasma.rsi
+      sprite: _Crescent/Objects/Autoturrets/atlas.rsi
       drawdepth: Mobs
       layers:
         - state: heavyplasma
@@ -2684,6 +2684,7 @@
   parent: BaseStructure
   id: FlakCannonRegent
   name: NT 88mm 'Regent' flak-screen turret
+  description: A flak-screen turret recovered and fabricated with Abyssal materials and designed according to old NanoTrasen schematics. Fires a trio of explosive slugs and uses surrounding trace exotic matter in space to manufacture it's own ammunition. 
   components:
     - type: PointCannon
     - type: Clickable
@@ -2773,4 +2774,214 @@
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Large
+
+# snapdragon
+
+- type: entity
+  parent: BaseStructure
+  id: MissilePodSnapdragon
+  name: NT 'Snapdragon' SRM missile system
+  description: A small short-range missile pod recovered and fabricated with Abyssal materials and designed according to old NanoTrasen schematics. Fires a blast of guided rockets and uses trace exotic matter in surrounding space to manufacture it's own ammunition.
+  components:
+    - type: PointCannon
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Actions
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeAabb
+            bounds: "-0.45,-0.45,0.45,0.45"
+          density: 60
+          mask:
+            - MachineMask
+          layer:
+            - MachineLayer
+    - type: Sprite
+      sprite: _Crescent/Objects/Autoturrets/regent.rsi
+      drawdepth: Mobs
+      layers:
+        - state: regent
+    - type: WorldLoader
+      radius: 256
+    - type: CombatMode
+      toggleMouseRotator: false
+    - type: TurretIFF
+    - type: Damageable
+      damageContainer: Inorganic
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 1600
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+        - trigger:
+            !type:DamageTrigger
+            damage: 1600
+          # TODO: Construction graph
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalGlassBreak
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetSteel1:
+                  min: 3
+                  max: 5
+    - type: ProjectileIFF
+    - type: Gun
+      projectileSpeed: 95
+      fireRate: 5
+      selectedMode: FullAuto
+      availableModes:
+        - FullAuto
+      soundGunshot: /Audio/Weapons/Guns/Gunshots/needler.ogg
+    - type: RechargeBasicEntityAmmo
+      rechargeCooldown: 4
+      rechargeSound:
+        path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
+        params:
+          pitch: 1.2
+          variation: 0.08
+    - type: BasicEntityAmmoProvider
+      proto: SwarmerRocketsGuided
+      capacity: 20
+      count: 10
+    - type: ApcPowerReceiver
+      powerLoad: 6500
+    - type: ExtensionCableReceiver
+    - type: LightningTarget
+      priority: 1
+    - type: MouseRotator
+      angleTolerance: 5
+      rotationSpeed: 180
+      simple4DirMode: false
+    - type: NoRotateOnInteract
+    - type: NoRotateOnMove
+    - type: Input
+      context: "human"
+    - type: MobState
+    - type: Anchorable
+      delay: 10
+    - type: HardpointAnchorableOnly
+      class: Missile
+      size: Small
+
+# komodo
+
+- type: entity
+  parent: BaseStructure
+  id: BaseWeaponTurretKomodo
+  name: NT 400c 'Komodo' chemical blaster
+  description: A small laser pulser of antiquated NanoTrasen design, commonly found mounted on droneships or found as scrap in the Abyss. Uses ancient, outdated chemical mixes to create accelerated laser pulses, which are then flung as projectiles. Luckily for you, this one seems to be sourcing it's material from inert dark matter in the void around it.
+  components:
+    - type: PointCannon
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Actions
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeAabb
+            bounds: "-0.45,-0.45,0.45,0.45"
+          density: 60
+          mask:
+            - MachineMask
+          layer:
+            - MachineLayer
+    - type: ContainerContainer
+      containers:
+        ballistic-ammo: !type:Container
+    - type: Sprite
+      sprite: _Crescent/Objects/Autoturrets/komodo.rsi
+      drawdepth: Mobs
+      layers:
+        - state: komodo
+    - type: WorldLoader
+      radius: 256
+    - type: CombatMode
+      toggleMouseRotator: false
+    - type: Damageable
+      damageContainer: Inorganic
+    - type: TurretIFF
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 800
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+        - trigger:
+            !type:DamageTrigger
+            damage: 500
+          # TODO: Construction graph
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalGlassBreak
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetSteel1:
+                  min: 3
+                  max: 5
+    - type: Gun
+      projectileSpeed: 95
+      fireRate: 3
+      selectedMode: FullAuto
+      availableModes:
+        - FullAuto
+      soundGunshot: /Audio/Weapons/Guns/Gunshots/lasergatling.ogg
+    - type: RechargeBasicEntityAmmo
+      rechargeCooldown: 2
+      rechargeSound:
+        path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
+        params:
+          pitch: 1.2
+          variation: 0.08
+    - type: BasicEntityAmmoProvider
+      proto: BulletMachineGunPlasmaKomodo
+      capacity: 20
+      count: 10
+    - type: SignalControl
+      isOnByDefault: true
+    - type: DeviceNetwork
+      deviceNetId: Wireless
+      receiveFrequencyId: BasicDevice
+    - type: WirelessNetworkConnection
+      range: 2500
+    - type: DeviceLinkSink
+      ports:
+        - Toggle
+        - On
+        - Off
+    - type: ApcPowerReceiver
+      powerLoad: 3000
+    - type: ExtensionCableReceiver
+    - type: LightningTarget
+      priority: 1
+    - type: MouseRotator
+      angleTolerance: 5
+      rotationSpeed: 180
+      simple4DirMode: false
+    - type: NoRotateOnInteract
+    - type: NoRotateOnMove
+    - type: Input
+      context: "human"
+    - type: MobState
+    - type: Anchorable
+      delay: 10
+    - type: HardpointAnchorableOnly
+      class: Energy
+      size: Small
+
+
 

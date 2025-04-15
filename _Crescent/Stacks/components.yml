@@ -23,3 +23,29 @@
   spawn: StarshipHull1
   maxCount: 50
   itemSize: 2
+
+#industry refactor, tiered parts
+
+- type: stack
+  id: BasicElectronics
+  name: basic electronic components
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: basicelectronics }
+  spawn: BasicElectronics1
+  maxCount: 10
+  itemSize: 2
+
+- type: stack
+  id: AdvancedElectronics
+  name: basic electronic components
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: advancedelectronics }
+  spawn: AdvancedElectronics1
+  maxCount: 10
+  itemSize: 2
+
+- type: stack
+  id: PrecursorElectronics
+  name: precursor electronic components
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: nanotrasenelectronics }
+  spawn:PrecursorElectronics1
+  maxCount: 10
+  itemSize: 2
