@@ -58,13 +58,13 @@
 
 - type: entity
   parent: OreBase
-  id: PrecursorElectroincs
+  id: NanotrasenElectroincs
   name: precursor electronic parts
   description: Masterfully precision-crafted electronic components no longer manufactured anywhere in the known Supercluster. These components are often an enviously-guarded secret.
   suffix: Full
   components:
   - type: Stack
-    stackType: PrecursorElectronics
+    stackType: NanotrasenElectronics
   - type: Tag
     tags:
     - CraftMaterials
@@ -75,12 +75,12 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      PrecursorElectronics: 500
+      NanotrasenElectronics: 500
 
 - type: entity
-  id: PrecursorElectronics1
-  parent: PrecursorElectronics
-  suffix: Singe
+  id: NanotrasenElectronics1
+  parent: NanotrasenElectronics
+  suffix: Single
   components:
     - type: Stack
       count: 1
