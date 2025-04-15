@@ -382,7 +382,7 @@
       sprite: _Crescent/Objects/Autoturrets/swarmermissile.rsi
       drawdepth: Mobs
       layers:
-        - state: syndie_lethal
+        - state: swarmer
     - type: WorldLoader
       radius: 256
     - type: CombatMode
@@ -2030,7 +2030,7 @@
       sprite: _Crescent/Objects/Autoturrets/atlas.rsi
       drawdepth: Mobs
       layers:
-        - state: heavyplasma
+        - state: atlas
     - type: WorldLoader
       radius: 256
     - type: CombatMode
