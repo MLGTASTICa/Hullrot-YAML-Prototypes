@@ -123,3 +123,51 @@
   unit: materials-unit-chunk
   icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: advancedelectronics }
   price: 0.37
+
+- type: material
+  id: NanotrasenElectronics
+  stackEntity: NanotrasenElectronics1
+  name: materials-precursorelectronics
+  unit: materials-unit-chunk
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: nanotrasenelectronics }
+  price: 0.87
+
+- type: material
+  id: BasicMechatronics
+  stackEntity: BasicMechatronics1
+  name: materials-basicmechanics
+  unit: materials-unit-chunk
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: basicmechanic }
+  price: 0.35
+
+- type: material
+  id: AdvancedMechatronics
+  stackEntity: AdvancedMechatronics1
+  name: materials-advancedmechanics
+  unit: materials-unit-chunk
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: advancedcmechanic }
+  price: 0.55
+
+- type: material
+  id: NanotrasenMechatronics
+  stackEntity: NanotrasenMechatronics1
+  name: materials-precursormechanics
+  unit: materials-unit-chunk
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: bluespacemechatronics }
+  price: 0.95
+
+- type: material
+  id: LaserLocus
+  stackEntity: LaserLocus1
+  name: materials-laserlocus
+  unit: materials-unit-chunk
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: laserlocus }
+  price: 0.45
+
+- type: material
+  id: BallisticCycler
+  stackEntity: BallisticCycler1
+  name: materials-gascycler
+  unit: materials-unit-chunk
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: laserlocus }
+  price: 0.40

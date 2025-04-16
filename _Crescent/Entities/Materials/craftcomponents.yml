@@ -51,7 +51,210 @@
 - type: entity
   id: AdvancedElectronics1
   parent: AdvancedElectronics
-  suffix: Singe
+  suffix: Single
+  components:
+    - type: Stack
+      count: 1
+
+- type: entity
+  parent: OreBase
+  id: NanotrasenElectronics
+  name: precursor electronics parts
+  description: Microcircuitry, nanorotors, microcapacitors, and other fine-lathed electronic parts manufactured by the extinct NanoTrasen. Worth it's weight in gold.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: NanotrasenElectronics
+  - type: Tag
+    tags:
+    - CraftMaterials
+  - type: Sprite
+    sprite: _Crescent/Objects/Materials/materials.rsi
+    layers:
+    - state: nanotrasenelectronics
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      NanotrasenElectronics: 500
+
+- type: entity
+  id: NanotrasenElectronics1
+  parent: NanotrasenElectronics
+  suffix: Single
+  components:
+    - type: Stack
+      count: 1
+
+- type: entity
+  parent: OreBase
+  id: BasicMechatronics
+  name: basic mechatronic components
+  description: Springs, casings, and assorted simple contraptions for basic mechanic devices.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: BasicMechatronics
+  - type: Tag
+    tags:
+    - CraftMaterials
+  - type: Sprite
+    sprite: _Crescent/Objects/Materials/materials.rsi
+    layers:
+    - state: basicmechanic
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      BasicMechatronics: 500
+
+- type: entity
+  id: BasicMechatronics1
+  parent: BasicMechatronics
+  suffix: Single
+  components:
+    - type: Stack
+      count: 1
+
+- type: entity
+  parent: OreBase
+  id: AdvancedMechatronics
+  name: advanced mechatronic components
+  description: Complex engines, systems, rotors, everything needed for projects requiring specialized mechanics.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: AdvancedMechatronics
+  - type: Tag
+    tags:
+    - CraftMaterials
+  - type: Sprite
+    sprite: _Crescent/Objects/Materials/materials.rsi
+    layers:
+    - state: advancedmechanic
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      AdvancedMechatronics: 500
+
+- type: entity
+  id: AdvancedMechatronics1
+  parent: AdvancedMechatronics
+  suffix: Single
+  components:
+    - type: Stack
+      count: 1
+
+- type: entity
+  parent: OreBase
+  id: NanotrasenMechatronics
+  name: bluespace mechatronic components
+  description: Extremely complex mechatronic components that carry out part of their operations in a pocket slice of localized bluespace. Produced by the extinct NanoTrasen and no longer obtainable via regular means.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: NanotrasenMechatronics
+  - type: Tag
+    tags:
+    - CraftMaterials
+  - type: Sprite
+    sprite: _Crescent/Objects/Materials/materials.rsi
+    layers:
+    - state: bluespacemechatronics
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      NanotrasenMechatronics: 500
+
+- type: entity
+  id: NanotrasenMechatronics1
+  parent: NanotrasenMechatronics
+  suffix: Single
+  components:
+    - type: Stack
+      count: 1
+
+- type: entity
+  parent: OreBase
+  id: LaserLocus
+  name: focused laser locus
+  description: Part of a greater machine; this locus focuses hardlight into one concentrated beam. Typically seen used on shuttle armaments, but also has uses in the holographic advertisement, medical, and eyewear industries.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: LaserLocus
+  - type: Tag
+    tags:
+    - CraftMaterials
+  - type: Sprite
+    sprite: _Crescent/Objects/Materials/materials.rsi
+    layers:
+    - state: laserlocus
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      LaserLocus: 500
+
+- type: entity
+  id: LaserLocus1
+  parent: LaserLocus
+  suffix: Single
+  components:
+    - type: Stack
+      count: 1
+
+- type: entity
+  parent: OreBase
+  id: LaserLocus
+  name: focused laser locus
+  description: Part of a greater machine; this locus focuses hardlight into one concentrated beam. Typically seen used on shuttle armaments, but also has uses in the holographic advertisement, medical, and eyewear industries.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: LaserLocus
+  - type: Tag
+    tags:
+    - CraftMaterials
+  - type: Sprite
+    sprite: _Crescent/Objects/Materials/materials.rsi
+    layers:
+    - state: laserlocus
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      LaserLocus: 500
+
+- type: entity
+  id: LaserLocus1
+  parent: LaserLocus
+  suffix: Single
+  components:
+    - type: Stack
+      count: 1
+
+- type: entity
+  parent: OreBase
+  id: BallisticCycler
+  name: ballistic gas cycler
+  description: Part of a greater machine; this cycler is almost always exclusively used for shuttle armaments that use ballistic feeder mechanisms.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: BallisticCycler
+  - type: Tag
+    tags:
+    - CraftMaterials
+  - type: Sprite
+    sprite: _Crescent/Objects/Materials/materials.rsi
+    layers:
+    - state: gascycler
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      BallisticCycler: 500
+
+- type: entity
+  id: BallisticCycler1
+  parent: BallisticCycler
+  suffix: Single
   components:
     - type: Stack
       count: 1
