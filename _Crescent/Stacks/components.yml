@@ -89,3 +89,43 @@
   spawn: BallisticCycler1
   maxCount: 5
   itemSize: 2
+
+- type: stack
+  id: TubeLoader
+  name: tube loader robotics
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: tubeloaderrobotics }
+  spawn: TubeLoader1
+  maxCount: 5
+  itemSize: 2
+
+- type: stack
+  id: WeakLaserLocus
+  name: weak laser locus
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: weaklaserlocus }
+  spawn: WeakLaserLocus1
+  maxCount: 5
+  itemSize: 2
+
+- type: stack
+  id: HardlightGenerator
+  name: hardlight generator conduit
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: hardlightgenerator }
+  spawn: HardlightGenerator
+  maxCount: 5
+  itemSize: 2
+
+- type: stack
+  id: HardsuitElectronics
+  name: hardsuit electronics
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: hardsuitelectronics }
+  spawn: HardsuitElectronics
+  maxCount: 5
+  itemSize: 2
+
+- type: stack
+  id: PlastitaniumFibreAlloy
+  name: plastitanium fibre alloy plate
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: plastitaniumfibrealloy }
+  spawn: PlastitaniumFibreAlloy
+  maxCount: 5
+  itemSize: 2

@@ -229,3 +229,148 @@
   components:
     - type: Stack
       count: 1
+
+- type: entity
+  parent: OreBase
+  id: TubeLoader
+  name: tube loader robotics
+  description: A basic mechanism and manipulator arm designed for internal loading mechanisms of missile platforms, grenade turrets, and other implements of war.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: TubeLoader
+  - type: Tag
+    tags:
+    - CraftMaterials
+  - type: Sprite
+    sprite: _Crescent/Objects/Materials/materials.rsi
+    layers:
+    - state: tubeloaderrobotics
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      TubeLoader: 500
+
+- type: entity
+  id: TubeLoader1
+  parent: TubeLoader
+  suffix: Single
+  components:
+    - type: Stack
+      count: 1
+
+- type: entity
+  parent: OreBase
+  id: WeakLaserLocus
+  name: unfocused hardlight locus
+  description: A basic locus for hardlight beams. This is a civilian variant, a common component in low-performance laser armaments and mining gear.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: WeakLaserLocus
+  - type: Tag
+    tags:
+    - CraftMaterials
+  - type: Sprite
+    sprite: _Crescent/Objects/Materials/materials.rsi
+    layers:
+    - state: weaklaserlocus
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      WeakLaserLocus: 500
+
+- type: entity
+  id: WeakLaserLocus1
+  parent: WeakLaserLocus
+  suffix: Single
+  components:
+    - type: Stack
+      count: 1
+
+- type: entity
+  parent: OreBase
+  id: HardlightGenerator
+  name: focused hardlight generator
+  description: A hardlight generator conduit, one of many which combine to make up a hardlight relay. These small components are vital in the operation of bubble deflector technology.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: HardlightGenerator
+  - type: Tag
+    tags:
+    - CraftMaterials
+  - type: Sprite
+    sprite: _Crescent/Objects/Materials/materials.rsi
+    layers:
+    - state: hardlightgenerator
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      HardlightGenerator: 500
+
+- type: entity
+  id: HardlightGenerator1
+  parent: HardlightGenerator
+  suffix: Single
+  components:
+    - type: Stack
+      count: 1
+
+- type: entity
+  parent: OreBase
+  id: HardsuitElectronics
+  name: hardsuit electronics
+  description: A barycentric spinal hardsuit mount. Originally designed by Shinohara as an external companion gadget for old softsuits to track oxygen levels and life support optimization, now integrated into pretty much every common hardsuit everywhere.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: HardsuitElectronics
+  - type: Tag
+    tags:
+    - CraftMaterials
+  - type: Sprite
+    sprite: _Crescent/Objects/Materials/materials.rsi
+    layers:
+    - state: hardsuitelectronics
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      HardsuitElectronics: 500
+
+- type: entity
+  id: HardsuitElectronics1
+  parent: HardsuitElectronics
+  suffix: Single
+  components:
+    - type: Stack
+      count: 1
+
+- type: entity
+  parent: OreBase
+  id: PlastitaniumFibreAlloy
+  name: plastitanium fibre alloy plate
+  description: The most common building block of the space industry today. Plastitanium fibre is both resistant as it's namesake and flexible as plastic. Being too expensive to produce en masse, it's instead used as casings and shells for things like turrets, graviton thrusters, gravity generators, and other sensitive equipment.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: PlastitaniumFibreAlloy
+  - type: Tag
+    tags:
+    - CraftMaterials
+  - type: Sprite
+    sprite: _Crescent/Objects/Materials/materials.rsi
+    layers:
+    - state: plastitaniumfibrealloy
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      PlastitaniumFibreAlloy: 500
+
+- type: entity
+  id: HardsuitElectronics1
+  parent: PlastitaniumFibreAlloy
+  suffix: Single
+  components:
+    - type: Stack
+      count: 1

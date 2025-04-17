@@ -171,3 +171,43 @@
   unit: materials-unit-chunk
   icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: laserlocus }
   price: 0.40
+
+- type: material
+  id: TubeLoader
+  stackEntity: TubeLoader1
+  name: materials-tubeloader
+  unit: materials-unit-chunk
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: tubeloaderrobotics }
+  price: 0.70
+
+- type: material
+  id: WeakLaserLocus
+  stackEntity: WeakLaserLocus1
+  name: materials-weaklaserlocus
+  unit: materials-unit-chunk
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: weaklaserlocus }
+  price: 0.35
+
+- type: material
+  id: HardlightGenerator
+  stackEntity: HardlightGenerator1
+  name: materials-hardlightgenerator
+  unit: materials-unit-chunk
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: hardlightgenerator }
+  price: 0.55
+
+- type: material
+  id: HardsuitElectronics
+  stackEntity: HardsuitElectronics
+  name: materials-hardsuitelectronics
+  unit: materials-unit-chunk
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: hardsuitelectronics }
+  price: 0.25
+
+- type: material
+  id: PlastitaniumFibreAlloy
+  stackEntity: PlastitaniumFibreAlloy
+  name: materials-plastitaniumfibre
+  unit: materials-unit-sheet
+  icon: { sprite: _Crescent/Objects/Materials/materials.rsi, state: plastitaniumfibrealloy }
+  price: 0.40
