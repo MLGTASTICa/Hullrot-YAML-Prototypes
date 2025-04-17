@@ -368,7 +368,7 @@
       PlastitaniumFibreAlloy: 500
 
 - type: entity
-  id: HardsuitElectronics1
+  id: PlastitaniumFibreAlloy1
   parent: PlastitaniumFibreAlloy
   suffix: Single
   components:
