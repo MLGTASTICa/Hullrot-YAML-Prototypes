@@ -416,30 +416,22 @@
     - type: ProjectileIFF
     - type: Gun
       projectileSpeed: 75
-      fireRate: 0.5
+      fireRate: 3
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       soundGunshot: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg
-    - type: MagazineAmmoProvider
-    - type: ItemSlots
-      slots:
-        gun_magazine:
-          name: Magazine
-          startingItem: MagazineSwarmer
-          insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
-          ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
-          priority: 2
-          whitelist:
-            tags:
-              - SwarmRocketBox
-        gun_chamber:
-          name: Chamber
-          startingItem: SwarmerRocketCartridge
-          priority: 1
-          whitelist:
-            tags:
-              - SwarmRocket
+    - type: RechargeBasicEntityAmmo
+      rechargeCooldown: 4
+      rechargeSound:
+        path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
+        params:
+          pitch: 1.2
+          variation: 0.08
+    - type: BasicEntityAmmoProvider
+      proto: SwarmerRocketsGuided
+      capacity: 20
+      count: 10
     - type: ContainerContainer
       containers:
         ballistic-ammo: !type:Container
