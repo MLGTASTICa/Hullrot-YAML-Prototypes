@@ -86,8 +86,8 @@
 
 - type: entity
   id: OreMagnet
-  name: Ore Collection Magnet
-  description: A large magnet. It collects ores
+  name: SHI baromagnetic ore array
+  description: A large, ship-mounted magnetic device. When pointed in the direction of loose ore, gathers the rocky material with a miniature tractor beam and stores it in an internal compartment for later harvest.
   parent: OreBox
   components:
   - type: StaticPrice
