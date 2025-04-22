@@ -22,8 +22,8 @@
           availableJobs:
             ProphetTAP: [ 1, 1 ]
             AcolyteTAP: [ 4, 4 ]
-            DraugrTAP: [ 5, 5 ]
-            ServileTAP: [ 4, 4 ]
+            DraugrTAP: [ 3, 3 ]
+            ServileTAP: [ 6, 6 ]
             TechminerTAP: [ 3, 3 ]
             HangarTechTAP: [ 3, 3 ]
             TinkererTAP: [ 3, 3 ]
