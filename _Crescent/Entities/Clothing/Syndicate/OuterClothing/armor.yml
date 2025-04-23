@@ -16,15 +16,15 @@
   - type: ExplosionResistance
     damageCoefficient: 0.3
   - type: DegradeableArmor
-    armorMaxHealth: 900
+    armorMaxHealth: 1500
     armorType: Metallic
     armorRepair: SteelPlate
     initialModifiers:
       flatReductions:
         Blunt: 10
         Slash: 10
-        Piercing: 35
-        Heat: 15
+        Piercing: 20
+        Heat: 2
         Caustic: 15
         Radiation: 35
   - type: ClothingSpeedModifier
@@ -61,7 +61,7 @@
         Blunt: 10
         Slash: 10
         Piercing: 35
-        Heat: 15
+        Heat: 2
         Caustic: 15
         Radiation: 35
   - type: ClothingSpeedModifier
@@ -89,15 +89,15 @@
   - type: Contraband
     value: 8
   - type: DegradeableArmor
-    armorMaxHealth: 800
+    armorMaxHealth: 1200
     armorType: Metallic
     armorRepair: PlasteelPlate
     initialModifiers:
       flatReductions:
         Blunt: 15
         Slash: 15
-        Piercing: 45
-        Heat: 15
+        Piercing: 30
+        Heat: 1
         Caustic: 15
 
 - type: entity
@@ -116,15 +116,15 @@
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: DegradeableArmor
-    armorMaxHealth: 700
+    armorMaxHealth: 900
     armorType: Ceramic
     armorRepair: NTCeramic
     initialModifiers:
       flatReductions:
         Blunt: 25
         Slash: 15
-        Piercing: 90
-        Heat: 15
+        Piercing: 70
+        Heat: 1
         Caustic: 15
   - type: ClothingSpeedModifier
     walkModifier: 0.9

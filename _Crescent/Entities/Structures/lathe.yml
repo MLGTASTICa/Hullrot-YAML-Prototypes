@@ -222,17 +222,6 @@
       - ClothingHeadHatWelding
       - ClothingOuterSuitEmergency
       - ClothingHeadHelmetEVALarge # Frontier
-      - ArmorPlateSteelCraft
-      - ArmorPlatePlasteelCraft
-      - ArmorPlateNanoPolymerCraft
-      - ArmorPlateCeramicCraft
-      - ArmorPlateDurathreadCraft
-      # - ArmorPlatePlasmGlassaCraft # no sprite
-      - ArmorPlatePlasticCraft
-      - ArmorPlateHomelandCraft
-      - ArmorPlateKevlarCraft
-      - ArmorPlatePlasteelEncasedKevlarCraft
-      - ArmorPlateNanoCeramicCraft
     dynamicRecipes:
       - WeaponSubMachineGunCheshyre
       - WeaponPistolRongyu
@@ -542,8 +531,11 @@
       - GargutLPC
       - IbisLPC
       - LaelapsLPC
+      - FleaLPC
       - ZhipovLPC
       - ClementineLPC
+      - RaiderLPC
+      - MeteorLPC
       - NemesisLPC
       - VanguardTwoLPC
       - ConquestLPC

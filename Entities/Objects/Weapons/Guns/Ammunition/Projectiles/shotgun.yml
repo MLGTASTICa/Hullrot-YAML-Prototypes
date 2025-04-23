@@ -177,7 +177,6 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 5
         Piercing: 20
     armorDamageMultiplier: 4
 

@@ -35,6 +35,24 @@
     ShipHull: 19500
 
 - type: latheRecipe
+  id: RaiderLPC
+  result: ShipVoucherRaider
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 6000
+    ShipComponents: 7000
+    ShipHull: 2500
+
+- type: latheRecipe
+  id: FleaLPC
+  result: ShipVoucherFlea
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 3500
+    ShipComponents: 5000
+    ShipHull: 2000
+
+- type: latheRecipe
   id: IbisLPC
   result: ShipVoucherIbis
   completetime: 1
@@ -107,13 +125,21 @@
     ShipHull: 23000
 
 - type: latheRecipe
+  id: MeteorLPC
+  result : ShipVoucherMeteor
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 4000
+    ShipComponents: 8000
+    ShipHull: 2500
+
+- type: latheRecipe
   id: GargutLPC
   result: ShipVoucherGargut
   completetime: 1
   materials:
     StarshipEngineComponents: 9250
-    ShipComponents: 4750
-    ShipHull: 40000
+    ShipComponents: 4750    ShipHull: 15000
 
 - type: latheRecipe
   id: BogatyrLPC

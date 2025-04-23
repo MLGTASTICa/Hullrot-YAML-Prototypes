@@ -10,7 +10,6 @@
     - Cherenzikov
     - Hind
     - Ivarod
-    - Meteor
 
 - type: entity
   id: JackalMothershipComputer
@@ -37,7 +36,7 @@
     - Jannissary
     - Nemesis
     - Triumphant
-    - Raider
+
 
 - type: entity
   id: LaborMothershipComputer
@@ -119,7 +118,6 @@
     - buffalo
     - gazpachov
     - Musinyane
-    - Flea
     - Bison
     - Nazaar
 

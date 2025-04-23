@@ -773,17 +773,6 @@
       # Frontier End
       - WeaponLaserCarbinePractice
       - Zipties
-      - ArmorPlateSteelCraft # - Hullrot
-      - ArmorPlatePlasteelCraft # - Hullrot
-      - ArmorPlateNanoPolymerCraft # - Hullrot
-      - ArmorPlateCeramicCraft # - Hullrot
-      - ArmorPlateDurathreadCraft # - Hullrot
-      # - ArmorPlatePlasmGlassaCraft # no sprite - Hullrot
-      - ArmorPlatePlasticCraft # - Hullrot
-      - ArmorPlateHomelandCraft # - Hullrot
-      - ArmorPlateKevlarCraft # - Hullrot
-      - ArmorPlatePlasteelEncasedKevlarCraft # - Hullrot
-      - ArmorPlateNanoCeramicCraft # - Hullrot
     dynamicRecipes:
       - BoxBeanbag
       - BoxShotgunIncendiary

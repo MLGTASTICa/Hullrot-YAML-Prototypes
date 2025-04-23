@@ -92,6 +92,7 @@
   recipeUnlocks:
   - ValorLPC
   - ConquestLPC
+  - RaiderLPC
 
 
 - type: technology

@@ -13,6 +13,18 @@
   # - GyroscopeFlatpackLathe YAMLFIX Fails tests - not printable
 
 - type: technology
+  id: ShinoharaAvionics
+  name: research-technology-corpavionics
+  icon:
+    sprite: Objects/Devices/flatpack.rsi
+    state: ame-part
+  discipline: Shinohara
+  tier: 1
+  cost: 7000
+  recipeUnlocks:
+  - FleaLPC
+
+- type: technology
   id: ShinoharaCheapPistols
   name: research-technology-corpbudgetarms
   icon:
@@ -74,7 +86,7 @@
     state: icon
   discipline: Shinohara
   tier: 2
-  cost: 12500
+  cost: 9000
   recipeUnlocks:
   - ClothingOuterArmorShinoharaArmorCraft
   - ClothingHeadHatShinoharaBeretCraft
@@ -88,7 +100,7 @@
     state: icon
   discipline: Shinohara
   tier: 2
-  cost: 12000
+  cost: 8000
   recipeUnlocks:
   - WeaponPistolHimehabuCraft
   - WeaponSubMachineGunSabreCraft
