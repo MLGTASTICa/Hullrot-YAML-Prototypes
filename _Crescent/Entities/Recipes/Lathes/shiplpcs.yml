@@ -139,7 +139,8 @@
   completetime: 1
   materials:
     StarshipEngineComponents: 9250
-    ShipComponents: 4750    ShipHull: 15000
+    ShipComponents: 4750
+    ShipHull: 15000
 
 - type: latheRecipe
   id: BogatyrLPC

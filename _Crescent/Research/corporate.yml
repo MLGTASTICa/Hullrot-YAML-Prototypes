@@ -13,8 +13,8 @@
   # - GyroscopeFlatpackLathe YAMLFIX Fails tests - not printable
 
 - type: technology
-  id: ShinoharaAvionics
-  name: research-technology-corpavionics
+  id: ShinoharaFlea
+  name: Corporate Competition Discouragement Vessel
   icon:
     sprite: Objects/Devices/flatpack.rsi
     state: ame-part
