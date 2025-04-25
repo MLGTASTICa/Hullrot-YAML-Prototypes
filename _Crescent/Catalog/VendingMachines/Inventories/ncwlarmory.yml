@@ -8,6 +8,8 @@
     WeaponPistolHKUSP: 6
     WeaponPistolMk58: 6
     WeaponPistolT91: 3
+    ClothingOuterHardsuitNCWLInfantry: 15
+    ClothingOuterHardsuitNCWLJuggernaut: 3
     ClothingBeltNCWLWebbingMedFilled: 6
     ClothingBeltNCWLWebbingFilledGrenadier: 6
     # BoxLethalShot: 10 YAMLFIX: What is the correct prototype?
