@@ -5,12 +5,12 @@
   price: 130000
   category: Large
   group: None
-  shuttlePath: /Maps/_Crescent/Shuttles/borealis.yml
+  shuttlePath: /Maps/_Crescent/Shuttles/CMM/borealis.yml
 
 - type: gameMap
   id: Borealis
   mapName: 'CMM Borealis'
-  mapPath: /Maps/_Crescent/Shuttles/borealis.yml
+  mapPath: /Maps/_Crescent/Shuttles/CMM/borealis.yml
   minPlayers: 0
   stations:
     Borealis:
