@@ -1,0 +1,30 @@
+- type: vessel
+  id: Probe
+  name: SHI Haisou
+  description: The SHI Haisou is the corporate developed delivery solution for operations done in space.
+  price: 5000
+  category: Small
+  group: None
+  shuttlePath: /Maps/_Crescent/Shuttles/SHI/haisou.yml
+
+- type: gameMap
+  id: Haisou
+  mapName: 'SHI Haisou'
+  mapPath: /Maps/_Crescent/Shuttles/SHI/haisou.yml
+  minPlayers: 0
+  stations:
+    Haisou:
+      stationProto: StandardCrescentVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'SHI Haisou {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: VesselDesignation
+          designation: "Delivery Shuttle"
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            EmployeeSHI: [0, 0]
+

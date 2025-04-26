@@ -1,0 +1,30 @@
+- type: vessel
+  id: Conqueror
+  name: DSM Conqueror
+  description: A DSM Battleship that relies on agressive tactics.
+  price: 100000
+  category: Large
+  group: None
+  shuttlePath: /Maps/_Crescent/Shuttles/DSM/conqueror.yml
+
+- type: gameMap
+  id: Conqueror
+  mapName: 'DSM Conqueror'
+  mapPath: /Maps/_Crescent/Shuttles/DSM/conqueror.yml
+  minPlayers: 0
+  stations:
+    Conqueror:
+      stationProto: StandardCrescentVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'DSM Conqueror {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: VesselDesignation
+          designation: "Attack Battleship"
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            KnightDSM: [ 1, 1 ]
+            LevymanDSM: [ 3, 3 ]

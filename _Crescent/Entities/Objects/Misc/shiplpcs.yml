@@ -172,6 +172,23 @@
 
 - type: entity
   parent: BaseItem
+  id: ShipVoucherConqueror
+  name: DSM 'Conqueror' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with an Imperial Conqueror-class attack battleship. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 45000
+  - type: ShipVoucher
+    ship: Conqueror
+
+- type: entity
+  parent: BaseItem
   id: ShipVoucherImp
   name: DSM 'Imp' pattern LPC fabprint disk
   description: An LPC fabprint disk loaded with an Imperial Imp-classs miner-freighter pattern. Has to be redeemed at a shipyard console.
@@ -615,6 +632,23 @@
     price: 24000
   - type: ShipVoucher
     ship: Probe
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherHaisou
+  name: SHI 'Haisou' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a civilian Haisou-class delivery shuttle pattern. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 5000
+  - type: ShipVoucher
+    ship: Haisou
 
 #ncsp
 
