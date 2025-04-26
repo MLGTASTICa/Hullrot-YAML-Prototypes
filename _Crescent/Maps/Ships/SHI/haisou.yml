@@ -1,8 +1,8 @@
 - type: vessel
-  id: Probe
+  id: Haisou
   name: SHI Haisou
   description: The SHI Haisou is the corporate developed delivery solution for operations done in space.
-  price: 5000
+  price: 1500
   category: Small
   group: None
   shuttlePath: /Maps/_Crescent/Shuttles/SHI/haisou.yml
