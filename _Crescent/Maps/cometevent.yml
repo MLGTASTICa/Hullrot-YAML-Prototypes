@@ -1,7 +1,7 @@
 - type: gameMap
-  id: Comet
-  mapName: 'NCWL Katyusha'
-  mapPath: /Maps/_Crescent/Stations/cometevent.yml
+  id: SiegePlatform
+  mapName: 'Homeguard Siege Platform'
+  mapPath: /Maps/_Crescent/Event/siegeplatform.yml
   minPlayers: 0
   stations:
     Comet:
@@ -10,7 +10,7 @@
         - type: BlockShipWeaponProjectileGrid
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'NCWL Katyusha'
+          mapNameTemplate: 'Homeguard Siege Platform'
         - type: Grammar
           attributes:
             proper: true
@@ -22,4 +22,8 @@
           availableJobs:
             AdministratorNCWL: [ 1, 1 ]
             KommissarNCWL: [ 1, 1 ]
+            KapitanNCWL: [ 5, 5 ]
             SanitarNCWL: [ 15, 15 ]
+            DoktorNCWL: [ 5, 5 ]
+            ArtificerNCWL: [ 5, 5 ]
+            KadetNCWL: [ 10, 10 ]
