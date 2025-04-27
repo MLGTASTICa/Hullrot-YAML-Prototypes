@@ -4,7 +4,7 @@
   mapPath: /Maps/_Crescent/Event/siegeplatform.yml
   minPlayers: 0
   stations:
-    Comet:
+    SiegePlatform:
       stationProto: StandardCrescentStation
       gridComponents:
         - type: BlockShipWeaponProjectileGrid
@@ -27,3 +27,36 @@
             DoktorNCWL: [ 5, 5 ]
             ArtificerNCWL: [ 5, 5 ]
             KadetNCWL: [ 10, 10 ]
+
+- type: gameMap
+  id: DSMOutpost
+  mapName: 'Imperial Navy Artillery Relay'
+  mapPath: /Maps/_Crescent/Event/siegeplatform.yml
+  minPlayers: 0
+  stations:
+    DSMOutpost:
+      stationProto: StandardCrescentStation
+      gridComponents:
+        - type: BlockShipWeaponProjectileGrid
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Imperial Navy Artillery Relay'
+        - type: Grammar
+          attributes:
+            proper: true
+        - type: VesselDesignation
+          designation: vessel-designation-headquarters
+        - type: StationJobs
+          checkAlive: false
+          overflowJobs: []
+          availableJobs:
+            GovernorDSM: [ 1, 1 ]
+            AdjutantDSM: [ 1, 1 ]
+            KnightDSM: [ 5, 5 ]
+            LevymanDSM: [ 30, 30 ]
+            SurgeonDSM: [ 5, 5 ]
+
+
+
+
+            
