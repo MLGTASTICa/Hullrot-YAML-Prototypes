@@ -166,7 +166,7 @@
   - CorpsecSHI
   - EmployeeSHI
   - MedtechSHI
-  enabled: false
+  enabled: true
 
 - type: department
   id: CMM
