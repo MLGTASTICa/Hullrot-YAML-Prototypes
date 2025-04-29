@@ -175,6 +175,7 @@
   cost: 12500
   recipeUnlocks:
   - DSMPlasmaTurretFlatpackCraft
+  - MediumEnergyHardpointFlatpackCraft
 
 - type: technology
   id: ImperialSword
