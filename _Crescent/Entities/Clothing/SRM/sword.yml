@@ -13,7 +13,7 @@
     attackRate: 1.25
     damage:
       types:
-        Slash: 33 #cmon, it has to be at least BETTER than the rest.
+        Slash: 43 #cmon, it has to be at least BETTER than the rest.
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Reflect
