@@ -2,7 +2,7 @@
   name: hunter's vibrokhopesh
   parent: BaseItem
   id: SRMKhopesh
-  description: A ceremonial weapon belonging to the Hunters.
+  description: A ceremonial weapon once belonging to the Hunters.
   components:
   - type: Sharp
   - type: Sprite
@@ -10,16 +10,16 @@
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
-    attackRate: 1.5
+    attackRate: 1.25
     damage:
       types:
-        Slash: 33 #cmon, it has to be at least BETTER than the rest.
+        Slash: 43 #cmon, it has to be at least BETTER than the rest.
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Reflect
     enabled: true
-    reflectProb: .75
-    spread: 75
+    reflectProb: .85
+    spread: 60
   - type: Item
     size: Normal
     sprite: _Crescent/Objects/Weapons/vibrokhopesh.rsi
